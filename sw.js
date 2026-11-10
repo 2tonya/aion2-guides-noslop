@@ -1,4 +1,4 @@
-﻿const CACHE = "aion2-guides-v4";
+﻿const CACHE = "aion2-guides-v6";
 const CORE = [
   "./",
   "./index.html",
@@ -27,6 +27,20 @@ self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+
+  // Network first for HTML and JS to avoid stale app
+  if (event.request.destination === "document" || url.pathname.endsWith(".js") || url.pathname.endsWith(".html")) {
+    event.respondWith(
+      fetch(event.request)
+        .then((resp) => {
+          const copy = resp.clone();
+          caches.open(CACHE).then((cache) => cache.put(event.request, copy)).catch(() => {});
+          return resp;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   event.respondWith(
     caches.match(event.request).then((cached) => {

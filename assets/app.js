@@ -364,7 +364,7 @@
     select("ranger", scrollTop);
   }
 
-  var hash = (location.hash || "").replace("#", "");
+  var hash = decodeURIComponent((location.hash || "").replace("#", ""));
   var saved = null;
   try { saved = localStorage.getItem("aion2class"); } catch (e) {}
 
@@ -388,7 +388,7 @@
   }
 
   window.addEventListener("hashchange", function () {
-    var h = (location.hash || "").replace("#", "");
+    var h = decodeURIComponent((location.hash || "").replace("#", ""));
     if (h === "glossary") { showGlossary(true); return; }
     if (SECTIONS[h] && h !== "glossary") { select(h, true); return; }
     var el = document.getElementById(h);
