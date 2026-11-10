@@ -3,33 +3,61 @@
 
   var SECTIONS = {
     ranger: [
-      ["r-tldr", "Главное"],
-      ["r-skills", "Скиллы"],
-      ["r-passive", "Пассивки"],
-      ["r-stigma", "Стигмы"],
-      ["r-macro", "Макрос"],
-      ["r-rotation", "Ротация"],
-      ["r-gear", "Экипировка"],
-      ["r-misc", "Прочее"],
-      ["r-board", "Дэванион"]
+      ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-skills", "Скиллы"], ["r-passive", "Пассивки"],
+      ["r-stigma", "Стигмы"], ["r-macro", "Макрос"], ["r-rotation", "Ротация"],
+      ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-board", "Дэванион"]
     ],
     assassin: [
-      ["a-tldr", "Главное"],
-      ["a-order", "Прокачка"],
-      ["a-skills", "Скиллы"],
-      ["a-passive", "Пассивки"],
-      ["a-stigma", "Стигмы"],
-      ["a-macro", "Макрос"],
-      ["a-rotation", "Ротация"],
-      ["a-setup", "Настройки"],
-      ["a-board", "Дэванион"]
+      ["a-tldr", "Главное"], ["a-road", "Путь"], ["a-order", "Прокачка"], ["a-skills", "Скиллы"],
+      ["a-passive", "Пассивки"], ["a-stigma", "Стигмы"], ["a-macro", "Макрос"],
+      ["a-rotation", "Ротация"], ["a-setup", "Настройки"], ["a-board", "Дэванион"]
+    ],
+    sorcerer: [
+      ["so-tldr", "Главное"], ["so-skills", "Скиллы"], ["so-passive", "Пассивки"],
+      ["so-stigma", "Стигмы"], ["so-macro", "Макрос"], ["so-rotation", "Ротация"],
+      ["so-board", "Дэванион"]
+    ],
+    spiritmaster: [
+      ["sp-tldr", "Главное"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
+      ["sp-passive", "Пассивки"], ["sp-stigma", "Стигмы"], ["sp-macro", "Макрос"],
+      ["sp-rotation", "Ротация"], ["sp-board", "Дэванион"]
+    ],
+    templar: [
+      ["te-tldr", "Главное"], ["te-skills", "Скиллы"], ["te-passive", "Пассивки"],
+      ["te-stigma", "Стигмы"], ["te-macro", "Макрос"], ["te-rotation", "Ротация"],
+      ["te-board", "Дэванион"]
+    ],
+    gladiator: [
+      ["gl-tldr", "Главное"], ["gl-skills", "Скиллы"], ["gl-passive", "Пассивки"],
+      ["gl-stigma", "Стигмы"], ["gl-macro", "Макрос"], ["gl-gear", "Экипировка"],
+      ["gl-arcana", "Arcana"], ["gl-board", "Дэванион"]
+    ],
+    cleric: [
+      ["cl-tldr", "Главное"], ["cl-skills", "Скиллы"], ["cl-passive", "Пассивки"],
+      ["cl-stigma", "Стигмы"], ["cl-macro", "Макрос"], ["cl-rotation", "Ротация"],
+      ["cl-board", "Дэванион"]
+    ],
+    chanter: [
+      ["ch-tldr", "Главное"], ["ch-skills", "Скиллы"], ["ch-passive", "Пассивки"],
+      ["ch-stigma", "Стигмы"], ["ch-macro", "Макрос"], ["ch-rotation", "Ротация"],
+      ["ch-board", "Дэванион"]
     ]
+  };
+
+  var ACCENTS = {
+    ranger: "#6fd3a7",
+    assassin: "#e07a8b",
+    sorcerer: "#e8915a",
+    spiritmaster: "#a290f5",
+    templar: "#d8c15a",
+    gladiator: "#7fb2e8",
+    cleric: "#e9dfb4",
+    chanter: "#63c9da"
   };
 
   var tabs = Array.prototype.slice.call(document.querySelectorAll(".switch__btn"));
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
-  var current = "ranger";
 
   function buildChips(key) {
     chipsBox.innerHTML = "";
@@ -52,22 +80,21 @@
 
   function select(key, scrollTop) {
     if (!SECTIONS[key]) key = "ranger";
-    current = key;
 
     tabs.forEach(function (btn) {
       var on = btn.dataset.class === key;
       btn.classList.toggle("is-active", on);
       btn.setAttribute("aria-selected", on ? "true" : "false");
+      if (on && btn.scrollIntoView) {
+        btn.scrollIntoView({ block: "nearest", inline: "center" });
+      }
     });
 
     guides.forEach(function (g) {
       g.classList.toggle("is-hidden", g.id !== key);
     });
 
-    document.body.style.setProperty(
-      "--accent",
-      key === "ranger" ? "#6fd3a7" : "#e07a8b"
-    );
+    document.documentElement.style.setProperty("--accent", ACCENTS[key] || "#6fd3a7");
     buildChips(key);
 
     if (scrollTop) window.scrollTo(0, 0);
@@ -81,22 +108,25 @@
     });
   });
 
-  // начальное состояние из hash / localStorage
   var hash = (location.hash || "").replace("#", "");
   var saved = null;
   try { saved = localStorage.getItem("aion2class"); } catch (e) {}
-  var start = hash === "assassin" || hash === "ranger" ? hash : (saved || "ranger");
+  var start = SECTIONS[hash] ? hash : (SECTIONS[saved] ? saved : "ranger");
   select(start, false);
 
-  // переход по прямой ссылке на секцию внутри другой вкладки
   window.addEventListener("hashchange", function () {
     var h = (location.hash || "").replace("#", "");
-    if (h === "ranger" || h === "assassin") { select(h, true); return; }
+    if (SECTIONS[h]) { select(h, true); return; }
     var el = document.getElementById(h);
-    if (el && el.offsetParent === null) select(h.charAt(0) === "a" ? "assassin" : "ranger", false);
+    if (el && el.offsetParent === null) {
+      var key = Object.keys(SECTIONS).find(function (k) {
+        return k.charAt(0) === h.charAt(0);
+      });
+      if (key) select(key, false);
+    }
   });
 
-  // лайтбокс для скриншотов
+  // lightbox
   var lb = document.getElementById("lightbox");
   var lbImg = lb.querySelector("img");
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
@@ -19,12 +19,28 @@
     </div>
     <nav class="switch" role="tablist" aria-label="Выбор класса">
       <button class="switch__btn is-active" role="tab" id="tab-ranger" aria-controls="ranger" aria-selected="true" data-class="ranger">
-        <img src="img/class-ranger.png" alt="" width="24" height="24">
-        <span>Лучник</span>
+        <img src="img/class-ranger.png" alt="" width="24" height="24"><span>Лучник</span>
       </button>
       <button class="switch__btn" role="tab" id="tab-assassin" aria-controls="assassin" aria-selected="false" data-class="assassin">
-        <img src="img/class-assassin.png" alt="" width="24" height="24">
-        <span>Ассасин</span>
+        <img src="img/class-assassin.png" alt="" width="24" height="24"><span>Ассасин</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-sorcerer" aria-controls="sorcerer" aria-selected="false" data-class="sorcerer">
+        <img src="img/class-sorcerer.png" alt="" width="24" height="24"><span>Чародей</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-spiritmaster" aria-controls="spiritmaster" aria-selected="false" data-class="spiritmaster">
+        <img src="img/class-spiritmaster.png" alt="" width="24" height="24"><span>Душелов</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-templar" aria-controls="templar" aria-selected="false" data-class="templar">
+        <img src="img/class-templar.png" alt="" width="24" height="24"><span>Храмовник</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-gladiator" aria-controls="gladiator" aria-selected="false" data-class="gladiator">
+        <img src="img/class-gladiator.png" alt="" width="24" height="24"><span>Гладиатор</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-cleric" aria-controls="cleric" aria-selected="false" data-class="cleric">
+        <img src="img/class-cleric.png" alt="" width="24" height="24"><span>Клирик</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-chanter" aria-controls="chanter" aria-selected="false" data-class="chanter">
+        <img src="img/class-chanter.png" alt="" width="24" height="24"><span>Чантер</span>
       </button>
     </nav>
   </div>
@@ -56,6 +72,66 @@
       <li>Баффы — <b>только руками</b>, за секунды до окна урона. Макрос их не жмёт.</li>
       <li>В настройках выключи <b>Skill Queue</b> (Настройки → Управление в бою).</li>
     </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="r-road">Путь: от новичка до топа</h2>
+    <p class="lead">Порядок, в котором прокачка реально даёт урон. Сверху — что делать первым.</p>
+    <div class="road">
+      <div class="road__step">
+        <h3>Настройки и кнопки <span class="prio">P1</span></h3>
+        <ul>
+          <li>Выключить <b>Skill Queue</b> (Настройки → Управление в бою).</li>
+          <li>Разложить <b>2 стека атак</b> и отдельный стек баффов.</li>
+          <li>Marking Shot и Deadshot — на отдельные кнопки; Snipe — на обычную атаку.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Скиллы до брейкпоинтов <span class="prio">P1</span></h3>
+        <ul>
+          <li><b>Deadshot 20</b> — первым, без вариантов.</li>
+          <li><b>Snipe 16</b> → −1 сек КД Deadshot и Tempest Arrow.</li>
+          <li><b>Gale Arrow 16</b> → −10 сек КД, бафф держится постоянно.</li>
+          <li><b>Drill Dart 16</b> → двойная активация (самый жирный апгрейд).</li>
+          <li><b>Tempest Shot 16</b> → +20% скорости вместо крита.</li>
+          <li>Потом <b>Marking Shot 12</b> (+5 сек Precision) и <b>Snare Shot 12</b>.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Стигмы <span class="prio prio--p2">P2</span></h3>
+        <ul>
+          <li><b>Vaizel's Authority 20</b> — первый крупный вклад.</li>
+          <li><b>Griffon Arrow 15</b> — Crimson Flames и доп. взаимодействия.</li>
+          <li><b>Supporting Fire 15</b>, затем <b>Bow of Blessing 15</b>.</li>
+          <li>Мало очков — держи Bow/Support на 5 ради Griffon 15.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Минимальный шмот <span class="prio prio--p2">P2</span></h3>
+        <ul>
+          <li>Оружие: <b>Combat Speed / Weapon Damage Boost / Might</b>.</li>
+          <li>Броня Nuakum по слотам (Perfect Chance и Double Chance в приоритете).</li>
+          <li>Кольца — <b>уровни</b> Deadshot / Gale Arrow / Drill Dart / Tempest Shot.</li>
+          <li>Камни: синие Attack/Accuracy достаточно, жёлтые — потом.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Множители <span class="prio prio--p3">P3</span></h3>
+        <ul>
+          <li><b>Arcana</b> — Deadshot, Drill Dart, Burst Arrow, Gale Arrow.</li>
+          <li><b>Genus / питомцы</b> — Attack, Accuracy, Crit, Damage Boost, Smite.</li>
+          <li><b>Дэванион</b> — маршруты под скиллы, а не «заполнить всё».</li>
+        </ul>
+      </div>
+      <div class="road__step road__step--opt">
+        <h3>Коллекции и эндгейм <span class="prio prio--p4">P4</span></h3>
+        <ul>
+          <li>Титулы: Unbound by Genus → Dominator of Dimensions → Empty Closet.</li>
+          <li>Крылья: Dark Veil (рабочие) → Nightmare (цель).</li>
+          <li>Пантеон: Time, Destruction, Wisdom, Justice + статуя Zikel's Apparition.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -300,6 +376,11 @@
     </div>
   </section>
 
+  <div class="credit">
+    <span>Автор гайда: <b>Mobalytics-Oli</b> (билд: FRESHY)</span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
 </section>
 
 <!-- ===================== АССАСИН ===================== -->
@@ -325,6 +406,63 @@
       <li>Макрос ≠ «тыкать ПКМ». <b>Зажимай ЛКМ + ПКМ</b> одновременно.</li>
       <li>Больше стаков Insignia = больше урон Insignia Explosion. <b>Savage Fang</b> даёт сразу 5.</li>
     </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="a-road">Путь: от новичка до топа</h2>
+    <p class="lead">Ассасин начинает работать только после двух вещей: индикатор спины и правильный макрос.</p>
+    <div class="road">
+      <div class="road__step">
+        <h3>Настройки и макрос <span class="prio">P1</span></h3>
+        <ul>
+          <li><b>Options → Info Display → Combat → Display Boss Orientation Indicator = BACK</b>.</li>
+          <li>Макрос на ПКМ: <b>0 Insignia Explosion · 1 Heart Gore · 2 Ambush · 3 Savage Roar</b>, задержка 10 мс.</li>
+          <li>Проверить квик-слоты и бинды, затем зажимать <b>ЛКМ + ПКМ</b>.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Скиллы до брейкпоинтов <span class="prio">P1</span></h3>
+        <ul>
+          <li><b>Heart Gore 16</b> — сброс КД на крите. Главный апгрейд билда.</li>
+          <li><b>Quick Slice 16</b> — Specialty 4+5: игнор блока/уклонения и гарантированный крит.</li>
+          <li><b>Storm Rampage 16</b> — −1 сек ко всем КД при попадании.</li>
+          <li><b>Insignia Explosion</b> — 3 (оставляет 2 стака), затем 5 (−КД).</li>
+          <li><b>Savage Roar 12</b> — 4 (−КД Shadowstrike) для мобильности.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Стигмы <span class="prio prio--p2">P2</span></h3>
+        <ul>
+          <li><b>Savage Fang</b> — 5 стаков Insignia и стаггер.</li>
+          <li><b>Illusive Clone</b> — снимает КД Heart Gore (на 10 ещё и Crit Damage).</li>
+          <li><b>Swift Contract</b> — Combat Speed, на 10 усиливает Rear Smite.</li>
+          <li><b>Triniel's Dagger</b> — 4-й слот, на 10 −10% КД.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Статы и шмот <span class="prio prio--p2">P2</span></h3>
+        <ul>
+          <li>Приоритет статов: <b>Attack → Crit / Crit Damage → Double Chance</b>.</li>
+          <li>Кольца и Arcana — <b>уровни Heart Gore и Insignia Explosion</b>.</li>
+          <li>Автор не даёт раскладку по слотам брони — добирай уровнями скиллов и крит-статами.</li>
+        </ul>
+      </div>
+      <div class="road__step">
+        <h3>Дэванион <span class="prio prio--p3">P3</span></h3>
+        <ul>
+          <li>Узлы под <b>Heart Gore</b> и <b>Insignia Explosion</b>.</li>
+          <li>Доска не заполняется целиком — иди по маршруту.</li>
+        </ul>
+      </div>
+      <div class="road__step road__step--opt">
+        <h3>Полировка <span class="prio prio--p4">P4</span></h3>
+        <ul>
+          <li>Позиция важнее кнопок: макрос сам крутит ротацию.</li>
+          <li>Держи Insignia на цели — урон Insignia Explosion растёт от стаков.</li>
+          <li>Тест на манекене после каждого апгрейда.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -511,6 +649,1120 @@
       <figure><img src="img/a-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Ulvier</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== ЧАРОДЕЙ ===================== -->
+<section class="guide is-hidden" id="sorcerer" role="tabpanel" aria-labelledby="tab-sorcerer">
+
+  <div class="hero" style="--hue:22">
+    <img class="hero__icon" src="img/class-sorcerer.png" alt="Класс Чародей" width="72" height="72">
+    <div>
+      <h1>Чародей <span>Sorcerer</span></h1>
+      <p class="hero__sub">Заряженный <b>Hellfire</b> внутри заранее подготовленного окна урона.</p>
+      <ul class="badges">
+        <li>Дальний бой</li><li>Каст</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="so-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li><b>Hellfire</b> — главный урон. Заряд держать до конца: прерванный каст — это слабая версия.</li>
+      <li>Сначала готовим окно: <b>Element Enhancement → Delayed Explosion → Winter's Shackles</b>, только потом Hellfire.</li>
+      <li><b>Firestorm</b> сокращает КД Hellfire — качать обязательно.</li>
+      <li><b>Wish of Concentration</b> жмём <b>после</b> основных скиллов, когда есть Specialty −КД (16 ур.).</li>
+      <li>Порядок вложений: Hellfire → Firestorm → Bittercold Wind → Blaze → Wish → Flame Arrow.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="so-skills">Скиллы и Specialty</h2>
+    <p class="lead">Specialty надо именно <b>выбрать и экипировать</b> — разблокировка сама по себе ничего не даёт.</p>
+
+    <div class="skill">
+      <img src="img/s-hellfire.webp" alt="">
+      <div class="skill__body">
+        <h3>Hellfire <span class="tag tag--max">20 ур.</span></h3>
+        <p>Основной бурст. Держи кнопку до полного заряда и бей в подготовленное окно.</p>
+        <p class="hint">Specialty: <b>+30% Skill Speed</b> + игнор блока/уклонения и <b>Multi-Hit</b>. Для мобильных боёв — mobile-опция вместо одного из них.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-firestorm.webp" alt="">
+      <div class="skill__body">
+        <h3>Firestorm <span class="tag tag--good">приоритет</span></h3>
+        <p>Частый урон + Specialty, который <b>сокращает КД Hellfire</b>.</p>
+        <p class="hint">Specialty: <b>+20% Skill Speed</b> и −КД Hellfire.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-bittercold-wind.webp" alt="">
+      <div class="skill__body">
+        <h3>Bittercold Wind <span class="tag">AoE</span></h3>
+        <p>Сильный площадной удар рядом с огненными скиллами.</p>
+        <p class="hint">Specialty: дольше живёт саммон + игнор блока/уклонения и <b>гарантированный крит</b>.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-blaze.webp" alt="">
+      <div class="skill__body">
+        <h3>Blaze <span class="tag">В ротации</span></h3>
+        <p>Регулярный урон, который легко теряется при коротком списке макроса — не забывай дожимать.</p>
+        <p class="hint">Specialty: отложенный урон через 3 сек + Multi-Hit.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-wish-of-concentration.webp" alt="">
+      <div class="skill__body">
+        <h3>Wish of Concentration <span class="tag">Бафф</span></h3>
+        <p>Атакующий бафф, 60 сек КД.</p>
+        <p class="hint">Сначала +Attack и +Combat Speed. На <b>16</b> появляется −КД — экипируй её, и жми Wish <b>после</b> основных скиллов.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-flame-arrow.webp" alt="">
+      <div class="skill__body">
+        <h3>Flame Arrow <span class="tag">Базовая атака</span></h3>
+        <p>Держит ману и заполняет паузы.</p>
+        <p class="hint">Specialty: <b>+50% Multi-Hit</b> и Fire Damage Boost после Pyroclasm.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-winters-shackles.webp" alt="">
+      <div class="skill__body">
+        <h3>Winter's Shackles <span class="tag tag--good">Готовит бурст</span></h3>
+        <p>Не в шестёрке приоритетов, но именно он усиливает Hellfire.</p>
+        <p class="hint">Specialty: <b>+20% PvE Damage Boost</b> + Winter's Illusion.</p>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>Что не брать</summary>
+      <ul>
+        <li><b>Ice Chain</b> — не нужен: холода уже хватает (Bittercold Wind, Winter's Shackles, Cold Storm).</li>
+        <li><b>Flame Scattershot</b> — опция по стаггеру, но не приоритет.</li>
+        <li><b>Cold Snap</b> — ниже основных скиллов.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2 id="so-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-fire-mark.webp" alt=""><span>Fire Mark</span></li>
+      <li><img src="img/s-robe-of-cold.webp" alt=""><span>Robe of Cold</span></li>
+      <li><img src="img/s-robe-of-flame.webp" alt=""><span>Robe of Flame</span></li>
+      <li><img src="img/s-robe-of-earth.webp" alt=""><span>Robe of Earth</span></li>
+      <li><img src="img/s-grace-of-enhancement.webp" alt=""><span>Grace of Enhancement</span></li>
+    </ol>
+    <p class="hint">Нужна защита — добавь Grace of Resistance, но основные скиллы урона не бросай.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="so-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-element-enhancement.webp" alt=""><b>Element Enhancement</b><span>Открывающий бафф перед бурстом</span></div>
+      <div class="mini"><img src="img/s-delayed-explosion.webp" alt=""><b>Delayed Explosion</b><span>Готовит урон под Hellfire</span></div>
+      <div class="mini"><img src="img/s-fire-wall.webp" alt=""><b>Fire Wall</b><span>Площадной урон</span></div>
+      <div class="mini"><img src="img/s-cold-storm.webp" alt=""><b>Cold Storm</b><span>Второй AoE-слот</span></div>
+    </div>
+    <p class="hint"><b>Свапы:</b> Cold Storm → <b>Steel Barrier</b>, когда важнее выжить (Nightmare, Transcendence). Не хватает стаггера — Cold Storm → <b>Divine Burst</b>.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="so-macro">Стеки и макрос</h2>
+    <p class="lead">Приоритет в стеке — порядок активации, а не расположение иконок.</p>
+    <div class="stacks">
+      <div class="stack"><h3>Подготовка</h3><p>Element Enhancement → Delayed Explosion → Winter's Shackles</p></div>
+      <div class="stack"><h3>Основной урон</h3><p>Bittercold Wind → Blaze → Firestorm → Wish of Concentration</p></div>
+      <div class="stack stack--buff"><h3>Отдельно</h3><p>Hellfire — своя кнопка с зарядкой. Flame Arrow — своя.</p></div>
+    </div>
+    <p><b>Простой макрос:</b> Element Enhancement → Delayed Explosion → Winter's Shackles → Fire Wall → Cold Storm → Bittercold Wind → Firestorm → Flame Arrow.</p>
+    <div class="note note--warn">
+      <b>Hellfire в макрос не ставим.</b> Макрос не удерживает кнопку, поэтому выйдет слабая версия. Плюс легко проскочить окно баффов.
+    </div>
+    <p class="hint">Трюк: Flame Arrow вынести на свою кнопку и <b>зажимать вместе</b> с макросом — так она вплетается между кастами.</p>
+    <figure class="shot">
+      <img src="img/so-shot4.jpg" alt="Схема стеков скиллов Чародея">
+      <figcaption>Схема автора: один стек на урон, один на подготовку, Hellfire и Flame Arrow — отдельно.</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="img/so-shot1.jpg" alt="Приоритет прокачки скиллов Чародея">
+      <figcaption>Приоритет скиллов и уровни-брейкпоинты.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="so-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Element Enhancement</b></li>
+      <li><b>Delayed Explosion</b></li>
+      <li><b>Winter's Shackles</b></li>
+      <li><b>Hellfire</b> — полный заряд и каст</li>
+      <li><b>Fire Wall</b> → <b>Cold Storm</b></li>
+      <li><b>Bittercold Wind</b> → <b>Blaze</b> → <b>Firestorm</b></li>
+      <li><b>Wish of Concentration</b> — когда основные скиллы уже в КД</li>
+    </ol>
+    <div class="note">
+      Wish не «полный ресет». Смотри, что реально откатилось, и продолжай с этого места. В паузах — Flame Arrow и слежка за КД Hellfire.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="so-board">Дэванион: доски</h2>
+    <p class="lead">Узлы под Hellfire, Firestorm, Bittercold Wind, Blaze и Wish of Concentration. Доски целиком не заполняются.</p>
+    <div class="gallery">
+      <figure><img src="img/so-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/so-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/so-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/so-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Eutopia</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== ДУШЕЛОВ ===================== -->
+<section class="guide is-hidden" id="spiritmaster" role="tabpanel" aria-labelledby="tab-spiritmaster">
+
+  <div class="hero" style="--hue:262">
+    <img class="hero__icon" src="img/class-spiritmaster.png" alt="Класс Душелов" width="72" height="72">
+    <div>
+      <h1>Душелов <span>Spiritmaster</span></h1>
+      <p class="hero__sub">Крути духов, чтобы <b>Elemental Fusion</b> был доступен как можно чаще.</p>
+      <ul class="badges">
+        <li>Дальний бой</li><li>Пет-класс</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="sp-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li><b>Elemental Fusion</b> кастуется только со статусом <b>Four Elements</b> — его дают 4 скилла духов.</li>
+      <li>Духи идут по кругу: <b>Water → Corrode → Earth → Fire</b>. Пока они бьют, приходит Four Elements.</li>
+      <li><b>Dimensional Control</b> срабатывает каждый раз, когда дух применяет свой скилл — это твой второй урон.</li>
+      <li><b>Rapid Scattershot</b> на 16: <b>−1 сек ко всем КД</b> — обязательный Specialty.</li>
+      <li><b>Summon: Wind Spirit не качаем вообще</b> — ни в скиллах, ни в досках.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-order">Порядок прокачки</h2>
+    <ol class="ranks">
+      <li><img src="img/s-elemental-fusion.webp" alt=""><span>Elemental Fusion</span></li>
+      <li><img src="img/s-combustion.webp" alt=""><span>Combustion</span></li>
+      <li><img src="img/s-summon-fire-spirit.webp" alt=""><span>Summon: Fire Spirit</span></li>
+      <li><img src="img/s-cold-shock.webp" alt=""><span>Cold Shock</span></li>
+      <li><img src="img/s-dimensional-control.webp" alt=""><span>Dimensional Control</span></li>
+      <li><img src="img/s-jointstrike-curse.webp" alt=""><span>Jointstrike: Curse</span></li>
+      <li><img src="img/s-rapid-scattershot.webp" alt=""><span>Rapid Scattershot</span></li>
+      <li><img src="img/s-summon-water-spirit.webp" alt=""><span>Summon: Water Spirit</span></li>
+      <li><img src="img/s-summon-earth-spirit.webp" alt=""><span>Summon: Earth Spirit</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-elemental-fusion.webp" alt="">
+      <div class="skill__body">
+        <h3>Elemental Fusion <span class="tag tag--max">20 ур.</span></h3>
+        <p>Весь бурст билда, урон по одной цели. Требует Four Elements.</p>
+        <p class="hint">Specialty: 2 — доп. урон через 3 сек, 3 — +Element Boost, <b>5 — 25% шанс вернуть Four Elements</b>.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-combustion.webp" alt="">
+      <div class="skill__body">
+        <h3>Combustion <span class="tag">Филлер</span></h3>
+        <p>Тратит ману, AoE по цели в 20 м и до 4 врагов рядом.</p>
+        <p class="hint">Specialty: 2 — больше урона по одной цели (боссы), 4 — скорость каста, 5 — цепочка Ashy Call.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-summon-fire-spirit.webp" alt="">
+      <div class="skill__body">
+        <h3>Summon: Fire Spirit <span class="tag tag--good">Основной дух</span></h3>
+        <p>Главный саммон: рывок к цели в 20 м, AoE и шанс повторить скилл.</p>
+        <p class="hint">Specialty: 2 — +Crit Damage духа, 5 — +% к статам духа.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-cold-shock.webp" alt="">
+      <div class="skill__body">
+        <h3>Cold Shock <span class="tag">Автоатака</span></h3>
+        <p>Восстанавливает ману и вплетается в комбо.</p>
+        <p class="hint">Specialty: 3 — 50% Multi-Hit, <b>4 — стакающийся Attack Boost</b> с третьего удара цепочки (Earth Tremor).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-dimensional-control.webp" alt="">
+      <div class="skill__body">
+        <h3>Dimensional Control <span class="tag tag--good">Автотриггер</span></h3>
+        <p>Срабатывает, когда дух использует скилл: AoE, Slow и мана. Мини-версия Elemental Fusion.</p>
+        <p class="hint">Specialty: 2 — доп. урон через 3 сек, 3 — 50% Multi-Hit.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-jointstrike-curse.webp" alt="">
+      <div class="skill__body">
+        <h3>Jointstrike: Curse <span class="tag">Дебафф</span></h3>
+        <p>AoE + Curse: урон по времени и меньше урона по тебе. Духи бьют вместе с тобой.</p>
+        <p class="hint">Specialty: 1 — +2 сек Curse, 3 — mobile-каст.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-rapid-scattershot.webp" alt="">
+      <div class="skill__body">
+        <h3>Rapid Scattershot <span class="tag tag--good">16 ур. — DPS</span></h3>
+        <p>Скилл стаггера, но у Душелова он превращается в мотор ротации.</p>
+        <p class="hint">Specialty: 4 — Multi-Hit, <b>16 → 5: −1 сек ко всем КД</b>. Третью опцию бери по ситуации (например, +120 MP).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-summon-water-spirit.webp" alt="">
+      <div class="skill__body">
+        <h3>Summon: Water Spirit <span class="tag">Мана</span></h3>
+        <p>Урон по цели в 20 м и восстановление маны с атак.</p>
+        <p class="hint">Specialty: 2 — +атака духа, 3 — +шанс скилла.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-summon-earth-spirit.webp" alt="">
+      <div class="skill__body">
+        <h3>Summon: Earth Spirit <span class="tag">Агро</span></h3>
+        <p>Урон и сильный рост Enmity, шанс Taunt.</p>
+        <p class="hint">Specialty: 2 — +PvE/PvP устойчивость, 3 — +шанс скилла.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-spirit-strike.webp" alt=""><span>Spirit Strike</span></li>
+      <li><img src="img/s-mental-focus.webp" alt=""><span>Mental Focus</span></li>
+      <li><img src="img/s-element-unification.webp" alt=""><span>Element Unification</span></li>
+      <li><img src="img/s-spirit-revitalization.webp" alt=""><span>Spirit Revitalization</span></li>
+      <li><img src="img/s-corrode.webp" alt=""><span>Corrode</span></li>
+      <li><img src="img/s-spirit-protection.webp" alt=""><span>Spirit Protection</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-summon-ancient-spirit.webp" alt=""><b>Summon: Ancient Spirit</b><span>30 сек, даёт Four Elements с каждого скилла</span></div>
+      <div class="mini"><img src="img/s-enhance-spirits-benediction.webp" alt=""><b>Enhance: Spirit's Benediction</b><span>+урон и устойчивость, хил себе и духам</span></div>
+      <div class="mini"><img src="img/s-jointstrike-corrode.webp" alt=""><b>Jointstrike: Corrode</b><span>Духи бьют сильнее по цели</span></div>
+      <div class="mini"><img src="img/s-jointstrike-destructive-attack.webp" alt=""><b>4-й слот</b><span>Flame Blessing или Jointstrike: Destructive Attack</span></div>
+    </div>
+    <p class="hint"><b>Destructive Attack</b> на 20 ур. сбрасывает КД Corrode и Curse — сильный вариант для боссов. <b>Flame Blessing</b> — проще: точность и шанс доп. урона.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-macro">Макрос</h2>
+    <p class="lead">Два хоткея: один на урон, второй на духов.</p>
+    <div class="stacks">
+      <div class="stack"><h3>ПКМ — урон</h3><p>0 Jointstrike: Curse · 1 Elemental Fusion · 2 Dimensional Control · 3 Combustion</p></div>
+      <div class="stack stack--buff"><h3>Второй хоткей — духи</h3><p>0 Water · 1 Corrode · 2 Earth · 3 Fire</p></div>
+    </div>
+    <div class="note note--warn">
+      <b>Зажимай ЛКМ + ПКМ.</b> Cold Shock вплетается в Combustion, духи выходят по КД, а Fusion и Dimensional Control — сразу как только доступны.
+    </div>
+    <p class="hint">Проверяй и макрос, и квик-слоты. Тест на манекене: все духи выходят, дебаффы висят.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Flame Blessing</b> + <b>Enhance: Spirit's Benediction</b></li>
+      <li><b>Summon: Ancient Spirit</b></li>
+      <li>Круг духов + <b>Jointstrike: Corrode</b> и <b>Jointstrike: Curse</b></li>
+      <li><b>Dimensional Control</b> — каждый раз, когда дух применил скилл</li>
+      <li><b>Elemental Fusion</b> по готовности Four Elements</li>
+      <li>Пока духи в КД — <b>Combustion</b> и <b>Cold Shock</b></li>
+    </ol>
+    <div class="note">Макрос делает почти всё сам: твоя задача — позиция и своевременный Ancient Spirit. Стой так, чтобы духи доставали цель.</div>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-board">Дэванион: доски</h2>
+    <p class="lead">Приоритет — <b>Elemental Fusion</b> и <b>Dimensional Control</b>. Узлы Soul's Cry (PvP-страх) лучше пропускать.</p>
+    <div class="gallery">
+      <figure><img src="img/sp-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/sp-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/sp-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/sp-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Ulvier</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== ХРАМОВНИК ===================== -->
+<section class="guide is-hidden" id="templar" role="tabpanel" aria-labelledby="tab-templar">
+
+  <div class="hero" style="--hue:48">
+    <img class="hero__icon" src="img/class-templar.png" alt="Класс Храмовник" width="72" height="72">
+    <div>
+      <h1>Храмовник <span>Templar</span></h1>
+      <p class="hero__sub">Урон через серии <b>Judgment</b>, а танкование — на ручном контроле.</p>
+      <ul class="badges">
+        <li>Танк</li><li>Ближний бой</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="te-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li>Урон = <b>Judgment</b>. Окна открывают Shield Smite, Warding Strike, Shield Rush и Doom Shield.</li>
+      <li><b>Judgment 16</b> — Specialty снимает КД: несколько кастов в одном окне.</li>
+      <li><b>Punishment</b> заряжается вручную. Не ломай им окно Judgment.</li>
+      <li><b>Fury</b> — пассивка на всю пати, качать в первую очередь.</li>
+      <li>В позднем контенте <b>Battlefield Banner → Taunt 15</b> (−10% Damage Mitigation цели).</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="te-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-judgment.webp" alt="">
+      <div class="skill__body">
+        <h3>Judgment <span class="tag tag--max">16 ур. — ключ</span></h3>
+        <p>Главный урон. Активируется другими скиллами.</p>
+        <p class="hint">Specialty: <b>снятие КД</b> + Extra Damage on Hit. КД снят ≠ скилл всегда доступен: нужен новый триггер.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-vicious-strike.webp" alt="">
+      <div class="skill__body">
+        <h3>Vicious Strike <span class="tag">Автоатака</span></h3>
+        <p>Базовая атака, держится вместе с макросом.</p>
+        <p class="hint">16 — цепочка <b>Threatening Blow</b>; 12 — −КД Warding Strike (больше окон Judgment).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-pummel.webp" alt="">
+      <div class="skill__body">
+        <h3>Pummel <span class="tag">Филлер</span></h3>
+        <p>Используется, когда в стеке нет ничего важнее. Цепочка Punishing Strike даёт заметный урон.</p>
+        <p class="hint">Specialty: 16 — доп. урон Punishing Strike. Держи <b>в том же стеке</b>, что и Judgment, но ниже.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-punishment.webp" alt="">
+      <div class="skill__body">
+        <h3>Punishment <span class="tag tag--good">Заряд</span></h3>
+        <p>Заряженный удар, только на отдельной кнопке.</p>
+        <p class="hint">16 — игнор блока/уклонения и <b>гарантированный крит</b>.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-shield-smite.webp" alt="">
+      <div class="skill__body">
+        <h3>Shield Smite <span class="tag">Триггер</span></h3>
+        <p>Открывает Judgment. В стеке — <b>выше</b> Warding Strike.</p>
+        <p class="hint">Specialty: −КД и шанс активировать Debilitating Smash.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-warding-strike.webp" alt="">
+      <div class="skill__body">
+        <h3>Warding Strike <span class="tag">Триггер</span></h3>
+        <p>Второй источник окон Judgment.</p>
+        <p class="hint">Specialty: −5 сек КД и хил во время Warding.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-annihilate.webp" alt="">
+      <div class="skill__body">
+        <h3>Annihilate + Debilitating Smash <span class="tag">Свой стек</span></h3>
+        <p>Поддерживающие атаки, которые живут в отдельном макросе.</p>
+        <p class="hint">Debilitating Smash: +3 сек дебаффа, игнор блока и Multi-Hit (снижение хила — это PvP).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-doom-shield.webp" alt="">
+      <div class="skill__body">
+        <h3>Doom Shield <span class="tag">Рывок + триггер</span></h3>
+        <p>Рывок, который открывает Judgment. Особенно ценен после 16 ур. Judgment.</p>
+        <p class="hint">Только вручную и только когда бежать к цели безопасно.</p>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>Мобильность и ситуативные</summary>
+      <ul>
+        <li><b>Poach</b> — Specialty на движение для боссов, которых нельзя притянуть.</li>
+        <li><b>Shield Rush</b> — доступен после уклонения в бою, +10 м и −10 сек КД.</li>
+        <li><b>Nezekan's Shield</b> — свап вместо Doom Shield под рейд-механику.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2 id="te-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-fury.webp" alt=""><span>Fury</span></li>
+      <li><img src="img/s-punishing-benediction.webp" alt=""><span>Punishing Benediction</span></li>
+      <li><img src="img/s-insulting-roar.webp" alt=""><span>Insulting Roar</span></li>
+      <li><img src="img/s-enhance-health.webp" alt=""><span>Enhance Health</span></li>
+      <li><img src="img/s-ironclad-defense.webp" alt=""><span>Ironclad Defense</span></li>
+      <li><img src="img/s-guarding-seal.webp" alt=""><span>Guarding Seal</span></li>
+    </ol>
+    <p class="hint">Fury срабатывает на блок и баффает урон тебе и пати на 20 сек — выгодно всей группе.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="te-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-shield-of-protection.webp" alt=""><b>Shield of Protection</b><span>Блок по кнопке; 5 ур. — второй заряд</span></div>
+      <div class="mini"><img src="img/s-noble-armor.webp" alt=""><b>Noble Armor</b><span>Хил + бафф на 2 мин, КД тоже 2 мин</span></div>
+      <div class="mini"><img src="img/s-battlefield-banner.webp" alt=""><b>Battlefield Banner</b><span>Defense → Attack, 90 сек КД</span></div>
+      <div class="mini"><img src="img/s-doom-shield.webp" alt=""><b>Doom Shield</b><span>Рывок и дополнительное окно Judgment</span></div>
+    </div>
+    <p class="hint"><b>Поздняя игра:</b> Banner → <b>Taunt 15</b>. Дебафф −10% Damage Mitigation помогает всей пати и возвращает агро.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="te-macro">Стеки и макрос</h2>
+    <div class="stacks">
+      <div class="stack"><h3>Стек Judgment</h3><p>Judgment → Shield Smite → Warding Strike → Pummel</p></div>
+      <div class="stack"><h3>Стек Annihilate</h3><p>Annihilate → Debilitating Smash</p></div>
+      <div class="stack stack--buff"><h3>Только руками</h3><p>Poach · Punishment · Doom Shield · Shield Rush · Noble Armor · Banner</p></div>
+    </div>
+    <p><b>Макрос:</b> Annihilate — 10 мс, Judgment — 10 мс. Макрос циклится между двумя стеками.</p>
+    <div class="note note--warn">
+      Не переставляй Pummel во второй стек: макрос начнёт уходить с Judgment, пока тот ещё доступен, и сожжёт окно.
+    </div>
+    <figure class="shot">
+      <img src="img/te-macro.jpg" alt="Настройка макроса Храмовника">
+      <figcaption>Записи макроса: Annihilate и Judgment, по 10 мс.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="te-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Noble Armor</b> (+ Battlefield Banner, если есть)</li>
+      <li><b>Poach</b> — если нужен подход к цели</li>
+      <li><b>Punishment</b> — полный заряд</li>
+      <li>Зажать <b>Vicious Strike + макрос</b></li>
+      <li>Потратить окна <b>Judgment</b></li>
+      <li><b>Doom Shield / Shield Rush</b> — новые окна</li>
+      <li><b>Punishment</b> — между окнами, по КД</li>
+    </ol>
+    <div class="note">Не начинай зарядку Punishment, пока висит незакрытое окно Judgment. То же с рывками: не накладывай окна друг на друга.</div>
+  </section>
+
+  <section class="card">
+    <h2 id="te-board">Дэванион: две доски</h2>
+    <p class="lead"><b>Ранняя — 140 очков:</b> +4 уровня к Judgment, Vicious Strike, Pummel и Punishment, чтобы быстрее выйти на 16.</p>
+    <div class="gallery">
+      <figure><img src="img/te-e1.jpg" alt="Ранняя доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/te-e2.jpg" alt="Ранняя доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/te-e3.jpg" alt="Ранняя доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/te-e4.jpg" alt="Ранняя доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+    <p class="lead" style="margin-top:16px"><b>Эндгейм — 360 очков:</b> те же 4 уровня на основные скиллы + Fury, Punishing Benediction и Ironclad Defense.</p>
+    <div class="gallery">
+      <figure><img src="img/te-x1.jpg" alt="Эндгейм доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/te-x2.jpg" alt="Эндгейм доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/te-x3.jpg" alt="Эндгейм доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/te-x4.jpg" alt="Эндгейм доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Mobalytics-Oli</b> (билд: NoBS Game Guides)</span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== ГЛАДИАТОР ===================== -->
+<section class="guide is-hidden" id="gladiator" role="tabpanel" aria-labelledby="tab-gladiator">
+
+  <div class="hero" style="--hue:212">
+    <img class="hero__icon" src="img/class-gladiator.png" alt="Класс Гладиатор" width="72" height="72">
+    <div>
+      <h1>Гладиатор <span>Gladiator</span></h1>
+      <p class="hero__sub">Endgame-билд: ровный урон по боссу, криты и контроль маны.</p>
+      <ul class="badges">
+        <li>Ближний бой</li><li>Endgame</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="gl-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li>Ядро урона: <b>Overhead Slam</b>, <b>Rending Blow</b> и <b>Ruinous Blow</b>.</li>
+      <li><b>Overhead Slam 16</b> — Specialty снимает КД, но для каста всё равно нужен <b>Rage Burst</b>.</li>
+      <li><b>Rending Blow 16</b> — <b>+50 MP</b> при крите. Это твоё решение проблемы маны.</li>
+      <li>Баффы — <b>руками</b>: Lunge Stance, Zikel's Blessing, Ruinous Blow.</li>
+      <li>Макрос на ПКМ, Keen Strike — на ЛКМ, зажимай обе.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-overhead-slam.webp" alt="">
+      <div class="skill__body">
+        <h3>Overhead Slam <span class="tag tag--max">16 ур. — ключ</span></h3>
+        <p>Главный урон. На 16 бери Specialty, снимающий КД, и <b>крит-опцию</b> (вместо цепочки Upward Strike).</p>
+        <p class="hint">КД снят, но условие активации осталось — Rage Burst должен быть на цели.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-rending-blow.webp" alt="">
+      <div class="skill__body">
+        <h3>Rending Blow <span class="tag tag--good">16 ур. — мана</span></h3>
+        <p>Урон + <b>+50 MP при крите</b>. Ключевой шаг перед переходом на «прожорливый» макрос.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-ruinous-blow.webp" alt="">
+      <div class="skill__body">
+        <h3>Ruinous Blow <span class="tag">Вручную</span></h3>
+        <p>Крупный урон и <b>Prepare for Battle</b>. Держи на отдельной кнопке — чтобы бафф попал в нужное окно.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-keen-strike.webp" alt="">
+      <div class="skill__body">
+        <h3>Keen Strike <span class="tag">Мана + КД</span></h3>
+        <p>Восстанавливает ману и сокращает КД Ruinous Blow. Не убирай даже после 16 ур. основных скиллов.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-sword-aura-rampage.webp" alt="">
+      <div class="skill__body">
+        <h3>Sword Aura Rampage <span class="tag tag--good">Под стаггер</span></h3>
+        <p>16 ур. + Specialty на MP и −КД при попадании: бьёшь по стаггеренному боссу и возвращаешь ману.</p>
+        <p class="hint">В макросе ставь его <b>выше</b> Rending Blow, чтобы он успевал сработать.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-mocking-blade.webp" alt="">
+      <div class="skill__body">
+        <h3>Mocking Blade <span class="tag">Самолечение</span></h3>
+        <p>8 ур. + Specialty на вампиризм — меньше давления на хилера.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-leaping-slam.webp" alt="">
+      <div class="skill__body">
+        <h3>Leaping Slam <span class="tag">Фарм</span></h3>
+        <p>Отдельный макрос на паки: Specialty сбрасывает КД после убийства.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-attack-preparation-gladiator.webp" alt=""><span>Attack Preparation</span></li>
+      <li><img src="img/s-experienced-counterstrike.webp" alt=""><span>Experienced Counterstrike</span></li>
+      <li><img src="img/s-impact-hit.webp" alt=""><span>Impact Hit</span></li>
+      <li><img src="img/s-murderous-burst.webp" alt=""><span>Murderous Burst</span></li>
+    </ol>
+    <p class="hint">Focused Block + Experienced Counterstrike: успешный блок превращается в бафф урона для тебя и пати.</p>
+    <figure class="shot">
+      <img src="img/gl-passive.jpg" alt="Пассивные скиллы Гладиатора">
+      <figcaption>Пассивки в игре.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-lunge-stance.webp" alt=""><b>Lunge Stance</b><span>20 ур. — шанс снять КД на крите</span></div>
+      <div class="mini"><img src="img/s-zikels-blessing.webp" alt=""><b>Zikel's Blessing</b><span>10 — PvE урон, 15 — Multi-Hit</span></div>
+      <div class="mini"><img src="img/s-rage-burst.webp" alt=""><b>Rage Burst</b><span>Держать 5, позже 20 — доп. урон</span></div>
+      <div class="mini"><img src="img/s-focused-block.webp" alt=""><b>Focused Block</b><span>Блок без потери аптайма</span></div>
+    </div>
+    <figure class="shot">
+      <img src="img/gl-stigma.jpg" alt="Стигмы Гладиатора">
+      <figcaption>Вложение в стигмы по версии автора.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-macro">Макрос</h2>
+    <p class="lead">Settings → Key Settings → General: макрос на <b>ПКМ</b>, Keen Strike на <b>ЛКМ</b>.</p>
+    <div class="stacks">
+      <div class="stack"><h3>Простой вариант</h3><p>Rage Burst → Overhead Slam → Rending Blow</p></div>
+      <div class="stack stack--buff"><h3>Тест на 16 ур.</h3><p>Rending Blow отдельной кнопкой + в макросе</p></div>
+    </div>
+    <div class="note note--warn">
+      Вариант с отдельной Rending Blow даёт больше урона, но <b>жрёт ману</b> и меняет частоту Keen Strike. Сравнивай на манекене двумя тестами по минуте.
+    </div>
+    <p class="hint">В бою с боссом баффы ставь в безопасное окно: баннер механики может съесть весь их аптайм.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-gear">Экипировка</h2>
+    <h3>Оружие и щит</h3>
+    <div class="chips-list">
+      <span class="chip chip--top">Combat Speed</span>
+      <span class="chip chip--top">Multi-Hit Chance</span>
+      <span class="chip chip--top">Overhead Slam (щит)</span>
+      <span class="chip">Attack</span>
+      <span class="chip">Weapon Damage Boost</span>
+      <span class="chip">Damage Boost</span>
+    </div>
+    <h3>Броня и бижутерия</h3>
+    <ul class="gear">
+      <li><b>Шлем</b> — Double Chance + уровни пассивок</li>
+      <li><b>Грудь / ноги</b> — урон и уровни основных пассивок</li>
+      <li><b>Перчатки</b> — Combat Speed, далее Perfect Chance и Attack</li>
+      <li><b>Сапоги</b> — Move Speed</li>
+      <li><b>Серьги</b> — Move Speed + Might</li>
+      <li><b>Амулет</b> — Combat Speed + Might</li>
+      <li><b>Кольца</b> — уровни Overhead Slam</li>
+    </ul>
+    <p class="hint">Поздняя цель — <b>Abyssal Bracelet</b> (3 Ludra Gear Voucher). Перед рунами проверяй штраф за провал и держи дубль.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-arcana">Arcana, титулы, крылья, Пантеон</h2>
+    <div class="cols">
+      <div>
+        <h3>Arcana</h3>
+        <p>Vigor на Chalice и Parchment, Magic на Compass и Bell, плюс Mirror of Magic.</p>
+        <p class="hint">Chalice — Overhead Slam; Parchment — Overhead/Ruinous; Compass — Rending; Bell — Attack Preparation; Mirror — Wisdom.</p>
+      </div>
+      <div>
+        <h3>Мана</h3>
+        <p>Две Magic-карты дают сет-бонус: при MP ≤20% мана возвращается (КД 30 сек).</p>
+        <p class="hint">Это поддержка, а не замена менеджменту скиллов и зелий.</p>
+      </div>
+      <div>
+        <h3>Титулы</h3>
+        <p><b>Guardian of Altgard</b> — PvE Damage Boost и Penetration. <b>Saint of Altgard</b> — выживание. Долгая цель — <b>Unbound by Genus</b>.</p>
+      </div>
+      <div>
+        <h3>Крылья и Пантеон</h3>
+        <p>Forest Spirit / Dark Veil, дальше Nightmare и <b>Talisra</b> (КД). Пантеон: Zikel's Apparition (14 000 осколков) и Transcendent Bakarma (Draupnir Conquest ×10).</p>
+      </div>
+    </div>
+    <figure class="shot">
+      <img src="img/gl-cards.jpg" alt="Приоритеты Arcana-карт Гладиатора">
+      <figcaption>Приоритеты по картам.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="gl-board">Дэванион: доски</h2>
+    <p class="lead">Синие узлы — Overhead Slam, Ruinous Blow, Rending Blow. Зелёные — Attack Preparation, Experienced Counterstrike, Impact Hit, Murderous Burst. Дальше Attack Bonus и Critical Hit.</p>
+    <div class="gallery">
+      <figure><img src="img/gl-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/gl-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/gl-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/gl-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Ulfhednar</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== КЛИРИК ===================== -->
+<section class="guide is-hidden" id="cleric" role="tabpanel" aria-labelledby="tab-cleric">
+
+  <div class="hero" style="--hue:44">
+    <img class="hero__icon" src="img/class-cleric.png" alt="Класс Клирик" width="72" height="72">
+    <div>
+      <h1>Клирик <span>Cleric</span></h1>
+      <p class="hero__sub">Комбо <b>Condemnation</b>: хилер, который внезапно выдаёт бурст.</p>
+      <ul class="badges">
+        <li>Хилер</li><li>Дальний бой</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="cl-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li>Ты <b>первый хилер</b>, урон — второй. Комбо можно и нужно прерывать ради пати.</li>
+      <li>Комбо: <b>Chain of Torment → Earth Punishment → спам Condemnation</b>.</li>
+      <li><b>Condemnation 12</b> — сброс КД на крите; <b>Earth Punishment 5</b> делает эти касты критами.</li>
+      <li><b>Radiant Recovery</b> — под механики и бурст-урон, не сливай впустую.</li>
+      <li>Debilitating Mark и Prayer of Amplification держи постоянно.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-condemnation.webp" alt="">
+      <div class="skill__body">
+        <h3>Condemnation <span class="tag tag--max">12 ур. — ключ</span></h3>
+        <p>Главный урон. Бьёт по цели под Chain of Torment.</p>
+        <p class="hint">Specialty 2/4/5; важнейшая — <b>сброс КД при крите</b> (12 ур.).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-chain-of-torment.webp" alt="">
+      <div class="skill__body">
+        <h3>Chain of Torment <span class="tag tag--good">Открывает комбо</span></h3>
+        <p>AoE, снижение PvE Damage Tolerance цели и DoT — на нём и работает Condemnation.</p>
+        <p class="hint">Specialty: 2 — +3 сек DoT, 4 — сильнее снижает Damage Tolerance.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-earth-punishment.webp" alt="">
+      <div class="skill__body">
+        <h3>Earth Punishment <span class="tag tag--max">5 ур. — сразу</span></h3>
+        <p>Пока на цели висит этот дебафф, Condemnation бьёт <b>критом</b>.</p>
+        <p class="hint">Доведи до 5 как можно раньше: на этом держится весь билд.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-radiant-recovery.webp" alt="">
+      <div class="skill__body">
+        <h3>Radiant Recovery <span class="tag">Большой хил</span></h3>
+        <p>Массовый хил + снятие дебаффов.</p>
+        <p class="hint">Specialty: 1 — снимает на один дебафф больше, 3 — −КД, 2 — доп. заряд (если тяжко).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-judgment-thunder.webp" alt="">
+      <div class="skill__body">
+        <h3>Judgment Thunder <span class="tag">Филлер</span></h3>
+        <p>Тратит ману, AoE-урон, пока комбо в КД.</p>
+        <p class="hint">Specialty: 2 на старте, 5 — двойной Divine Punishment (4 — как промежуточный вариант).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-debilitating-mark.webp" alt="">
+      <div class="skill__body">
+        <h3>Debilitating Mark <span class="tag">Дебафф</span></h3>
+        <p>AoE + DoT и снижение PvE Damage Boost врагам.</p>
+        <p class="hint">Specialty: 2 — дебафф Defense на время DoT, 4 — сильнее режет урон.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-healing-light.webp" alt="">
+      <div class="skill__body">
+        <h3>Healing Light <span class="tag">Хил</span></h3>
+        <p>Хил себя и союзника с наименьшим HP в радиусе 40 м.</p>
+        <p class="hint">Specialty: 1 — +2 заряда, 16 — 5 (−КД), 3 — шанс снять дебафф (12–16).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-earths-retribution.webp" alt="">
+      <div class="skill__body">
+        <h3>Earth's Retribution <span class="tag">Автоатака</span></h3>
+        <p>Возвращает ману и может снижать КД Bolt.</p>
+        <p class="hint">Specialty: 2 — шанс цепочки, 3 — если Bolt не в ротации, 4 — если в ротации.</p>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>Остальное</summary>
+      <ul>
+        <li><b>Bolt</b> — заряженный AoE с долгим КД; Specialty 2 — точность, 3/4 — дальше.</li>
+        <li><b>Divine Aura</b> — DoT; 3 — скорость атаки, 5 — −КД.</li>
+        <li><b>Light of Regeneration</b> — хил-овер-тайм на пати, хорошо открывать бой.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-empyrean-lords-grace.webp" alt=""><span>Empyrean Lord's Grace</span></li>
+      <li><img src="img/s-earths-grace.webp" alt=""><span>Earth's Grace</span></li>
+      <li><img src="img/s-immortal-veil.webp" alt=""><span>Immortal Veil</span></li>
+      <li><img src="img/s-healing-enhancement.webp" alt=""><span>Healing Enhancement</span></li>
+      <li><img src="img/s-survival-willpower-cleric.webp" alt=""><span>Survival Willpower</span></li>
+      <li><img src="img/s-warm-benediction.webp" alt=""><span>Warm Benediction</span></li>
+      <li><img src="img/s-radiant-benediction.webp" alt=""><span>Radiant Benediction</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-earth-punishment.webp" alt=""><b>Earth Punishment</b><span>5 ур. — сердце комбо</span></div>
+      <div class="mini"><img src="img/s-noble-aura.webp" alt=""><b>Noble Aura</b><span>Постоянный доп. урон</span></div>
+      <div class="mini"><img src="img/s-prayer-of-amplification.webp" alt=""><b>Prayer of Amplification</b><span>Открывающий бафф Attack</span></div>
+      <div class="mini"><img src="img/s-light-of-protection.webp" alt=""><b>Light of Protection</b><span>Аура Damage Boost на пати</span></div>
+    </div>
+    <p class="hint">Если в пати и так много урона — меняй Prayer of Amplification на <b>Summon Resurrection</b> или <b>Absolution</b>.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-macro">Макрос</h2>
+    <p class="lead">ПКМ = макрос. Слоты по порядку:</p>
+    <ol class="steps steps--tight">
+      <li><b>0</b> — Prayer of Amplification</li>
+      <li><b>1</b> — Earth Punishment</li>
+      <li><b>2</b> — Divine Aura</li>
+      <li><b>3</b> — Judgment Thunder</li>
+    </ol>
+    <p>Макрос сам держит бафф и дебаффы, а Condemnation вылетает каждый раз, когда сработал триггер.</p>
+    <div class="note note--warn">
+      <b>Зажимай ЛКМ + ПКМ:</b> Earth's Retribution вплетается между кастами и держит ману. Condemnation и Light of Regeneration держи на своих кнопках.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Noble Aura</b> + <b>Light of Protection</b></li>
+      <li><b>Prayer of Amplification</b></li>
+      <li><b>Debilitating Mark</b></li>
+      <li><b>Earth Punishment</b></li>
+      <li><b>Chain of Torment</b></li>
+      <li><b>Condemnation</b> — спам, пока висят дебаффы</li>
+      <li>Филлеры: Earth's Retribution, Judgment Thunder, Divine Aura</li>
+    </ol>
+    <div class="note">
+      <b>Хил:</b> Radiant Recovery — под бурст и механику. Основной апкип — Light of Regeneration и Healing Light. Не сливай все защитные КД сразу.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-board">Дэванион: доски</h2>
+    <p class="lead">Приоритет узлов — <b>Condemnation</b> и <b>Chain of Torment</b>.</p>
+    <div class="gallery">
+      <figure><img src="img/cl-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/cl-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/cl-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/cl-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Ulvier</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
+
+</section>
+
+<!-- ===================== ЧАНТЕР ===================== -->
+<section class="guide is-hidden" id="chanter" role="tabpanel" aria-labelledby="tab-chanter">
+
+  <div class="hero" style="--hue:190">
+    <img class="hero__icon" src="img/class-chanter.png" alt="Класс Чантер" width="72" height="72">
+    <div>
+      <h1>Чантер <span>Chanter</span></h1>
+      <p class="hero__sub">Мантры для пати и спам <b>Dark Crush</b> по триггеру.</p>
+      <ul class="badges">
+        <li>Поддержка</li><li>Ближний бой</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="ch-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li>Ядро — <b>Dark Crush</b>. Он открывается после ranged-скилла (Spinning Strike, Impactful Crush и др.).</li>
+      <li><b>Dark Crush 20</b>: Specialty 5 снимает КД — вот тогда начинается настоящий спам.</li>
+      <li><b>Мантры</b> (Undefeated, Sprint) — toggle: включены всегда, слетают только при смерти.</li>
+      <li>Макрос: <b>0 Dark Crush · 1 Spinning Strike · 2 Incandescent Blow</b>.</li>
+      <li>Играй в <b>мили</b>: издалека мана кончится и КД встанут.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-dark-crush.webp" alt="">
+      <div class="skill__body">
+        <h3>Dark Crush <span class="tag tag--max">20 ур. — ядро</span></h3>
+        <p>Главный урон по цели в 20 м. Требует, чтобы перед ним сработал ranged-скилл.</p>
+        <p class="hint">Specialty: 3 — <b>крит</b>, 4 — цепочка Piercing Strike, <b>5 — снятие КД</b>.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-spinning-strike.webp" alt="">
+      <div class="skill__body">
+        <h3>Spinning Strike <span class="tag tag--good">Триггер</span></h3>
+        <p>Дальний AoE и стакающийся Crit Damage Boost. Открывает Dark Crush.</p>
+        <p class="hint">Specialty: 1 — −КД, 3 — больше урона по малому числу целей, 5 — игнор блока/уклонения и авто-крит.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-onslaught.webp" alt="">
+      <div class="skill__body">
+        <h3>Onslaught <span class="tag">Автоатака</span></h3>
+        <p>Мана + снижение КД Spinning Strike.</p>
+        <p class="hint">Specialty: 3 — Multi-Hit, 4 — −КД Spinning Strike, 5 (20 ур.) — цепочка Storm Chain.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-incandescent-blow.webp" alt="">
+      <div class="skill__body">
+        <h3>Incandescent Blow <span class="tag">Филлер</span></h3>
+        <p>Тратит ману, AoE по 4 целям перед собой.</p>
+        <p class="hint">Specialty: 3 — урон по малому числу целей, 5 — игнор блока/уклонения + Multi-Hit.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-impactful-crush.webp" alt="">
+      <div class="skill__body">
+        <h3>Impactful Crush <span class="tag">Триггер</span></h3>
+        <p>Дальний урон + шанс стана, тоже открывает Dark Crush.</p>
+        <p class="hint">Specialty: 3 — <b>mobile</b> (каст на ходу), 4 — скорость каста.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-recuperation.webp" alt="">
+      <div class="skill__body">
+        <h3>Recuperation <span class="tag">Хил + клин</span></h3>
+        <p>Снимает дебаффы с пати и вешает хил-овер-тайм.</p>
+        <p class="hint">Specialty: 1 — второй заряд и стак хота, 4 — % HP сразу, 5 — −КД.</p>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>Мобильность и AoE</summary>
+      <ul>
+        <li><b>Rushing Smash</b> — рывок 20 м, AoE и мана; 4 — сброс КД на убийстве, 5 — игнор/мультихит.</li>
+        <li><b>Tremor Crush</b> — после уклонения: 2 — +10 м, 3 — 50% Multi-Hit.</li>
+        <li><b>Wave Blow</b> — по стану: 1 — Multi-Hit, 4 — дебафф урона.</li>
+        <li><b>Heat Wave Blow</b> — AoE: 3 — урон по площади, 4 — игнор/мультихит.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-winds-promise.webp" alt=""><span>Wind's Promise</span></li>
+      <li><img src="img/s-attack-preparation-chanter.webp" alt=""><span>Attack Preparation</span></li>
+      <li><img src="img/s-impact-hit-chanter.webp" alt=""><span>Impact Hit</span></li>
+      <li><img src="img/s-inspiring-spell.webp" alt=""><span>Inspiring Spell</span></li>
+      <li><img src="img/s-earths-promise.webp" alt=""><span>Earth's Promise</span></li>
+      <li><img src="img/s-blessing-of-life.webp" alt=""><span>Blessing of Life</span></li>
+      <li><img src="img/s-survival-willpower-chanter.webp" alt=""><span>Survival Willpower</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-undefeated-mantra.webp" alt=""><b>Undefeated Mantra</b><span>+урон и устойчивость пати (toggle)</span></div>
+      <div class="mini"><img src="img/s-sprint-mantra.webp" alt=""><b>Sprint Mantra</b><span>Скорость + шанс хила с атак</span></div>
+      <div class="mini"><img src="img/s-marchutans-wrath.webp" alt=""><b>Marchutan's Wrath</b><span>AoE и окно для Dark Crush</span></div>
+      <div class="mini"><img src="img/s-power-of-the-storm.webp" alt=""><b>Power of the Storm</b><span>+Combat Speed, −КД пати</span></div>
+    </div>
+    <div class="note">
+      <b>Не дублируй клирика:</b> Undefeated Mantra не стакается с Light of Protection, а Power of the Storm не работает под Earth's Blessing. Договаривайтесь заранее.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-macro">Макрос</h2>
+    <p class="lead">ПКМ = макрос, всего три слота:</p>
+    <ol class="steps steps--tight">
+      <li><b>0</b> — Dark Crush</li>
+      <li><b>1</b> — Spinning Strike</li>
+      <li><b>2</b> — Incandescent Blow</li>
+    </ol>
+    <p>Логика простая: Dark Crush вылетает сразу, как только открылся. Пока он недоступен — уходит Spinning Strike (у него длинный КД), иначе — Incandescent Blow.</p>
+    <div class="note note--warn">
+      <b>Зажимай ЛКМ + ПКМ</b> в мили. Onslaught вплетается сам, мана и КД держатся на уровне.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Undefeated Mantra</b> + <b>Sprint Mantra</b> (проверь, что включены)</li>
+      <li><b>Rushing Smash</b> или <b>Tremor Crush</b> — сближение</li>
+      <li><b>Spinning Strike</b> или <b>Impactful Crush</b> — триггер</li>
+      <li><b>Dark Crush</b> — спам, пока доступен</li>
+      <li>Триггеры в КД — <b>Incandescent Blow</b> и <b>Onslaught</b></li>
+    </ol>
+    <div class="note">Пауза в ротации — повод посмотреть на пати: <b>Recuperation</b> снимает дебаффы. Твой офф-хил реально спасает рейды.</div>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-board">Дэванион: доски</h2>
+    <p class="lead">Приоритет — <b>Dark Crush</b> и <b>Spinning Strike</b>: чем быстрее Dark Crush до 20, тем раньше третий слот Specialty со снятием КД.</p>
+    <div class="gallery">
+      <figure><img src="img/ch-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/ch-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/ch-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/ch-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Автор гайда: <b>Ulvier</b></span>
+    <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+  </div>
 
 </section>
 
