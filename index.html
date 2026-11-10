@@ -6,8 +6,10 @@
 <meta name="theme-color" content="#0b0d12">
 <title>Aion 2 — PvE гайды по классам</title>
 <meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
-<link rel="stylesheet" href="assets/style.css?v=16">
-<link rel="icon" href="img/class-ranger.png">
+<link rel="stylesheet" href="assets/style.css?v=17">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-192.png">
 </head>
 <body>
 
@@ -53,12 +55,34 @@
 
 <div class="drawer" id="drawer" hidden>
   <div class="drawer__backdrop" data-drawer-close></div>
-  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Выбор класса">
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Меню">
     <div class="drawer__head">
-      <span>Aion 2 · PvE гайды</span>
+      <span>Aion 2 · меню</span>
       <button class="drawer__close" type="button" data-drawer-close aria-label="Закрыть">✕</button>
     </div>
-    <nav class="drawer__list" id="drawer-list" aria-label="Классы"></nav>
+
+    <div class="drawer__section">
+      <div class="drawer__title">Классы</div>
+      <nav class="drawer__list" id="drawer-list" aria-label="Классы"></nav>
+    </div>
+
+    <div class="drawer__section">
+      <div class="drawer__title">Тема</div>
+      <div class="theme-picker" id="theme-picker" role="group" aria-label="Выбор темы">
+        <button class="theme-opt" type="button" data-theme="dark"><span class="theme-opt__swatch swatch--dark"></span><span>Тёмная</span></button>
+        <button class="theme-opt" type="button" data-theme="light"><span class="theme-opt__swatch swatch--light"></span><span>Светлая</span></button>
+        <button class="theme-opt" type="button" data-theme="pumpkin"><span class="theme-opt__swatch swatch--pumpkin"></span><span>Тыквенная</span></button>
+        <button class="theme-opt" type="button" data-theme="blue"><span class="theme-opt__swatch swatch--blue"></span><span>Голубая</span></button>
+      </div>
+    </div>
+
+    <div class="drawer__section">
+      <div class="drawer__title">Справка</div>
+      <button class="drawer__item drawer__item--tool" id="open-glossary" type="button">
+        <span class="drawer__tool-icon">📘</span><span>Глоссарий терминов</span>
+      </button>
+    </div>
+
     <p class="drawer__foot">Данные и билды: Mobalytics</p>
   </aside>
 </div>
@@ -77,6 +101,66 @@
 </div>
 
 <main>
+
+<section class="glossary-view is-hidden" id="glossary-view" aria-label="Глоссарий">
+  <div class="hero hero--glossary">
+    <div>
+      <h1>Глоссарий <span>Термины Aion 2 PvE</span></h1>
+      <p class="hero__sub">Короткие пояснения к терминам, которые встречаются в гайдах: механики, статы, системы и интерфейс.</p>
+      <ul class="badges"><li>Справка</li><li>Aion 2</li></ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="g-systems">Системы и прогрессия</h2>
+    <div class="glossary-list">
+      <div class="glossary-term"><h3>Specialty (Специализация скилла)</h3><p>Дополнительное усиление навыка, которое открывается на определённых уровнях скилла. Важно: разблокировать мало — Specialty нужно <b>выбрать и экипировать</b> в настройках скилла, иначе бонус не работает.</p></div>
+      <div class="glossary-term"><h3>Stigma (Стигма)</h3><p>Отдельный слот активных или пассивных умений, которые дополняют основной набор скиллов класса. Стигмы прокачиваются отдельно и часто дают ключевые баффы, дебаффы или новые кнопки в ротации.</p></div>
+      <div class="glossary-term"><h3>Daevanion (Дэванион)</h3><p>Система досок с узлами развития персонажа. Узлы дают уровни скиллам, пассивкам и статы. Очки ограничены, поэтому доски обычно не заполняют целиком — идут по маршруту к нужным брейкпоинтам.</p></div>
+      <div class="glossary-term"><h3>Arcana (Аркана)</h3><p>Карты/предметы прогрессии, которые дают дополнительные уровни скиллам и пассивкам, а также статы. Замена карты может поднять один скилл, но опустить другой — перед заменой важно проверять суммарные уровни.</p></div>
+      <div class="glossary-term"><h3>Pantheon (Пантеон)</h3><p>Система размещения особых реликвий/украшений, дающих постоянные бонусы к характеристикам. Бонусы зависят от установленных предметов и их наборов.</p></div>
+      <div class="glossary-term"><h3>Transcendence (Трансценденция)</h3><p>Контент/источник прогрессии высокого уровня, в том числе фарма Arcana и улучшений персонажа. Часто упоминается как место получения карт с нужными уровнями скиллов.</p></div>
+      <div class="glossary-term"><h3>Nightmare</h3><p>Более сложная версия контента (данжи/рейды/испытания), из которой добываются продвинутые награды — улучшения, крылья, материалы для Пантеона и т.п.</p></div>
+      <div class="glossary-term"><h3>Skill Level / Брейкпоинт</h3><p>Суммарный уровень навыка складывается из вложенных очков, экипировки, Arcana, Дэваниона и других бонусов. «Брейкпоинт» — уровень, на котором открывается важная Specialty или сильный эффект (часто 12, 16, 20).</p></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="g-combat">Бой и ротация</h2>
+    <div class="glossary-list">
+      <div class="glossary-term"><h3>Ротация</h3><p>Порядок применения умений для максимального урона, лечения или защиты. Обычно делится на открывающий бурст (opener), основной цикл и филлеры в простоях.</p></div>
+      <div class="glossary-term"><h3>Бурст / Окно урона</h3><p>Короткий промежуток, когда активны усиления (баффы, дебаффы на боссе, проки) и нужно вложить самые сильные умения.</p></div>
+      <div class="glossary-term"><h3>КД (Cooldown)</h3><p>Время перезарядки умения после использования. Управление КД — основа ротации: сильные скиллы жмут по готовности в правильное окно.</p></div>
+      <div class="glossary-term"><h3>Филлер</h3><p>Умение, которое используют, когда основные скиллы на перезарядке, чтобы не терять урон и/или восстанавливать ресурс.</p></div>
+      <div class="glossary-term"><h3>Прок (Proc)</h3><p>Срабатывание эффекта по условию или с шансом (например, сброс КД при крите, активация умения после удара духа). Многие билды строятся вокруг проков.</p></div>
+      <div class="glossary-term"><h3>Стаки (Stacks)</h3><p>Накопительные заряды эффекта на цели или на персонаже. Урон/эффект умения может зависеть от числа стаков (снять, потратить или усилиться от них).</p></div>
+      <div class="glossary-term"><h3>Макрос</h3><p>Внутриигровая последовательность действий/скиллов на одной кнопке. Удобен для рутины, но не умеет удерживать заряжаемые умения и не всегда учитывает тайминги механик.</p></div>
+      <div class="glossary-term"><h3>Дот (DoT)</h3><p>Damage over Time — периодический урон (или лечение HoT), который наносится не мгновенно, а тиками в течение времени.</p></div>
+      <div class="glossary-term"><h3>AoE</h3><p>Area of Effect — умение, действующее по области и задевающее несколько целей, в отличие от одиночной (single target) атаки.</p></div>
+      <div class="glossary-term"><h3>Стаггер / Стан / Контроль</h3><p>Эффекты контроля: прерывание, оглушение, обездвиживание и т.п. В PvE важны для механик боссов и окон уязвимости, а также для условий некоторых скиллов.</p></div>
+      <div class="glossary-term"><h3>Триггер</h3><p>Условие, которое делает умение доступным или усиливает его (удар за спину, крит, статус на цели, действие питомца и т.д.).</p></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="g-stats">Характеристики</h2>
+    <div class="glossary-list">
+      <div class="glossary-term"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность ротации. Часто приоритетный стат для DPS.</p></div>
+      <div class="glossary-term"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, Specialty и проки завязаны именно на крит.</p></div>
+      <div class="glossary-term"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом крита.</p></div>
+      <div class="glossary-term"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на проки и дополнительный урон.</p></div>
+      <div class="glossary-term"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами действий (зависят от конкретной реализации стата в экипировке).</p></div>
+      <div class="glossary-term"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/уклонения цели. Важна, чтобы ключевые умения и ротация не «ломались» от промахов.</p></div>
+      <div class="glossary-term"><h3>Penetration (Пробивание)</h3><p>Помогает эффективнее наносить урон по защищённым целям, снижая влияние их защиты/сопротивления.</p></div>
+      <div class="glossary-term"><h3>Enmity (Угроза/агро)</h3><p>Показатель угрозы для монстра. Танк набирает агро умениями с повышенной угрозой; DPS и хилы следят, чтобы не перехватить цель.</p></div>
+      <div class="glossary-term"><h3>PvE Damage Boost / Tolerance</h3><p>Boost — увеличение урона по PvE-целям. Tolerance — «устойчивость/снижение получаемого» урона у цели; некоторые дебаффы её уменьшают, усиливая урон группы.</p></div>
+    </div>
+  </section>
+
+  <div class="credit">
+    <span>Справочник по терминам Aion 2 для PvE-гайдов</span>
+  </div>
+</section>
 
 <!-- ===================== ЛУЧНИК ===================== -->
 <section class="guide" id="ranger" role="tabpanel" aria-labelledby="tab-ranger">
@@ -327,9 +411,7 @@
       <b>Ритм Precision:</b> в первое окно влезает ~3 Deadshot, дальше обычно 2 — потом обновляй Marking Shot.
       Смотри на сам бафф: движение и прерванные касты меняют тайминг.
     </div>
-    <div class="note note--warn">
-      <b>Не жми баффы перед механикой.</b> 5 секунд баффа перед 10-секундной неуязвимостью босса — это выкинутый КД. Дождись окна.
-    </div>
+    
   </section>
 
   <section class="card">
@@ -405,6 +487,14 @@
       <li><b>Unbound by Genus</b> — все 5 категорий Genus Insight до 10 ур.</li>
       <li><b>Dominator of Dimensions</b> — 25 крыльев. Раньше можно взять Saint of Altgard (Асмодиан).</li>
       <li><b>Empty Closet</b> — 700 скинов, долгосрок. Альтернатива: Through Hell and Back (Ru-данж).</li>
+    </ul>
+  </section>
+
+  
+  <section class="card">
+    <h2 id="r-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Не жми баффы перед механикой.</b> 5 секунд баффа перед 10-секундной неуязвимостью босса — это выкинутый КД. Дождись окна.</li>
     </ul>
   </section>
 
@@ -640,9 +730,7 @@
       <li><b>3</b> — Savage Roar</li>
     </ol>
     <p>Задержка — <b>10 мс</b>. Смысл: Insignia Explosion уходит сразу по КД, а Heart Gore вклинивается в момент прока вместо Savage Roar.</p>
-    <div class="note note--warn">
-      <b>Зажимай ЛКМ + ПКМ.</b> Не «тапай» ПКМ: удержание обоих кнопок само вплетает Quick Slice между Savage Roar.
-    </div>
+    
     <p class="hint">Можно добавить в макрос баффы (Swift Contract, Illusive Clone) — но тогда ты теряешь контроль над таймингом. Проверяй и макрос, и раскладку квик-слотов.</p>
     <div class="duo">
       <figure class="shot"><img src="img/a-macro1.jpg" alt="Настройка макроса"><figcaption>Запись в макросе: скилл + 10 мс.</figcaption></figure>
@@ -684,6 +772,32 @@
       <img src="img/a-layout.jpg" alt="Раскладка скиллов Ассасина">
       <figcaption>Пример раскладки хотбаров.</figcaption>
     </figure>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="a-gear">Экипировка и Arcana</h2>
+    <p class="lead">В исходном гайде Mobalytics нет раскладки по слотам экипировки — приоритет отдан сборке скиллов и ротации.</p>
+    <div class="cols">
+      <div>
+        <h3>Статы</h3>
+        <div class="chips-list"><span class="chip chip--top">Attack</span><span class="chip chip--top">Crit / Crit Damage</span><span class="chip chip--top">Double Chance</span></div>
+        <p class="hint">Ориентир автора: сначала Attack, затем крит-статы и Double Chance.</p>
+      </div>
+      <div>
+        <h3>Arcana и слоты</h3>
+        <p>Добирай <b>уровни Heart Gore и Insignia Explosion</b> с колец, Arcana и других источников.</p>
+        <p class="hint">Перед заменой предмета проверяй суммарный уровень ключевых скиллов и доступ к Specialty.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="a-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Зажимай ЛКМ + ПКМ.</b> Не «тапай» ПКМ: удержание обоих кнопок само вплетает Quick Slice между Savage Roar.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -907,9 +1021,7 @@
       <div class="stack stack--buff"><h3>Отдельно</h3><p>Hellfire — своя кнопка с зарядкой. Flame Arrow — своя.</p></div>
     </div>
     <p><b>Простой макрос:</b> Element Enhancement → Delayed Explosion → Winter's Shackles → Fire Wall → Cold Storm → Bittercold Wind → Firestorm → Flame Arrow.</p>
-    <div class="note note--warn">
-      <b>Hellfire в макрос не ставим.</b> Макрос не удерживает кнопку, поэтому выйдет слабая версия. Плюс легко проскочить окно баффов.
-    </div>
+    
     <p class="hint">Трюк: Flame Arrow вынести на свою кнопку и <b>зажимать вместе</b> с макросом — так она вплетается между кастами.</p>
     <figure class="shot">
       <img src="img/so-shot4.jpg" alt="Схема стеков скиллов Чародея">
@@ -935,6 +1047,25 @@
     <div class="note">
       Wish не «полный ресет». Смотри, что реально откатилось, и продолжай с этого места. В паузах — Flame Arrow и слежка за КД Hellfire.
     </div>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="so-gear">Экипировка и Arcana</h2>
+    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
+    <ul class="check">
+      <li>Главный приоритет — <b>уровни Hellfire и Firestorm</b> (экипировка, Arcana, Дэванион). Они важнее случайных статов.</li>
+      <li>Arcana и предметы подбирай так, чтобы не терять доступ к ключевым Specialty основных скиллов бурста.</li>
+      <li>Урон Чародея упирается в правильное окно и полный заряд Hellfire, а не в конкретный сет брони.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="so-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Hellfire в макрос не ставим.</b> Макрос не удерживает кнопку, поэтому выйдет слабая версия. Плюс легко проскочить окно баффов.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -1167,9 +1298,7 @@
       <div class="stack"><h3>ПКМ — урон</h3><p>0 Jointstrike: Curse · 1 Elemental Fusion · 2 Dimensional Control · 3 Combustion</p></div>
       <div class="stack stack--buff"><h3>Второй хоткей — духи</h3><p>0 Water · 1 Corrode · 2 Earth · 3 Fire</p></div>
     </div>
-    <div class="note note--warn">
-      <b>Зажимай ЛКМ + ПКМ.</b> Cold Shock вплетается в Combustion, духи выходят по КД, а Fusion и Dimensional Control — сразу как только доступны.
-    </div>
+    
     <p class="hint">Проверяй и макрос, и квик-слоты. Тест на манекене: все духи выходят, дебаффы висят.</p>
   </section>
 
@@ -1184,6 +1313,25 @@
       <li>Пока духи в КД — <b>Combustion</b> и <b>Cold Shock</b></li>
     </ol>
     <div class="note">Макрос делает почти всё сам: твоя задача — позиция и своевременный Ancient Spirit. Стой так, чтобы духи доставали цель.</div>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="sp-gear">Экипировка и Arcana</h2>
+    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
+    <ul class="check">
+      <li>Приоритет — <b>уровни Elemental Fusion и Dimensional Control</b> из всех источников (экипировка, Arcana, Дэванион).</li>
+      <li>Перед заменой Arcana/предмета проверяй, не упадёт ли суммарный уровень ключевых скиллов и не пропадёт ли Specialty.</li>
+      <li>Стабильная ротация духов и доступность Fusion дают больше, чем погоня за отдельными статами без брейкпоинтов.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="sp-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Зажимай ЛКМ + ПКМ.</b> Cold Shock вплетается в Combustion, духи выходят по КД, а Fusion и Dimensional Control — сразу как только доступны.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -1418,9 +1566,7 @@
       <div class="stack stack--buff"><h3>Только руками</h3><p>Poach · Punishment · Doom Shield · Shield Rush · Noble Armor · Banner</p></div>
     </div>
     <p><b>Макрос:</b> Annihilate — 10 мс, Judgment — 10 мс. Макрос циклится между двумя стеками.</p>
-    <div class="note note--warn">
-      Не переставляй Pummel во второй стек: макрос начнёт уходить с Judgment, пока тот ещё доступен, и сожжёт окно.
-    </div>
+    
     <figure class="shot">
       <img src="img/te-macro.jpg" alt="Настройка макроса Храмовника">
       <figcaption>Записи макроса: Annihilate и Judgment, по 10 мс.</figcaption>
@@ -1439,6 +1585,32 @@
       <li><b>Punishment</b> — между окнами, по КД</li>
     </ol>
     <div class="note">Не начинай зарядку Punishment, пока висит незакрытое окно Judgment. То же с рывками: не накладывай окна друг на друга.</div>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="te-gear">Экипировка и Arcana</h2>
+    <p class="lead">По источнику Mobalytics: фокус на скилловых вехах важнее идеального набора шмота.</p>
+    <div class="cols">
+      <div>
+        <h3>Arcana</h3>
+        <p>Фармь <b>Transcendence</b> ради Arcana с бонусами к <b>Judgment, Vicious Strike, Pummel, Punishment</b>.</p>
+        <p class="hint">Перед заменой карты проверь суммарные уровни: замена не должна снимать доступ к ключевой Specialty.</p>
+      </div>
+      <div>
+        <h3>Экипировка</h3>
+        <p>Данжевого снаряжения достаточно для развития билда — полный крафт-сет не обязателен.</p>
+        <p class="hint">Апгрейды делай параллельно со скиллами. Питомцы и Пантеон дают вклад, но после скилловых брейкпоинтов (особенно Judgment 16).</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="te-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li>Не переставляй Pummel во второй стек: макрос начнёт уходить с Judgment, пока тот ещё доступен, и сожжёт окно.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -1662,9 +1834,7 @@
       <div class="stack"><h3>Простой вариант</h3><p>Rage Burst → Overhead Slam → Rending Blow</p></div>
       <div class="stack stack--buff"><h3>Тест на 16 ур.</h3><p>Rending Blow отдельной кнопкой + в макросе</p></div>
     </div>
-    <div class="note note--warn">
-      Вариант с отдельной Rending Blow даёт больше урона, но <b>жрёт ману</b> и меняет частоту Keen Strike. Сравнивай на манекене двумя тестами по минуте.
-    </div>
+    
     <p class="hint">В бою с боссом баффы ставь в безопасное окно: баннер механики может съесть весь их аптайм.</p>
   </section>
 
@@ -1734,6 +1904,14 @@
       <img src="img/gl-cards.jpg" alt="Приоритеты Arcana-карт Гладиатора">
       <figcaption>Приоритеты по картам.</figcaption>
     </figure>
+  </section>
+
+  
+  <section class="card">
+    <h2 id="gl-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li>Вариант с отдельной Rending Blow даёт больше урона, но <b>жрёт ману</b> и меняет частоту Keen Strike. Сравнивай на манекене двумя тестами по минуте.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -1967,9 +2145,7 @@
       <li><b>3</b> — Judgment Thunder</li>
     </ol>
     <p>Макрос сам держит бафф и дебаффы, а Condemnation вылетает каждый раз, когда сработал триггер.</p>
-    <div class="note note--warn">
-      <b>Зажимай ЛКМ + ПКМ:</b> Earth's Retribution вплетается между кастами и держит ману. Condemnation и Light of Regeneration держи на своих кнопках.
-    </div>
+    
   </section>
 
   <section class="card">
@@ -1986,6 +2162,25 @@
     <div class="note">
       <b>Хил:</b> Radiant Recovery — под бурст и механику. Основной апкип — Light of Regeneration и Healing Light. Не сливай все защитные КД сразу.
     </div>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="cl-gear">Экипировка и Arcana</h2>
+    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
+    <ul class="check">
+      <li>Приоритет — <b>уровни Condemnation, Chain of Torment и Earth Punishment</b>: без них комбо не раскрывается.</li>
+      <li>Arcana и предметы выбирай с оглядкой на суммарные уровни этих скиллов и доступ к Specialty (Condemnation 12, Earth Punishment 5).</li>
+      <li>Не забывай про хилерскую часть: выживаемость пати важнее лишнего условного урона.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="cl-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Зажимай ЛКМ + ПКМ:</b> Earth's Retribution вплетается между кастами и держит ману. Condemnation и Light of Regeneration держи на своих кнопках.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -2206,9 +2401,7 @@
       <li><b>2</b> — Incandescent Blow</li>
     </ol>
     <p>Логика простая: Dark Crush вылетает сразу, как только открылся. Пока он недоступен — уходит Spinning Strike (у него длинный КД), иначе — Incandescent Blow.</p>
-    <div class="note note--warn">
-      <b>Зажимай ЛКМ + ПКМ</b> в мили. Onslaught вплетается сам, мана и КД держатся на уровне.
-    </div>
+    
   </section>
 
   <section class="card">
@@ -2221,6 +2414,25 @@
       <li>Триггеры в КД — <b>Incandescent Blow</b> и <b>Onslaught</b></li>
     </ol>
     <div class="note">Пауза в ротации — повод посмотреть на пати: <b>Recuperation</b> снимает дебаффы. Твой офф-хил реально спасает рейды.</div>
+  </section>
+
+  
+  
+  <section class="card">
+    <h2 id="ch-gear">Экипировка и Arcana</h2>
+    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
+    <ul class="check">
+      <li>Приоритет — <b>уровни Dark Crush и Spinning Strike</b> из всех источников. Цель — быстрее довести Dark Crush до 20.</li>
+      <li>При замене Arcana/экипировки следи, чтобы не потерять брейкпоинты и Specialty ключевых скиллов.</li>
+      <li>Для комфортной ротации важны стабильная мана и аптайм в мили — это ценнее случайных статов без брейкпоинтов.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="ch-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Зажимай ЛКМ + ПКМ</b> в мили. Onslaught вплетается сам, мана и КД держатся на уровне.</li>
+    </ul>
   </section>
 
   <section class="card">
@@ -2262,6 +2474,13 @@
   <img alt="">
 </div>
 
-<script src="assets/app.js?v=16"></script>
+<script src="assets/app.js?v=17"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js").catch(function () {});
+  });
+}
+</script>
 </body>
 </html>

@@ -2,45 +2,48 @@
   "use strict";
 
   var SECTIONS = {
+    glossary: [
+      ["g-systems", "Системы"], ["g-combat", "Бой"], ["g-stats", "Характеристики"]
+    ],
     ranger: [
       ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-order", "Прокачка"], ["r-skills", "Скиллы"],
       ["r-passive", "Пассивки"], ["r-stigma", "Стигмы"], ["r-macro", "Макрос"],
-      ["r-rotation", "Ротация"], ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-board", "Дэванион"]
+      ["r-rotation", "Ротация"], ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-mistakes", "Ошибки"], ["r-board", "Дэванион"]
     ],
     assassin: [
       ["a-tldr", "Главное"], ["a-road", "Путь"], ["a-order", "Прокачка"], ["a-skills", "Скиллы"],
       ["a-passive", "Пассивки"], ["a-stigma", "Стигмы"], ["a-macro", "Макрос"],
-      ["a-rotation", "Ротация"], ["a-setup", "Настройки"], ["a-board", "Дэванион"]
+      ["a-rotation", "Ротация"], ["a-setup", "Настройки"], ["a-gear", "Экипировка"], ["a-mistakes", "Ошибки"], ["a-board", "Дэванион"]
     ],
     sorcerer: [
       ["so-tldr", "Главное"], ["so-road", "Путь"], ["so-order", "Прокачка"], ["so-skills", "Скиллы"],
       ["so-passive", "Пассивки"], ["so-stigma", "Стигмы"], ["so-macro", "Макрос"],
-      ["so-rotation", "Ротация"], ["so-board", "Дэванион"]
+      ["so-rotation", "Ротация"], ["so-gear", "Экипировка"], ["so-mistakes", "Ошибки"], ["so-board", "Дэванион"]
     ],
     spiritmaster: [
       ["sp-tldr", "Главное"], ["sp-road", "Путь"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
       ["sp-passive", "Пассивки"], ["sp-stigma", "Стигмы"], ["sp-macro", "Макрос"],
-      ["sp-rotation", "Ротация"], ["sp-board", "Дэванион"]
+      ["sp-rotation", "Ротация"], ["sp-gear", "Экипировка"], ["sp-mistakes", "Ошибки"], ["sp-board", "Дэванион"]
     ],
     templar: [
       ["te-tldr", "Главное"], ["te-road", "Путь"], ["te-order", "Прокачка"], ["te-skills", "Скиллы"],
       ["te-passive", "Пассивки"], ["te-stigma", "Стигмы"], ["te-macro", "Макрос"],
-      ["te-rotation", "Ротация"], ["te-board", "Дэванион"]
+      ["te-rotation", "Ротация"], ["te-gear", "Экипировка"], ["te-mistakes", "Ошибки"], ["te-board", "Дэванион"]
     ],
     gladiator: [
       ["gl-tldr", "Главное"], ["gl-road", "Путь"], ["gl-order", "Прокачка"], ["gl-skills", "Скиллы"],
       ["gl-passive", "Пассивки"], ["gl-stigma", "Стигмы"], ["gl-macro", "Макрос"],
-      ["gl-rotation", "Ротация"], ["gl-gear", "Экипировка"], ["gl-arcana", "Arcana"], ["gl-board", "Дэванион"]
+      ["gl-rotation", "Ротация"], ["gl-gear", "Экипировка"], ["gl-arcana", "Arcana"], ["gl-mistakes", "Ошибки"], ["gl-board", "Дэванион"]
     ],
     cleric: [
       ["cl-tldr", "Главное"], ["cl-road", "Путь"], ["cl-order", "Прокачка"], ["cl-skills", "Скиллы"],
       ["cl-passive", "Пассивки"], ["cl-stigma", "Стигмы"], ["cl-macro", "Макрос"],
-      ["cl-rotation", "Ротация"], ["cl-board", "Дэванион"]
+      ["cl-rotation", "Ротация"], ["cl-gear", "Экипировка"], ["cl-mistakes", "Ошибки"], ["cl-board", "Дэванион"]
     ],
     chanter: [
       ["ch-tldr", "Главное"], ["ch-road", "Путь"], ["ch-order", "Прокачка"], ["ch-skills", "Скиллы"],
       ["ch-passive", "Пассивки"], ["ch-stigma", "Стигмы"], ["ch-macro", "Макрос"],
-      ["ch-rotation", "Ротация"], ["ch-board", "Дэванион"]
+      ["ch-rotation", "Ротация"], ["ch-gear", "Экипировка"], ["ch-mistakes", "Ошибки"], ["ch-board", "Дэванион"]
     ]
   };
 
@@ -52,17 +55,27 @@
     templar: "#d8c15a",
     gladiator: "#7fb2e8",
     cleric: "#e9dfb4",
-    chanter: "#63c9da"
+    chanter: "#63c9da",
+    glossary: "#9fd9c0"
+  };
+
+  var THEME_ACCENTS = {
+    dark: "#6fd3a7",
+    light: "#1f9d6a",
+    pumpkin: "#ff8c1a",
+    blue: "#4fc3ff"
   };
 
   var tabs = Array.prototype.slice.call(document.querySelectorAll(".switch__btn"));
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
+  var glossaryView = document.getElementById("glossary-view");
 
   var chipMap = {};
   var sectionEls = [];
   var activeSection = "";
   var scrollTick = false;
+  var currentView = "ranger"; // class key or "glossary"
 
   chipsBox.addEventListener("wheel", function (e) {
     if (chipsBox.scrollWidth <= chipsBox.clientWidth) return;
@@ -127,6 +140,62 @@
     if (e.target.hasAttribute("data-drawer-close")) closeDrawer();
   });
 
+  // ---- темы ----
+  var themeButtons = Array.prototype.slice.call(document.querySelectorAll(".theme-opt"));
+
+  function applyTheme(name) {
+    var allowed = { dark: 1, light: 1, pumpkin: 1, blue: 1 };
+    if (!allowed[name]) name = "dark";
+    document.documentElement.setAttribute("data-theme", name);
+    themeButtons.forEach(function (b) {
+      b.classList.toggle("is-active", b.dataset.theme === name);
+    });
+    try { localStorage.setItem("aion2theme", name); } catch (e) {}
+    if (currentView === "glossary") {
+      document.documentElement.style.setProperty("--accent", THEME_ACCENTS[name] || "#9fd9c0");
+    }
+  }
+
+  themeButtons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      applyTheme(b.dataset.theme);
+    });
+  });
+
+  var savedTheme = "dark";
+  try { savedTheme = localStorage.getItem("aion2theme") || "dark"; } catch (e) {}
+  applyTheme(savedTheme);
+
+  // ---- глоссарий ----
+  var openGlossaryBtn = document.getElementById("open-glossary");
+
+  function showGlossary(scrollTop) {
+    currentView = "glossary";
+    guides.forEach(function (g) { g.classList.add("is-hidden"); });
+    if (glossaryView) glossaryView.classList.remove("is-hidden");
+    tabs.forEach(function (btn) {
+      btn.classList.remove("is-active");
+      btn.setAttribute("aria-selected", "false");
+    });
+    Object.keys(drawerItems).forEach(function (k) {
+      drawerItems[k].item.classList.remove("is-active");
+    });
+    currentClass.textContent = "Глоссарий";
+    var t = document.documentElement.getAttribute("data-theme") || "dark";
+    document.documentElement.style.setProperty("--accent", THEME_ACCENTS[t] || "#9fd9c0");
+    buildChips("glossary");
+    updateActiveSection();
+    if (scrollTop) window.scrollTo(0, 0);
+  }
+
+  if (openGlossaryBtn) {
+    openGlossaryBtn.addEventListener("click", function () {
+      closeDrawer();
+      showGlossary(true);
+      history.replaceState(null, "", "#glossary");
+    });
+  }
+
   function setActiveChip(id) {
     if (!id || id === activeSection) return;
     activeSection = id;
@@ -169,8 +238,8 @@
   window.addEventListener("scroll", onScroll, { passive: true });
 
   function bindSections(key) {
-    var guide = document.getElementById(key);
-    sectionEls = guide ? Array.prototype.slice.call(guide.querySelectorAll("h2[id]")) : [];
+    var el = (key === "glossary") ? glossaryView : document.getElementById(key);
+    sectionEls = el ? Array.prototype.slice.call(el.querySelectorAll("h2[id]")) : [];
     updateActiveSection();
   }
 
@@ -200,7 +269,10 @@
   }
 
   function select(key, scrollTop) {
-    if (!SECTIONS[key]) key = "ranger";
+    if (!SECTIONS[key] || key === "glossary") key = "ranger";
+    currentView = key;
+
+    if (glossaryView) glossaryView.classList.add("is-hidden");
 
     tabs.forEach(function (btn) {
       var on = btn.dataset.class === key;
@@ -255,30 +327,46 @@
     setActiveChip(id);
   }
 
+  function activateView(key, scrollTop) {
+    if (key === "glossary") { showGlossary(scrollTop); return; }
+    if (SECTIONS[key]) { select(key, scrollTop); return; }
+    select("ranger", scrollTop);
+  }
+
   var hash = (location.hash || "").replace("#", "");
   var saved = null;
   try { saved = localStorage.getItem("aion2class"); } catch (e) {}
-  var start = SECTIONS[hash] ? hash : (SECTIONS[saved] ? saved : "ranger");
-  select(start, false);
-  if (!SECTIONS[hash]) {
-    var c2 = findClassForSection(hash);
-    if (c2 && c2 !== start) {
-      select(c2, false);
-      start = c2;
-    }
-    if (document.getElementById(hash)) {
+
+  if (hash === "glossary" || findClassForSection(hash) === "glossary") {
+    showGlossary(false);
+    if (hash && hash !== "glossary" && document.getElementById(hash)) {
       setTimeout(function () { scrollToSection(hash, false); }, 40);
+    }
+  } else if (SECTIONS[hash]) {
+    select(hash, false);
+  } else {
+    var c2 = findClassForSection(hash);
+    if (c2 && SECTIONS[c2]) {
+      select(c2, false);
+      if (document.getElementById(hash)) {
+        setTimeout(function () { scrollToSection(hash, false); }, 40);
+      }
+    } else {
+      select(SECTIONS[saved] ? saved : "ranger", false);
     }
   }
 
   window.addEventListener("hashchange", function () {
     var h = (location.hash || "").replace("#", "");
-    if (SECTIONS[h]) { select(h, true); return; }
+    if (h === "glossary") { showGlossary(true); return; }
+    if (SECTIONS[h] && h !== "glossary") { select(h, true); return; }
     var el = document.getElementById(h);
     if (el) {
       var key = findClassForSection(h);
-      if (key && document.getElementById(key).classList.contains("is-hidden")) {
-        select(key, false);
+      if (key === "glossary") {
+        if (glossaryView && glossaryView.classList.contains("is-hidden")) showGlossary(false);
+      } else if (key && SECTIONS[key]) {
+        if (key !== currentView) select(key, false);
       }
       scrollToSection(h, true);
     }
@@ -313,6 +401,61 @@
   var searchResults = document.getElementById("search-results");
   var searchMeta = document.getElementById("search-meta");
   var searchIndex = [];
+  var lastSearchWords = [];
+
+  function clearSearchHits() {
+    document.querySelectorAll("mark.search-hit").forEach(function (m) {
+      var parent = m.parentNode;
+      while (m.firstChild) parent.insertBefore(m.firstChild, m);
+      parent.removeChild(m);
+      parent.normalize();
+    });
+  }
+
+  function highlightInSection(secId, words) {
+    clearSearchHits();
+    var sec = document.getElementById(secId);
+    if (!sec) return;
+    var card = sec.closest(".card") || sec.parentElement;
+    if (!card) return;
+
+    var escaped = words.filter(function (w) { return w.length >= 2; }).map(escRe);
+    if (!escaped.length) return;
+    var re = new RegExp("(" + escaped.join("|") + ")", "ig");
+
+    var walker = document.createTreeWalker(card, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentElement;
+        if (!p || p.closest("script,style,mark")) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      re.lastIndex = 0;
+      if (!re.test(text)) return;
+      re.lastIndex = 0;
+      var frag = document.createDocumentFragment();
+      var last = 0, m;
+      while ((m = re.exec(text))) {
+        frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+        var mark = document.createElement("mark");
+        mark.className = "search-hit";
+        mark.textContent = m[0];
+        frag.appendChild(mark);
+        last = m.index + m[0].length;
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
+
+    setTimeout(clearSearchHits, 3500);
+  }
 
   function buildSearchIndex() {
     searchIndex = [];
@@ -426,6 +569,7 @@
         '</div>' +
         '<div class="search__snip">' + makeSnippet(e.text, e.lower, words) + '</div>';
       btn.addEventListener("click", function () {
+        var qwords = words.slice();
         closeSearch();
         select(e.key, false);
         history.replaceState(null, "", "#" + e.secId);
@@ -434,6 +578,9 @@
           var offset = document.querySelector(".topbar").offsetHeight + 14;
           var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
           window.scrollTo({ top: top, behavior: "smooth" });
+          setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
+        } else {
+          setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
         }
       });
       searchResults.appendChild(btn);

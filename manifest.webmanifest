@@ -1,0 +1,25 @@
+{
+  "name": "Aion 2 — PvE гайды по классам",
+  "short_name": "Aion 2 гайды",
+  "description": "Компактные PvE-гайды по Aion 2: скиллы, стигмы, макросы, ротации и путь прокачки.",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0c11",
+  "theme_color": "#0a0c11",
+  "icons": [
+    {
+      "src": "img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
