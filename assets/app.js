@@ -64,6 +64,14 @@
   var activeSection = "";
   var scrollTick = false;
 
+  chipsBox.addEventListener("wheel", function (e) {
+    if (chipsBox.scrollWidth <= chipsBox.clientWidth) return;
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      e.preventDefault();
+      chipsBox.scrollLeft += e.deltaY;
+    }
+  }, { passive: false });
+
   // ---- боковое меню классов ----
   var menuBtn = document.getElementById("menu-btn");
   var drawer = document.getElementById("drawer");
