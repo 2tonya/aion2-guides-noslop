@@ -118,6 +118,17 @@
   var currentClass = document.getElementById("current-class");
   var drawerItems = {};
 
+  var CLASS_ROLES = {
+    ranger: "DPS",
+    assassin: "DPS",
+    sorcerer: "DPS",
+    spiritmaster: "DPS",
+    templar: "Танк",
+    gladiator: "DPS",
+    cleric: "Хил",
+    chanter: "Саппорт"
+  };
+
   tabs.forEach(function (tab) {
     var src = tab.querySelector("img");
     var label = tab.querySelector("span").textContent;
@@ -135,6 +146,14 @@
     var name = document.createElement("span");
     name.textContent = label;
     item.appendChild(name);
+
+    var role = CLASS_ROLES[tab.dataset.class];
+    if (role) {
+      var roleEl = document.createElement("span");
+      roleEl.className = "drawer__role";
+      roleEl.textContent = role;
+      item.appendChild(roleEl);
+    }
 
     item.addEventListener("click", function () {
       select(tab.dataset.class, true);
@@ -169,16 +188,26 @@
   // ---- темы ----
   var themeButtons = Array.prototype.slice.call(document.querySelectorAll(".theme-opt"));
 
+  var THEME_QUERY = window.matchMedia ? window.matchMedia("(prefers-color-scheme: light)") : null;
+
+  function resolveTheme(name) {
+    if (name === "system") {
+      return (THEME_QUERY && THEME_QUERY.matches) ? "light" : "dark";
+    }
+    return name;
+  }
+
   function applyTheme(name) {
-    var allowed = { dark: 1, light: 1, pumpkin: 1, blue: 1 };
+    var allowed = { dark: 1, light: 1, pumpkin: 1, blue: 1, system: 1 };
     if (!allowed[name]) name = "dark";
-    document.documentElement.setAttribute("data-theme", name);
+    var effective = resolveTheme(name);
+    document.documentElement.setAttribute("data-theme", effective);
     themeButtons.forEach(function (b) {
       b.classList.toggle("is-active", b.dataset.theme === name);
     });
     try { localStorage.setItem("aion2theme", name); } catch (e) {}
     if (currentView === "glossary") {
-      document.documentElement.style.setProperty("--accent", THEME_ACCENTS[name] || "#9fd9c0");
+      document.documentElement.style.setProperty("--accent", THEME_ACCENTS[effective] || "#9fd9c0");
     }
   }
 
@@ -187,6 +216,16 @@
       applyTheme(b.dataset.theme);
     });
   });
+
+  if (THEME_QUERY) {
+    var onThemeChange = function () {
+      var cur = "dark";
+      try { cur = localStorage.getItem("aion2theme") || "dark"; } catch (e) {}
+      if (cur === "system") applyTheme("system");
+    };
+    if (THEME_QUERY.addEventListener) THEME_QUERY.addEventListener("change", onThemeChange);
+    else if (THEME_QUERY.addListener) THEME_QUERY.addListener(onThemeChange);
+  }
 
   var savedTheme = "dark";
   try { savedTheme = localStorage.getItem("aion2theme") || "dark"; } catch (e) {}
@@ -349,6 +388,17 @@
     return null;
   }
 
+  var termFlashTimer = null;
+  function flashGlossaryTerm(id) {
+    if (!id || id.indexOf("gt-") !== 0) return;
+    var el = document.getElementById(id);
+    if (!el) return;
+    if (termFlashTimer) clearTimeout(termFlashTimer);
+    document.querySelectorAll(".glossary-term.is-target-flash").forEach(function (n) { n.classList.remove("is-target-flash"); });
+    el.classList.add("is-target-flash");
+    termFlashTimer = setTimeout(function () { el.classList.remove("is-target-flash"); }, 1800);
+  }
+
   function scrollToSection(id, smooth) {
     var el = document.getElementById(id);
     if (!el) return;
@@ -356,6 +406,7 @@
     var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
     window.scrollTo({ top: top, behavior: smooth ? "smooth" : "auto" });
     setActiveChip(id);
+    flashGlossaryTerm(id);
   }
 
   function activateView(key, scrollTop) {
@@ -591,12 +642,28 @@
         var text = card.textContent.replace(/\s+/g, " ").trim();
         var searchable = (clsLabel + " " + secTitle + " " + text).toLowerCase();
         searchIndex.push({
-          key: key, clsLabel: clsLabel, clsIcon: clsIcon,
+          key: key, kind: "guide", clsLabel: clsLabel, clsIcon: clsIcon,
           secId: h2.id, secTitle: secTitle,
           text: text, lower: searchable, titleLower: secTitle.toLowerCase()
         });
       });
     });
+
+    if (glossaryView) {
+      glossaryView.querySelectorAll(".glossary-term[id]").forEach(function (term) {
+        var h3 = term.querySelector("h3");
+        if (!h3) return;
+        var secId = term.id;
+        var secTitle = h3.textContent.trim();
+        var text = term.textContent.replace(/\s+/g, " ").trim();
+        var searchable = ("глоссарий " + secTitle + " " + text).toLowerCase();
+        searchIndex.push({
+          key: "glossary", kind: "glossary", clsLabel: "Глоссарий", clsIcon: "",
+          secId: secId, secTitle: secTitle,
+          text: text, lower: searchable, titleLower: secTitle.toLowerCase()
+        });
+      });
+    }
   }
 
   function openSearch() {
@@ -681,25 +748,33 @@
       var btn = document.createElement("button");
       btn.type = "button";
       btn.className = "search__item";
+      var iconHtml = e.clsIcon ? '<img src="' + escHtml(e.clsIcon) + '" alt="">' : '<span class="search__badge">термин</span>';
       btn.innerHTML =
         '<div class="search__row">' +
-          '<span class="search__class"><img src="' + escHtml(e.clsIcon) + '" alt="">' + escHtml(e.clsLabel) + '</span>' +
+          '<span class="search__class">' + iconHtml + escHtml(e.clsLabel) + '</span>' +
           '<span class="search__sec">' + escHtml(e.secTitle) + '</span>' +
         '</div>' +
         '<div class="search__snip">' + makeSnippet(e.text, e.lower, words) + '</div>';
       btn.addEventListener("click", function () {
         var qwords = words.slice();
         closeSearch();
-        select(e.key, false);
-        history.replaceState(null, "", "#" + e.secId);
-        var el = document.getElementById(e.secId);
-        if (el) {
-          var offset = document.querySelector(".topbar").offsetHeight + 14;
-          var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-          window.scrollTo({ top: top, behavior: "smooth" });
-          setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
+        if (e.kind === "glossary" || e.key === "glossary") {
+          glossaryReturn = null; // search jump, no guide return point
+          showGlossary(false);
+          history.replaceState(null, "", "#" + e.secId);
+          setTimeout(function () { scrollToSection(e.secId, true); }, 80);
         } else {
-          setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
+          select(e.key, false);
+          history.replaceState(null, "", "#" + e.secId);
+          var el = document.getElementById(e.secId);
+          if (el) {
+            var offset = document.querySelector(".topbar").offsetHeight + 14;
+            var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: top, behavior: "smooth" });
+            setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
+          } else {
+            setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
+          }
         }
       });
       searchResults.appendChild(btn);

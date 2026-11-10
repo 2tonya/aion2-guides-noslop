@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0b0d12">
 <title>Aion 2 — PvE гайды по классам</title>
 <meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
-<link rel="stylesheet" href="assets/style.css?v=22">
+<link rel="stylesheet" href="assets/style.css?v=23">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
@@ -69,6 +69,7 @@
     <div class="drawer__section">
       <div class="drawer__title">Тема</div>
       <div class="theme-picker" id="theme-picker" role="group" aria-label="Выбор темы">
+        <button class="theme-opt" type="button" data-theme="system"><span class="theme-opt__swatch swatch--system"></span><span>Системная</span></button>
         <button class="theme-opt" type="button" data-theme="dark"><span class="theme-opt__swatch swatch--dark"></span><span>Тёмная</span></button>
         <button class="theme-opt" type="button" data-theme="light"><span class="theme-opt__swatch swatch--light"></span><span>Светлая</span></button>
         <button class="theme-opt" type="button" data-theme="pumpkin"><span class="theme-opt__swatch swatch--pumpkin"></span><span>Тыквенная</span></button>
@@ -116,8 +117,8 @@
     <div class="glossary-list">
       <div class="glossary-term" id="gt-specialty"><h3>Specialty (Специализация скилла)</h3><p>Дополнительное усиление навыка, которое открывается на определённых уровнях скилла. Важно: разблокировать мало — Specialty нужно <b>выбрать и экипировать</b> в настройках скилла, иначе бонус не работает.</p></div>
       <div class="glossary-term" id="gt-stigma"><h3>Stigma (Стигма)</h3><p>Отдельный слот активных или пассивных умений, которые дополняют основной набор скиллов класса. Стигмы прокачиваются отдельно и часто дают ключевые баффы, дебаффы или новые кнопки в ротации.</p></div>
-      <div class="glossary-term" id="gt-daevanion"><h3>Daevanion (Дэванион)</h3><p>Система досок с узлами развития персонажа. Узлы дают уровни скиллам, пассивкам и статы. Очки ограничены, поэтому доски обычно не заполняют целиком — идут по маршруту к нужным брейкпоинтам.</p></div>
-      <div class="glossary-term" id="gt-arcana"><h3>Arcana (Аркана)</h3><p>Карты/предметы прогрессии, которые дают дополнительные уровни скиллам и пассивкам, а также статы. Замена карты может поднять один скилл, но опустить другой — перед заменой важно проверять суммарные уровни.</p></div>
+      <div class="glossary-term" id="gt-daevanion"><h3>Daevanion (Дэванион)</h3><p>Система досок с узлами развития персонажа. Узлы дают <a class="g-link" href="#gt-skill-level">уровни скиллам</a>, пассивкам и статы. Очки ограничены, поэтому доски обычно не заполняют целиком — идут по маршруту к нужным <a class="g-link" href="#gt-skill-level">брейкпоинтам</a>.</p></div>
+      <div class="glossary-term" id="gt-arcana"><h3>Arcana (Аркана)</h3><p>Карты/предметы прогрессии, которые дают дополнительные <a class="g-link" href="#gt-skill-level">уровни скиллам</a> и пассивкам, а также статы. Замена карты может поднять один скилл, но опустить другой — перед заменой важно проверять суммарные уровни. Часто используются вместе с <a class="g-link" href="#gt-daevanion">Дэванионом</a>; часть добывается в <a class="g-link" href="#gt-transcendence">Transcendence</a>.</p></div>
       <div class="glossary-term" id="gt-pantheon"><h3>Pantheon (Пантеон)</h3><p>Система размещения особых реликвий/украшений, дающих постоянные бонусы к характеристикам. Бонусы зависят от установленных предметов и их наборов.</p></div>
       <div class="glossary-term" id="gt-transcendence"><h3>Transcendence (Трансценденция)</h3><p>Контент/источник прогрессии высокого уровня, в том числе фарма Arcana и улучшений персонажа. Часто упоминается как место получения карт с нужными уровнями скиллов.</p></div>
       <div class="glossary-term" id="gt-nightmare"><h3>Nightmare</h3><p>Более сложная версия контента (данжи/рейды/испытания), из которой добываются продвинутые награды — улучшения, крылья, материалы для Пантеона и т.п.</p></div>
@@ -128,12 +129,12 @@
   <section class="card">
     <h2 id="g-combat">Бой и ротация</h2>
     <div class="glossary-list">
-      <div class="glossary-term" id="gt-ротация"><h3>Ротация</h3><p>Порядок применения умений для максимального урона, лечения или защиты. Обычно делится на открывающий бурст (opener), основной цикл и филлеры в простоях.</p></div>
-      <div class="glossary-term" id="gt-бурст"><h3>Бурст / Окно урона</h3><p>Короткий промежуток, когда активны усиления (баффы, дебаффы на боссе, проки) и нужно вложить самые сильные умения.</p></div>
-      <div class="glossary-term" id="gt-кд"><h3>КД (Cooldown)</h3><p>Время перезарядки умения после использования. Управление КД — основа ротации: сильные скиллы жмут по готовности в правильное окно.</p></div>
-      <div class="glossary-term" id="gt-филлер"><h3>Филлер</h3><p>Умение, которое используют, когда основные скиллы на перезарядке, чтобы не терять урон и/или восстанавливать ресурс.</p></div>
-      <div class="glossary-term" id="gt-прок"><h3>Прок (Proc)</h3><p>Срабатывание эффекта по условию или с шансом (например, сброс КД при крите, активация умения после удара духа). Многие билды строятся вокруг проков.</p></div>
-      <div class="glossary-term" id="gt-стаки"><h3>Стаки (Stacks)</h3><p>Накопительные заряды эффекта на цели или на персонаже. Урон/эффект умения может зависеть от числа стаков (снять, потратить или усилиться от них).</p></div>
+      <div class="glossary-term" id="gt-ротация"><h3>Ротация</h3><p>Порядок применения умений для максимального урона, лечения или защиты. Обычно делится на открывающий <a class="g-link" href="#gt-бурст">бурст</a> (opener), основной цикл и <a class="g-link" href="#gt-филлер">филлеры</a> в простоях.</p></div>
+      <div class="glossary-term" id="gt-бурст"><h3>Бурст / Окно урона</h3><p>Короткий промежуток, когда активны усиления (баффы, дебаффы на боссе, <a class="g-link" href="#gt-прок">проки</a>) и нужно вложить самые сильные умения.</p></div>
+      <div class="glossary-term" id="gt-кд"><h3>КД (Cooldown)</h3><p>Время перезарядки умения после использования. Управление КД — основа <a class="g-link" href="#gt-ротация">ротации</a>: сильные скиллы жмут по готовности в правильное окно.</p></div>
+      <div class="glossary-term" id="gt-филлер"><h3>Филлер</h3><p>Умение, которое используют, когда основные скиллы на <a class="g-link" href="#gt-кд">перезарядке</a>, чтобы не терять урон и/или восстанавливать ресурс.</p></div>
+      <div class="glossary-term" id="gt-прок"><h3>Прок (Proc)</h3><p>Срабатывание эффекта по условию или с шансом (например, сброс <a class="g-link" href="#gt-кд">КД</a> при <a class="g-link" href="#gt-crit">крите</a>, активация умения после удара духа). Многие билды строятся вокруг <a class="g-link" href="#gt-прок">проков</a>.</p></div>
+      <div class="glossary-term" id="gt-стаки"><h3>Стаки (Stacks)</h3><p>Накопительные заряды эффекта на цели или на персонаже. Урон/эффект умения может зависеть от числа <a class="g-link" href="#gt-стаки">стаков</a> (снять, потратить или усилиться от них).</p></div>
       <div class="glossary-term" id="gt-макрос"><h3>Макрос</h3><p>Внутриигровая последовательность действий/скиллов на одной кнопке. Удобен для рутины, но не умеет удерживать заряжаемые умения и не всегда учитывает тайминги механик.</p></div>
       <div class="glossary-term" id="gt-дот"><h3>Дот (DoT)</h3><p>Damage over Time — периодический урон (или лечение HoT), который наносится не мгновенно, а тиками в течение времени.</p></div>
       <div class="glossary-term" id="gt-aoe"><h3>AoE</h3><p>Area of Effect — умение, действующее по области и задевающее несколько целей, в отличие от одиночной (single target) атаки.</p></div>
@@ -146,9 +147,9 @@
     <h2 id="g-stats">Характеристики</h2>
     <div class="glossary-list">
       <div class="glossary-term" id="gt-combat-speed"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность ротации. Часто приоритетный стат для DPS.</p></div>
-      <div class="glossary-term" id="gt-crit"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, Specialty и проки завязаны именно на крит.</p></div>
-      <div class="glossary-term" id="gt-crit-damage"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом крита.</p></div>
-      <div class="glossary-term" id="gt-multi-hit"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на проки и дополнительный урон.</p></div>
+      <div class="glossary-term" id="gt-crit"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, <a class="g-link" href="#gt-specialty">Specialty</a> и <a class="g-link" href="#gt-прок">проки</a> завязаны именно на крит.</p></div>
+      <div class="glossary-term" id="gt-crit-damage"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом <a class="g-link" href="#gt-crit">крита</a>.</p></div>
+      <div class="glossary-term" id="gt-multi-hit"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на <a class="g-link" href="#gt-прок">проки</a> и дополнительный урон.</p></div>
       <div class="glossary-term" id="gt-double-chance"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами действий (зависят от конкретной реализации стата в экипировке).</p></div>
       <div class="glossary-term" id="gt-accuracy"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/уклонения цели. Важна, чтобы ключевые умения и ротация не «ломались» от промахов.</p></div>
       <div class="glossary-term" id="gt-penetration"><h3>Penetration (Пробивание)</h3><p>Помогает эффективнее наносить урон по защищённым целям, снижая влияние их защиты/сопротивления.</p></div>
@@ -777,19 +778,24 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="a-gear">Экипировка и Arcana</h2>
-    <p class="lead">В исходном гайде Mobalytics нет раскладки по слотам экипировки — приоритет отдан сборке скиллов и ротации.</p>
+    <p class="lead">По гайду Mobalytics акцент на скилловой сборке и ротации; послотовая раскладка статов не приведена. Ниже — структура слотов и подтверждённые приоритеты.</p>
     <div class="cols">
       <div>
-        <h3>Статы</h3>
-        <div class="chips-list"><span class="chip chip--top">Attack</span><span class="chip chip--top">Crit / Crit Damage</span><span class="chip chip--top">Double Chance</span></div>
-        <p class="hint">Ориентир автора: сначала Attack, затем крит-статы и Double Chance.</p>
+        <h3>Оружие</h3>
+        <p>Приоритет статов: <b>Attack</b>, затем <b>Crit / Crit Damage</b>, <b>Double Chance</b> (ориентир автора).</p>
+        <h3>Броня (шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ)</h3>
+        <p>Подбирай под те же боевые статы и выживаемость; конкретные послотовые роллы в источнике не расписаны.</p>
       </div>
       <div>
-        <h3>Arcana и слоты</h3>
-        <p>Добирай <b>уровни Heart Gore и Insignia Explosion</b> с колец, Arcana и других источников.</p>
-        <p class="hint">Перед заменой предмета проверяй суммарный уровень ключевых скиллов и доступ к Specialty.</p>
+        <h3>Бижутерия</h3>
+        <ul class="gear">
+          <li><b>Кольца / серьги / ожерелье</b> — добирай <b>уровни Heart Gore и Insignia Explosion</b> там, где слот даёт бонусы к скиллам.</li>
+        </ul>
+        <h3>Arcana</h3>
+        <p>Выбирай Arcana с бонусами к ключевым скиллам Ассасина (в первую очередь <b>Heart Gore, Insignia Explosion</b>) и не теряй доступ к <a class="g-link" href="#gt-specialty">Specialty</a>.</p>
+        <p class="hint">Перед заменой любого предмета проверяй суммарный <a class="g-link" href="#gt-skill-level">уровень скиллов</a> и брейкпоинты.</p>
       </div>
     </div>
   </section>
@@ -1052,14 +1058,25 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="so-gear">Экипировка и Arcana</h2>
-    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
-    <ul class="check">
-      <li>Главный приоритет — <b>уровни Hellfire и Firestorm</b> (экипировка, Arcana, Дэванион). Они важнее случайных статов.</li>
-      <li>Arcana и предметы подбирай так, чтобы не терять доступ к ключевым Specialty основных скиллов бурста.</li>
-      <li>Урон Чародея упирается в правильное окно и полный заряд Hellfire, а не в конкретный сет брони.</li>
-    </ul>
+    <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Структура слотов — с опорой на ключевые приоритеты билда.</p>
+    <div class="cols">
+      <div>
+        <h3>Оружие и броня</h3>
+        <p><b>Слоты:</b> оружие, шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ. Конкретные статы по слотам в источнике не указаны — ориентируйся на усиление бурста и стабильность каста.</p>
+        <h3>Бижутерия</h3>
+        <p><b>Слоты:</b> ожерелье, серьги, кольца, браслет. Приоритет — предметы, дающие/сохраняющие <b>уровни Hellfire и Firestorm</b>.</p>
+      </div>
+      <div>
+        <h3>Arcana</h3>
+        <p>Подбирай Arcana так, чтобы повышать <b>Hellfire</b> и <b>Firestorm</b> и не терять доступ к ключевым <a class="g-link" href="#gt-specialty">Specialty</a> бурстовых скиллов.</p>
+        <ul class="check">
+          <li>Главный приоритет — уровни <b>Hellfire</b> и <b>Firestorm</b> (экипировка, Arcana, <a class="g-link" href="#gt-daevanion">Дэванион</a>), важнее случайных статов.</li>
+          <li>Урон Чародея упирается в правильное <a class="g-link" href="#gt-бурст">окно урона</a> и полный заряд Hellfire.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -1318,14 +1335,25 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="sp-gear">Экипировка и Arcana</h2>
-    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
-    <ul class="check">
-      <li>Приоритет — <b>уровни Elemental Fusion и Dimensional Control</b> из всех источников (экипировка, Arcana, Дэванион).</li>
-      <li>Перед заменой Arcana/предмета проверяй, не упадёт ли суммарный уровень ключевых скиллов и не пропадёт ли Specialty.</li>
-      <li>Стабильная ротация духов и доступность Fusion дают больше, чем погоня за отдельными статами без брейкпоинтов.</li>
-    </ul>
+    <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Ниже — слотовая структура и подтверждённые приоритеты.</p>
+    <div class="cols">
+      <div>
+        <h3>Оружие и броня</h3>
+        <p><b>Слоты:</b> оружие, шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ. Послотовые статы в источнике не расписаны.</p>
+        <h3>Бижутерия</h3>
+        <p><b>Слоты:</b> ожерелье, серьги, кольца, браслет. Приоритет — вклад в <b>уровни Elemental Fusion и Dimensional Control</b>.</p>
+      </div>
+      <div>
+        <h3>Arcana</h3>
+        <p>Выбирай Arcana с бонусами к <b>Elemental Fusion</b> и <b>Dimensional Control</b>, сохраняя <a class="g-link" href="#gt-skill-level">брейкпоинты</a> и <a class="g-link" href="#gt-specialty">Specialty</a>.</p>
+        <ul class="check">
+          <li>Перед заменой Arcana/предмета проверяй, не упадёт ли суммарный уровень ключевых скиллов.</li>
+          <li>Стабильная ротация духов и доступность Fusion важнее погоня за отдельными статами без брейкпоинтов.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -1590,19 +1618,21 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="te-gear">Экипировка и Arcana</h2>
-    <p class="lead">По источнику Mobalytics: фокус на скилловых вехах важнее идеального набора шмота.</p>
+    <p class="lead">По гайду Mobalytics: фокус на скилловых вехах важнее идеального набора шмота. Послотовая раскладка статов в источнике не приведена.</p>
     <div class="cols">
+      <div>
+        <h3>Оружие, щит и броня</h3>
+        <p><b>Слоты:</b> оружие, щит, шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ. Данжевого снаряжения достаточно для развития билда — полный крафт-сет не обязателен.</p>
+        <h3>Бижутерия</h3>
+        <p><b>Слоты:</b> ожерелье, серьги, кольца, браслет. Полезны предметы, помогающие достигать скилловых <a class="g-link" href="#gt-skill-level">брейкпоинтов</a>.</p>
+      </div>
       <div>
         <h3>Arcana</h3>
         <p>Фармь <b>Transcendence</b> ради Arcana с бонусами к <b>Judgment, Vicious Strike, Pummel, Punishment</b>.</p>
-        <p class="hint">Перед заменой карты проверь суммарные уровни: замена не должна снимать доступ к ключевой Specialty.</p>
-      </div>
-      <div>
-        <h3>Экипировка</h3>
-        <p>Данжевого снаряжения достаточно для развития билда — полный крафт-сет не обязателен.</p>
-        <p class="hint">Апгрейды делай параллельно со скиллами. Питомцы и Пантеон дают вклад, но после скилловых брейкпоинтов (особенно Judgment 16).</p>
+        <p class="hint">Перед заменой карты проверь суммарные уровни: замена не должна снимать доступ к ключевой <a class="g-link" href="#gt-specialty">Specialty</a> (особенно Judgment 16).</p>
+        <p class="hint">Апгрейды делай параллельно со скиллами. Питомцы и Пантеон дают вклад, но после скилловых брейкпоинтов.</p>
       </div>
     </div>
   </section>
@@ -2167,14 +2197,25 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="cl-gear">Экипировка и Arcana</h2>
-    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
-    <ul class="check">
-      <li>Приоритет — <b>уровни Condemnation, Chain of Torment и Earth Punishment</b>: без них комбо не раскрывается.</li>
-      <li>Arcana и предметы выбирай с оглядкой на суммарные уровни этих скиллов и доступ к Specialty (Condemnation 12, Earth Punishment 5).</li>
-      <li>Не забывай про хилерскую часть: выживаемость пати важнее лишнего условного урона.</li>
-    </ul>
+    <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Структура по слотам — с приоритетом от билда.</p>
+    <div class="cols">
+      <div>
+        <h3>Оружие и броня</h3>
+        <p><b>Слоты:</b> оружие, шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ. Послотовые статы в источнике не указаны; учитывай и хилерскую, и боевую роль.</p>
+        <h3>Бижутерия</h3>
+        <p><b>Слоты:</b> ожерелье, серьги, кольца, браслет. Приоритет — бонусы к уровням <b>Condemnation, Chain of Torment, Earth Punishment</b>.</p>
+      </div>
+      <div>
+        <h3>Arcana</h3>
+        <p>Arcana и предметы выбирай с оглядкой на суммарные уровни ключевых скиллов и доступ к <a class="g-link" href="#gt-specialty">Specialty</a> (Condemnation 12, Earth Punishment 5).</p>
+        <ul class="check">
+          <li>Без уровней Condemnation, Chain of Torment и Earth Punishment комбо не раскрывается.</li>
+          <li>Выживаемость пати важнее лишнего условного урона.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -2419,14 +2460,25 @@
 
   
   
-  <section class="card">
+    <section class="card">
     <h2 id="ch-gear">Экипировка и Arcana</h2>
-    <p class="lead">В исходном гайде Mobalytics нет разбора по слотам экипировки и точного набора Arcana.</p>
-    <ul class="check">
-      <li>Приоритет — <b>уровни Dark Crush и Spinning Strike</b> из всех источников. Цель — быстрее довести Dark Crush до 20.</li>
-      <li>При замене Arcana/экипировки следи, чтобы не потерять брейкпоинты и Specialty ключевых скиллов.</li>
-      <li>Для комфортной ротации важны стабильная мана и аптайм в мили — это ценнее случайных статов без брейкпоинтов.</li>
-    </ul>
+    <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Ниже — слотовая структура под приоритеты билда.</p>
+    <div class="cols">
+      <div>
+        <h3>Оружие и броня</h3>
+        <p><b>Слоты:</b> оружие, шлем, наплечи, нагрудник, поножи, перчатки, ботинки, плащ. Послотовые статы в источнике не расписаны; важны аптайм в мили и стабильная мана.</p>
+        <h3>Бижутерия</h3>
+        <p><b>Слоты:</b> ожерелье, серьги, кольца, браслет. Приоритет — <b>уровни Dark Crush и Spinning Strike</b>.</p>
+      </div>
+      <div>
+        <h3>Arcana</h3>
+        <p>Arcana подбирай для ускорения выхода <b>Dark Crush</b> на 20 и усиления <b>Spinning Strike</b>, сохраняя <a class="g-link" href="#gt-skill-level">брейкпоинты</a> и <a class="g-link" href="#gt-specialty">Specialty</a>.</p>
+        <ul class="check">
+          <li>При замене Arcana/экипировки следи, чтобы не потерять брейкпоинты ключевых скиллов.</li>
+          <li>Стабильная мана и аптайм в мили ценнее случайных статов без брейкпоинтов.</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section class="card">
@@ -2475,7 +2527,7 @@
   <img alt="">
 </div>
 
-<script src="assets/app.js?v=22"></script>
+<script src="assets/app.js?v=23"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
