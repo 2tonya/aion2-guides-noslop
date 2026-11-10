@@ -45,7 +45,7 @@ a:hover{text-decoration:underline}
 }
 .topbar__inner{
   max-width:var(--wrap);margin:0 auto;
-  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  display:flex;align-items:center;justify-content:flex-start;gap:12px;
   padding:10px 16px;
 }
 .brand{
@@ -72,7 +72,8 @@ a:hover{text-decoration:underline}
   background:var(--panel);border:1px solid var(--line);
   overflow-x:auto;scrollbar-width:none;
   -webkit-overflow-scrolling:touch;
-  max-width:100%;
+  max-width:100%;min-width:0;flex:1 1 auto;
+  margin-left:auto;
 }
 .switch::-webkit-scrollbar{display:none}
 .switch__btn{
@@ -458,6 +459,105 @@ b{color:#f2f6ff}
   font-size:12.5px;color:var(--dim);line-height:1.6;
 }
 
+/* search */
+.search-btn{
+  flex:0 0 auto;
+  width:36px;height:36px;display:grid;place-items:center;
+  border-radius:10px;border:1px solid var(--line);
+  background:var(--panel);color:var(--muted);
+  cursor:pointer;transition:.18s;
+}
+.search-btn:hover{color:var(--text);border-color:#38425a}
+.search-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.search{
+  position:fixed;inset:0;z-index:60;
+  display:flex;align-items:flex-start;justify-content:center;
+  padding:10vh 16px 24px;
+}
+.search[hidden]{display:none}
+.search__backdrop{
+  position:absolute;inset:0;
+  background:rgba(5,7,11,.72);
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+}
+.search__panel{
+  position:relative;
+  width:min(680px,100%);
+  max-height:76vh;
+  display:flex;flex-direction:column;
+  background:var(--bg-soft);
+  border:1px solid var(--line);
+  border-radius:16px;
+  box-shadow:0 24px 70px rgba(0,0,0,.55);
+  overflow:hidden;
+}
+.search__head{
+  display:flex;align-items:center;gap:10px;
+  padding:12px 12px 12px 14px;
+  border-bottom:1px solid var(--line-soft);
+  color:var(--dim);
+}
+.search__input{
+  flex:1;min-width:0;
+  border:0;outline:0;background:transparent;
+  color:var(--text);font:inherit;font-size:16px;
+}
+.search__input::placeholder{color:var(--dim)}
+.search__input::-webkit-search-cancel-button{display:none}
+.search__close{
+  width:32px;height:32px;flex:0 0 auto;
+  display:grid;place-items:center;
+  border-radius:9px;border:1px solid var(--line);
+  background:var(--panel);color:var(--muted);
+  font-size:14px;cursor:pointer;
+}
+.search__close:hover{color:var(--text);border-color:#38425a}
+.search__meta{
+  padding:8px 14px;
+  font-size:12px;color:var(--dim);
+  border-bottom:1px solid var(--line-soft);
+}
+.search__results{
+  overflow:auto;overscroll-behavior:contain;
+  padding:8px;
+}
+.search__empty{
+  padding:22px 10px;text-align:center;
+  color:var(--muted);font-size:14px;
+}
+.search__item{
+  display:block;width:100%;
+  padding:10px 12px;margin:0 0 6px;
+  border-radius:12px;border:1px solid var(--line-soft);
+  background:rgba(255,255,255,.02);
+  color:inherit;font:inherit;text-align:left;cursor:pointer;
+}
+.search__item:hover{background:rgba(255,255,255,.045);border-color:#38425a}
+.search__item:last-child{margin-bottom:0}
+.search__row{
+  display:flex;align-items:center;gap:8px;margin-bottom:4px;
+}
+.search__class{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+  color:var(--accent);
+}
+.search__class img{width:16px;height:16px;border-radius:4px}
+.search__sec{font-size:11.5px;color:var(--dim)}
+.search__sec::before{content:"·";margin-right:8px;color:#3a4459}
+.search__title{font-size:14.5px;font-weight:600;color:var(--text);margin-bottom:2px}
+.search__snip{font-size:13px;color:var(--muted);line-height:1.45}
+.search__snip mark{
+  background:rgba(111,211,167,.22);color:var(--text);
+  padding:0 2px;border-radius:3px;
+}
+@media (max-width:520px){
+  .search{padding:0}
+  .search__panel{width:100%;max-height:100%;height:100%;border-radius:0;border:0}
+  .search__input{font-size:16px}
+}
+
 /* lightbox */
 .lightbox{
   position:fixed;inset:0;z-index:100;
@@ -485,6 +585,7 @@ b{color:#f2f6ff}
   .brand__text{display:none}
   .brand__current{display:inline}
   .switch{display:none}
+  .search-btn{margin-left:auto}
 }
 
 @media (max-width:520px){

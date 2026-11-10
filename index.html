@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0b0d12">
 <title>Aion 2 — PvE гайды по классам</title>
 <meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
-<link rel="stylesheet" href="assets/style.css?v=11">
+<link rel="stylesheet" href="assets/style.css?v=13">
 <link rel="icon" href="img/class-ranger.png">
 </head>
 <body>
@@ -44,6 +44,9 @@
         <img src="img/class-chanter.png" alt="" width="24" height="24"><span>Чантер</span>
       </button>
     </nav>
+    <button class="search-btn" id="search-btn" type="button" aria-label="Поиск по гайдам" aria-controls="search-panel" aria-expanded="false">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
   </div>
   <div class="chips" id="chips"></div>
 </header>
@@ -58,6 +61,19 @@
     <nav class="drawer__list" id="drawer-list" aria-label="Классы"></nav>
     <p class="drawer__foot">Данные и билды: Mobalytics</p>
   </aside>
+</div>
+
+<div class="search" id="search-panel" hidden>
+  <div class="search__backdrop" data-search-close></div>
+  <div class="search__panel" role="dialog" aria-modal="true" aria-label="Поиск по гайдам">
+    <div class="search__head">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input class="search__input" id="search-input" type="search" placeholder="Скилл, слово, класс…" autocomplete="off" spellcheck="false">
+      <button class="search__close" type="button" data-search-close aria-label="Закрыть">✕</button>
+    </div>
+    <div class="search__meta" id="search-meta">Введите слово для поиска по всем гайдам</div>
+    <div class="search__results" id="search-results"></div>
+  </div>
 </div>
 
 <main>
@@ -2236,6 +2252,6 @@
   <img alt="">
 </div>
 
-<script src="assets/app.js?v=11"></script>
+<script src="assets/app.js?v=13"></script>
 </body>
 </html>

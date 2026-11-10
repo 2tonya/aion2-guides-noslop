@@ -211,11 +211,155 @@
     if (e.target === lb || e.target.classList.contains("lightbox__close")) close();
   });
 
+  // ---- поиск по гайдам ----
+  var searchBtn = document.getElementById("search-btn");
+  var searchPanel = document.getElementById("search-panel");
+  var searchInput = document.getElementById("search-input");
+  var searchResults = document.getElementById("search-results");
+  var searchMeta = document.getElementById("search-meta");
+  var searchIndex = [];
+
+  function buildSearchIndex() {
+    searchIndex = [];
+    guides.forEach(function (g) {
+      var key = g.id;
+      var hero = g.querySelector(".hero h1");
+      var icon = g.querySelector(".hero__icon");
+      var clsLabel = hero ? hero.childNodes[0].textContent.trim() : key;
+      var clsIcon = icon ? icon.getAttribute("src") : "";
+      g.querySelectorAll(".card").forEach(function (card) {
+        var h2 = card.querySelector("h2");
+        if (!h2 || !h2.id) return;
+        var secTitle = h2.textContent.trim();
+        var text = card.textContent.replace(/\s+/g, " ").trim();
+        var searchable = (clsLabel + " " + secTitle + " " + text).toLowerCase();
+        searchIndex.push({
+          key: key, clsLabel: clsLabel, clsIcon: clsIcon,
+          secId: h2.id, secTitle: secTitle,
+          text: text, lower: searchable, titleLower: secTitle.toLowerCase()
+        });
+      });
+    });
+  }
+
+  function openSearch() {
+    searchPanel.hidden = false;
+    searchBtn.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+    searchInput.value = "";
+    searchMeta.textContent = "Введите слово для поиска по всем гайдам";
+    searchResults.innerHTML = "";
+    setTimeout(function () { searchInput.focus(); }, 20);
+  }
+
+  function closeSearch() {
+    searchPanel.hidden = true;
+    searchBtn.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+  }
+
+  searchBtn.addEventListener("click", function () {
+    if (searchPanel.hidden) openSearch(); else closeSearch();
+  });
+
+  searchPanel.addEventListener("click", function (e) {
+    if (e.target.hasAttribute("data-search-close")) closeSearch();
+  });
+
+  function escHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  function escRe(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function makeSnippet(text, lower, words) {
+    var pos = -1;
+    words.forEach(function (w) { var p = lower.indexOf(w); if (p !== -1 && (pos === -1 || p < pos)) pos = p; });
+    if (pos === -1) pos = 0;
+    var start = Math.max(0, pos - 55);
+    var end = Math.min(text.length, pos + 95);
+    var snip = (start > 0 ? "… " : "") + text.slice(start, end) + (end < text.length ? " …" : "");
+    var safe = escHtml(snip);
+    words.forEach(function (w) {
+      if (!w) return;
+      var re = new RegExp("(" + escRe(escHtml(w)) + ")", "ig");
+      safe = safe.replace(re, "<mark>$1</mark>");
+    });
+    return safe;
+  }
+
+  function runSearch() {
+    var q = searchInput.value.trim().toLowerCase();
+    if (q.length < 2) {
+      searchMeta.textContent = q.length ? "Введите минимум 2 символа" : "Введите слово для поиска по всем гайдам";
+      searchResults.innerHTML = "";
+      return;
+    }
+    var words = q.split(/\s+/).filter(Boolean);
+    var hits = [];
+    searchIndex.forEach(function (entry) {
+      var ok = words.every(function (w) { return entry.lower.indexOf(w) !== -1; });
+      if (!ok) return;
+      var score = 0;
+      words.forEach(function (w) { if (entry.titleLower.indexOf(w) !== -1) score += 5; });
+      if (entry.clsLabel.toLowerCase().indexOf(q) !== -1) score += 3;
+      hits.push({ entry: entry, score: score });
+    });
+    hits.sort(function (a, b) { return b.score - a.score; });
+    var total = hits.length;
+    var shown = hits.slice(0, 40);
+
+    if (!total) {
+      searchMeta.textContent = "Ничего не найдено";
+      searchResults.innerHTML = '<div class="search__empty">Попробуйте другое слово или часть названия скилла</div>';
+      return;
+    }
+
+    searchMeta.textContent = "Найдено: " + total + (total > shown.length ? " (показаны первые " + shown.length + ")" : "");
+    searchResults.innerHTML = "";
+    shown.forEach(function (hit) {
+      var e = hit.entry;
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "search__item";
+      btn.innerHTML =
+        '<div class="search__row">' +
+          '<span class="search__class"><img src="' + escHtml(e.clsIcon) + '" alt="">' + escHtml(e.clsLabel) + '</span>' +
+          '<span class="search__sec">' + escHtml(e.secTitle) + '</span>' +
+        '</div>' +
+        '<div class="search__snip">' + makeSnippet(e.text, e.lower, words) + '</div>';
+      btn.addEventListener("click", function () {
+        closeSearch();
+        select(e.key, false);
+        history.replaceState(null, "", "#" + e.secId);
+        var el = document.getElementById(e.secId);
+        if (el) {
+          var offset = document.querySelector(".topbar").offsetHeight + 14;
+          var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top: top, behavior: "smooth" });
+        }
+      });
+      searchResults.appendChild(btn);
+    });
+  }
+
+  searchInput.addEventListener("input", runSearch);
+
   document.addEventListener("keydown", function (e) {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      if (searchPanel.hidden) openSearch(); else closeSearch();
+      return;
+    }
     if (e.key !== "Escape") return;
+    if (!searchPanel.hidden) { closeSearch(); return; }
     if (!drawer.hidden) { closeDrawer(); return; }
     if (!lb.hidden) close();
   });
+
+  buildSearchIndex();
 
   // ---- иконки возле названий скиллов в тексте ----
   var SKIP = "h1,h2,h3,h4,figcaption,.ranks,.mini,.credit,.chip,.tag,summary,button,a,.si";
