@@ -59,6 +59,11 @@
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
 
+  var chipMap = {};
+  var sectionEls = [];
+  var activeSection = "";
+  var scrollTick = false;
+
   // ---- боковое меню классов ----
   var menuBtn = document.getElementById("menu-btn");
   var drawer = document.getElementById("drawer");
@@ -114,12 +119,56 @@
     if (e.target.hasAttribute("data-drawer-close")) closeDrawer();
   });
 
+  function setActiveChip(id) {
+    if (!id || id === activeSection) return;
+    activeSection = id;
+    Object.keys(chipMap).forEach(function (k) {
+      chipMap[k].classList.toggle("is-active", k === id);
+    });
+    var chip = chipMap[id];
+    if (chip) {
+      chip.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    }
+  }
+
+  function updateActiveSection() {
+    if (!sectionEls.length) return;
+    var offset = document.querySelector(".topbar").offsetHeight + 24;
+    var current = sectionEls[0].id;
+    for (var i = 0; i < sectionEls.length; i++) {
+      var rect = sectionEls[i].getBoundingClientRect();
+      if (rect.top - offset <= 0) current = sectionEls[i].id;
+    }
+    setActiveChip(current);
+  }
+
+  function onScroll() {
+    if (scrollTick) return;
+    scrollTick = true;
+    requestAnimationFrame(function () {
+      scrollTick = false;
+      updateActiveSection();
+    });
+  }
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+
+  function bindSections(key) {
+    var guide = document.getElementById(key);
+    sectionEls = guide ? Array.prototype.slice.call(guide.querySelectorAll("h2[id]")) : [];
+    updateActiveSection();
+  }
+
   function buildChips(key) {
     chipsBox.innerHTML = "";
+    chipMap = {};
+    activeSection = "";
     SECTIONS[key].forEach(function (pair) {
       var a = document.createElement("a");
       a.href = "#" + pair[0];
       a.textContent = pair[1];
+      a.dataset.target = pair[0];
+      chipMap[pair[0]] = a;
       a.addEventListener("click", function (e) {
         e.preventDefault();
         var el = document.getElementById(pair[0]);
@@ -128,9 +177,11 @@
         var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
         window.scrollTo({ top: top, behavior: "smooth" });
         history.replaceState(null, "", "#" + pair[0]);
+        setActiveChip(pair[0]);
       });
       chipsBox.appendChild(a);
     });
+    bindSections(key);
   }
 
   function select(key, scrollTop) {
@@ -151,6 +202,7 @@
 
     document.documentElement.style.setProperty("--accent", ACCENTS[key] || "#6fd3a7");
     buildChips(key);
+    updateActiveSection();
 
     var meta = drawerItems[key];
     if (meta) {
@@ -171,21 +223,49 @@
     });
   });
 
+  function findClassForSection(id) {
+    for (var k in SECTIONS) {
+      if (!SECTIONS.hasOwnProperty(k)) continue;
+      if (SECTIONS[k].some(function (p) { return p[0] === id; })) return k;
+    }
+    return null;
+  }
+
+  function scrollToSection(id, smooth) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var offset = document.querySelector(".topbar").offsetHeight + 14;
+    var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top: top, behavior: smooth ? "smooth" : "auto" });
+    setActiveChip(id);
+  }
+
   var hash = (location.hash || "").replace("#", "");
   var saved = null;
   try { saved = localStorage.getItem("aion2class"); } catch (e) {}
   var start = SECTIONS[hash] ? hash : (SECTIONS[saved] ? saved : "ranger");
   select(start, false);
+  if (!SECTIONS[hash]) {
+    var c2 = findClassForSection(hash);
+    if (c2 && c2 !== start) {
+      select(c2, false);
+      start = c2;
+    }
+    if (document.getElementById(hash)) {
+      setTimeout(function () { scrollToSection(hash, false); }, 40);
+    }
+  }
 
   window.addEventListener("hashchange", function () {
     var h = (location.hash || "").replace("#", "");
     if (SECTIONS[h]) { select(h, true); return; }
     var el = document.getElementById(h);
-    if (el && el.offsetParent === null) {
-      var key = Object.keys(SECTIONS).find(function (k) {
-        return k.charAt(0) === h.charAt(0);
-      });
-      if (key) select(key, false);
+    if (el) {
+      var key = findClassForSection(h);
+      if (key && document.getElementById(key).classList.contains("is-hidden")) {
+        select(key, false);
+      }
+      scrollToSection(h, true);
     }
   });
 
