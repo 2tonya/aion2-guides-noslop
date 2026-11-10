@@ -764,15 +764,21 @@ b{color:#f2f6ff}
 
 /* glossary back button */
 .glossary-back{
-  display:inline-flex;align-items:center;gap:6px;
-  margin:0 0 10px;
-  padding:7px 12px;
-  border-radius:10px;
-  border:1px solid var(--line);
+  position:fixed;
+  left:50%;
+  bottom:calc(16px + env(safe-area-inset-bottom, 0px));
+  transform:translateX(-50%);
+  z-index:60;
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  min-width:min(320px, calc(100vw - 24px));
+  padding:12px 18px;
+  border-radius:999px;
+  border:1px solid var(--accent);
   background:var(--panel);
   color:var(--text);
-  font:inherit;font-size:13px;font-weight:600;
+  font:inherit;font-size:14px;font-weight:700;
+  box-shadow:0 8px 24px rgba(0,0,0,.35);
   cursor:pointer;
 }
-.glossary-back:hover{border-color:var(--accent);color:var(--accent)}
+.glossary-back:hover{background:var(--panel-2);color:var(--accent)}
 .glossary-back.is-hidden{display:none}
