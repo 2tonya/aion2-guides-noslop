@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0d12">
+<title>Aion 2 — PvE гайды: Лучник и Ассасин</title>
+<meta name="description" content="Короткие PvE-гайды по Aion 2: Лучник (Ranger) и Ассасин (Assassin). Скиллы, стигмы, макросы, ротация и экипировка.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="img/class-ranger.png">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <div class="brand">
+      <span class="brand__mark">A2</span>
+      <span class="brand__text">PvE гайды</span>
+    </div>
+    <nav class="switch" role="tablist" aria-label="Выбор класса">
+      <button class="switch__btn is-active" role="tab" id="tab-ranger" aria-controls="ranger" aria-selected="true" data-class="ranger">
+        <img src="img/class-ranger.png" alt="" width="24" height="24">
+        <span>Лучник</span>
+      </button>
+      <button class="switch__btn" role="tab" id="tab-assassin" aria-controls="assassin" aria-selected="false" data-class="assassin">
+        <img src="img/class-assassin.png" alt="" width="24" height="24">
+        <span>Ассасин</span>
+      </button>
+    </nav>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main>
+
+<!-- ===================== ЛУЧНИК ===================== -->
+<section class="guide" id="ranger" role="tabpanel" aria-labelledby="tab-ranger">
+
+  <div class="hero" style="--hue:150">
+    <img class="hero__icon" src="img/class-ranger.png" alt="Класс Лучник" width="72" height="72">
+    <div>
+      <h1>Лучник <span>Ranger</span></h1>
+      <p class="hero__sub">Заряженный <b>Deadshot</b> и баффы, которые жмутся руками.</p>
+      <ul class="badges">
+        <li>Дальний бой</li><li>10–12 м</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="r-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li><b>Precision</b> (Marking Shot) — Deadshot бьёт на <b>+35%</b>. Без баффа заряженный выстрел почти не имеет смысла.</li>
+      <li><b>Gale</b> (Gale Arrow) — <b>+15% скорости боя и +15% PvE урона</b>. Держи постоянно.</li>
+      <li>Сначала <b>Deadshot до 20</b>, потом Specialty 16 на остальных скиллах.</li>
+      <li>Баффы — <b>только руками</b>, за секунды до окна урона. Макрос их не жмёт.</li>
+      <li>В настройках выключи <b>Skill Queue</b> (Настройки → Управление в бою).</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="r-skills">Скиллы и Specialty</h2>
+    <p class="lead">Уровни — суммарные (экипировка, Arcana, Дэванион тоже считаются).</p>
+
+    <div class="skill">
+      <img src="img/s-deadshot.webp" alt="">
+      <div class="skill__body">
+        <h3>Deadshot <span class="tag tag--max">20 ур.</span></h3>
+        <p>Главный урон. Держи на отдельной кнопке, бей под Precision. Заряд можно додержать — но не начинай каст перед механикой с движением.</p>
+        <p class="hint">Specialty: <b>+30% скорости скилла</b> · доп. урон при попадании. Третьим — мобильный Specialty (можно двигаться во время каста).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-snipe.webp" alt="">
+      <div class="skill__body">
+        <h3>Snipe <span class="tag">16 ур.</span></h3>
+        <p>Обычная атака между делом: восстанавливает MP и <b>сокращает КД Deadshot</b>.</p>
+        <p class="hint"><b>−1 сек КД Deadshot</b> при попадании + открывает <b>Tempest Arrow</b> (4-й удар в цепочке).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-tempest-shot.webp" alt="">
+      <div class="skill__body">
+        <h3>Tempest Shot <span class="tag">16 ур.</span></h3>
+        <p>На 16 берём <b>+20% скорости скилла</b> вместо +10% крита — быстрее вклинивается в ротацию.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-drill-dart.webp" alt="">
+      <div class="skill__body">
+        <h3>Drill Dart <span class="tag tag--good">16 ур. — топ</span></h3>
+        <p>На 16 — Specialty с <b>дополнительной активацией</b>. Жмёшь один раз, но каждый удар отдельно прокает Multi-Hit / Perfect Chance / Double Chance.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-gale-arrow.webp" alt="">
+      <div class="skill__body">
+        <h3>Gale Arrow <span class="tag tag--good">16 ур. — приоритет</span></h3>
+        <p>Твой постоянный бафф: <b>+15% скорости боя и +15% PvE урона</b>.</p>
+        <p class="hint">На 16 — <b>−10 сек КД</b>: бафф можно держать без пауз.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-marking-shot.webp" alt="">
+      <div class="skill__body">
+        <h3>Marking Shot <span class="tag">12 ур.</span></h3>
+        <p>Даёт Precision. На 12 — Specialty <b>+5 сек к длительности Precision</b>. Только ручная кнопка.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-snare-shot.webp" alt="">
+      <div class="skill__body">
+        <h3>Snare Shot <span class="tag">12 ур.</span></h3>
+        <p>Нужен ради <b>Slow</b>, который включает Burst Arrow. Живёт во втором стеке атак.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-burst-arrow.webp" alt="">
+      <div class="skill__body">
+        <h3>Burst Arrow <span class="tag">низкий приоритет</span></h3>
+        <p>В ротации остаётся, но Specialty 16 (шанс −КД) качается последним.</p>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>Ситуативные скиллы</summary>
+      <ul>
+        <li><b>Explosion Trap</b> (12 ур.) — мобильность вместе с Marking Shot, экономит стамину.</li>
+        <li><b>Suppressing Arrow</b> — для механик стаггера, без вложений.</li>
+        <li><b>Arrow Scattershot</b> — вне ротации, КД-Specialty не берём.</li>
+      </ul>
+    </details>
+
+    <figure class="shot">
+      <img src="img/r-specialty.jpg" alt="Панель скиллов Лучника с уровнями">
+      <figcaption>Пример панели: активные скиллы и их уровни.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="r-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-hunters-resolve.webp" alt=""><span>Hunter's Resolve</span></li>
+      <li><img src="img/s-focused-eye.webp" alt=""><span>Focused Eye</span></li>
+      <li><span class="rank__dot"></span><span>Hunter's Soul</span></li>
+      <li><span class="rank__dot"></span><span>Concentrated Fire</span></li>
+      <li><span class="rank__dot"></span><span>Rooting Eye</span></li>
+      <li><span class="rank__dot"></span><span>Melee Fire</span></li>
+    </ol>
+    <p class="lead">Те же бонусы ищи в броне, бижутерии, Arcana и Дэванионе — не гонись за одним идеальным предметом.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="r-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-vaizels-authority.webp" alt=""><b>Vaizel's Authority</b><span>20 ур. — первый вклад</span></div>
+      <div class="mini"><img src="img/s-griffon-arrow.webp" alt=""><b>Griffon Arrow</b><span>15 ур. — Crimson Flames</span></div>
+      <div class="mini"><img src="img/s-supporting-fire.webp" alt=""><b>Supporting Fire</b><span>15 ур. — КД синхронно с Vaizel</span></div>
+      <div class="mini"><img src="img/s-bow-of-blessing.webp" alt=""><b>Bow of Blessing</b><span>15 ур. — в ручной стек баффов</span></div>
+    </div>
+    <p class="hint">Мало очков? Держи Bow of Blessing и Supporting Fire на 5, чтобы дотянуть Griffon Arrow до 15. Потом веди Griffon к 20.</p>
+    <figure class="shot">
+      <img src="img/r-x2.jpg" alt="Окно стигм Лучника с уровнями">
+      <figcaption>Целевые уровни стигм: Vaizel 20, остальные 15.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="r-macro">Макрос и кнопки</h2>
+    <p class="lead">Выключи Skill Queue. Разложи атаки в <b>два стека</b>, баффы — отдельно.</p>
+    <div class="stacks">
+      <div class="stack">
+        <h3>Стек 1</h3>
+        <p>Gale Arrow → Drill Dart → Tempest Shot</p>
+      </div>
+      <div class="stack">
+        <h3>Стек 2</h3>
+        <p>Griffon Arrow → Snare Shot → Burst Arrow</p>
+      </div>
+      <div class="stack stack--buff">
+        <h3>Баффы (вручную)</h3>
+        <p>Vaizel's Authority · Supporting Fire · Bow of Blessing</p>
+      </div>
+    </div>
+    <p><b>Отдельные кнопки:</b> Marking Shot и Deadshot. <b>Snipe</b> — на обычной атаке.</p>
+    <p class="hint">В макрос: Gale Arrow — 10 мс, Griffon Arrow — 10 мс. Баффы в макрос не ставим.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="r-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Vaizel's Authority + Supporting Fire + Bow of Blessing</b></li>
+      <li>Макрос <b>дважды</b> → Gale Arrow и Griffon Arrow</li>
+      <li><b>Marking Shot</b> → Precision</li>
+      <li><b>Deadshot</b> — зарядить и отпустить</li>
+      <li>Держи макрос + <b>Snipe</b>, вклинивая Deadshot по КД</li>
+    </ol>
+    <div class="note">
+      <b>Ритм Precision:</b> в первое окно влезает ~3 Deadshot, дальше обычно 2 — потом обновляй Marking Shot.
+      Смотри на сам бафф: движение и прерванные касты меняют тайминг.
+    </div>
+    <div class="note note--warn">
+      <b>Не жми баффы перед механикой.</b> 5 секунд баффа перед 10-секундной неуязвимостью босса — это выкинутый КД. Дождись окна.
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="r-gear">Экипировка</h2>
+    <p class="lead">Данж-шмот — нормальная база. Крафт не обязателен: считай ~70% материалов как ориентир по бюджету.</p>
+
+    <h3>Оружие</h3>
+    <div class="chips-list">
+      <span class="chip chip--top">Combat Speed</span>
+      <span class="chip chip--top">Weapon Damage Boost</span>
+      <span class="chip chip--top">Might</span>
+      <span class="chip">Attack</span>
+      <span class="chip">Multi-Hit Chance</span>
+      <span class="chip">Precision</span>
+      <span class="chip">Damage Boost</span>
+    </div>
+
+    <h3>Броня Nuakum — Soul Binding</h3>
+    <ul class="gear">
+      <li><b>Шлем</b> — Double Chance + Incoming Heal</li>
+      <li><b>Плечи</b> — Critical Damage Boost + Double Chance</li>
+      <li><b>Грудь</b> — Damage Boost + Perfect Chance</li>
+      <li><b>Поножи</b> — Perfect Chance</li>
+      <li><b>Перчатки</b> — Combat Speed + Perfect Chance</li>
+      <li><b>Сапоги</b> — Move Speed + Perfect Chance</li>
+      <li><b>Плащ</b> — Double Chance</li>
+    </ul>
+    <p class="hint">Остальные строки — Attack, Accuracy, Focused Eye, Hunter's Resolve.</p>
+
+    <h3>Бижутерия</h3>
+    <ul class="gear">
+      <li><b>Ожерелье</b> — Combat Speed, Might, Precision, Hunter's Resolve, Focused Eye</li>
+      <li><b>Кольца (2)</b> — Might + уровни: Deadshot · Gale Arrow · Drill Dart · Tempest Shot</li>
+      <li><b>Серьги (2)</b> — Move Speed, Precision, Might, Hunter's Resolve, Focused Eye</li>
+    </ul>
+    <p class="hint">Перед заменой кольца проверь суммарные уровни скиллов — можно случайно уронить Specialty ниже порога.</p>
+
+    <h3>Камни</h3>
+    <p>Синие Attack/Accuracy — норм на старте. Цель — жёлтые с <b>Weapon Damage Boost</b>. Не сливай ресурсы в перероллы, пока не закрыты скиллы и Arcana.</p>
+
+    <figure class="shot">
+      <img src="img/r-weapon.jpg" alt="Окно Soul Binding оружия Лучника">
+      <figcaption>Пример Soul Binding на оружии: скорость, Multi-Hit, Weapon Damage Boost, Might.</figcaption>
+    </figure>
+    <details class="more">
+      <summary>Лайфхак: трансфер с дешёвого шмота</summary>
+      <p>Проверяй жёлтые вещи низкого уровня — перчатки с Combat Speed дешевле прокачать как источник и перенести, чем точить эндгейм-перчатки. Смотри превью трансфера.</p>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2 id="r-misc">Arcana, питомцы, титулы</h2>
+    <div class="cols">
+      <div>
+        <h3>Arcana</h3>
+        <p>В приоритете: <b>Deadshot, Drill Dart, Burst Arrow, Gale Arrow</b> + активные пассивки. Комбинируй с кольцами, чтобы добить нужные уровни.</p>
+      </div>
+      <div>
+        <h3>Питомцы / Genus Insight</h3>
+        <p>Attack, Accuracy, Crit Hit, Damage Boost, Crit Damage, Smite. Хороших роллов достаточно — идеал не обязателен.</p>
+      </div>
+      <div>
+        <h3>Пантеон</h3>
+        <p>Divine-статы: <b>Time, Destruction, Wisdom, Justice</b>. Статуя <b>Zikel's Apparition</b> — 14 000 осколков в Nightmare-магазине.</p>
+      </div>
+      <div>
+        <h3>Крылья</h3>
+        <p><b>Nightmare Wings</b> — долгая цель. <b>Dark Veil Wings</b> — рабочая альтернатива (Ferocious Horn Den / рынок).</p>
+      </div>
+    </div>
+    <h3>Титулы</h3>
+    <ul class="gear">
+      <li><b>Unbound by Genus</b> — все 5 категорий Genus Insight до 10 ур.</li>
+      <li><b>Dominator of Dimensions</b> — 25 крыльев. Раньше можно взять Saint of Altgard (Асмодиан).</li>
+      <li><b>Empty Closet</b> — 700 скинов, долгосрок. Альтернатива: Through Hell and Back (Ru-данж).</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="r-board">Дэванион: доски</h2>
+    <p class="lead">Доски <b>не рассчитаны</b> на полное заполнение — иди по маршруту под свои скиллы.</p>
+    <div class="gallery">
+      <figure><img src="img/r-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/r-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/r-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/r-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+      <figure><img src="img/r-ariel.jpg" alt="Доска Ariel"><figcaption>Ariel</figcaption></figure>
+      <figure><img src="img/r-azphel.jpg" alt="Доска Azphel"><figcaption>Azphel</figcaption></figure>
+    </div>
+  </section>
+
+</section>
+
+<!-- ===================== АССАСИН ===================== -->
+<section class="guide is-hidden" id="assassin" role="tabpanel" aria-labelledby="tab-assassin">
+
+  <div class="hero" style="--hue:345">
+    <img class="hero__icon" src="img/class-assassin.png" alt="Класс Ассасин" width="72" height="72">
+    <div>
+      <h1>Ассасин <span>Assassin</span></h1>
+      <p class="hero__sub">Бурст через криты и стаки <b>Insignia</b>. Всё решает спина босса.</p>
+      <ul class="badges">
+        <li>Ближний бой</li><li>Удар в спину</li><li>Средняя сложность</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="card">
+    <h2 id="a-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li>Урон держится на <b>4 скиллах</b>: Heart Gore, Insignia Explosion, Quick Slice, Savage Roar.</li>
+      <li><b>Heart Gore до 16</b> — Specialty сбрасывает КД на крите. Это ключевой апгрейд.</li>
+      <li>Бей <b>в спину</b>: включи индикатор спины босса в настройках.</li>
+      <li>Макрос ≠ «тыкать ПКМ». <b>Зажимай ЛКМ + ПКМ</b> одновременно.</li>
+      <li>Больше стаков Insignia = больше урон Insignia Explosion. <b>Savage Fang</b> даёт сразу 5.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2 id="a-order">Порядок прокачки</h2>
+    <ol class="ranks ranks--num">
+      <li><img src="img/s-heart-gore.webp" alt=""><span>Heart Gore</span></li>
+      <li><img src="img/s-insignia-explosion.webp" alt=""><span>Insignia Explosion</span></li>
+      <li><img src="img/s-quick-slice.webp" alt=""><span>Quick Slice</span></li>
+      <li><img src="img/s-savage-roar.webp" alt=""><span>Savage Roar</span></li>
+      <li><img src="img/s-shadowstrike.webp" alt=""><span>Shadowstrike</span></li>
+      <li><img src="img/s-flash-slice.webp" alt=""><span>Flash Slice</span></li>
+      <li><img src="img/s-infiltrate.webp" alt=""><span>Infiltrate</span></li>
+      <li><img src="img/s-storm-rampage.webp" alt=""><span>Storm Rampage</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="a-skills">Скиллы и Specialty</h2>
+
+    <div class="skill">
+      <img src="img/s-heart-gore.webp" alt="">
+      <div class="skill__body">
+        <h3>Heart Gore <span class="tag tag--good">16 ур. — ключ</span></h3>
+        <p>Срабатывает на <b>критический удар</b>: AoE по 4 целям в 4 м + мана.</p>
+        <p class="hint">Specialty: 1 — вампиризм, 4 — Multi-Hit. На 16 — <b>сброс КД при крите</b>.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-insignia-explosion.webp" alt="">
+      <div class="skill__body">
+        <h3>Insignia Explosion <span class="tag">КД и стаки</span></h3>
+        <p>AoE по 4 целям, урон и шанс стана растут от стаков <b>Insignia</b>.</p>
+        <p class="hint">Specialty: 3 — <b>оставляет 2 стака</b> на цели, 5 — сокращение КД.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-quick-slice.webp" alt="">
+      <div class="skill__body">
+        <h3>Quick Slice <span class="tag">Автоатака</span></h3>
+        <p>Обычный удар — держит ману для ротации.</p>
+        <p class="hint">Сначала Specialty 2 + 4 (вампиризм + −КД Insignia Explosion). На 16 → <b>4 + 5</b>: игнор блока/уклонения и <b>гарантированный крит</b> — это чаще прокает все крит-триггеры.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-savage-roar.webp" alt="">
+      <div class="skill__body">
+        <h3>Savage Roar <span class="tag">В макросе</span></h3>
+        <p>Тратит ману, AoE по 4 целям впереди + <b>1 стак Insignia</b> на 10 сек.</p>
+        <p class="hint">Specialty: 2 — скорость скиллов; на 12 — 4 (−КД Shadowstrike).</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-shadowstrike.webp" alt="">
+      <div class="skill__body">
+        <h3>Shadowstrike <span class="tag">Мобильность</span></h3>
+        <p>Рывок <b>за спину</b> цели в 20 м + урон и стан.</p>
+        <p class="hint">Specialty: 2 — Crit Damage Boost на время, 3 — 50% шанс Seal.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-flash-slice.webp" alt="">
+      <div class="skill__body">
+        <h3>Flash Slice <span class="tag">Мобильность</span></h3>
+        <p>Перемещение на другую сторону цели в 4 м, AoE + шанс Blind.</p>
+        <p class="hint">Specialty: 2 — дальность, 4 — дополнительное применение.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-infiltrate.webp" alt="">
+      <div class="skill__body">
+        <h3>Infiltrate <span class="tag">После уклонения</span></h3>
+        <p>Доступен после Dodge или в полёте: урон + шанс Blind.</p>
+        <p class="hint">Specialty: 2 — +10 м дальности, 1 — восстановление стамины.</p>
+      </div>
+    </div>
+
+    <div class="skill">
+      <img src="img/s-storm-rampage.webp" alt="">
+      <div class="skill__body">
+        <h3>Storm Rampage <span class="tag tag--good">16 ур. — DPS</span></h3>
+        <p>Скилл для стаггера, но у Ассасина он даёт урон.</p>
+        <p class="hint">Specialty: 4 — Multi-Hit, на 16 — 5: <b>−1 сек ко всем КД</b> при попадании.</p>
+      </div>
+    </div>
+
+    <figure class="shot">
+      <img src="img/a-skills.jpg" alt="Панель скиллов Ассасина">
+      <figcaption>Панель скиллов: активные и пассивные.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="a-passive">Пассивки</h2>
+    <ol class="ranks">
+      <li><img src="img/s-exploit-weakness.webp" alt=""><span>Exploit Weakness</span></li>
+      <li><img src="img/s-rear-smite.webp" alt=""><span>Rear Smite</span></li>
+      <li><img src="img/s-assault-stance.webp" alt=""><span>Assault Stance</span></li>
+      <li><span class="rank__dot"></span><span>Impact Hit</span></li>
+      <li><span class="rank__dot"></span><span>Determination</span></li>
+      <li><span class="rank__dot"></span><span>Apply Poison</span></li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 id="a-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-illusive-clone.webp" alt=""><b>Illusive Clone</b><span>Снимает КД Heart Gore; 10 ур. — +Crit Damage</span></div>
+      <div class="mini"><img src="img/s-swift-contract.webp" alt=""><b>Swift Contract</b><span>+Combat Speed; 10 — усиливает Rear Smite, 15 — Assault Stance</span></div>
+      <div class="mini"><img src="img/s-savage-fang.webp" alt=""><b>Savage Fang</b><span>AoE + <b>5 стаков Insignia</b> + стаггер</span></div>
+      <div class="mini"><img src="img/s-triniels-dagger.webp" alt=""><b>Triniel's Dagger</b><span>4-й слот: 10 ур. — −10% КД, урон в спину выше</span></div>
+    </div>
+    <p class="hint">4-й слот гибкий: часто берут Triniel's Dagger, но Evasion Stance и защитные стигмы тоже живы.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="a-macro">Макрос</h2>
+    <p class="lead">Макрос на ПКМ, слоты по порядку:</p>
+    <ol class="steps steps--tight">
+      <li><b>0</b> — Insignia Explosion</li>
+      <li><b>1</b> — Heart Gore</li>
+      <li><b>2</b> — Ambush (или пусто)</li>
+      <li><b>3</b> — Savage Roar</li>
+    </ol>
+    <p>Задержка — <b>10 мс</b>. Смысл: Insignia Explosion уходит сразу по КД, а Heart Gore вклинивается в момент прока вместо Savage Roar.</p>
+    <div class="note note--warn">
+      <b>Зажимай ЛКМ + ПКМ.</b> Не «тапай» ПКМ: удержание обоих кнопок само вплетает Quick Slice между Savage Roar.
+    </div>
+    <p class="hint">Можно добавить в макрос баффы (Swift Contract, Illusive Clone) — но тогда ты теряешь контроль над таймингом. Проверяй и макрос, и раскладку квик-слотов.</p>
+    <div class="duo">
+      <figure class="shot"><img src="img/a-macro1.jpg" alt="Настройка макроса"><figcaption>Запись в макросе: скилл + 10 мс.</figcaption></figure>
+      <figure class="shot"><img src="img/a-macro2.jpg" alt="Настройка макроса с баффом"><figcaption>Вариант с баффом в макросе.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 id="a-rotation">Ротация</h2>
+    <ol class="steps">
+      <li><b>Swift Contract + Illusive Clone</b></li>
+      <li><b>Shadowstrike</b> — Crit Damage Boost и позиция за спиной</li>
+      <li><b>Savage Fang</b> — набрать стаки Insignia</li>
+      <li><b>Triniel's Dagger</b> — если 10 ур., срезать КД</li>
+      <li><b>Макрос</b>: Heart Gore / Insignia Explosion / Savage Roar</li>
+    </ol>
+    <p class="hint">Просадка по позиции — добивай Infiltrate и Flash Slice, они оба закидывают за спину.</p>
+  </section>
+
+  <section class="card">
+    <h2 id="a-setup">Настройки, которые реально бустят урон</h2>
+    <div class="cols">
+      <div>
+        <h3>Индикатор спины</h3>
+        <p><b>Options → Info Display → Combat → Display Boss Orientation Indicator</b> → поставить <b>BACK</b>.</p>
+        <p class="hint">На боссе появится метка «спина» — меньше промахов по позиции.</p>
+      </div>
+      <div>
+        <h3>Раскладка</h3>
+        <p>Проверь квик-слоты и бинды: без них макрос не соберёт ротацию.</p>
+        <p class="hint">Тестируй на тренировочном манекене перед данжем.</p>
+      </div>
+    </div>
+    <figure class="shot">
+      <img src="img/a-setting.jpg" alt="Настройка Display Boss Orientation Indicator">
+      <figcaption>Та самая настройка — значение BACK.</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="img/a-layout.jpg" alt="Раскладка скиллов Ассасина">
+      <figcaption>Пример раскладки хотбаров.</figcaption>
+    </figure>
+  </section>
+
+  <section class="card">
+    <h2 id="a-board">Дэванион: доски</h2>
+    <p class="lead">Старт — узлы под <b>Heart Gore</b> и <b>Insignia Explosion</b>. Доски не заполняются целиком.</p>
+    <div class="gallery">
+      <figure><img src="img/a-nezekan.jpg" alt="Доска Nezekan"><figcaption>Nezekan</figcaption></figure>
+      <figure><img src="img/a-zikel.jpg" alt="Доска Zikel"><figcaption>Zikel</figcaption></figure>
+      <figure><img src="img/a-vaizel.jpg" alt="Доска Vaizel"><figcaption>Vaizel</figcaption></figure>
+      <figure><img src="img/a-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
+    </div>
+  </section>
+
+</section>
+
+</main>
+
+<footer class="foot">
+  <p>Источники: <a href="https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build" target="_blank" rel="noopener">Ranger PvE</a> · <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Assassin Burst PvE</a> (Mobalytics). Сокращённый перевод для личного использования.</p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox__close" aria-label="Закрыть">×</button>
+  <img src="" alt="">
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
