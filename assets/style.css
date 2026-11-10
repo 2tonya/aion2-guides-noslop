@@ -746,3 +746,18 @@ b{color:#f2f6ff}
 @media (max-width:520px){
   .theme-picker{grid-template-columns:1fr}
 }
+
+/* glossary term links in guides */
+.g-link{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-style:dotted;
+  text-decoration-color:var(--accent);
+  text-underline-offset:2px;
+  cursor:pointer;
+}
+.g-link:hover{color:var(--accent)}
+.glossary-term:target{
+  border-color:var(--accent);
+  box-shadow:0 0 0 1px rgba(255,255,255,.04) inset;
+}

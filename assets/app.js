@@ -311,6 +311,7 @@
   });
 
   function findClassForSection(id) {
+    if (id && id.indexOf("gt-") === 0) return "glossary";
     for (var k in SECTIONS) {
       if (!SECTIONS.hasOwnProperty(k)) continue;
       if (SECTIONS[k].some(function (p) { return p[0] === id; })) return k;
@@ -337,7 +338,7 @@
   var saved = null;
   try { saved = localStorage.getItem("aion2class"); } catch (e) {}
 
-  if (hash === "glossary" || findClassForSection(hash) === "glossary") {
+  if (hash === "glossary" || hash.indexOf("gt-") === 0 || findClassForSection(hash) === "glossary") {
     showGlossary(false);
     if (hash && hash !== "glossary" && document.getElementById(hash)) {
       setTimeout(function () { scrollToSection(hash, false); }, 40);
@@ -363,7 +364,7 @@
     var el = document.getElementById(h);
     if (el) {
       var key = findClassForSection(h);
-      if (key === "glossary") {
+      if (key === "glossary" || h.indexOf("gt-") === 0) {
         if (glossaryView && glossaryView.classList.contains("is-hidden")) showGlossary(false);
       } else if (key && SECTIONS[key]) {
         if (key !== currentView) select(key, false);
@@ -393,6 +394,84 @@
     if (img) { open(img.src, img.alt); return; }
     if (e.target === lb || e.target.classList.contains("lightbox__close")) close();
   });
+
+  // ---- ссылки на глоссарий в гайдах ----
+  var GLOSSARY_TERMS = [
+    { id: "gt-pve-damage-boost", re: /\bPvE Damage Boost\b|\bTolerance\b/gi },
+    { id: "gt-double-chance", re: /\bDouble Chance\b|\bPerfect\b/gi },
+    { id: "gt-crit-damage", re: /\bCrit(?:ical)?\s+Damage\b|Крит\.?\s*урон\w*/gi },
+    { id: "gt-combat-speed", re: /\bCombat Speed\b|Скорост[ьи]\s+боя/gi },
+    { id: "gt-skill-level", re: /\bSkill Level\b|Брейкпоинт\w*|брейк[ -]?поинт\w*/gi },
+    { id: "gt-multi-hit", re: /\bMulti[- ]?Hit\b|Мультиудар\w*/gi },
+    { id: "gt-penetration", re: /\bPenetration\b|Пробивани[еяю]\w*/gi },
+    { id: "gt-accuracy", re: /\bAccuracy\b|Точност[ьи]\w*/gi },
+    { id: "gt-enmity", re: /\bEnmity\b|\b[Аа]гро\b|Угроз[аыуе]\w*/gi },
+    { id: "gt-transcendence", re: /\bTranscendence\b|Трансценденци[ияю]\w*/gi },
+    { id: "gt-specialty", re: /\bSpecialt(?:y|ies)\b|Специализаци[ияю]\w*/gi },
+    { id: "gt-daevanion", re: /\bDaevanion\b|Дэванион\w*/gi },
+    { id: "gt-pantheon", re: /\bPantheon\b|Пантеон\w*/gi },
+    { id: "gt-nightmare", re: /\bNightmare\b/gi },
+    { id: "gt-stigma", re: /\bStigma\b|Стигм[аыуеой]\w*/gi },
+    { id: "gt-arcana", re: /\bArcana\b|Аркан[аыуеой]\w*/gi },
+    { id: "gt-ротация", re: /Ротаци[ияю]\w*/gi },
+    { id: "gt-триггер", re: /Триггер\w*/gi },
+    { id: "gt-филлер", re: /Филлер\w*/gi },
+    { id: "gt-макрос", re: /Макрос\w*/gi },
+    { id: "gt-стаки", re: /Стаки\b|Стаков\b|Стака\b|Стеки\b|Стеков\b|Стека\b/gi },
+    { id: "gt-стаггер", re: /Стаггер\w*|\bСтан\b|\bКонтрол[ья]\b/gi },
+    { id: "gt-бурст", re: /Бурст\w*|[Оо]кн[оа]\s+урона/gi },
+    { id: "gt-прок", re: /\bProc\b|Прок\w*/gi },
+    { id: "gt-crit", re: /\bCritical Hit\b|\bCrit\b|Крит\w*/gi },
+    { id: "gt-кд", re: /\bCooldown\b|\bКД\b/gi },
+    { id: "gt-дот", re: /\bDoT\b|Дот(?:а|у|ы|ом)?\b/gi },
+    { id: "gt-aoe", re: /\bAoE\b/gi }
+  ];
+
+  function linkifyGlossary(root) {
+    if (!root) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentElement;
+        if (!p) return NodeFilter.FILTER_REJECT;
+        if (p.closest("a, script, style, mark, h1, h2, h3, .glossary-view, code, pre, button")) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    nodes.forEach(function (node) {
+      var rest = node.nodeValue;
+      var frag = document.createDocumentFragment();
+      var changed = false;
+      var guard = 0;
+      while (rest && guard++ < 300) {
+        var best = null;
+        for (var i = 0; i < GLOSSARY_TERMS.length; i++) {
+          var t = GLOSSARY_TERMS[i];
+          t.re.lastIndex = 0;
+          var m = t.re.exec(rest);
+          if (m && (!best || m.index < best.index || (m.index === best.index && m[0].length > best.len))) {
+            best = { index: m.index, len: m[0].length, match: m[0], id: t.id };
+          }
+        }
+        if (!best) { frag.appendChild(document.createTextNode(rest)); break; }
+        changed = true;
+        if (best.index > 0) frag.appendChild(document.createTextNode(rest.slice(0, best.index)));
+        var a = document.createElement("a");
+        a.className = "g-link";
+        a.href = "#" + best.id;
+        a.textContent = best.match;
+        frag.appendChild(a);
+        rest = rest.slice(best.index + best.len);
+      }
+      if (changed && node.parentNode) node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  // linkify all guides once
+  guides.forEach(function (g) { linkifyGlossary(g); });
 
   // ---- поиск по гайдам ----
   var searchBtn = document.getElementById("search-btn");
