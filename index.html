@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0d12">
-<title>Aion 2 — PvE гайды: Лучник и Ассасин</title>
-<meta name="description" content="Короткие PvE-гайды по Aion 2: Лучник (Ranger) и Ассасин (Assassin). Скиллы, стигмы, макросы, ротация и экипировка.">
+<title>Aion 2 — PvE гайды по классам</title>
+<meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" href="img/class-ranger.png">
 </head>
@@ -13,10 +13,11 @@
 
 <header class="topbar">
   <div class="topbar__inner">
-    <div class="brand">
+    <button class="brand" id="menu-btn" type="button" aria-controls="drawer" aria-expanded="false" aria-label="Меню классов">
       <span class="brand__mark">A2</span>
       <span class="brand__text">PvE гайды</span>
-    </div>
+      <span class="brand__current" id="current-class">Лучник</span>
+    </button>
     <nav class="switch" role="tablist" aria-label="Выбор класса">
       <button class="switch__btn is-active" role="tab" id="tab-ranger" aria-controls="ranger" aria-selected="true" data-class="ranger">
         <img src="img/class-ranger.png" alt="" width="24" height="24"><span>Лучник</span>
@@ -46,6 +47,18 @@
   </div>
   <div class="chips" id="chips"></div>
 </header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__backdrop" data-drawer-close></div>
+  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Выбор класса">
+    <div class="drawer__head">
+      <span>Aion 2 · PvE гайды</span>
+      <button class="drawer__close" type="button" data-drawer-close aria-label="Закрыть">✕</button>
+    </div>
+    <nav class="drawer__list" id="drawer-list" aria-label="Классы"></nav>
+    <p class="drawer__foot">Данные и билды: Mobalytics</p>
+  </aside>
+</div>
 
 <main>
 

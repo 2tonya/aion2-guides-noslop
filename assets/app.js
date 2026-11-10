@@ -59,6 +59,61 @@
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
 
+  // ---- боковое меню классов ----
+  var menuBtn = document.getElementById("menu-btn");
+  var drawer = document.getElementById("drawer");
+  var drawerList = document.getElementById("drawer-list");
+  var currentClass = document.getElementById("current-class");
+  var drawerItems = {};
+
+  tabs.forEach(function (tab) {
+    var src = tab.querySelector("img");
+    var label = tab.querySelector("span").textContent;
+    var item = document.createElement("button");
+    item.type = "button";
+    item.className = "drawer__item";
+    item.dataset.class = tab.dataset.class;
+
+    if (src) {
+      var icon = document.createElement("img");
+      icon.src = src.getAttribute("src");
+      icon.alt = "";
+      item.appendChild(icon);
+    }
+    var name = document.createElement("span");
+    name.textContent = label;
+    item.appendChild(name);
+
+    item.addEventListener("click", function () {
+      select(tab.dataset.class, true);
+      history.replaceState(null, "", "#" + tab.dataset.class);
+      closeDrawer();
+    });
+
+    drawerList.appendChild(item);
+    drawerItems[tab.dataset.class] = { item: item, label: label };
+  });
+
+  function openDrawer() {
+    drawer.hidden = false;
+    menuBtn.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeDrawer() {
+    drawer.hidden = true;
+    menuBtn.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+  }
+
+  menuBtn.addEventListener("click", function () {
+    if (drawer.hidden) openDrawer(); else closeDrawer();
+  });
+
+  drawer.addEventListener("click", function (e) {
+    if (e.target.hasAttribute("data-drawer-close")) closeDrawer();
+  });
+
   function buildChips(key) {
     chipsBox.innerHTML = "";
     SECTIONS[key].forEach(function (pair) {
@@ -96,6 +151,14 @@
 
     document.documentElement.style.setProperty("--accent", ACCENTS[key] || "#6fd3a7");
     buildChips(key);
+
+    var meta = drawerItems[key];
+    if (meta) {
+      currentClass.textContent = meta.label;
+      Object.keys(drawerItems).forEach(function (k) {
+        drawerItems[k].item.classList.toggle("is-active", k === key);
+      });
+    }
 
     if (scrollTop) window.scrollTo(0, 0);
     try { localStorage.setItem("aion2class", key); } catch (e) {}
@@ -149,6 +212,8 @@
   });
 
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && !lb.hidden) close();
+    if (e.key !== "Escape") return;
+    if (!drawer.hidden) { closeDrawer(); return; }
+    if (!lb.hidden) close();
   });
 })();
