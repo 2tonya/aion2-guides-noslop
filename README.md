@@ -65,14 +65,14 @@ npx serve .
 
 Материалы основаны на гайдах [Mobalytics](https://mobalytics.gg/) для Aion 2:
 
-- [Лучник — Ranger PvE](https://mobalytics.gg/aion-2/guides/ranger/builds/ranger-pve)
-- [Ассасин — Burst PvE](https://mobalytics.gg/aion-2/guides/assassin/builds/burst-pve)
-- [Чародей — Hellfire PvE](https://mobalytics.gg/aion-2/guides/sorcerer/builds/hellfire-pve)
-- [Заклинатель — Elemental Fusion PvE](https://mobalytics.gg/aion-2/guides/spiritmaster/builds/elemental-fusion-pve)
-- [Страж — Templar PvE](https://mobalytics.gg/aion-2/guides/templar/builds/templar-pve)
-- [Гладиатор — Endgame PvE](https://mobalytics.gg/aion-2/guides/gladiator/builds/endgame-pve)
-- [Клирик — Condemnation PvE](https://mobalytics.gg/aion-2/guides/cleric/builds/condemnation-pve)
-- [Чантер — Dark Crush PvE](https://mobalytics.gg/aion-2/guides/chanter/builds/dark-crush-pve)
+- [Лучник — Ranger PvE](https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build)
+- [Ассасин — Burst PvE](https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build)
+- [Чародей — Hellfire PvE](https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build)
+- [Заклинатель — Elemental Fusion PvE](https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build)
+- [Страж — Templar PvE](https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build)
+- [Гладиатор — Endgame PvE](https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build)
+- [Клирик — Condemnation PvE](https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build)
+- [Чантер — Dark Crush PvE](https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build)
 
 Гайды адаптированы и структурированы для удобного чтения на сайте. Конкретные числа, билды и рекомендации сверяйте с актуальными источниками (обновления игры могут менять баланс).
 

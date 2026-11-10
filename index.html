@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0b0d12">
 <title>Aion 2 — PvE гайды по классам</title>
 <meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
-<link rel="stylesheet" href="assets/style.css?v=23">
+<link rel="stylesheet" href="assets/style.css?v=24">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
@@ -146,15 +146,31 @@
   <section class="card">
     <h2 id="g-stats">Характеристики</h2>
     <div class="glossary-list">
-      <div class="glossary-term" id="gt-combat-speed"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность ротации. Часто приоритетный стат для DPS.</p></div>
+      <div class="glossary-term" id="gt-hp"><h3>HP / Макс. HP (Здоровье)</h3><p>Запас здоровья персонажа. Чем выше максимум HP, тем больше урона можно пережить. Повышается уровнем, экипировкой, камнями и баффами.</p></div>
+      <div class="glossary-term" id="gt-mp"><h3>MP / Макс. MP (Мана)</h3><p>Ресурс для использования умений. Управление MP важно для стабильной <a class="g-link" href="#gt-ротация">ротации</a> (филлеры, восстановление, зелья, сетовые и классовые эффекты).</p></div>
+      <div class="glossary-term" id="gt-attack"><h3>Attack / Сила атаки</h3><p>Базовая характеристика физического урона. Повышает урон умений и автоатак, зависящих от атаки.</p></div>
+      <div class="glossary-term" id="gt-magic-boost"><h3>Magic Boost (Маг. сила)</h3><p>Характеристика, усиливающая магический урон и/или эффективность магических умений (в зависимости от класса и навыка).</p></div>
+      <div class="glossary-term" id="gt-weapon-damage-boost"><h3>Weapon Damage Boost (Усиление урона оружия)</h3><p>Повышает вклад/урон от оружия. Встречается на экипировке и в soul binding; ценен для классов, у которых значим урон оружия.</p></div>
+      <div class="glossary-term" id="gt-defense"><h3>Defense / Физ. защита</h3><p>Снижает получаемый физический урон. Важна для выживаемости, особенно танкам и в сложном PvE-контенте.</p></div>
+      <div class="glossary-term" id="gt-magic-defense"><h3>Magic Defense / Маг. защита</h3><p>Снижает получаемый магический урон.</p></div>
+      <div class="glossary-term" id="gt-accuracy"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/того, что цель уклонится. Важна, чтобы ключевые умения и <a class="g-link" href="#gt-ротация">ротация</a> не «ломались» от промахов.</p></div>
+      <div class="glossary-term" id="gt-evasion"><h3>Evasion / Уклонение (УКЛН)</h3><p>Шанс уклониться от атаки и избежать её попадания/урона (по правилам конкретной атаки). Контрстат для <a class="g-link" href="#gt-accuracy">Точности</a>.</p></div>
+      <div class="glossary-term" id="gt-block"><h3>Block (Блок)</h3><p>Шанс заблокировать атаку (часто щитом/защитным умением), уменьшив или нивелировав урон по правилам механики. Важен для защитных классов.</p></div>
+      <div class="glossary-term" id="gt-parry"><h3>Parry (Парирование)</h3><p>Шанс парировать атаку, снизив/отразив её эффект по правилам игры. Относится к защитным механикам снижения входящего урона.</p></div>
       <div class="glossary-term" id="gt-crit"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, <a class="g-link" href="#gt-specialty">Specialty</a> и <a class="g-link" href="#gt-прок">проки</a> завязаны именно на крит.</p></div>
       <div class="glossary-term" id="gt-crit-damage"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом <a class="g-link" href="#gt-crit">крита</a>.</p></div>
+      <div class="glossary-term" id="gt-crit-resist"><h3>Crit Resist (Сопротивление криту)</h3><p>Снижает шанс получить критический удар от противника. Защитный стат для повышения выживаемости.</p></div>
       <div class="glossary-term" id="gt-multi-hit"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на <a class="g-link" href="#gt-прок">проки</a> и дополнительный урон.</p></div>
-      <div class="glossary-term" id="gt-double-chance"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами действий (зависят от конкретной реализации стата в экипировке).</p></div>
-      <div class="glossary-term" id="gt-accuracy"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/уклонения цели. Важна, чтобы ключевые умения и ротация не «ломались» от промахов.</p></div>
+      <div class="glossary-term" id="gt-multi-hit-resist"><h3>Multi-Hit Resist (Сопротивление мультиудару)</h3><p>Снижает шанс получения дополнительных ударов (мультиударов) от противника.</p></div>
+      <div class="glossary-term" id="gt-double-chance"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами (Double Chance, Perfect Chance и т.п.). Конкретный эффект зависит от реализации в экипировке и источниках бонусов.</p></div>
+      <div class="glossary-term" id="gt-combat-speed"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность <a class="g-link" href="#gt-ротация">ротации</a>. Часто приоритетный стат для DPS.</p></div>
+      <div class="glossary-term" id="gt-move-speed"><h3>Move Speed (Скорость передвижения)</h3><p>Скорость перемещения персонажа. Влияет на позиционирование, уклонение от механик и аптайм в бою.</p></div>
       <div class="glossary-term" id="gt-penetration"><h3>Penetration (Пробивание)</h3><p>Помогает эффективнее наносить урон по защищённым целям, снижая влияние их защиты/сопротивления.</p></div>
+      <div class="glossary-term" id="gt-magic-penetration"><h3>Magic Penetration (Маг. пробивание)</h3><p>Пробивание для магического урона: снижает влияние магической защиты цели.</p></div>
+      <div class="glossary-term" id="gt-concentration"><h3>Concentration (Концентрация)</h3><p>Характеристика, влияющая на устойчивость/эффективность применения умений в бою (в зависимости от механик). Может встречаться на экипировке и в эффектах.</p></div>
       <div class="glossary-term" id="gt-enmity"><h3>Enmity (Угроза/агро)</h3><p>Показатель угрозы для монстра. Танк набирает агро умениями с повышенной угрозой; DPS и хилы следят, чтобы не перехватить цель.</p></div>
-      <div class="glossary-term" id="gt-pve-damage-boost"><h3>PvE Damage Boost / Tolerance</h3><p>Boost — увеличение урона по PvE-целям. Tolerance — «устойчивость/снижение получаемого» урона у цели; некоторые дебаффы её уменьшают, усиливая урон группы.</p></div>
+      <div class="glossary-term" id="gt-pve-damage-boost"><h3>PvE Damage Boost / Tolerance</h3><p>Boost — увеличение урона по PvE-целям. Tolerance — устойчивость/снижение получаемого урона у цели; некоторые дебаффы её уменьшают, усиливая урон группы.</p></div>
+      <div class="glossary-term" id="gt-pvp-stats"><h3>PvP-статы (PvP Damage / Resist и др.)</h3><p>Отдельные показатели, влияющие на урон и защиту в PvP. В PvE-гайдах обычно вторичны, но могут встречаться на экипировке и в эффектах.</p></div>
     </div>
   </section>
 
@@ -2527,7 +2543,7 @@
   <img alt="">
 </div>
 
-<script src="assets/app.js?v=23"></script>
+<script src="assets/app.js?v=24"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
