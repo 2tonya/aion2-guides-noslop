@@ -3,9 +3,9 @@
 
   var SECTIONS = {
     ranger: [
-      ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-skills", "Скиллы"], ["r-passive", "Пассивки"],
-      ["r-stigma", "Стигмы"], ["r-macro", "Макрос"], ["r-rotation", "Ротация"],
-      ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-board", "Дэванион"]
+      ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-order", "Прокачка"], ["r-skills", "Скиллы"],
+      ["r-passive", "Пассивки"], ["r-stigma", "Стигмы"], ["r-macro", "Макрос"],
+      ["r-rotation", "Ротация"], ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-board", "Дэванион"]
     ],
     assassin: [
       ["a-tldr", "Главное"], ["a-road", "Путь"], ["a-order", "Прокачка"], ["a-skills", "Скиллы"],
@@ -13,34 +13,34 @@
       ["a-rotation", "Ротация"], ["a-setup", "Настройки"], ["a-board", "Дэванион"]
     ],
     sorcerer: [
-      ["so-tldr", "Главное"], ["so-skills", "Скиллы"], ["so-passive", "Пассивки"],
-      ["so-stigma", "Стигмы"], ["so-macro", "Макрос"], ["so-rotation", "Ротация"],
-      ["so-board", "Дэванион"]
+      ["so-tldr", "Главное"], ["so-road", "Путь"], ["so-order", "Прокачка"], ["so-skills", "Скиллы"],
+      ["so-passive", "Пассивки"], ["so-stigma", "Стигмы"], ["so-macro", "Макрос"],
+      ["so-rotation", "Ротация"], ["so-board", "Дэванион"]
     ],
     spiritmaster: [
-      ["sp-tldr", "Главное"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
+      ["sp-tldr", "Главное"], ["sp-road", "Путь"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
       ["sp-passive", "Пассивки"], ["sp-stigma", "Стигмы"], ["sp-macro", "Макрос"],
       ["sp-rotation", "Ротация"], ["sp-board", "Дэванион"]
     ],
     templar: [
-      ["te-tldr", "Главное"], ["te-skills", "Скиллы"], ["te-passive", "Пассивки"],
-      ["te-stigma", "Стигмы"], ["te-macro", "Макрос"], ["te-rotation", "Ротация"],
-      ["te-board", "Дэванион"]
+      ["te-tldr", "Главное"], ["te-road", "Путь"], ["te-order", "Прокачка"], ["te-skills", "Скиллы"],
+      ["te-passive", "Пассивки"], ["te-stigma", "Стигмы"], ["te-macro", "Макрос"],
+      ["te-rotation", "Ротация"], ["te-board", "Дэванион"]
     ],
     gladiator: [
-      ["gl-tldr", "Главное"], ["gl-skills", "Скиллы"], ["gl-passive", "Пассивки"],
-      ["gl-stigma", "Стигмы"], ["gl-macro", "Макрос"], ["gl-gear", "Экипировка"],
-      ["gl-arcana", "Arcana"], ["gl-board", "Дэванион"]
+      ["gl-tldr", "Главное"], ["gl-road", "Путь"], ["gl-order", "Прокачка"], ["gl-skills", "Скиллы"],
+      ["gl-passive", "Пассивки"], ["gl-stigma", "Стигмы"], ["gl-macro", "Макрос"],
+      ["gl-rotation", "Ротация"], ["gl-gear", "Экипировка"], ["gl-arcana", "Arcana"], ["gl-board", "Дэванион"]
     ],
     cleric: [
-      ["cl-tldr", "Главное"], ["cl-skills", "Скиллы"], ["cl-passive", "Пассивки"],
-      ["cl-stigma", "Стигмы"], ["cl-macro", "Макрос"], ["cl-rotation", "Ротация"],
-      ["cl-board", "Дэванион"]
+      ["cl-tldr", "Главное"], ["cl-road", "Путь"], ["cl-order", "Прокачка"], ["cl-skills", "Скиллы"],
+      ["cl-passive", "Пассивки"], ["cl-stigma", "Стигмы"], ["cl-macro", "Макрос"],
+      ["cl-rotation", "Ротация"], ["cl-board", "Дэванион"]
     ],
     chanter: [
-      ["ch-tldr", "Главное"], ["ch-skills", "Скиллы"], ["ch-passive", "Пассивки"],
-      ["ch-stigma", "Стигмы"], ["ch-macro", "Макрос"], ["ch-rotation", "Ротация"],
-      ["ch-board", "Дэванион"]
+      ["ch-tldr", "Главное"], ["ch-road", "Путь"], ["ch-order", "Прокачка"], ["ch-skills", "Скиллы"],
+      ["ch-passive", "Пассивки"], ["ch-stigma", "Стигмы"], ["ch-macro", "Макрос"],
+      ["ch-rotation", "Ротация"], ["ch-board", "Дэванион"]
     ]
   };
 
