@@ -761,3 +761,18 @@ b{color:#f2f6ff}
   border-color:var(--accent);
   box-shadow:0 0 0 1px rgba(255,255,255,.04) inset;
 }
+
+/* glossary back button */
+.glossary-back{
+  display:inline-flex;align-items:center;gap:6px;
+  margin:0 0 10px;
+  padding:7px 12px;
+  border-radius:10px;
+  border:1px solid var(--line);
+  background:var(--panel);
+  color:var(--text);
+  font:inherit;font-size:13px;font-weight:600;
+  cursor:pointer;
+}
+.glossary-back:hover{border-color:var(--accent);color:var(--accent)}
+.glossary-back.is-hidden{display:none}

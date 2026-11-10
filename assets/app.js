@@ -70,6 +70,32 @@
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
   var glossaryView = document.getElementById("glossary-view");
+  var glossaryBack = document.getElementById("glossary-back");
+  var glossaryReturn = null;
+
+  function updateGlossaryBack() {
+    if (!glossaryBack) return;
+    var show = !!(glossaryReturn && glossaryView && !glossaryView.classList.contains("is-hidden"));
+    glossaryBack.classList.toggle("is-hidden", !show);
+  }
+
+  if (glossaryBack) {
+    glossaryBack.addEventListener("click", function () {
+      if (!glossaryReturn) return;
+      var ret = glossaryReturn;
+      glossaryReturn = null;
+      if (SECTIONS[ret.view]) {
+        select(ret.view, false);
+        history.replaceState(null, "", "#" + ret.view);
+        window.scrollTo(0, ret.y || 0);
+      } else {
+        select("ranger", false);
+        history.replaceState(null, "", "#ranger");
+        window.scrollTo(0, ret.y || 0);
+      }
+      updateGlossaryBack();
+    });
+  }
 
   var chipMap = {};
   var sectionEls = [];
@@ -185,12 +211,14 @@
     document.documentElement.style.setProperty("--accent", THEME_ACCENTS[t] || "#9fd9c0");
     buildChips("glossary");
     updateActiveSection();
+    updateGlossaryBack();
     if (scrollTop) window.scrollTo(0, 0);
   }
 
   if (openGlossaryBtn) {
     openGlossaryBtn.addEventListener("click", function () {
       closeDrawer();
+      glossaryReturn = null;
       showGlossary(true);
       history.replaceState(null, "", "#glossary");
     });
@@ -271,6 +299,8 @@
   function select(key, scrollTop) {
     if (!SECTIONS[key] || key === "glossary") key = "ranger";
     currentView = key;
+    glossaryReturn = null;
+    if (glossaryBack) glossaryBack.classList.add("is-hidden");
 
     if (glossaryView) glossaryView.classList.add("is-hidden");
 
@@ -472,6 +502,16 @@
 
   // linkify all guides once
   guides.forEach(function (g) { linkifyGlossary(g); });
+
+  // glossary term link click: remember return point
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("a.g-link");
+    if (!a) return;
+    // only remember when coming from a guide (not from glossary itself)
+    if (a.closest(".guide")) {
+      glossaryReturn = { view: currentView, y: window.pageYOffset || window.scrollY || 0 };
+    }
+  }, true);
 
   // ---- поиск по гайдам ----
   var searchBtn = document.getElementById("search-btn");
