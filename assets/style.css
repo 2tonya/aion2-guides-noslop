@@ -292,6 +292,17 @@ b{color:#f2f6ff}
   background:rgba(255,255,255,.04);border:1px dashed var(--line);
 }
 
+/* иконка скилла внутри текста */
+.si{
+  width:17px;height:17px;
+  display:inline-block;vertical-align:-3px;
+  margin:0 4px 0 1px;
+  border-radius:4px;
+  border:1px solid rgba(255,255,255,.14);
+  background:rgba(255,255,255,.04);
+  opacity:.95;
+}
+
 /* mini grid (стигмы) */
 .grid{display:grid;gap:8px}
 .grid--4{grid-template-columns:repeat(2,minmax(0,1fr))}

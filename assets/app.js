@@ -216,4 +216,98 @@
     if (!drawer.hidden) { closeDrawer(); return; }
     if (!lb.hidden) close();
   });
+
+  // ---- иконки возле названий скиллов в тексте ----
+  var SKIP = "h1,h2,h3,h4,figcaption,.ranks,.mini,.credit,.chip,.tag,summary,button,a,.si";
+
+  function skillMap(scope) {
+    var map = {};
+
+    scope.querySelectorAll(".skill").forEach(function (s) {
+      var img = s.querySelector("img");
+      var h3 = s.querySelector("h3");
+      if (!img || !h3 || !h3.firstChild) return;
+      var name = h3.firstChild.textContent.trim();
+      if (name) map[name] = img.getAttribute("src");
+    });
+
+    scope.querySelectorAll(".mini").forEach(function (m) {
+      var img = m.querySelector("img");
+      var b = m.querySelector("b");
+      if (img && b) map[b.textContent.trim()] = img.getAttribute("src");
+    });
+
+    scope.querySelectorAll(".ranks li").forEach(function (li) {
+      var img = li.querySelector("img");
+      var sp = li.querySelector("span");
+      if (img && sp) map[sp.textContent.trim()] = img.getAttribute("src");
+    });
+
+    return map;
+  }
+
+  function escapeRe(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function addInlineIcons(scope) {
+    var map = skillMap(scope);
+    var names = Object.keys(map).sort(function (a, b) { return b.length - a.length; });
+    if (!names.length) return;
+
+    var re = new RegExp("(^|[^\\w-])(" + names.map(escapeRe).join("|") + ")(?![\\w-])", "g");
+
+    var walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!n.nodeValue || !n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p = n.parentElement;
+        if (!p || p.closest(SKIP)) return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    var seen = new WeakMap();
+
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      var frag = document.createDocumentFragment();
+      var last = 0;
+      var hit = false;
+      var m;
+
+      re.lastIndex = 0;
+      while ((m = re.exec(text))) {
+        var start = m.index + m[1].length;
+        var name = m[2];
+        var host = node.parentElement;
+        var done = seen.get(host);
+        if (!done) { done = {}; seen.set(host, done); }
+
+        frag.appendChild(document.createTextNode(text.slice(last, start)));
+
+        if (!done[name]) {
+          done[name] = true;
+          var icon = document.createElement("img");
+          icon.className = "si";
+          icon.src = map[name];
+          icon.alt = "";
+          icon.setAttribute("aria-hidden", "true");
+          frag.appendChild(icon);
+        }
+
+        frag.appendChild(document.createTextNode(name));
+        last = start + name.length;
+        hit = true;
+      }
+
+      if (!hit) return;
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+
+  document.querySelectorAll(".guide").forEach(addInlineIcons);
 })();
