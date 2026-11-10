@@ -108,7 +108,7 @@
   }
   function close() {
     lb.hidden = true;
-    lbImg.src = "";
+    lbImg.removeAttribute("src");
     document.body.style.overflow = "";
   }
 
