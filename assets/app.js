@@ -135,10 +135,17 @@
     if (!sectionEls.length) return;
     var offset = document.querySelector(".topbar").offsetHeight + 24;
     var current = sectionEls[0].id;
-    for (var i = 0; i < sectionEls.length; i++) {
-      var rect = sectionEls[i].getBoundingClientRect();
-      if (rect.top - offset <= 0) current = sectionEls[i].id;
+    var atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 40);
+
+    if (atBottom) {
+      current = sectionEls[sectionEls.length - 1].id;
+    } else {
+      for (var i = 0; i < sectionEls.length; i++) {
+        var rect = sectionEls[i].getBoundingClientRect();
+        if (rect.top - offset <= 0) current = sectionEls[i].id;
+      }
     }
+
     setActiveChip(current);
   }
 
