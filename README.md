@@ -1,89 +1,81 @@
-# ⚔️ Aion 2 — PvE-гайды по классам
+# Aion 2 — PvE-гайды по классам
 
-Компактные PvE-гайды по **Aion 2** для всех 8 классов: скиллы, стигмы, макросы, ротации, экипировка и **путь прокачки от новичка до топа** — в одном удобном сайте.
+Компактные мобильные PvE-гайды по **Aion 2** для всех 8 классов в одном месте. На русском языке, названия скиллов сохранены на английском.
 
-**[Открыть сайт →](https://2tonya.github.io/aion2-guides/)**
-
----
-
-## Что внутри
-
-- **8 классов** — Лучник, Ассасин, Чародей, Душелов, Храмовник, Гладиатор, Клирик, Чантер
-- **«Путь: от новичка до топа»** — приоритеты P1→P4: настройки и макрос, брейкпоинты скиллов, стигмы, шмот, Дэванион/Arcana, эндгейм
-- **Порядок прокачки** активных и пассивных скиллов с иконками
-- **Скиллы и Specialty** — что брать, на каких уровнях и зачем
-- **Макросы, стеки и ротации** — готовые схемы под каждый билд
-- **Доски Дэванион**, экипировка и прогрессия там, где это есть в источнике
-- Скриншоты, иконки скиллов и подсказки прямо в тексте
-
-## Возможности сайта
-
-| | |
-|---|---|
-| 📱 **Мобильная версия** | Тёмная тема, удобное чтение с телефона |
-| ☰ **Меню классов** | Боковая панель выбора класса по кнопке **A2** в шапке |
-| 🔍 **Поиск** | Поиск по словам сразу по всем гайдам (кнопка 🔍 или `Ctrl+K`) — с переходом к нужному разделу |
-| 🧭 **Навигация по разделам** | Чипы-разделы в шапке с подсветкой текущего раздела при прокрутке |
-| 🖼️ **Просмотр картинок** | Увеличение скриншотов и досок по тапу |
+**Сайт:** https://2tonya.github.io/aion2-guides/
 
 ## Классы
 
-| Класс | Билд / фокус | Гайд |
-|---|---|---|
-| Лучник (Ranger) | Deadshot, баффы и окна урона | [Открыть](https://2tonya.github.io/aion2-guides/#ranger) |
-| Ассасин (Assassin) | Burst, позиция за спиной, стаки Insignia | [Открыть](https://2tonya.github.io/aion2-guides/#assassin) |
-| Чародей (Sorcerer) | Заряженный Hellfire в подготовленном окне | [Открыть](https://2tonya.github.io/aion2-guides/#sorcerer) |
-| Душелов (Spiritmaster) | Ротация духов и Elemental Fusion | [Открыть](https://2tonya.github.io/aion2-guides/#spiritmaster) |
-| Храмовник (Templar) | Урон окнами Judgment, танкование | [Открыть](https://2tonya.github.io/aion2-guides/#templar) |
-| Гладиатор (Gladiator) | Endgame: Overhead Slam, мана и криты | [Открыть](https://2tonya.github.io/aion2-guides/#gladiator) |
-| Клирик (Cleric) | Condemnation-комбо и хил пати | [Открыть](https://2tonya.github.io/aion2-guides/#cleric) |
-| Чантер (Chanter) | Мантры и спам Dark Crush по триггеру | [Открыть](https://2tonya.github.io/aion2-guides/#chanter) |
+- **Лучник (Ranger)** — DPS
+- **Ассасин (Assassin)** — DPS
+- **Чародей (Sorcerer)** — DPS
+- **Заклинатель (Spiritmaster)** — DPS
+- **Страж (Templar)** — Танк
+- **Гладиатор (Gladiator)** — DPS
+- **Клирик (Cleric)** — Хил
+- **Чантер (Chanter)** — Саппорт
 
-## Запуск локально
+## Что внутри гайдов
 
-Сайт статический — серверная часть не нужна.
+- **Путь: от новичка до топа** — приоритеты по этапам (P1–P4): что качать и собирать в первую очередь.
+- **Порядок прокачки скиллов и пассивок** (приоритеты) + **Specialty/стигмы**.
+- **Макросы и ротации**, экипировка/Arcana (по слотам, с опорой на доступные данные источников).
+- **Доски Дэваниона**, частые ошибки и прочие заметки по классу.
+- Скриншоты, иконки скиллов и авторство/источники в каждом гайде.
+
+## Возможности сайта
+
+- **Одностраничный интерфейс** с переключением классов и разделов (чипы), подсветка активного раздела при прокрутке.
+- **Меню A2**: выбор класса (с меткой роли), выбор темы, переход в глоссарий.
+- **Темы**: Системная, Тёмная, Светлая, Тыквенная, Голубая.
+- **Поиск** по гайдам и глоссарию (по словам) с переходом к нужному разделу/термину и подсветкой совпадений.
+- **Глоссарий** (Системы, Бой, Характеристики) — доступен через меню A2; термины в гайдах кликабельны и ведут в глоссарий, с кнопкой возврата в место перехода и подсветкой термина.
+- **PWA**: установка и базовая офлайн-работа (кэширование ядра и ассетов).
+- Удобно на мобильных устройствах.
+
+## Локальный запуск
+
+Сайт статический — можно открыть `index.html` напрямую, но для корректной работы рекомендуется локальный сервер:
 
 ```bash
 git clone https://github.com/2tonya/aion2-guides.git
 cd aion2-guides
-```
-
-Откройте `index.html` в браузере или поднимите любой локальный сервер, например:
-
-```bash
-# Python
 python -m http.server 8080
-
-# Node.js
+# или
 npx serve .
 ```
 
-После этого сайт будет доступен на `http://localhost:8080`.
+После запуска открыть http://localhost:8080
 
-## Структура проекта
+## Структура репозитория
 
 ```text
 .
-├── index.html        # Вся разметка и контент гайдов
-├── assets/
-│   ├── style.css     # Стили, тёмная тема, адаптив
-│   └── app.js        # Навигация, поиск, scroll-spy, меню, лайтбокс
-└── img/              # Иконки классов/скиллов, скриншоты, доски Дэванион
+├─ index.html            # страница, контент гайдов и глоссария
+├─ assets/
+│  ├─ style.css          # стили и темы
+│  └─ app.js             # логика UI, навигация, поиск, глоссарий, темы, PWA-регистрация
+├─ img/                  # иконки классов/скиллов, скриншоты, доски, PWA-иконки
+├─ manifest.webmanifest  # PWA-манифест
+├─ sw.js                 # service worker
+└─ README.md
 ```
 
 ## Источники
 
 Материалы основаны на гайдах [Mobalytics](https://mobalytics.gg/) для Aion 2:
 
-- [Лучник — Ranger PvE](https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build)
-- [Ассасин — Burst PvE](https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build)
-- [Чародей — Hellfire PvE](https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build)
-- [Душелов — Elemental Fusion PvE](https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build)
-- [Храмовник — Templar PvE](https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build)
-- [Гладиатор — Endgame PvE](https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build)
-- [Клирик — Condemnation PvE](https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build)
-- [Чантер — Dark Crush PvE](https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build)
+- [Лучник — Ranger PvE](https://mobalytics.gg/aion-2/guides/ranger/builds/ranger-pve)
+- [Ассасин — Burst PvE](https://mobalytics.gg/aion-2/guides/assassin/builds/burst-pve)
+- [Чародей — Hellfire PvE](https://mobalytics.gg/aion-2/guides/sorcerer/builds/hellfire-pve)
+- [Заклинатель — Elemental Fusion PvE](https://mobalytics.gg/aion-2/guides/spiritmaster/builds/elemental-fusion-pve)
+- [Страж — Templar PvE](https://mobalytics.gg/aion-2/guides/templar/builds/templar-pve)
+- [Гладиатор — Endgame PvE](https://mobalytics.gg/aion-2/guides/gladiator/builds/endgame-pve)
+- [Клирик — Condemnation PvE](https://mobalytics.gg/aion-2/guides/cleric/builds/condemnation-pve)
+- [Чантер — Dark Crush PvE](https://mobalytics.gg/aion-2/guides/chanter/builds/dark-crush-pve)
 
-Авторы оригинальных гайдов указаны в каждом разделе на сайте.
+Гайды адаптированы и структурированы для удобного чтения на сайте. Конкретные числа, билды и рекомендации сверяйте с актуальными источниками (обновления игры могут менять баланс).
 
-> Сокращённый перевод и адаптация для личного использования. Права на исходные материалы и изображения принадлежат их авторам и Mobalytics.
+## Примечание
+
+Неофициальный фан-проект. Все названия, изображения и материалы Aion 2 принадлежат их правообладателям; материалы Mobalytics — их авторам.
