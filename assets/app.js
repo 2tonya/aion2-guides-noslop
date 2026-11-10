@@ -3,45 +3,45 @@
 
   var SECTIONS = {
     glossary: [
-      ["g-systems", "Системы"], ["g-combat", "Бой"], ["g-stats", "Характеристики"]
+      ["g-systems", "Системы"], ["g-combat", "Бой"], ["g-stats", "Характеристики"], ["g-compare", "Сравнение"], ["g-faq", "FAQ"]
     ],
     ranger: [
-      ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-order", "Прокачка"], ["r-skills", "Скиллы"],
+      ["r-quick", "Старт"], ["r-tldr", "Главное"], ["r-road", "Путь"], ["r-order", "Прокачка"], ["r-skills", "Скиллы"],
       ["r-passive", "Пассивки"], ["r-stigma", "Стигмы"], ["r-macro", "Макрос"],
       ["r-rotation", "Ротация"], ["r-gear", "Экипировка"], ["r-misc", "Прочее"], ["r-mistakes", "Ошибки"], ["r-board", "Дэванион"]
     ],
     assassin: [
-      ["a-tldr", "Главное"], ["a-road", "Путь"], ["a-order", "Прокачка"], ["a-skills", "Скиллы"],
+      ["a-quick", "Старт"], ["a-tldr", "Главное"], ["a-road", "Путь"], ["a-order", "Прокачка"], ["a-skills", "Скиллы"],
       ["a-passive", "Пассивки"], ["a-stigma", "Стигмы"], ["a-macro", "Макрос"],
       ["a-rotation", "Ротация"], ["a-setup", "Настройки"], ["a-gear", "Экипировка"], ["a-mistakes", "Ошибки"], ["a-board", "Дэванион"]
     ],
     sorcerer: [
-      ["so-tldr", "Главное"], ["so-road", "Путь"], ["so-order", "Прокачка"], ["so-skills", "Скиллы"],
+      ["so-quick", "Старт"], ["so-tldr", "Главное"], ["so-road", "Путь"], ["so-order", "Прокачка"], ["so-skills", "Скиллы"],
       ["so-passive", "Пассивки"], ["so-stigma", "Стигмы"], ["so-macro", "Макрос"],
       ["so-rotation", "Ротация"], ["so-gear", "Экипировка"], ["so-mistakes", "Ошибки"], ["so-board", "Дэванион"]
     ],
     spiritmaster: [
-      ["sp-tldr", "Главное"], ["sp-road", "Путь"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
+      ["sp-quick", "Старт"], ["sp-tldr", "Главное"], ["sp-road", "Путь"], ["sp-order", "Прокачка"], ["sp-skills", "Скиллы"],
       ["sp-passive", "Пассивки"], ["sp-stigma", "Стигмы"], ["sp-macro", "Макрос"],
       ["sp-rotation", "Ротация"], ["sp-gear", "Экипировка"], ["sp-mistakes", "Ошибки"], ["sp-board", "Дэванион"]
     ],
     templar: [
-      ["te-tldr", "Главное"], ["te-road", "Путь"], ["te-order", "Прокачка"], ["te-skills", "Скиллы"],
+      ["te-quick", "Старт"], ["te-tldr", "Главное"], ["te-road", "Путь"], ["te-order", "Прокачка"], ["te-skills", "Скиллы"],
       ["te-passive", "Пассивки"], ["te-stigma", "Стигмы"], ["te-macro", "Макрос"],
       ["te-rotation", "Ротация"], ["te-gear", "Экипировка"], ["te-mistakes", "Ошибки"], ["te-board", "Дэванион"]
     ],
     gladiator: [
-      ["gl-tldr", "Главное"], ["gl-road", "Путь"], ["gl-order", "Прокачка"], ["gl-skills", "Скиллы"],
+      ["gl-quick", "Старт"], ["gl-tldr", "Главное"], ["gl-road", "Путь"], ["gl-order", "Прокачка"], ["gl-skills", "Скиллы"],
       ["gl-passive", "Пассивки"], ["gl-stigma", "Стигмы"], ["gl-macro", "Макрос"],
       ["gl-rotation", "Ротация"], ["gl-gear", "Экипировка"], ["gl-arcana", "Arcana"], ["gl-mistakes", "Ошибки"], ["gl-board", "Дэванион"]
     ],
     cleric: [
-      ["cl-tldr", "Главное"], ["cl-road", "Путь"], ["cl-order", "Прокачка"], ["cl-skills", "Скиллы"],
+      ["cl-quick", "Старт"], ["cl-tldr", "Главное"], ["cl-road", "Путь"], ["cl-order", "Прокачка"], ["cl-skills", "Скиллы"],
       ["cl-passive", "Пассивки"], ["cl-stigma", "Стигмы"], ["cl-macro", "Макрос"],
       ["cl-rotation", "Ротация"], ["cl-gear", "Экипировка"], ["cl-mistakes", "Ошибки"], ["cl-board", "Дэванион"]
     ],
     chanter: [
-      ["ch-tldr", "Главное"], ["ch-road", "Путь"], ["ch-order", "Прокачка"], ["ch-skills", "Скиллы"],
+      ["ch-quick", "Старт"], ["ch-tldr", "Главное"], ["ch-road", "Путь"], ["ch-order", "Прокачка"], ["ch-skills", "Скиллы"],
       ["ch-passive", "Пассивки"], ["ch-stigma", "Стигмы"], ["ch-macro", "Макрос"],
       ["ch-rotation", "Ротация"], ["ch-gear", "Экипировка"], ["ch-mistakes", "Ошибки"], ["ch-board", "Дэванион"]
     ]
