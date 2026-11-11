@@ -5,14 +5,14 @@
   'use strict';
 
   var CLASSES = [
-    { key: 'ranger', name: 'Лучник', en: 'Ranger', role: 'Дальний DPS' },
-    { key: 'assassin', name: 'Ассасин', en: 'Assassin', role: 'Ближний DPS' },
-    { key: 'sorcerer', name: 'Чародей', en: 'Sorcerer', role: 'Магический DPS' },
-    { key: 'spiritmaster', name: 'Душелов', en: 'Spiritmaster', role: 'DPS · пет-класс' },
-    { key: 'templar', name: 'Храмовник', en: 'Templar', role: 'Танк' },
-    { key: 'gladiator', name: 'Гладиатор', en: 'Gladiator', role: 'Ближний DPS' },
-    { key: 'cleric', name: 'Клирик', en: 'Cleric', role: 'Хилер' },
-    { key: 'chanter', name: 'Чантер', en: 'Chanter', role: 'Саппорт' }
+    { key: 'ranger', name: 'Лучник', en: 'Ranger', role: 'Дальний DPS', roleEn: 'Ranged DPS' },
+    { key: 'assassin', name: 'Ассасин', en: 'Assassin', role: 'Ближний DPS', roleEn: 'Melee DPS' },
+    { key: 'sorcerer', name: 'Чародей', en: 'Sorcerer', role: 'Магический DPS', roleEn: 'Magic DPS' },
+    { key: 'spiritmaster', name: 'Душелов', en: 'Spiritmaster', role: 'DPS · пет-класс', roleEn: 'DPS · pet class' },
+    { key: 'templar', name: 'Храмовник', en: 'Templar', role: 'Танк', roleEn: 'Tank' },
+    { key: 'gladiator', name: 'Гладиатор', en: 'Gladiator', role: 'Ближний DPS', roleEn: 'Melee DPS' },
+    { key: 'cleric', name: 'Клирик', en: 'Cleric', role: 'Хилер', roleEn: 'Healer' },
+    { key: 'chanter', name: 'Чантер', en: 'Chanter', role: 'Саппорт', roleEn: 'Support' }
   ];
   var META = {};
   CLASSES.forEach(function (c) { META[c.key] = c; });
@@ -20,6 +20,53 @@
   var PREFIX = { r: 'ranger', a: 'assassin', so: 'sorcerer', sp: 'spiritmaster', te: 'templar', gl: 'gladiator', cl: 'cleric', ch: 'chanter' };
 
   var state = { lastGuide: 'ranger', activeSec: null, returnHash: null, lang: 'ru', restoreScroll: false };
+  var I18N = {
+    ru: {
+      nav_guides:'Гайды', nav_pets:'Питомцы', nav_monsters:'Монстры', nav_dungeons:'Подземелья', nav_skills:'Умения', nav_classes:'Классы', nav_items:'Предметы', nav_world:'Мир', nav_glossary:'База знаний',
+      classes_label:'Классы', rail_sections:'Разделы гайда', rail_other:'Нужен другой класс?', rail_all:'Все классы →',
+      search_placeholder:'Поиск по гайдбуку', search_label:'Поиск', fav_title:'Избранное', menu_title:'Меню классов',
+      home:'Главная', guides_section:'Гайды классов', back_guide:'← Вернуться к гайду', back_section:'← Вернуться к разделу', back_to_section:'← Назад к разделу',
+      add_fav:'В избранное', in_fav:'В избранном', pvp_dev:'PvP-гайды пока в разработке — здесь только PvE.', pvp_toast:'PvP-гайды пока в разработке — доступен PvE.',
+      open:'Открыть', remove:'Убрать из избранного', you_are_here:'Вы здесь',
+      choose_class:'Выберите класс', guide_sections:'Разделы гайда', close:'Закрыть',
+      search_start:'Начните вводить — поиск по гайдам, базе знаний, питомцам, монстрам, подземельям и умениям',
+      nothing_found:'Ничего не найдено', results:'результатов',
+      pets_all_types:'Все виды', pets_sort_alpha:'По алфавиту', pets_sort_type:'По виду', pets_sort_rank:'По рангу',
+      monsters_all_types:'Все типы', monsters_all_ranks:'Все ранги', monsters_sort_lvl:'По уровню', monsters_sort_name:'По имени', monsters_sort_rank:'По рангу',
+      dungeons_all_types:'Все типы', skills_all_classes:'Все классы', skills_all_cats:'Все категории',
+      active:'Активные', passive:'Пассивные', stigmas:'Стигмы',
+      total:'Всего', loaded:'загружено', out_of:'из', pets_word:'питомцев', monsters_word:'монстров', dungeons_word:'подземелий', skills_word:'умений',
+      open_page:'Открыть страницу →', full_catalog:'Полный каталог →', catalog:'Каталог', guide_link:'Гайд →',
+      class_guide:'Гайд по классу · PvE', mode_pve:'PvE', mode_pvp:'PvP',
+      footer_unofficial:'Неофициальный фан-проект. Данные и билды: Mobalytics. Баланс меняется патчами — сверяйтесь с источником.',
+      error_link:'Ошибка?', personal:'Личное', favorites_lead:'Гайды и существа, которые вы сохранили.', favorites_desc:'Список хранится в этом браузере — ничего не отправляется на сервер.',
+      fav_empty_classes:'Пока пусто. Откройте гайд класса и нажмите «В избранное» в шапке гайда.', fav_catalogs:'Для питомцев, монстров, подземелий и умений используйте разделы каталога:',
+      lang_toast_ru:'RU: русский язык', lang_toast_en:'EN: English language'
+    },
+    en: {
+      nav_guides:'Guides', nav_pets:'Pets', nav_monsters:'Monsters', nav_dungeons:'Dungeons', nav_skills:'Skills', nav_classes:'Classes', nav_items:'Items', nav_world:'World', nav_glossary:'Knowledge Base',
+      classes_label:'Classes', rail_sections:'Guide sections', rail_other:'Need another class?', rail_all:'All classes →',
+      search_placeholder:'Search the guidebook', search_label:'Search', fav_title:'Favorites', menu_title:'Class menu',
+      home:'Home', guides_section:'Class guides', back_guide:'← Back to guide', back_section:'← Back to section', back_to_section:'← Back to section',
+      add_fav:'Add to favorites', in_fav:'In favorites', pvp_dev:'PvP guides are in development — PvE only here.', pvp_toast:'PvP guides are in development — PvE is available.',
+      open:'Open', remove:'Remove from favorites', you_are_here:'You are here',
+      choose_class:'Choose a class', guide_sections:'Guide sections', close:'Close',
+      search_start:'Start typing — search guides, knowledge base, pets, monsters, dungeons and skills',
+      nothing_found:'Nothing found', results:'results',
+      pets_all_types:'All types', pets_sort_alpha:'Alphabetical', pets_sort_type:'By type', pets_sort_rank:'By rank',
+      monsters_all_types:'All types', monsters_all_ranks:'All ranks', monsters_sort_lvl:'By level', monsters_sort_name:'By name', monsters_sort_rank:'By rank',
+      dungeons_all_types:'All types', skills_all_classes:'All classes', skills_all_cats:'All categories',
+      active:'Active', passive:'Passive', stigmas:'Stigmas',
+      total:'Total', loaded:'loaded', out_of:'of', pets_word:'pets', monsters_word:'monsters', dungeons_word:'dungeons', skills_word:'skills',
+      open_page:'Open page →', full_catalog:'Full catalog →', catalog:'Catalog', guide_link:'Guide →',
+      class_guide:'Class guide · PvE', mode_pve:'PvE', mode_pvp:'PvP',
+      footer_unofficial:'Unofficial fan project. Data and builds: Mobalytics. Balance changes with patches — check the source.',
+      error_link:'Issue?', personal:'Personal', favorites_lead:'Guides and creatures you saved.', favorites_desc:'Stored in this browser — nothing is sent to a server.',
+      fav_empty_classes:'Empty for now. Open a class guide and click “Add to favorites” in the guide header.', fav_catalogs:'For pets, monsters, dungeons and skills, use the catalog sections:',
+      lang_toast_ru:'RU: русский язык', lang_toast_en:'EN: English language'
+    }
+  };
+  function t(key){ return (I18N[state.lang] && I18N[state.lang][key]) || (I18N.ru[key]) || key; }
   var scrollMemo = {};
   try { state.returnHash = sessionStorage.getItem('aion2:return') || null; } catch (e) {}
   try { state.lang = localStorage.getItem('aion2:lang') || 'ru'; } catch (e) {}
@@ -249,7 +296,7 @@
     if (!btn) return;
     var on = isFavClass(key);
     var label = btn.querySelector('span');
-    if (label) label.textContent = on ? 'В избранном' : 'В избранное';
+    if (label) label.textContent = on ? t('in_fav') : t('add_fav');
     btn.classList.toggle('is-fav', on);
     btn.setAttribute('aria-pressed', String(on));
   }
@@ -261,29 +308,35 @@
     writeFav('aion2:favorites:classes', favClasses);
     if (document.body.dataset.view === 'guide') updateSideFav(key);
     if (document.body.dataset.view === 'favorites') renderFavorites();
-    if (!silent) toast(favClasses.has(key) ? META[key].name + ' добавлен в избранное' : META[key].name + ' убран из избранного');
+    if (!silent) {
+      var nm = (state.lang==='en' ? META[key].en : META[key].name);
+      toast(favClasses.has(key) ? (nm + (state.lang==='en' ? ' added to favorites' : ' добавлен в избранное')) : (nm + (state.lang==='en' ? ' removed from favorites' : ' убран из избранного')));
+    }
   }
 
   function renderFavorites() {
     var wrap = $('#favorites-content');
     if (!wrap) return;
     var cls = CLASSES.filter(function (c) { return favClasses.has(c.key); });
+    var en = state.lang === 'en';
 
-    var html = '<section class="sec"><div class="sec__eyebrow"><span class="n">01</span><span>Классы</span></div><h2>Гайды классов</h2>';
+    var html = '<section class="sec"><div class="sec__eyebrow"><span class="n">01</span><span>' + t('nav_classes') + '</span></div><h2>' + t('guides_section') + '</h2>';
     if (cls.length) {
       html += '<div class="fav-list">' + cls.map(function (c) {
+        var name = en ? c.en : c.name;
+        var sub = en ? (c.name + ' · ' + c.role) : (c.en + ' · ' + c.role);
         return '<div class="fav-row"><img src="img/class-' + c.key + '.png" alt="" width="42" height="42">' +
-          '<div class="fav-row__body"><b>' + c.name + '</b><span>' + c.en + ' · ' + c.role + '</span></div>' +
-          '<a class="btn btn--ghost" href="#' + c.key + '">Открыть</a>' +
-          '<button class="icon-btn" type="button" data-unfav-class="' + c.key + '" aria-label="Убрать из избранного">×</button></div>';
+          '<div class="fav-row__body"><b>' + esc(name) + '</b><span>' + esc(sub) + '</span></div>' +
+          '<a class="btn btn--ghost" href="#' + c.key + '">' + t('open') + '</a>' +
+          '<button class="icon-btn" type="button" data-unfav-class="' + c.key + '" aria-label="' + esc(t('remove')) + '">×</button></div>';
       }).join('') + '</div>';
     } else {
-      html += '<p class="fav-empty">Пока пусто. Откройте гайд класса и нажмите «В избранное» в шапке гайда.</p>';
+      html += '<p class="fav-empty">' + t('fav_empty_classes') + '</p>';
     }
     html += '</section>';
 
-    html += '<section class="sec"><div class="sec__eyebrow"><span class="n">02</span><span>Каталоги</span></div><h2>Справочники wikily</h2>' +
-      '<p class="fav-empty">Для питомцев, монстров, подземелий и умений используйте разделы каталога: <a class="g-link" href="#pets">Питомцы</a>, <a class="g-link" href="#monsters">Монстры</a>, <a class="g-link" href="#dungeons">Подземелья</a>, <a class="g-link" href="#skills">Умения</a>.</p></section>';
+    html += '<section class="sec"><div class="sec__eyebrow"><span class="n">02</span><span>' + (en ? 'Catalogs' : 'Каталоги') + '</span></div><h2>' + (en ? 'Reference catalogs' : 'Справочники') + '</h2>' +
+      '<p class="fav-empty">' + t('fav_catalogs') + ' <a class="g-link" href="#pets">' + t('nav_pets') + '</a>, <a class="g-link" href="#monsters">' + t('nav_monsters') + '</a>, <a class="g-link" href="#dungeons">' + t('nav_dungeons') + '</a>, <a class="g-link" href="#skills">' + t('nav_skills') + '</a>.</p></section>';
 
     wrap.innerHTML = html;
   }
@@ -305,15 +358,24 @@
     });
     return list;
   }
+  var LMAP = {
+    type: { 'Дикие':'Wild', 'Мутанты':'Mutants', 'Разумные':'Sapient', 'Природные':'Natural' },
+    rank: { 'Обычный':'Common', 'Общий':'Common', 'Общий/Элитный':'Common/Elite', 'Элитный':'Elite', 'Героический':'Heroic' },
+    dcat: { 'Кошмары':'Nightmares', 'Артефакты Бездны':'Abyss Artifacts', 'Экспедиция':'Expedition', 'Священные земли':'Sanctum Lands', 'Неведомый разлом':'Dimensional Rift', 'Битва пробуждения':'Awakening Battle', 'Запечатанное подземелье':'Sealed Dungeon' }
+  };
+  function l(v,map){ if(state.lang!=='en') return v; return (map&&map[v]) || v; }
+
   function renderPets(){
     var grid = $('#pet-grid'); if(!grid) return;
     var sel = $('#pet-type');
-    if (sel && sel.options.length <= 1) {
+    if (sel) {
+      var cur = sel.value || petsState.type || 'all';
       var types = {};
       getPets().forEach(function(p){ types[p.type]=1; });
-      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(t){
-        var o=document.createElement('option'); o.value=t; o.textContent=t; sel.appendChild(o);
-      });
+      sel.innerHTML = '<option value="all">'+t('pets_all_types')+'</option>' + Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).map(function(tt){
+        return '<option value="'+esc(tt)+'">'+esc(l(tt,LMAP.type))+'</option>';
+      }).join('');
+      sel.value = cur; if(!sel.value) { sel.value='all'; petsState.type='all'; }
     }
     var list = filteredPets();
     grid.innerHTML = list.map(function(p){
@@ -321,13 +383,13 @@
         '<a class="catalog-card__img" href="'+esc(p.url)+'" target="_blank" rel="noopener"><img loading="lazy" src="'+esc(p.img)+'" alt=""></a>' +
         '<div class="catalog-card__body">' +
           '<div class="catalog-card__title"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a></div>' +
-          '<div class="catalog-card__meta"><span class="tag">'+esc(p.type)+'</span><span class="tag">'+esc(p.rank||'Обычный')+'</span></div>' +
+          '<div class="catalog-card__meta"><span class="tag">'+esc(l(p.type,LMAP.type))+'</span><span class="tag">'+esc(l(p.rank||'Обычный',LMAP.rank))+'</span></div>' +
           '<div class="catalog-card__src">'+esc(p.source||'')+'</div>' +
-          '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Открыть страницу →</a>' +
+          '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+t('open_page')+'</a>' +
         '</div></article>';
-    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    var count = $('#pet-count'); if(count) count.textContent = list.length + ' из ' + getPets().length + ' питомцев';
-    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Полный каталог питомцев (210). Уровни знания, способы получения и детали — в карточках.';
+    }).join('') || '<p class="fav-empty">'+t('nothing_found')+'</p>';
+    var count = $('#pet-count'); if(count) count.textContent = list.length + ' ' + t('out_of') + ' ' + getPets().length + ' ' + t('pets_word');
+    var foot = $('#pet-foot'); if(foot) foot.textContent = state.lang==='en' ? 'Full pet catalog (210). Levels, acquisition methods and details are on pet pages.' : 'Полный каталог питомцев (210). Уровни знания, способы получения и детали — в карточках.';
   }
   function initPets(){
     var s=$('#pet-search'); if(s) s.addEventListener('input', function(){ petsState.query=s.value; renderPets(); });
@@ -361,24 +423,29 @@
   function renderMonsters(){
     var grid=$('#monsters-grid'); if(!grid) return;
     var selT=$('#monster-type');
-    if (selT && selT.options.length <= 1) {
+    if (selT) {
+      var curT = selT.value || monstersState.type || 'all';
       var types={}; getMonsters().forEach(function(m){ if(m.type) types[m.type]=1; });
-      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; selT.appendChild(o); });
+      selT.innerHTML = '<option value="all">'+t('monsters_all_types')+'</option>' + Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).map(function(tt){ return '<option value="'+esc(tt)+'">'+esc(l(tt,LMAP.type))+'</option>'; }).join('');
+      selT.value=curT; if(!selT.value){selT.value='all'; monstersState.type='all';}
     }
     var selR=$('#monster-rank');
-    if (selR && selR.options.length <= 1) {
-      ['Общий','Элитный','Героический'].forEach(function(r){ var o=document.createElement('option'); o.value=r; o.textContent=r; selR.appendChild(o); });
+    if (selR) {
+      var curR = selR.value || monstersState.rank || 'all';
+      selR.innerHTML = '<option value="all">'+t('monsters_all_ranks')+'</option>' + ['Общий','Элитный','Героический'].map(function(r){ return '<option value="'+r+'">'+esc(l(r,LMAP.rank))+'</option>'; }).join('');
+      selR.value=curR; if(!selR.value){selR.value='all'; monstersState.rank='all';}
     }
     var list = filteredMonsters();
     grid.innerHTML = list.map(function(m){
+      var lvlLabel = state.lang==='en' ? ('Lv. '+esc(m.lvl)) : ('Ур. '+esc(m.lvl));
       return '<a class="catalog-card monster-card" href="'+esc(m.url)+'" target="_blank" rel="noopener">' +
         '<div class="catalog-card__img"><img loading="lazy" src="'+esc(m.img)+'" alt=""></div>' +
         '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(m.name)+'</div>' +
-        '<div class="catalog-card__meta"><span class="tag">Ур. '+esc(m.lvl)+'</span><span class="tag">'+esc(m.rank)+'</span><span class="tag">'+esc(m.type)+'</span></div>' +
+        '<div class="catalog-card__meta"><span class="tag">'+lvlLabel+'</span><span class="tag">'+esc(l(m.rank,LMAP.rank))+'</span><span class="tag">'+esc(l(m.type,LMAP.type))+'</span></div>' +
         '<div class="catalog-card__src">'+esc(m.loc||'')+'</div></div></a>';
-    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    var count=$('#monsters-count'); if(count) count.textContent = list.length + ' из ' + getMonsters().length + ' загружено (всего 1 814 )';
-    var foot=$('#monsters-foot'); if(foot) foot.textContent = 'Подборка монстров (загруженная выборка из 1 814). Полный список, локации и добыча — по ссылкам и фильтрам регионов.';
+    }).join('') || '<p class="fav-empty">'+t('nothing_found')+'</p>';
+    var count=$('#monsters-count'); if(count) count.textContent = list.length + ' ' + t('out_of') + ' ' + getMonsters().length + ' ' + t('loaded') + ' (' + t('total') + ' 1 814)';
+    var foot=$('#monsters-foot'); if(foot) foot.textContent = state.lang==='en' ? 'Loaded sample from 1,814 monsters. Full list, locations and drops are available via links and region filters.' : 'Подборка монстров (загруженная выборка из 1 814). Полный список, локации и добыча — по ссылкам и фильтрам регионов.';
   }
   function initMonsters(){
     var s=$('#monster-search'); if(s) s.addEventListener('input', function(){ monstersState.query=s.value; renderMonsters(); });
@@ -401,20 +468,24 @@
   function renderDungeons(){
     var grid=$('#dungeons-grid'); if(!grid) return;
     var sel=$('#dungeon-cat');
-    if (sel && sel.options.length <= 1) {
+    if (sel) {
+      var cur=sel.value || dungeonsState.cat || 'all';
       var cats={}; getDungeons().forEach(function(d){ if(d.cat) cats[d.cat]=1; });
-      Object.keys(cats).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(c){ var o=document.createElement('option'); o.value=c; o.textContent=c; sel.appendChild(o); });
+      sel.innerHTML = '<option value="all">'+t('dungeons_all_types')+'</option>' + Object.keys(cats).sort(function(a,b){return a.localeCompare(b,'ru');}).map(function(c){ return '<option value="'+esc(c)+'">'+esc(l(c,LMAP.dcat))+'</option>'; }).join('');
+      sel.value=cur; if(!sel.value){sel.value='all'; dungeonsState.cat='all';}
     }
     var list = filteredDungeons();
     grid.innerHTML = list.map(function(d){
+      var lvlTag = (d.lvl&&d.lvl!=='—') ? '<span class="tag">'+(state.lang==='en'?'Lv. ':'Ур. ')+esc(d.lvl)+'</span>' : '';
+      var grpTag = (d.group&&d.group!=='—') ? '<span class="tag">'+(state.lang==='en'?'Group ':'Группа ')+esc(d.group)+'</span>' : '';
       return '<a class="catalog-card dungeon-card" href="'+esc(d.url)+'" target="_blank" rel="noopener">' +
         '<div class="catalog-card__img"><img loading="lazy" src="'+esc(d.img)+'" alt=""></div>' +
         '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(d.name)+'</div>' +
-        '<div class="catalog-card__meta"><span class="tag">'+esc(d.cat)+'</span>'+(d.lvl&&d.lvl!=='—'?'<span class="tag">Ур. '+esc(d.lvl)+'</span>':'')+(d.group&&d.group!=='—'?'<span class="tag">Группа '+esc(d.group)+'</span>':'')+'</div>' +
+        '<div class="catalog-card__meta"><span class="tag">'+esc(l(d.cat,LMAP.dcat))+'</span>'+lvlTag+grpTag+'</div>' +
         '<div class="catalog-card__src">'+esc(d.note||'')+'</div></div></a>';
-    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    var count=$('#dungeons-count'); if(count) count.textContent = list.length + ' из ' + getDungeons().length + ' загружено (всего 136 )';
-    var foot=$('#dungeons-foot'); if(foot) foot.textContent = 'Подборка подземелий (загруженная выборка из 136). Полный каталог, режимы, боссы и награды — по ссылкам раздела.';
+    }).join('') || '<p class="fav-empty">'+t('nothing_found')+'</p>';
+    var count=$('#dungeons-count'); if(count) count.textContent = list.length + ' ' + t('out_of') + ' ' + getDungeons().length + ' ' + t('loaded') + ' (' + t('total') + ' 136)';
+    var foot=$('#dungeons-foot'); if(foot) foot.textContent = state.lang==='en' ? 'Loaded sample from 136 dungeons. Full catalog, modes, bosses and rewards are available via section links.' : 'Подборка подземелий (загруженная выборка из 136). Полный каталог, режимы, боссы и награды — по ссылкам раздела.';
   }
   function initDungeons(){
     var s=$('#dungeon-search'); if(s) s.addEventListener('input', function(){ dungeonsState.query=s.value; renderDungeons(); });
@@ -425,11 +496,12 @@
   var skillsState = { query: '', cls: 'all', cat: 'all' };
   function getSkills(){ return ((window.AION2_WIKILY||{}).skills || []); }
   function renderSkillsView(){
+    // Skills excluded from translation (names/content). Keep UI labels minimal/static in RU or neutral where needed.
     var cats=$('#skills-cats');
     if(cats){
       var data=(window.AION2_WIKILY||{}).skillsCats||[];
       cats.innerHTML = data.map(function(c){
-        return '<a class="info-card" href="'+esc(c.url)+'" target="_blank" rel="noopener"><b>'+esc(c.name)+'</b><span>'+c.count+' умений — '+esc(c.desc)+'</span></a>';
+        return '<a class="info-card" href="'+esc(c.url)+'" target="_blank" rel="noopener"><b>'+esc(c.name)+'</b><span>'+c.count+' — '+esc(c.desc)+'</span></a>';
       }).join('');
     }
     var grid=$('#skills-grid'); if(!grid) return;
@@ -448,8 +520,8 @@
     grid.innerHTML = list.map(function(s){
       return '<a class="skill-row-card" href="'+esc(s.url)+'" target="_blank" rel="noopener">' +
         '<img src="'+esc(s.icon)+'" alt="" loading="lazy"><span class="skill-row-card__body"><b>'+esc(s.name)+'</b><span>'+esc(s.class)+' · '+esc(s.cat)+(s.cd?(' · КД '+esc(s.cd)):'')+'</span></span><span class="arrow">→</span></a>';
-    }).join('') || '<p class="fav-empty">Умения по выбранным фильтрам не найдены в локальной подборке. Полный каталог — в разделе умений.</p>';
-    var count=$('#skills-count'); if(count) count.textContent = list.length + ' из ' + getSkills().length + ' загружено (всего 288 )';
+    }).join('') || '<p class="fav-empty">Ничего не найдено.</p>';
+    var count=$('#skills-count'); if(count) count.textContent = list.length + ' / ' + getSkills().length + ' (' + (state.lang==='en'?'total':'всего') + ' 288)';
   }
   function initSkills(){
     var s=$('#skill-search'); if(s) s.addEventListener('input', function(){ skillsState.query=s.value; renderSkillsView(); });
@@ -460,16 +532,27 @@
   function renderClassesView(){
     var tb=$('#classes-table'); if(!tb) return;
     var data=(window.AION2_WIKILY||{}).classesInfo||[];
+    var en = state.lang==='en';
     tb.innerHTML = data.map(function(c){
-      var g = '<a href="#'+c.key+'">Гайд →</a>';
-      var wikiName = c.wikilyRu && c.wikilyRu !== c.ru ? ' <span class="muted"></span>' : '';
-      return '<tr><td><b>'+esc(c.ru)+'</b>'+wikiName+' <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td>'+g+'</td></tr>';
+      var g = '<a href="#'+c.key+'">'+t('guide_link')+'</a>';
+      var name = en ? (esc(c.en)+' <span class="muted">('+esc(c.ru)+')</span>') : ('<b>'+esc(c.ru)+'</b> <span class="muted">('+esc(c.en)+')</span>');
+      return '<tr><td>'+name+'</td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td>'+g+'</td></tr>';
     }).join('');
   }
 
   function renderItemsView(){
     var box=$('#items-cards'); if(!box) return;
-    var items=[
+    var en = state.lang==='en';
+    var items = en ? [
+      {t:'Quests',d:'713 quests: Episode (175), Region (116), Orders (113), Missions (146), Crafting (12), Exploration (151). Objectives, levels, NPCs and rewards.',u:'https://wikily.gg/ru/aion-2/quests'},
+      {t:'Titles',d:'542 titles across categories with apply/own effects and sources.',u:'https://wikily.gg/ru/aion-2/titles'},
+      {t:'Emotes',d:'26 character emotes — animations and how to obtain them.',u:'https://wikily.gg/ru/aion-2/emotes'},
+      {t:'Daevanion',d:'Character development boards: nodes, bonuses and progression routes (Nezekan, Zikel, Vaizel, Triniel, Ariel, Azphel).',u:'https://wikily.gg/ru/aion-2/daevanion'},
+      {t:'Abyss Ranks',d:'PvP progression and Abyss ranks: tiers, points and rewards.',u:'https://wikily.gg/ru/aion-2/abyss-ranks'},
+      {t:'Cubes',d:'Inventory and storage expansions (cubes) — slots and acquisition.',u:'https://wikily.gg/ru/aion-2/cubes'},
+      {t:'Pets',d:'210 pets: types, ranks, images and cards (full local catalog).',u:'#pets',local:true},
+      {t:'Equipment & resources',d:'Overview: weapons, armor, accessories, consumables, materials and other item categories.',u:'https://wikily.gg/ru/aion-2/'}
+    ] : [
       {t:'Квесты',d:'713 заданий: Эпизод (175), Регион (116), Приказы (113), Миссии (146), Создание (12), Исследование (151). Цели, уровни, NPC и награды.',u:'https://wikily.gg/ru/aion-2/quests'},
       {t:'Титулы',d:'542 титула: Испытания (106), Столкновение (52), Исследование (179), Рост (42), Задание (115) и др. Эффекты «при применении/при наличии» и источники.',u:'https://wikily.gg/ru/aion-2/titles'},
       {t:'Эмоции',d:'26 эмоций персонажа — коллекция анимаций и способов получения.',u:'https://wikily.gg/ru/aion-2/emotes'},
@@ -487,7 +570,18 @@
 
   function renderWorldView(){
     var box=$('#world-cards'); if(!box) return;
-    var items=[
+    var en = state.lang==='en';
+    var items = en ? [
+      {t:'Regions',d:'Zones of Atreia: locations, levels, key points and activities by region.',u:'https://wikily.gg/ru/aion-2/regions'},
+      {t:'Monsters',d:'1,814 creatures: level, rank, type, locations and drops (local sample + catalog).',u:'#monsters',local:true},
+      {t:'Bosses',d:'56 bosses: locations, mechanics and rewards.',u:'https://wikily.gg/ru/aion-2/bosses'},
+      {t:'Dungeons',d:'136 activities of all types: entry levels, group size, bosses and rewards (local sample + catalog).',u:'#dungeons',local:true},
+      {t:'Nightmares',d:'1 challenge activity with 7 bosses (Lv. 45–65) and unique rewards.',u:'https://wikily.gg/ru/aion-2/dungeons/nightmare'},
+      {t:'Expeditions',d:'8 group expeditions for coordinated runs.',u:'https://wikily.gg/ru/aion-2/dungeons/expeditions'},
+      {t:'Sealed Dungeons',d:'121 dungeons (solo/group) — the main instanced category.',u:'https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons'},
+      {t:'Dimensional Rifts',d:'2 rifts — special instanced activities with unique conditions.',u:'https://wikily.gg/ru/aion-2/dungeons/dimensional-rifts'},
+      {t:'Artifacts & Abyss',d:'Abyss activities, artifacts and related rewards/progression.',u:'https://wikily.gg/ru/aion-2/dungeons/abyss-corridor'}
+    ] : [
       {t:'Регионы',d:'Зоны Атреи: локации, уровни, ключевые точки и активности по регионам.',u:'https://wikily.gg/ru/aion-2/regions'},
       {t:'Монстры',d:'1 814 существ: уровень, ранг, тип, места появления и добыча (локальная подборка + каталог).',u:'#monsters',local:true},
       {t:'Боссы',d:'56 боссов: локации, механики и награды.',u:'https://wikily.gg/ru/aion-2/bosses'},
@@ -535,15 +629,16 @@
   function updateBackLinks() {
     var g = META[state.lastGuide] || META.ranger;
     var ret = state.returnHash || ('#' + g.key);
+    var gname = state.lang==='en' ? g.en : g.name;
     var back = $('#glossary-back');
     if (back) {
       back.href = ret;
-      back.textContent = state.returnHash ? '← Вернуться к разделу' : '← Вернуться к гайду ' + g.name;
+      back.textContent = state.returnHash ? t('back_section') : (t('back_guide') + ' ' + gname);
     }
     var top = $('#glossary-back-top');
     if (top) {
       top.href = ret;
-      top.textContent = state.returnHash ? '← Назад к разделу' : '← К гайду ' + g.name;
+      top.textContent = state.returnHash ? t('back_to_section') : ('← ' + (state.lang==='en'?'To guide ':'К гайду ') + gname);
       top.hidden = !state.returnHash;
     }
   }
@@ -555,9 +650,61 @@
     document.documentElement.lang = lang;
     document.body.dataset.lang = lang;
     var btn = $('#lang-btn');
-    if (btn) { btn.textContent = lang === 'en' ? 'EN' : 'RU'; btn.setAttribute('aria-pressed', String(lang==='en')); btn.title = lang === 'en' ? 'Показаны английские названия классов' : 'Показаны русские названия классов'; }
-    // scope: toggle class EN labels visibility/highlight in guide headers and strip
+    if (btn) { btn.textContent = lang === 'en' ? 'EN' : 'RU'; btn.setAttribute('aria-pressed', String(lang==='en')); btn.title = lang === 'en' ? 'Switch to Russian' : 'Switch to English'; }
+    $$('[data-i18n]').forEach(function(el){
+      var k = el.getAttribute('data-i18n');
+      if (k && t(k)) el.textContent = t(k);
+    });
+    $$('[data-i18n-html]').forEach(function(el){
+      var k = el.getAttribute('data-i18n-html');
+      if (k && t(k)) el.innerHTML = t(k);
+    });
+    $$('[data-i18n-placeholder]').forEach(function(el){
+      var k = el.getAttribute('data-i18n-placeholder');
+      if (k && t(k)) el.setAttribute('placeholder', t(k));
+    });
+    $$('[data-i18n-aria]').forEach(function(el){
+      var k = el.getAttribute('data-i18n-aria');
+      if (k && t(k)) el.setAttribute('aria-label', t(k));
+    });
+    $$('[data-i18n-title]').forEach(function(el){
+      var k = el.getAttribute('data-i18n-title');
+      if (k && t(k)) el.setAttribute('title', t(k));
+    });
+    $$('[data-ru-placeholder][data-en-placeholder]').forEach(function(el){
+      var v = el.getAttribute(lang==='en'?'data-en-placeholder':'data-ru-placeholder');
+      if (v!=null) el.setAttribute('placeholder', v);
+    });
+    $$('[data-ru-aria][data-en-aria]').forEach(function(el){
+      if (el.closest('.skill') || el.closest('#view-skills')) return;
+      var v = el.getAttribute(lang==='en'?'data-en-aria':'data-ru-aria');
+      if (v!=null) el.setAttribute('aria-label', v);
+    });
+    $$('[data-ru-title][data-en-title]').forEach(function(el){
+      if (el.closest('.skill') || el.closest('#view-skills')) return;
+      var v = el.getAttribute(lang==='en'?'data-en-title':'data-ru-title');
+      if (v!=null) el.setAttribute('title', v);
+    });
+    // guide heroes: emphasize EN name in EN mode, swap role/focus facts and some labels where mapped
     $$('.guide-hero h1 .en').forEach(function(el){ el.classList.toggle('is-emph', lang==='en'); });
+    $$('[data-ru][data-en]').forEach(function(el){
+      if (el.closest('.skill') || el.closest('#view-skills') || el.closest('.skill-ref')) return; // skills excluded
+      var v = el.getAttribute(lang==='en'?'data-en':'data-ru');
+      if (v != null) el.textContent = v;
+    });
+    // re-render dynamic views so counts/labels/cards update
+    if (typeof renderPets === 'function') renderPets();
+    if (typeof renderMonsters === 'function') renderMonsters();
+    if (typeof renderDungeons === 'function') renderDungeons();
+    if (typeof renderSkillsView === 'function') renderSkillsView();
+    if (typeof renderClassesView === 'function') renderClassesView();
+    if (typeof renderItemsView === 'function') renderItemsView();
+    if (typeof renderWorldView === 'function') renderWorldView();
+    if (typeof renderFavorites === 'function') renderFavorites();
+    if (typeof renderClassesSheet === 'function') renderClassesSheet();
+    if (typeof updateBackLinks === 'function') updateBackLinks();
+    if (document.body.dataset.view === 'guide' && typeof renderRails === 'function') renderRails(state.lastGuide);
+    if (typeof renderSectionsSheet === 'function') renderSectionsSheet(state.lastGuide);
   }
   function initLang(){
     var btn = $('#lang-btn');
@@ -565,7 +712,7 @@
       state.lang = state.lang === 'en' ? 'ru' : 'en';
       try { localStorage.setItem('aion2:lang', state.lang); } catch(e){}
       applyLang();
-      toast(state.lang === 'en' ? 'EN: выделены английские названия классов' : 'RU: русский режим отображения');
+      toast(state.lang === 'en' ? t('lang_toast_en') : t('lang_toast_ru'));
     });
     applyLang();
   }
@@ -608,24 +755,29 @@
     var secs = getSections(key);
     var active = state.activeSec;
     var sub = $('#sections-sheet-sub');
-    if (sub) sub.textContent = secs.length + ' ' + plural(secs.length, 'раздел', 'раздела', 'разделов');
+    if (sub) sub.textContent = secs.length + ' ' + (state.lang==='en' ? plural(secs.length,'section','sections','sections') : plural(secs.length, 'раздел', 'раздела', 'разделов'));
     list.innerHTML = secs.map(function (s, i) {
       var here = s.id === active;
       return '<button type="button" data-section-sheet="' + s.id + '"' + (here ? ' class="is-active"' : '') + '>' +
         '<span class="num">' + pad(i + 1) + '</span><span>' + esc(s.label) + '</span>' +
-        (here ? '<span class="here">Вы здесь</span>' : '<span class="arrow">→</span>') + '</button>';
+        (here ? '<span class="here">'+t('you_are_here')+'</span>' : '<span class="arrow">→</span>') + '</button>';
     }).join('');
   }
 
-  function initSheets() {
+  function renderClassesSheet(){
     var classesList = $('#classes-sheet-list');
     if (classesList) {
+      var en = state.lang==='en';
       classesList.innerHTML = CLASSES.map(function (c) {
+        var nm = en ? c.en : c.name;
         return '<button type="button" data-class-sheet="' + c.key + '">' +
-          '<span class="sheet-class"><img src="img/class-' + c.key + '.png" alt="" width="28" height="28"><span>' + c.name + '</span></span>' +
+          '<span class="sheet-class"><img src="img/class-' + c.key + '.png" alt="" width="28" height="28"><span>' + esc(nm) + '</span></span>' +
           '<span class="arrow">→</span></button>';
       }).join('');
     }
+  }
+  function initSheets() {
+    renderClassesSheet();
 
     document.addEventListener('click', function (e) {
       var opener = e.target.closest('[data-open-sheet]');
@@ -664,7 +816,7 @@
       if (uf) { toggleClassFav(uf.dataset.unfavClass); return; }
       var mode = e.target.closest('[data-mode]');
       if (mode) {
-        if (mode.dataset.mode === 'pvp') toast('PvP-гайды пока в разработке — доступен PvE.');
+        if (mode.dataset.mode === 'pvp') toast(t('pvp_toast'));
         return;
       }
       var goto = e.target.closest('[data-goto]');
@@ -761,11 +913,13 @@
     return (start > 0 ? '…' : '') + raw.slice(start, end) + (end < raw.length ? '…' : '');
   }
 
+  var KIND_EN = { 'Гайд':'Guide','База знаний':'Knowledge Base','Термин':'Term','Питомцы':'Pets','Монстры':'Monsters','Подземелья':'Dungeons','Умения':'Skills','Каталог':'Catalog','Справочник':'Reference','Сводки':'Summaries','Раздел':'Section' };
   function renderSearch(q) {
     var query = norm(q);
+    var en = state.lang==='en';
     if (!query) {
-      searchMeta.textContent = 'Начните вводить — поиск по гайдам, базе знаний, питомцам, монстрам, подземельям и умениям';
-      searchResults.innerHTML = '';
+      if(searchMeta) searchMeta.textContent = t('search_start');
+      if(searchResults) searchResults.innerHTML = '';
       return;
     }
     var words = query.split(' ').filter(Boolean);
@@ -779,10 +933,12 @@
       return bt - at;
     });
     res = res.slice(0, 50);
-    searchMeta.textContent = res.length ? res.length + ' ' + plural(res.length, 'результат', 'результата', 'результатов') : 'Ничего не найдено';
-    searchResults.innerHTML = res.map(function (it) {
+    if(searchMeta) searchMeta.textContent = res.length ? (res.length + ' ' + (en ? plural(res.length,'result','results','results') : plural(res.length, 'результат', 'результата', 'результатов'))) : t('nothing_found');
+    if(searchResults) searchResults.innerHTML = res.map(function (it) {
+      var kind = en ? (KIND_EN[it.kind]||it.kind) : it.kind;
+      var label = en ? (KIND_EN[it.label]||it.label) : it.label;
       return '<button class="search-item" type="button" data-hash="' + it.hash + '">' +
-        '<span class="search-row"><span class="search-kind">' + it.kind + '</span><span class="search-sec">' + esc(it.label) + '</span></span>' +
+        '<span class="search-row"><span class="search-kind">' + esc(kind) + '</span><span class="search-sec">' + esc(label) + '</span></span>' +
         '<span class="search-title">' + mark(it.title, words) + '</span>' +
         '<span class="search-snip">' + mark(snippet(it, words), words) + '</span></button>';
     }).join('');

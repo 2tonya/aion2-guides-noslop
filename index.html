@@ -7,7 +7,7 @@
 <meta name="color-scheme" content="dark">
 <title>Aion 2 · Гайдбук — PvE-гайды по классам</title>
 <meta name="description" content="PvE-гайды по классам Aion 2: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки. Бестиарий и база знаний.">
-<link rel="stylesheet" href="assets/style.css?v=46">
+<link rel="stylesheet" href="assets/style.css?v=47">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
@@ -21,25 +21,25 @@
       <span class="logo__sub">Guidebook</span>
     </a>
     <nav class="main-nav main-nav--wide" aria-label="Основная навигация">
-      <a class="main-nav__item is-active" href="#ranger" data-nav="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды</span></a>
-      <a class="main-nav__item" href="#pets" data-nav="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span>Питомцы</span></a>
-      <a class="main-nav__item" href="#monsters" data-nav="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span>Монстры</span></a>
-      <a class="main-nav__item" href="#dungeons" data-nav="dungeons"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/></svg><span>Подземелья</span></a>
-      <a class="main-nav__item" href="#skills" data-nav="skills"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></svg><span>Умения</span></a>
-      <a class="main-nav__item" href="#classes" data-nav="classes"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.5-3.5 4-5 7-5s5.5 1.5 7 5"/></svg><span>Классы</span></a>
-      <a class="main-nav__item" href="#items" data-nav="items"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg><span>Предметы</span></a>
-      <a class="main-nav__item" href="#world" data-nav="world"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span>Мир</span></a>
-      <a class="main-nav__item" href="#glossary" data-nav="glossary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4.5h-6a3 3 0 0 0-3 3V21a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg><span>База знаний</span></a>
+      <a class="main-nav__item is-active" href="#ranger" data-nav="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span data-i18n="nav_guides">Гайды</span></a>
+      <a class="main-nav__item" href="#pets" data-nav="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span data-i18n="nav_pets">Питомцы</span></a>
+      <a class="main-nav__item" href="#monsters" data-nav="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span data-i18n="nav_monsters">Монстры</span></a>
+      <a class="main-nav__item" href="#dungeons" data-nav="dungeons"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/></svg><span data-i18n="nav_dungeons">Подземелья</span></a>
+      <a class="main-nav__item" href="#skills" data-nav="skills"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></svg><span data-i18n="nav_skills">Умения</span></a>
+      <a class="main-nav__item" href="#classes" data-nav="classes"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.5-3.5 4-5 7-5s5.5 1.5 7 5"/></svg><span data-i18n="nav_classes">Классы</span></a>
+      <a class="main-nav__item" href="#items" data-nav="items"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg><span data-i18n="nav_items">Предметы</span></a>
+      <a class="main-nav__item" href="#world" data-nav="world"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span data-i18n="nav_world">Мир</span></a>
+      <a class="main-nav__item" href="#glossary" data-nav="glossary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4.5h-6a3 3 0 0 0-3 3V21a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg><span data-i18n="nav_glossary">База знаний</span></a>
     </nav>
     <div class="header-tools">
       <button class="search-trigger" id="search-trigger" type="button" aria-controls="search-modal" aria-expanded="false">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="label">Поиск по гайдбуку</span><kbd>/</kbd>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="label" data-i18n="search_placeholder">Поиск по гайдбуку</span><kbd>/</kbd>
       </button>
-      <button class="icon-btn" id="favorites-btn" type="button" aria-label="Избранное" aria-controls="view-favorites">
+      <button class="icon-btn" id="favorites-btn" type="button" aria-label="Избранное" data-i18n-aria="fav_title" aria-controls="view-favorites">
         <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg>
       </button>
       <button class="lang" id="lang-btn" type="button" aria-pressed="false" title="Переключить RU/EN">RU</button>
-      <button class="icon-btn icon-btn--menu" id="menu-btn" type="button" aria-label="Меню классов" aria-controls="classes-sheet" aria-expanded="false">
+      <button class="icon-btn icon-btn--menu" id="menu-btn" type="button" aria-label="Меню классов" data-i18n-aria="menu_title" aria-controls="classes-sheet" aria-expanded="false">
         <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
     </div>
@@ -48,7 +48,7 @@
 
 <div class="class-strip">
   <div class="class-strip__inner">
-    <div class="class-strip__label">Классы</div>
+    <div class="class-strip__label" data-i18n="classes_label">Классы</div>
     <div class="class-strip__list" id="class-strip">
       <button class="class-pill is-active" type="button" data-class="ranger">
           <img src="img/class-ranger.png" alt="" width="26" height="26"><span>Лучник</span>
@@ -80,21 +80,21 @@
 
 <main class="page">
   <aside class="rail rail--left" aria-label="Разделы гайда">
-    <div class="rail__label">Разделы гайда</div>
+    <div class="rail__label" data-i18n="rail_sections">Разделы гайда</div>
     <nav class="rail-nav" id="rail-left"></nav>
-    <div class="rail__foot">Нужен другой класс?<br><a href="#ranger" data-open-sheet="classes">Все классы →</a></div>
+    <div class="rail__foot"><span data-i18n="rail_other">Нужен другой класс?</span><br><a href="#ranger" data-open-sheet="classes" data-i18n="rail_all">Все классы →</a></div>
   </aside>
 
   <div class="content" id="content">
     <section class="view view--guide is-active" id="view-guide-ranger" data-class-key="ranger" aria-label="Гайд: Лучник">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#ranger">Главная</a><span class="sep">/</span>
-    <a href="#ranger">Гайды классов</a><span class="sep">/</span>
+    <a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#ranger" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Лучник</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Лучник <span class="en">Ranger</span></h1>
@@ -106,10 +106,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-ranger.png" alt="" width="150" height="150">
     </div>
@@ -118,7 +118,7 @@
         <img src="img/class-ranger.png" alt="" width="26" height="26"><span>Лучник</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -501,13 +501,13 @@
 </section>
 <section class="view view--guide" id="view-guide-assassin" data-class-key="assassin" aria-label="Гайд: Ассасин">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#assassin">Главная</a><span class="sep">/</span>
-    <a href="#assassin">Гайды классов</a><span class="sep">/</span>
+    <a href="#assassin" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#assassin" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Ассасин</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Ассасин <span class="en">Assassin</span></h1>
@@ -519,10 +519,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-assassin.png" alt="" width="150" height="150">
     </div>
@@ -531,7 +531,7 @@
         <img src="img/class-assassin.png" alt="" width="26" height="26"><span>Ассасин</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -863,13 +863,13 @@
 </section>
 <section class="view view--guide" id="view-guide-sorcerer" data-class-key="sorcerer" aria-label="Гайд: Чародей">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#sorcerer">Главная</a><span class="sep">/</span>
-    <a href="#sorcerer">Гайды классов</a><span class="sep">/</span>
+    <a href="#sorcerer" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#sorcerer" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Чародей</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Чародей <span class="en">Sorcerer</span></h1>
@@ -881,10 +881,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-sorcerer.png" alt="" width="150" height="150">
     </div>
@@ -893,7 +893,7 @@
         <img src="img/class-sorcerer.png" alt="" width="26" height="26"><span>Чародей</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -1198,13 +1198,13 @@
 </section>
 <section class="view view--guide" id="view-guide-spiritmaster" data-class-key="spiritmaster" aria-label="Гайд: Душелов">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#spiritmaster">Главная</a><span class="sep">/</span>
-    <a href="#spiritmaster">Гайды классов</a><span class="sep">/</span>
+    <a href="#spiritmaster" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#spiritmaster" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Душелов</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Душелов <span class="en">Spiritmaster</span></h1>
@@ -1216,10 +1216,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-spiritmaster.png" alt="" width="150" height="150">
     </div>
@@ -1228,7 +1228,7 @@
         <img src="img/class-spiritmaster.png" alt="" width="26" height="26"><span>Душелов</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -1531,13 +1531,13 @@
 </section>
 <section class="view view--guide" id="view-guide-templar" data-class-key="templar" aria-label="Гайд: Храмовник">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#templar">Главная</a><span class="sep">/</span>
-    <a href="#templar">Гайды классов</a><span class="sep">/</span>
+    <a href="#templar" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#templar" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Храмовник</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Храмовник <span class="en">Templar</span></h1>
@@ -1549,10 +1549,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-templar.png" alt="" width="150" height="150">
     </div>
@@ -1561,7 +1561,7 @@
         <img src="img/class-templar.png" alt="" width="26" height="26"><span>Храмовник</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -1875,13 +1875,13 @@
 </section>
 <section class="view view--guide" id="view-guide-gladiator" data-class-key="gladiator" aria-label="Гайд: Гладиатор">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#gladiator">Главная</a><span class="sep">/</span>
-    <a href="#gladiator">Гайды классов</a><span class="sep">/</span>
+    <a href="#gladiator" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#gladiator" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Гладиатор</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Гладиатор <span class="en">Gladiator</span></h1>
@@ -1893,10 +1893,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-gladiator.png" alt="" width="150" height="150">
     </div>
@@ -1905,7 +1905,7 @@
         <img src="img/class-gladiator.png" alt="" width="26" height="26"><span>Гладиатор</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -2226,13 +2226,13 @@
 </section>
 <section class="view view--guide" id="view-guide-cleric" data-class-key="cleric" aria-label="Гайд: Клирик">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#cleric">Главная</a><span class="sep">/</span>
-    <a href="#cleric">Гайды классов</a><span class="sep">/</span>
+    <a href="#cleric" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#cleric" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Клирик</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Клирик <span class="en">Cleric</span></h1>
@@ -2244,10 +2244,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-cleric.png" alt="" width="150" height="150">
     </div>
@@ -2256,7 +2256,7 @@
         <img src="img/class-cleric.png" alt="" width="26" height="26"><span>Клирик</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -2562,13 +2562,13 @@
 </section>
 <section class="view view--guide" id="view-guide-chanter" data-class-key="chanter" aria-label="Гайд: Чантер">
   <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#chanter">Главная</a><span class="sep">/</span>
-    <a href="#chanter">Гайды классов</a><span class="sep">/</span>
+    <a href="#chanter" data-i18n="home">Главная</a><span class="sep">/</span>
+    <a href="#chanter" data-i18n="guides_section">Гайды классов</a><span class="sep">/</span>
     <span class="current">Чантер</span>
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Чантер <span class="en">Chanter</span></h1>
@@ -2580,10 +2580,10 @@
             <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
           </div>
           <button class="btn btn--ghost guide-hero__fav" type="button" data-fav-current aria-pressed="false">
-            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-chanter.png" alt="" width="150" height="150">
     </div>
@@ -2592,7 +2592,7 @@
         <img src="img/class-chanter.png" alt="" width="26" height="26"><span>Чантер</span><span class="chev">⌄</span>
       </button>
       <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
-        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span data-i18n="guide_sections">Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
   </header>
@@ -2880,32 +2880,32 @@
   </div>
 </section>
     
-        <section class="view" id="view-pets" aria-label="Питомцы">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Питомцы</span></nav>
+        <section class="view" id="view-pets" aria-label="Питомцы" data-ru-aria="Питомцы" data-en-aria="Pets">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-i18n="nav_pets">Питомцы</span></nav>
   <header class="view-head">
     <div>
-      <div class="eyebrow">Каталог · AION 2</div>
-      <h1>Питомцы</h1>
-      <p class="lead">Полный каталог питомцев Aion 2 — все 210 записей.</p>
-      <p class="desc">Имя, вид, ранг, изображение и источник Поиск, фильтр по виду и сортировка. Уровни знания, способы получения и детали — в карточках питомцев.</p>
+      <div class="eyebrow" data-ru="Каталог · AION 2" data-en="Catalog · AION 2">Каталог · AION 2</div>
+      <h1 data-i18n="nav_pets">Питомцы</h1>
+      <p class="lead" data-ru="Полный каталог питомцев Aion 2 — все 210 записей." data-en="Full Aion 2 pet catalog — all 210 entries.">Полный каталог питомцев Aion 2 — все 210 записей.</p>
+      <p class="desc" data-ru="Имя, вид, ранг, изображение и источник. Поиск, фильтр по виду и сортировка. Уровни знания, способы получения и детали — в карточках питомцев." data-en="Name, type, rank, image and source. Search, filter by type and sorting. Levels, acquisition and details are on pet pages.">Имя, вид, ранг, изображение и источник. Поиск, фильтр по виду и сортировка. Уровни знания, способы получения и детали — в карточках питомцев.</p>
     </div>
-    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/pets" target="_blank" rel="noopener">Все питомцы →</a></div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/pets" target="_blank" rel="noopener" data-ru="Все питомцы →" data-en="All pets →">Все питомцы →</a></div>
   </header>
   <div class="catalog-controls">
-    <label class="field" for="pet-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="pet-search" type="search" placeholder="Поиск питомца по имени…" autocomplete="off" spellcheck="false"></label>
-    <div class="select"><select id="pet-type" aria-label="Вид"><option value="all">Все виды</option></select></div>
-    <div class="select"><select id="pet-sort" aria-label="Сортировка"><option value="alpha">По алфавиту</option><option value="type">По виду</option><option value="rank">По рангу</option></select></div>
+    <label class="field" for="pet-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="pet-search" type="search" placeholder="Поиск питомца по имени…" data-ru-placeholder="Поиск питомца по имени…" data-en-placeholder="Search pets by name…" autocomplete="off" spellcheck="false"></label>
+    <div class="select"><select id="pet-type" aria-label="Вид" data-ru-aria="Вид" data-en-aria="Type"><option value="all">Все виды</option></select></div>
+    <div class="select"><select id="pet-sort" aria-label="Сортировка" data-ru-aria="Сортировка" data-en-aria="Sort"><option value="alpha" data-i18n="pets_sort_alpha">По алфавиту</option><option value="type" data-i18n="pets_sort_type">По виду</option><option value="rank" data-i18n="pets_sort_rank">По рангу</option></select></div>
   </div>
   <div class="catalog-meta"><span id="pet-count"></span><a href="https://wikily.gg/ru/aion-2/pets" target="_blank" rel="noopener">Каталог</a></div>
   <div class="catalog-grid" id="pet-grid"></div>
   <div class="catalog-foot" id="pet-foot"></div>
 </section>
 
-    <section class="view" id="view-monsters" aria-label="Монстры">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Монстры</span></nav>
+    <section class="view" id="view-monsters" aria-label="Монстры" data-ru-aria="Монстры" data-en-aria="Monsters">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-i18n="nav_monsters">Монстры</span></nav>
   <header class="view-head">
     <div>
-      <div class="eyebrow">Каталог · AION 2</div>
+      <div class="eyebrow" data-ru="Каталог · AION 2" data-en="Catalog · AION 2">Каталог · AION 2</div>
       <h1>Монстры</h1>
       <p class="lead">Монстры Атреи — 1 814 существ (уровень, ранг, тип, локация, добыча).</p>
       <p class="desc">Локальная подборка с поиском и фильтрами. Полный каталог, локации и добыча — в карточках раздела.</p>
@@ -2913,19 +2913,19 @@
     <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/monsters" target="_blank" rel="noopener">Полный каталог →</a></div>
   </header>
   <div class="info-chips">
-    <span class="chip">Всего: 1 814</span><span class="chip">Элитных: 153</span><span class="chip">Героических: 201</span><span class="chip">С добычей: 736</span>
+    <span class="chip" data-ru="Всего: 1 814" data-en="Total: 1,814">Всего: 1 814</span><span class="chip">Элитных: 153</span><span class="chip">Героических: 201</span><span class="chip">С добычей: 736</span>
   </div>
   <div class="catalog-controls">
-    <label class="field" for="monster-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="monster-search" type="search" placeholder="Поиск монстра, локации, типа…" autocomplete="off" spellcheck="false"></label>
-    <div class="select"><select id="monster-type" aria-label="Тип"><option value="all">Все типы</option></select></div>
-    <div class="select"><select id="monster-rank" aria-label="Ранг"><option value="all">Все ранги</option></select></div>
-    <div class="select"><select id="monster-sort" aria-label="Сортировка"><option value="lvl">По уровню</option><option value="name">По имени</option><option value="rank">По рангу</option></select></div>
+    <label class="field" for="monster-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="monster-search" type="search" placeholder="Поиск монстра, локации, типа…" data-ru-placeholder="Поиск монстра, локации, типа…" data-en-placeholder="Search monster, location, type…" autocomplete="off" spellcheck="false"></label>
+    <div class="select"><select id="monster-type" aria-label="Тип" data-ru-aria="Тип" data-en-aria="Type"><option value="all">Все типы</option></select></div>
+    <div class="select"><select id="monster-rank" aria-label="Ранг" data-ru-aria="Ранг" data-en-aria="Rank"><option value="all">Все ранги</option></select></div>
+    <div class="select"><select id="monster-sort" aria-label="Сортировка" data-ru-aria="Сортировка" data-en-aria="Sort"><option value="lvl" data-i18n="monsters_sort_lvl">По уровню</option><option value="name" data-i18n="monsters_sort_name">По имени</option><option value="rank" data-i18n="monsters_sort_rank">По рангу</option></select></div>
   </div>
   <div class="catalog-meta"><span id="monsters-count"></span><a href="https://wikily.gg/ru/aion-2/monsters" target="_blank" rel="noopener">Каталог</a></div>
   <div class="catalog-grid catalog-grid--monsters" id="monsters-grid"></div>
   <div class="catalog-foot" id="monsters-foot"></div>
   <div class="ref-links">
-    <h3>Регионы и разделы</h3>
+    <h3 data-ru="Регионы и разделы" data-en="Regions & sections">Регионы и разделы</h3>
     <a href="https://wikily.gg/ru/aion-2/monsters/poeta" target="_blank" rel="noopener">Фоэта (26)</a>
     <a href="https://wikily.gg/ru/aion-2/monsters/verteron" target="_blank" rel="noopener">Бертрон (740)</a>
     <a href="https://wikily.gg/ru/aion-2/monsters/ishalgen" target="_blank" rel="noopener">Исхальген (27)</a>
@@ -2935,29 +2935,29 @@
   </div>
 </section>
 
-    <section class="view" id="view-dungeons" aria-label="Подземелья">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Подземелья</span></nav>
+    <section class="view" id="view-dungeons" aria-label="Подземелья" data-ru-aria="Подземелья" data-en-aria="Dungeons">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-i18n="nav_dungeons">Подземелья</span></nav>
   <header class="view-head">
     <div>
-      <div class="eyebrow">Каталог · AION 2</div>
+      <div class="eyebrow" data-ru="Каталог · AION 2" data-en="Catalog · AION 2">Каталог · AION 2</div>
       <h1>Подземелья и боссы</h1>
       <p class="lead">136 активностей: кошмары, запечатанные, экспедиции, разломы и другие режимы.</p>
       <p class="desc">Уровень входа, размер группы, боссы и награды — в карточках. Локальная подборка с поиском и фильтром по типу.</p>
     </div>
-    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/dungeons" target="_blank" rel="noopener">Все подземелья →</a></div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/dungeons" target="_blank" rel="noopener" data-ru="Все подземелья →" data-en="All dungeons →" data-ru="Все подземелья →" data-en="All dungeons →">Все подземелья →</a></div>
   </header>
   <div class="info-chips">
-    <span class="chip">Всего: 136</span><span class="chip">Запечатанные: 121</span><span class="chip">Экспедиции: 8</span><span class="chip">Кошмары: 1</span><span class="chip">Разломы: 2</span>
+    <span class="chip" data-ru="Всего: 136" data-en="Total: 136">Всего: 136</span><span class="chip" data-ru="Запечатанные: 121" data-en="Sealed: 121">Запечатанные: 121</span><span class="chip" data-ru="Экспедиции: 8" data-en="Expeditions: 8">Экспедиции: 8</span><span class="chip" data-ru="Кошмары: 1" data-en="Nightmares: 1">Кошмары: 1</span><span class="chip" data-ru="Разломы: 2" data-en="Rifts: 2">Разломы: 2</span>
   </div>
   <div class="catalog-controls">
-    <label class="field" for="dungeon-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="dungeon-search" type="search" placeholder="Поиск подземелья…" autocomplete="off" spellcheck="false"></label>
-    <div class="select"><select id="dungeon-cat" aria-label="Тип"><option value="all">Все типы</option></select></div>
+    <label class="field" for="dungeon-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="dungeon-search" type="search" placeholder="Поиск подземелья…" data-ru-placeholder="Поиск подземелья…" data-en-placeholder="Search dungeons…" autocomplete="off" spellcheck="false"></label>
+    <div class="select"><select id="dungeon-cat" aria-label="Тип" data-ru-aria="Тип" data-en-aria="Type"><option value="all">Все типы</option></select></div>
   </div>
   <div class="catalog-meta"><span id="dungeons-count"></span><a href="https://wikily.gg/ru/aion-2/dungeons" target="_blank" rel="noopener">Каталог</a></div>
   <div class="catalog-grid catalog-grid--dungeons" id="dungeons-grid"></div>
   <div class="catalog-foot" id="dungeons-foot"></div>
   <div class="ref-links">
-    <h3>Боссы и режимы</h3>
+    <h3 data-ru="Боссы и режимы" data-en="Bosses & modes">Боссы и режимы</h3>
     <a href="https://wikily.gg/ru/aion-2/bosses" target="_blank" rel="noopener">Боссы (56)</a>
     <a href="https://wikily.gg/ru/aion-2/dungeons/nightmare" target="_blank" rel="noopener">Кошмары</a>
     <a href="https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons" target="_blank" rel="noopener">Запечатанные</a>
@@ -2965,14 +2965,14 @@
   </div>
 </section>
 
-    <section class="view" id="view-skills" aria-label="Умения">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Умения</span></nav>
+    <section class="view" id="view-skills" aria-label="Умения" data-ru-aria="Умения" data-en-aria="Skills">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current">Умения</span></nav>
   <header class="view-head">
     <div>
-      <div class="eyebrow">Справочник · AION 2</div>
+      <div class="eyebrow" data-ru="Справочник · AION 2" data-en="Reference · AION 2">Справочник · AION 2</div>
       <h1>Умения</h1>
       <p class="lead">288 умений: активные, пассивные и стигмы для 8 классов.</p>
-      <p class="desc">Локальная подборка с фильтрами; полный каталог (стоимость, перезарядка, дальность, специализации) —. Детальные билды — в гайдах классов.</p>
+      <p class="desc">Локальная подборка с фильтрами; полный каталог и детали — по ссылкам. Детальные билды — в гайдах классов.</p>
     </div>
     <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/skills" target="_blank" rel="noopener">Все умения →</a></div>
   </header>
@@ -2997,8 +2997,8 @@
   </div>
 </section>
 
-    <section class="view" id="view-classes" aria-label="Классы">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Классы</span></nav>
+    <section class="view" id="view-classes" aria-label="Классы" data-ru-aria="Классы" data-en-aria="Classes">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-i18n="nav_classes">Классы</span></nav>
   <header class="view-head">
     <div>
       <div class="eyebrow">Справочник · AION 2</div>
@@ -3006,14 +3006,14 @@
       <p class="lead">8 классов Aion 2: оружие, роль, ресурсы и ссылки.</p>
       <p class="desc">Сводка Подробные PvE-гайды — в разделе «Гайды».</p>
     </div>
-    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/classes" target="_blank" rel="noopener">Классы →</a></div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/classes" target="_blank" rel="noopener" data-ru="Классы →" data-en="Classes →">Классы →</a></div>
   </header>
   <div class="table-wrap"><table class="data-table"><thead><tr><th>Класс (гайд)</th><th>Оружие</th><th>Роль</th><th>Ссылки</th></tr></thead><tbody id="classes-table"></tbody></table></div>
   <p class="hint">Названия в каталогах могут отличаться от локальных гайдов (Лучник/Стрелок, Волшебник/Чародей, Заклинатель/Душелов, Целитель/Клирик, Чародей/Чантер, Страж/Храмовник).</p>
 </section>
 
-    <section class="view" id="view-items" aria-label="Предметы и сводки">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Предметы и сводки</span></nav>
+    <section class="view" id="view-items" aria-label="Предметы и сводки" data-ru-aria="Предметы и сводки" data-en-aria="Items & summaries">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-ru="Предметы и сводки" data-en="Items & summaries">Предметы и сводки</span></nav>
   <header class="view-head">
     <div>
       <div class="eyebrow">Сводки · AION 2</div>
@@ -3021,13 +3021,13 @@
       <p class="lead">Квесты, титулы, эмоции, даэванион, ранги Бездны, кубы и прочие категории.</p>
       <p class="desc">Сводные разделы с ключевыми цифрами и переходами в каталоги/карточки (стадия наполнения).</p>
     </div>
-    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/" target="_blank" rel="noopener">Открыть каталог →</a></div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/" target="_blank" rel="noopener" data-ru="Открыть каталог →" data-en="Open catalog →">Открыть каталог →</a></div>
   </header>
   <div class="info-cards" id="items-cards"></div>
 </section>
 
-    <section class="view" id="view-world" aria-label="Мир и активности">
-  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Мир и активности</span></nav>
+    <section class="view" id="view-world" aria-label="Мир и активности" data-ru-aria="Мир и активности" data-en-aria="World & activities">
+  <nav class="crumbs" aria-label="Хлебные крошки" data-ru-aria="Хлебные крошки" data-en-aria="Breadcrumbs"><a href="#ranger" data-i18n="home">Главная</a><span class="sep">/</span><span class="current" data-ru="Мир и активности" data-en="World & activities">Мир и активности</span></nav>
   <header class="view-head">
     <div>
       <div class="eyebrow">Сводки · AION 2</div>
@@ -3185,10 +3185,10 @@
   </nav>
 
   <header class="kb-head">
-    <div class="eyebrow">Личное</div>
-    <h1>Избранное</h1>
-    <p class="lead">Гайды и существа, которые вы сохранили.</p>
-    <p class="desc">Список хранится в этом браузере — ничего не отправляется на сервер.</p>
+    <div class="eyebrow" data-i18n="personal">Личное</div>
+    <h1 data-i18n="fav_title">Избранное</h1>
+    <p class="lead" data-i18n="favorites_lead">Гайды и существа, которые вы сохранили.</p>
+    <p class="desc" data-i18n="favorites_desc">Список хранится в этом браузере — ничего не отправляется на сервер.</p>
   </header>
 
   <div id="favorites-content"></div>
@@ -3199,30 +3199,30 @@
 <footer class="site-footer">
   <div class="site-footer__inner">
     <div class="site-footer__brand">Aion 2 · Guidebook</div>
-    <div class="site-footer__center">Неофициальный фан-проект. Данные и билды: Mobalytics. Баланс меняется патчами — сверяйтесь с источником.</div>
+    <div class="site-footer__center" data-i18n="footer_unofficial">Неофициальный фан-проект. Данные и билды: Mobalytics. Баланс меняется патчами — сверяйтесь с источником.</div>
     <div class="site-footer__links">
-      <a href="#glossary">База знаний</a>
-      <a href="#monsters">Монстры</a>
-      <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener">Ошибка?</a>
+      <a href="#glossary" data-i18n="nav_glossary">База знаний</a>
+      <a href="#monsters" data-i18n="nav_monsters">Монстры</a>
+      <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener" data-i18n="error_link">Ошибка?</a>
     </div>
   </div>
 </footer>
 
 <nav class="tabbar" aria-label="Мобильная навигация">
-  <button type="button" data-tab="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды</span></button>
-  <button type="button" data-tab="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span>Питомцы</span></button>
-  <button type="button" data-tab="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span>Монстры</span></button>
-  <button type="button" data-tab="search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span>Поиск</span></button>
+  <button type="button" data-tab="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span data-i18n="nav_guides">Гайды</span></button>
+  <button type="button" data-tab="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span data-i18n="nav_pets">Питомцы</span></button>
+  <button type="button" data-tab="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span data-i18n="nav_monsters">Монстры</span></button>
+  <button type="button" data-tab="search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span data-i18n="search_label">Поиск</span></button>
 </nav>
 
 <div class="sheet" id="classes-sheet" aria-hidden="true">
   <div class="sheet__backdrop" data-sheet-close></div>
   <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Выбор класса">
     <div class="sheet__head">
-      <h2>Выберите класс</h2>
-      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <h2 data-i18n="choose_class">Выберите класс</h2>
+      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть" data-i18n-aria="close"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
-    <div class="sheet__sub">8 классов · PvE-гайды</div>
+    <div class="sheet__sub" data-ru="8 классов · PvE-гайды" data-en="8 classes · PvE guides">8 классов · PvE-гайды</div>
     <div class="sheet-list" id="classes-sheet-list"></div>
   </div>
 </div>
@@ -3231,8 +3231,8 @@
   <div class="sheet__backdrop" data-sheet-close></div>
   <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Разделы гайда">
     <div class="sheet__head">
-      <h2>Разделы гайда</h2>
-      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <h2 data-i18n="guide_sections">Разделы гайда</h2>
+      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть" data-i18n-aria="close"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
     <div class="sheet__sub" id="sections-sheet-sub">12 разделов · читайте в своём темпе</div>
     <div class="sheet-list" id="sections-sheet-list"></div>
@@ -3244,10 +3244,10 @@
   <div class="search-panel" role="dialog" aria-modal="true" aria-label="Поиск по гайдбуку">
     <div class="search-head">
       <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-      <input class="search-input" id="search-input" type="search" placeholder="Скилл, класс, термин, существо…" autocomplete="off" spellcheck="false">
-      <button class="search-close" type="button" data-search-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <input class="search-input" id="search-input" type="search" placeholder="Скилл, класс, термин, существо…" data-ru-placeholder="Скилл, класс, термин, существо…" data-en-placeholder="Skill, class, term, creature…" autocomplete="off" spellcheck="false">
+      <button class="search-close" type="button" data-search-close aria-label="Закрыть" data-i18n-aria="close"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
-    <div class="search-meta" id="search-meta">Начните вводить слово — поиск идёт по гайдам, базе знаний и бестиарию</div>
+    <div class="search-meta" id="search-meta" data-i18n="search_start">Начните вводить — поиск по гайдам, базе знаний, питомцам, монстрам, подземельям и умениям</div>
     <div class="search-results" id="search-results"></div>
   </div>
 </div>
@@ -3259,9 +3259,9 @@
   <img alt="">
 </div>
 
-<script src="assets/pets-data.js??v=40"></script>
-<script src="assets/wikily-data.js??v=40"></script>
-<script src="assets/app.js??v=40"></script>
+<script src="assets/pets-data.js?v=47"></script>
+<script src="assets/wikily-data.js?v=47"></script>
+<script src="assets/app.js?v=47"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
