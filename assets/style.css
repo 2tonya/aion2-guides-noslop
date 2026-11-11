@@ -6,8 +6,8 @@
   --line:#242b3a;
   --line-soft:#1c2230;
   --text:#e9edf5;
-  --muted:#95a0b6;
-  --dim:#6f7a90;
+  --muted:#a7b3c8;
+  --dim:#8b97ad;
   --accent:#6fd3a7;
   --accent-2:#e0b464;
   --radius:16px;
@@ -27,8 +27,8 @@
   --line:#d7deea;
   --line-soft:#e3e8f2;
   --text:#182133;
-  --muted:#53627a;
-  --dim:#6b7a92;
+  --muted:#4a586e;
+  --dim:#5f6f86;
   --accent:#1f9d6a;
   --accent-2:#c9831a;
   --topbar-bg:rgba(243,245,249,.9);
@@ -46,8 +46,8 @@
   --line:#3d2918;
   --line-soft:#322215;
   --text:#f6ede2;
-  --muted:#c7ab8e;
-  --dim:#9d8166;
+  --muted:#d3baa0;
+  --dim:#b08f73;
   --accent:#ff8c1a;
   --accent-2:#ffb347;
   --topbar-bg:rgba(20,14,9,.88);
@@ -65,8 +65,8 @@
   --line:#21364f;
   --line-soft:#1a2b41;
   --text:#e8f1fb;
-  --muted:#9bb2ca;
-  --dim:#7a93ad;
+  --muted:#a9bfd6;
+  --dim:#8fa7bf;
   --accent:#4fc3ff;
   --accent-2:#7ed6ff;
   --topbar-bg:rgba(7,18,29,.88);
@@ -140,9 +140,9 @@ a:hover{text-decoration:underline}
 .switch::-webkit-scrollbar{display:none}
 .switch__btn{
   display:flex;align-items:center;gap:6px;flex:0 0 auto;
-  padding:7px 10px;border:0;border-radius:9px;
+  padding:10px 12px;min-height:44px;border:0;border-radius:9px;
   background:transparent;color:var(--muted);
-  font:inherit;font-size:13px;font-weight:600;cursor:pointer;
+  font:inherit;font-size:14px;font-weight:600;cursor:pointer;
   white-space:nowrap;
   transition:.18s;
 }
@@ -232,7 +232,7 @@ a:hover{text-decoration:underline}
 }
 
 /* ---------- layout ---------- */
-main{max-width:var(--wrap);margin:0 auto;padding:18px 16px 40px}
+main{max-width:var(--wrap);margin:0 auto;padding:18px max(16px, env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left))}
 
 .guide{animation:rise .35s ease both}
 .guide.is-hidden{display:none}
@@ -258,7 +258,7 @@ main{max-width:var(--wrap);margin:0 auto;padding:18px 16px 40px}
   color:var(--muted);letter-spacing:0;text-transform:none;
   vertical-align:baseline;
 }
-.hero__sub{margin:0 0 10px;color:var(--muted);font-size:14.5px}
+.hero__sub{margin:0 0 10px;color:var(--muted);font-size:15px;line-height:1.55}
 .badges{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
 .badges li{
   padding:3px 9px;border-radius:6px;font-size:12px;font-weight:600;
@@ -317,7 +317,7 @@ b{color:#f2f6ff}
 }
 .skill__body{min-width:0}
 .skill h3{margin:0 0 4px;font-size:14.5px;display:flex;flex-wrap:wrap;align-items:center;gap:7px}
-.skill p{margin:0;font-size:13.8px;color:#c4cddf}
+.skill p{margin:0;font-size:14px;line-height:1.6;color:#c4cddf}
 .skill .hint{margin-top:5px}
 
 .tag{
@@ -880,10 +880,13 @@ b{color:#f2f6ff}
 }
 .faq-item summary{
   cursor:pointer;
-  padding:10px 0;
+  min-height:44px;
+  padding:12px 0;
   font-weight:600;
   color:var(--text);
   list-style:none;
+  display:flex;
+  align-items:center;
 }
 .faq-item summary::-webkit-details-marker{ display:none; }
 .faq-item[open] summary{ border-bottom:1px solid var(--line-soft); margin-bottom:8px; }
