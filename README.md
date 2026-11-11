@@ -1,8 +1,10 @@
-# Aion 2 — PvE-гайды по классам
+# Aion 2 — PvE-гайды по классам (noslop)
 
 Компактные мобильные PvE-гайды по **Aion 2** для всех 8 классов в одном месте. На русском языке, названия скиллов сохранены на английском.
 
-**Сайт:** https://2tonya.github.io/aion2-guides/
+**Сайт:** https://2tonya.github.io/aion2-guides-noslop/
+
+**Оригинал:** https://2tonya.github.io/aion2-guides/
 
 ## Классы
 
@@ -62,6 +64,17 @@ npx serve .
 └─ README.md
 ```
 
+
+## Скиллы и анти-AI-slop доработки
+
+Это отдельная копия проекта, в которой дизайн и UI доработаны с опорой на популярные frontend/design-скиллы (найдены на GitHub):
+
+- **[anthropics/skills — frontend-design](https://github.com/anthropics/skills)** (репозиторий ~192k★) — осознанный визуальный дизайн, привязка к предмету, уход от шаблонных решений.
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** (~113k★) — «вкус» и качество frontend-исполнения, анти-slop подход.
+- **[funboy322/avoid-ai-design](https://github.com/funboy322/avoid-ai-design)** — аудит и устранение типичных AI-slop паттернов (в т.ч. шаблонный chrome, декоративные акценты, проблемы фокуса и др.).
+
+Скиллы были установлены в рабочую сессию и применены к копии: упрощён визуальный шум (лишние blur/декоративные акценты, шаблонные ALL-CAPS/разделители), усилена доступность (видимый `:focus-visible`), сохранены контент, структура и функциональность исходного сайта.
+
 ## Источники
 
 Материалы основаны на гайдах [Mobalytics](https://mobalytics.gg/) для Aion 2:
@@ -84,7 +97,7 @@ npx serve .
 
 ## Сообщить об ошибке или устаревшей информации
 
-Если нашли неточность или устаревшие данные, создайте issue: https://github.com/2tonya/aion2-guides/issues/new
+Если нашли неточность или устаревшие данные, создайте issue: https://github.com/2tonya/aion2-guides-noslop/issues/new
 
 Желательно указать:
 - класс и раздел/раздел гайда;
