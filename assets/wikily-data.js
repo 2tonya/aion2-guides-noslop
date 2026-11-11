@@ -17113,6 +17113,446 @@
         "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
         "url": "https://wikily.gg/ru/aion-2/monsters/furious-mutated-dramata",
         "loc": ""
+      },
+      {
+        "id": "furious-guardian",
+        "name": "Бешеный хранитель",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NlZTc4ZjEtMzExMy00NDgwLTliOGItMTk2ZWZmZGI1MmZhLW1vYl9kZWJndWFyZF8wNS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-guardian",
+        "loc": ""
+      },
+      {
+        "id": "furious-watcher",
+        "name": "Бешеный дозорный солдат",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI4OTJkZmQtYWRhZi00ZTlmLThjMjQtOTczOTE3ODhiNTc1LW1vYl9kZWJndWFyZF8wNC5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-watcher",
+        "loc": ""
+      },
+      {
+        "id": "furious-daeva-patrol",
+        "name": "Бешеный патрульный даэвов",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-daeva-patrol",
+        "loc": ""
+      },
+      {
+        "id": "furious-elite-shieldbearer",
+        "name": "Бешеный элитный щитоносец",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-elite-shieldbearer",
+        "loc": ""
+      },
+      {
+        "id": "furious-elite-assault-trooper",
+        "name": "Бешеный элитный штурмовик",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-elite-assault-trooper",
+        "loc": ""
+      },
+      {
+        "id": "furious-dark-mage",
+        "name": "Бешеный темный маг",
+        "lvl": "60",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/furious-dark-mage",
+        "loc": ""
+      },
+      {
+        "id": "giant-lava-glob",
+        "name": "Гигантский лавовый комок",
+        "lvl": "63",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/giant-lava-glob",
+        "loc": ""
+      },
+      {
+        "id": "summoned-duduka-worker",
+        "name": "Призванный рабочий дудуков",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTQ5MjJmMjMtZjNmZS00NWNjLTlhNWQtNzU5ZTA3YzA0YzFmLXV0XzUxMl9tb2JfZHVkdWthXzAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/summoned-duduka-worker",
+        "loc": ""
+      },
+      {
+        "id": "summoned-duduka-slinger",
+        "name": "Призванный пращник дудуков",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDVhNjNiMWQtN2YwNS00MWIzLTg5OWEtMGYxNzYzOTM2OTBiLW1vYl9kdWR1a2FfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/summoned-duduka-slinger",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-mau-sentry",
+        "name": "Солдат-пограничник оборотней свирепого рога",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTVlOWZjYTMtNTc0Mi00Njc0LWJlZGEtZGRlNWE2NTIyNTU5LW1vYl9seWNhbl8wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-sentry",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-mau-healer",
+        "name": "Целитель оборотней свирепого рога",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzZjZmNkNzMtN2M5ZC00NTYxLWFhYmEtZmE2NzY3MmM4ZDc2LW1vYl9seWNhbl8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-healer",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-mau-brawler",
+        "name": "Боец оборотней свирепого рога",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-brawler",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-mau-combat-chief",
+        "name": "Боевой командир оборотней свирепого рога",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2RlZmExYmItYjk4NS00MGVhLWJhNjEtZGExNWIyNjM1NjM5LXV0XzI1Nl9tb2JfbHljYW5fMDUucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-combat-chief",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-mau-totem-shaman",
+        "name": "Чародей тотема оборотней свирепого рога",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjc5NjBjNTYtNGJhMy00M2M2LWE1ZDQtNWIxOTA1NWIyZjY5LXV0XzI1Nl9tb2JfbHljYW5fMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-totem-shaman",
+        "loc": ""
+      },
+      {
+        "id": "shining-mau-totem",
+        "name": "Блестящий тотем оборотней",
+        "lvl": "63",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTBmMzU5MjktYjkzZi00OTNjLTg5MTEtMmQyZjRiNzc3ZTA0LW1vYl9tYXV0b3RlbV8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/shining-mau-totem",
+        "loc": ""
+      },
+      {
+        "id": "watchdog-kwapo",
+        "name": "Сторожевой пес Кухапу",
+        "lvl": "63",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvM2Q2NWJiZjYtNGIyNy00ZTEwLTkwNDctNGQ5NmFhN2QxYmY1LXV0XzI1Nl9tb2Jfa2FsbmlmZWxpdGVfMDFfdjAyLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/watchdog-kwapo",
+        "loc": ""
+      },
+      {
+        "id": "necromancer-duanka",
+        "name": "Некромант Дванка",
+        "lvl": "63",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTBkOTIwOTMtMzcxNS00ZjNlLWJmNWUtYjNkODg5ODZkZTAyLXV0XzI1Nl9tb2JfbHljYW5fMDRfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/necromancer-duanka",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-horn-nuakum",
+        "name": "Нуакум свирепого рога",
+        "lvl": "63",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjgxYzQ1ZjQtNzU3NC00ZTRkLTg2MmQtNGJhNTQyNDQ4YzQwLXV0XzI1Nl9tb2JfZmVya18wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-nuakum",
+        "loc": ""
+      },
+      {
+        "id": "mutated-shulak-laborer",
+        "name": "Мутировавший каторжник шураков",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTA3NDVmOTctMDMyMS00ZWY0LTk1M2EtYzU0ZWZiMDk1N2EyLW1vYl9hZGRzaHVsYWNrXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-laborer",
+        "loc": ""
+      },
+      {
+        "id": "mutated-shulak-miner",
+        "name": "Мутировавший шахтер шураков",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2UwMmUxZmYtOTMyNy00YjYzLWE4NDEtODA3YzcyOWRmOTNhLW1vYl9hZGRzaHVsYWNrXzAyLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-miner",
+        "loc": ""
+      },
+      {
+        "id": "mutated-shulak-sentinel",
+        "name": "Мутировавший постовой шураков",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjNhZTgyYzctNDMxNS00MTdjLWFhNjEtMzY0ZmIyYzI0ZDdjLW1vYl9hZGRzaHVsYWNrXzA0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-sentinel",
+        "loc": ""
+      },
+      {
+        "id": "mutated-shulak-overseer",
+        "name": "Мутировавший надзиратель шураков",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDBkYTQzZTItNDU0ZS00MTIyLWJjZTMtOGMzYTIyNTdlYWIxLXV0XzI1Nl9tb2JfYWRkc2h1bGFja18wNS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-overseer",
+        "loc": ""
+      },
+      {
+        "id": "mutated-shulak-cart-worker",
+        "name": "Мутировавший возчик шураков",
+        "lvl": "63",
+        "rank": "Общий и элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDc0NjNiZmMtN2FhNS00ZGFiLWE5N2MtZDZmMWY5NzVlMzdmLW1vYl9hZGRzaHVsYWNrXzAzLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-cart-worker",
+        "loc": ""
+      },
+      {
+        "id": "fafnite-enhance-totem",
+        "name": "Усиленный тотем фафнита",
+        "lvl": "63",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmE5ZmYxNjgtMTEwYy00ODBkLThkZWYtZDc2YjU4ZjY2N2EzLW1vYl9seWNhbnRvdGVtXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/fafnite-enhance-totem",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-duduka-worker",
+        "name": "Свирепый рабочий дудуков",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTQ5MjJmMjMtZjNmZS00NWNjLTlhNWQtNzU5ZTA3YzA0YzFmLXV0XzUxMl9tb2JfZHVkdWthXzAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-duduka-worker",
+        "loc": ""
+      },
+      {
+        "id": "ferocious-duduka-slinger",
+        "name": "Свирепый дудук-метатель",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDVhNjNiMWQtN2YwNS00MWIzLTg5OWEtMGYxNzYzOTM2OTBiLW1vYl9kdWR1a2FfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-duduka-slinger",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-moss-crab",
+        "name": "Моховой краб Бездны",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-moss-crab",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-lupyllini",
+        "name": "Руфиллин Бездны",
+        "lvl": "63",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc0YTAxZjgtM2Q2OS00Njc5LWJkMTYtZWIyZGFhNjE4ZmI0LW1vYl9sdWZpbGluaV8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-lupyllini",
+        "loc": ""
+      },
+      {
+        "id": "soul-binder",
+        "name": "Связыватель душ",
+        "lvl": "64 - 68",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWIzYWE0MDItYmIwNy00NTE2LWJlMTctZTg2YzU1ODRjNDJjLW1vYl90dXJyZXRfMDJfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/soul-binder",
+        "loc": ""
+      },
+      {
+        "id": "corrosion-wave",
+        "name": "Волна поглощения",
+        "lvl": "64",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/corrosion-wave",
+        "loc": ""
+      },
+      {
+        "id": "dimensional-core",
+        "name": "Ядро измерения",
+        "lvl": "65",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRmNzAxNDUtY2M3MS00Y2I4LTllMjUtYTQ0NDRhNWM4Y2IyLW1vYl9vcmN1c2dlbV8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/dimensional-core",
+        "loc": ""
+      },
+      {
+        "id": "void-wave",
+        "name": "Волна пустоты",
+        "lvl": "68",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/void-wave",
+        "loc": ""
+      },
+      {
+        "id": "ludra-follower-drakan",
+        "name": "Дракан последователей Рудры",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2IwMTc5NmEtMjY4ZS00YjJkLTg4MWQtYWRmN2I0ZmJhMTQ1LW1vYl9iZXJpdHJhY18wNF92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-drakan",
+        "loc": ""
+      },
+      {
+        "id": "ludra-follower-beast",
+        "name": "Зверь последователей Рудры",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzA4OTA0MmUtN2RhZi00ZTZkLThjZWUtMTQyNTU3NDI2ODM4LW1vYl9iZXJpdHJhY18wM192MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-beast",
+        "loc": ""
+      },
+      {
+        "id": "ludra-follower-warmage",
+        "name": "Боевой маг последователей Рудры",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRlYzQ1NGYtYmZmZS00ZjE2LThmNDUtZWFiMGNlMGVkODZmLW1vYl9iZXJpdHJhY18wNV92MDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-warmage",
+        "loc": ""
+      },
+      {
+        "id": "ludra-follower-officer",
+        "name": "Офицер последователей Рудры",
+        "lvl": "75",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWJlODM4ODctNTEyNC00NGRmLTg3ZTAtZTNjYTEzYzEyNDJhLW1vYl9iZXJpdHJhY18wOV92MDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-officer",
+        "loc": ""
+      },
+      {
+        "id": "isolation-specialist-rahu",
+        "name": "Раху разрыва",
+        "lvl": "75",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGM2NmNmYTctNTU0MS00YTU1LTkyYTMtYWI0YjkyNGU1YmI1LXV0XzI1Nl9tb2JfbGFndGFfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/isolation-specialist-rahu",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-wings-ketu",
+        "name": "Крылья Бездны Кету",
+        "lvl": "75",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjkwODE0NmEtZGYyYy00Y2Q2LThlYTQtMTcyZmU2MzgyODlkLXV0XzI1Nl9tb2Jfa2FzaGFwYV8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-wings-ketu",
+        "loc": ""
+      },
+      {
+        "id": "central-abyss-fusion-reactor",
+        "name": "Центральное ядро синтеза пропасти",
+        "lvl": "75",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzhhZGM3NDYtY2YwNC00Y2FkLWIzMzEtYWZiMmUxNmMyMWVlLW1vYl9vcmN1c2dlbV8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/central-abyss-fusion-reactor",
+        "loc": ""
+      },
+      {
+        "id": "auxiliary-abyss-fusion-reactor",
+        "name": "Вспомогательное ядро синтеза пропасти",
+        "lvl": "75",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjA4ODIyNDUtZjhjNS00NjAwLWE0OWYtZjhmYmIzOTcwYTMzLW1vYl9leHRyYWN0b3JhXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/auxiliary-abyss-fusion-reactor",
+        "loc": ""
+      },
+      {
+        "id": "eternal-ludra",
+        "name": "Рудра веков",
+        "lvl": "75",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODNmM2NkYmEtODY5Yy00MTc4LWI5OTMtNDliZjAxYWFmMTNlLXV0XzI1Nl9tb2JfZHVyYmF0aV8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/eternal-ludra",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-drakan-armed-soldier",
+        "name": "Вооруженный солдат драканов Бездны",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2IwMTc5NmEtMjY4ZS00YjJkLTg4MWQtYWRmN2I0ZmJhMTQ1LW1vYl9iZXJpdHJhY18wNF92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-drakan-armed-soldier",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-beast",
+        "name": "Зверь Бездны",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzA4OTA0MmUtN2RhZi00ZTZkLThjZWUtMTQyNTU3NDI2ODM4LW1vYl9iZXJpdHJhY18wM192MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-beast",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-drakan-mage-officer",
+        "name": "Главный маг драканов Бездны",
+        "lvl": "75",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRlYzQ1NGYtYmZmZS00ZjE2LThmNDUtZWFiMGNlMGVkODZmLW1vYl9iZXJpdHJhY18wNV92MDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-drakan-mage-officer",
+        "loc": ""
       }
     ],
     "dungeons": [
