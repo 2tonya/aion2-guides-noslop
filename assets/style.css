@@ -329,7 +329,7 @@ svg{display:block}
 
 /* skills */
 .skill-ref{display:inline;white-space:nowrap}
-.skill-ref img{width:1.05em;height:1.05em;object-fit:cover;border-radius:2px;border:1px solid var(--line);vertical-align:-0.18em;margin-right:0.3em}
+.skill-ref img{width:16px;height:16px;object-fit:cover;border-radius:2px;border:1px solid var(--line);vertical-align:-3px;margin-right:4px;display:inline-block}
 .skill{
   display:grid;grid-template-columns:58px minmax(0,1fr);gap:16px;
   padding:16px 0;border-bottom:1px solid var(--line-soft);
