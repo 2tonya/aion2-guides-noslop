@@ -69,9 +69,15 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll(".switch__btn"));
   var guides = Array.prototype.slice.call(document.querySelectorAll(".guide"));
   var chipsBox = document.getElementById("chips");
+  var sideChipsBox = document.getElementById("side-chips");
+  var sidebar = document.getElementById("sidebar");
   var glossaryView = document.getElementById("glossary-view");
   var glossaryBack = document.getElementById("glossary-back");
   var glossaryReturn = null;
+
+  function isDesktopLayout() {
+    return window.matchMedia && window.matchMedia("(min-width: 980px)").matches;
+  }
 
   function updateGlossaryBack() {
     if (!glossaryBack) return;
@@ -116,6 +122,8 @@
   var drawer = document.getElementById("drawer");
   var drawerList = document.getElementById("drawer-list");
   var currentClass = document.getElementById("current-class");
+  var sidebarList = document.getElementById("sidebar-classes");
+  var sidebarCurrent = document.getElementById("sidebar-current");
   var drawerItems = {};
 
   var CLASS_ROLES = {
@@ -162,10 +170,24 @@
     });
 
     drawerList.appendChild(item);
-    drawerItems[tab.dataset.class] = { item: item, label: label };
+
+    // sidebar class item (desktop)
+    var sideItem = null;
+    if (sidebarList) {
+      sideItem = item.cloneNode(true);
+      sideItem.className = "sidebar__class";
+      sideItem.addEventListener("click", function () {
+        select(tab.dataset.class, true);
+        history.replaceState(null, "", "#" + tab.dataset.class);
+      });
+      sidebarList.appendChild(sideItem);
+    }
+
+    drawerItems[tab.dataset.class] = { item: item, sideItem: sideItem, label: label };
   });
 
   function openDrawer() {
+    if (isDesktopLayout()) return;
     drawer.hidden = false;
     menuBtn.setAttribute("aria-expanded", "true");
     document.body.style.overflow = "hidden";
@@ -178,6 +200,7 @@
   }
 
   menuBtn.addEventListener("click", function () {
+    if (isDesktopLayout()) return;
     if (drawer.hidden) openDrawer(); else closeDrawer();
   });
 
@@ -244,8 +267,10 @@
     });
     Object.keys(drawerItems).forEach(function (k) {
       drawerItems[k].item.classList.remove("is-active");
+      if (drawerItems[k].sideItem) drawerItems[k].sideItem.classList.remove("is-active");
     });
-    currentClass.textContent = "Глоссарий";
+    if (currentClass) currentClass.textContent = "Глоссарий";
+    if (sidebarCurrent) sidebarCurrent.textContent = "Глоссарий";
     var t = document.documentElement.getAttribute("data-theme") || "dark";
     document.documentElement.style.setProperty("--accent", THEME_ACCENTS[t] || "#9fd9c0");
     buildChips("glossary");
@@ -266,18 +291,34 @@
   function setActiveChip(id) {
     if (!id || id === activeSection) return;
     activeSection = id;
+    var all = chipMap._all || {};
+    Object.keys(all).forEach(function (k) {
+      all[k].forEach(function (node) { node.classList.toggle("is-active", k === id); });
+    });
+    // fallback for any legacy single refs
     Object.keys(chipMap).forEach(function (k) {
-      chipMap[k].classList.toggle("is-active", k === id);
+      if (k === "_all") return;
+      if (!all[k] && chipMap[k] && chipMap[k].classList) chipMap[k].classList.toggle("is-active", k === id);
     });
     var chip = chipMap[id];
-    if (chip) {
-      chip.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+    if (chip && chip.scrollIntoView && chipsBox && !isDesktopLayout()) {
+      var box = chipsBox.getBoundingClientRect();
+      var el = chip.getBoundingClientRect();
+      if (el.left < box.left || el.right > box.right) {
+        chip.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+      }
     }
+  }
+
+  function getScrollOffset() {
+    if (isDesktopLayout()) return 24;
+    var tb = document.querySelector(".topbar");
+    return (tb ? tb.offsetHeight : 0) + 24;
   }
 
   function updateActiveSection() {
     if (!sectionEls.length) return;
-    var offset = document.querySelector(".topbar").offsetHeight + 24;
+    var offset = getScrollOffset();
     var current = sectionEls[0].id;
     var atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 40);
 
@@ -311,26 +352,35 @@
   }
 
   function buildChips(key) {
-    chipsBox.innerHTML = "";
+    if (chipsBox) chipsBox.innerHTML = "";
+    if (sideChipsBox) sideChipsBox.innerHTML = "";
     chipMap = {};
     activeSection = "";
     SECTIONS[key].forEach(function (pair) {
-      var a = document.createElement("a");
-      a.href = "#" + pair[0];
-      a.textContent = pair[1];
-      a.dataset.target = pair[0];
-      chipMap[pair[0]] = a;
-      a.addEventListener("click", function (e) {
-        e.preventDefault();
-        var el = document.getElementById(pair[0]);
-        if (!el) return;
-        var offset = document.querySelector(".topbar").offsetHeight + 14;
-        var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
-        window.scrollTo({ top: top, behavior: "smooth" });
-        history.replaceState(null, "", "#" + pair[0]);
-        setActiveChip(pair[0]);
-      });
-      chipsBox.appendChild(a);
+      function makeLink(container, extraClass) {
+        var a = document.createElement("a");
+        a.href = "#" + pair[0];
+        a.textContent = pair[1];
+        a.dataset.target = pair[0];
+        if (extraClass) a.className = extraClass;
+        a.addEventListener("click", function (e) {
+          e.preventDefault();
+          var el = document.getElementById(pair[0]);
+          if (!el) return;
+          var offset = getScrollOffset();
+          var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top: top, behavior: "smooth" });
+          history.replaceState(null, "", "#" + pair[0]);
+          setActiveChip(pair[0]);
+        });
+        container.appendChild(a);
+        return a;
+      }
+      var primary = chipsBox ? makeLink(chipsBox, "") : null;
+      var side = sideChipsBox ? makeLink(sideChipsBox, "side-chip") : null;
+      chipMap[pair[0]] = primary || side;
+      if (!chipMap._all) chipMap._all = {};
+      chipMap._all[pair[0]] = [primary, side].filter(Boolean);
     });
     bindSections(key);
   }
@@ -362,9 +412,11 @@
 
     var meta = drawerItems[key];
     if (meta) {
-      currentClass.textContent = meta.label;
+      if (currentClass) currentClass.textContent = meta.label;
+      if (sidebarCurrent) sidebarCurrent.textContent = meta.label;
       Object.keys(drawerItems).forEach(function (k) {
         drawerItems[k].item.classList.toggle("is-active", k === key);
+        if (drawerItems[k].sideItem) drawerItems[k].sideItem.classList.toggle("is-active", k === key);
       });
     }
 
@@ -402,7 +454,7 @@
   function scrollToSection(id, smooth) {
     var el = document.getElementById(id);
     if (!el) return;
-    var offset = document.querySelector(".topbar").offsetHeight + 14;
+    var offset = getScrollOffset();
     var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
     window.scrollTo({ top: top, behavior: smooth ? "smooth" : "auto" });
     setActiveChip(id);
@@ -768,7 +820,7 @@
           history.replaceState(null, "", "#" + e.secId);
           var el = document.getElementById(e.secId);
           if (el) {
-            var offset = document.querySelector(".topbar").offsetHeight + 14;
+            var offset = getScrollOffset();
             var top = el.getBoundingClientRect().top + window.pageYOffset - offset;
             window.scrollTo({ top: top, behavior: "smooth" });
             setTimeout(function () { highlightInSection(e.secId, qwords); }, 450);
@@ -796,6 +848,58 @@
   });
 
   buildSearchIndex();
+
+  // ---- sidebar (desktop layout) ----
+  var sidebarSearchBtn = document.getElementById("sidebar-search");
+  var sidebarGlossaryBtn = document.getElementById("sidebar-glossary");
+  var sidebarThemes = document.getElementById("sidebar-themes");
+  if (sidebarSearchBtn) {
+    sidebarSearchBtn.addEventListener("click", function () { openSearch(); });
+  }
+  if (sidebarGlossaryBtn) {
+    sidebarGlossaryBtn.addEventListener("click", function () {
+      glossaryReturn = null;
+      showGlossary(true);
+      history.replaceState(null, "", "#glossary");
+    });
+  }
+  if (sidebarThemes) {
+    var THEME_OPTS = [
+      { id: "system", label: "Системная", sw: "swatch--system" },
+      { id: "dark", label: "Тёмная", sw: "swatch--dark" },
+      { id: "light", label: "Светлая", sw: "swatch--light" },
+      { id: "pumpkin", label: "Тыквенная", sw: "swatch--pumpkin" },
+      { id: "blue", label: "Голубая", sw: "swatch--blue" }
+    ];
+    THEME_OPTS.forEach(function (t) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "theme-opt sidebar-theme-opt";
+      b.dataset.theme = t.id;
+      b.innerHTML = '<span class="theme-opt__swatch ' + t.sw + '"></span><span>' + t.label + '</span>';
+      b.addEventListener("click", function () { applyTheme(t.id); });
+      sidebarThemes.appendChild(b);
+    });
+  }
+  // redefine applyTheme to sync all .theme-opt (drawer + sidebar)
+  applyTheme = function(name) {
+    var allowed = { dark: 1, light: 1, pumpkin: 1, blue: 1, system: 1 };
+    if (!allowed[name]) name = "dark";
+    var effective = resolveTheme(name);
+    document.documentElement.setAttribute("data-theme", effective);
+    document.querySelectorAll(".theme-opt").forEach(function (b) {
+      b.classList.toggle("is-active", b.dataset.theme === name);
+    });
+    try { localStorage.setItem("aion2theme", name); } catch (e) {}
+    if (currentView === "glossary") {
+      document.documentElement.style.setProperty("--accent", THEME_ACCENTS[effective] || "#9fd9c0");
+    }
+  };
+  (function(){
+    var cur = "dark";
+    try { cur = localStorage.getItem("aion2theme") || "dark"; } catch (e) {}
+    applyTheme(cur);
+  })();
 
   // ---- иконки возле названий скиллов в тексте ----
   var SKIP = "h1,h2,h3,h4,figcaption,.ranks,.mini,.credit,.chip,.tag,summary,button,a,.si";
