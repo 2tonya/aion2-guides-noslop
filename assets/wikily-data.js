@@ -14113,6 +14113,1506 @@
         "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzMwODg4MmItYTJiOC00NWMwLTlkNzYtZjFlMjMzOGYwZGQ1LW1vYl9kc3RyYXJjaG9uXzAxLnBuZw",
         "url": "https://wikily.gg/ru/aion-2/monsters/https://wikily.gg/ru/aion-2/monsters/soulless-archon-gladiator",
         "loc": ""
+      },
+      {
+        "id": "addicted-creion",
+        "name": "Одурманенный Крейон",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGFhNzYxYjEtNmM0MC00NTNjLTg0MzQtYWIxYWUyNjdjODMwLXV0XzI1Nl9ucGNfbV9jcmVpb25fMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/addicted-creion",
+        "loc": ""
+      },
+      {
+        "id": "abyss-klaw",
+        "name": "Ньют Бездны",
+        "lvl": "45 - 46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2U2YTE5ZGYtZTQ0Ny00NTkyLTgzMjgtYjRlYzM2ZTc1YmFkLW1vYl9uZXV0aF8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-klaw",
+        "loc": ""
+      },
+      {
+        "id": "abyss-corrupted-warrior",
+        "name": "Падший воин Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQxYzdkYzctMjQxMy00NWViLWI0OTYtZTM0MzdjNjQzMjViLW1vYl9kYWV2YXdhcl8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-corrupted-warrior",
+        "loc": ""
+      },
+      {
+        "id": "abyss-specter",
+        "name": "Спектр Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWVhODhiZWItOWUzMS00Y2M4LWI5NDgtYWNmOTZmYTMwY2JlLW1vYl9ncmF2ZXNvdWxfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-specter",
+        "loc": ""
+      },
+      {
+        "id": "abyss-aberrant-swarn",
+        "name": "Подвид сворма Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-aberrant-swarn",
+        "loc": ""
+      },
+      {
+        "id": "abyss-aberrant-klaw",
+        "name": "Подвид ньюта Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2U2YTE5ZGYtZTQ0Ny00NTkyLTgzMjgtYjRlYzM2ZTc1YmFkLW1vYl9uZXV0aF8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-aberrant-klaw",
+        "loc": ""
+      },
+      {
+        "id": "abyss-consumed-warrior",
+        "name": "Поглощенный пропастью воин",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQxYzdkYzctMjQxMy00NWViLWI0OTYtZTM0MzdjNjQzMjViLW1vYl9kYWV2YXdhcl8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-consumed-warrior",
+        "loc": ""
+      },
+      {
+        "id": "abyss-undying-guard",
+        "name": "Бессмертный охранник Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWVhODhiZWItOWUzMS00Y2M4LWI5NDgtYWNmOTZmYTMwY2JlLW1vYl9ncmF2ZXNvdWxfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-undying-guard",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drana-cannibal-plant",
+        "name": "Жук-людоед драны Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjQ2ZDgwN2UtM2NkMC00MWJkLTg0MDUtYTk4OTA3YmM4YzBiLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfbmF0dXJlLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-cannibal-plant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drana-mutant",
+        "name": "Мутант драны Бездны",
+        "lvl": "45 - 46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-mutant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drana-greedwillow",
+        "name": "Алчное дерево драны Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjQ2ZDgwN2UtM2NkMC00MWJkLTg0MDUtYTk4OTA3YmM4YzBiLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfbmF0dXJlLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-greedwillow",
+        "loc": ""
+      },
+      {
+        "id": "abyss-mutated-klaw",
+        "name": "Мутант ньютов Бездны",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-mutated-klaw",
+        "loc": ""
+      },
+      {
+        "id": "power-possessed-kianah",
+        "name": "Одержимый силой Киан",
+        "lvl": "45",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODhlNzEwODUtZTY0OS00ODRjLWJmNTctMDE3ODI2ZTYwNTNlLXV0XzI1Nl9tb2JfZGFldmF3YXJfMDMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/power-possessed-kianah",
+        "loc": ""
+      },
+      {
+        "id": "obsessive-lithla",
+        "name": "Одержимый Лиср",
+        "lvl": "45",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjdjNDAyM2MtZTA5Ni00ZjQ4LWE2MTQtODY5OTI0NTFjMmM5LXV0XzI1Nl9tb2JfdW5kZWFkXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/obsessive-lithla",
+        "loc": ""
+      },
+      {
+        "id": "idris",
+        "name": "Идрис",
+        "lvl": "45",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM4OTRiNDQtZjI0Ny00OTk5LTgwYmMtZDJiODRiNWNlM2ZlLXV0XzI1Nl9tb2JfaWRyaXNfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/idris",
+        "loc": ""
+      },
+      {
+        "id": "wandering-warrior-s-soul",
+        "name": "Душа бродячего воина",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/wandering-warrior-s-soul",
+        "loc": ""
+      },
+      {
+        "id": "cursed-knight-s-soul",
+        "name": "Душа проклятых рыцарей",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTcyYzFkYTItMjMyNy00MzRkLTk0Y2YtZjM3Y2Q2MGZiNGRiLW1vYl9naG9zdF8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/cursed-knight-s-soul",
+        "loc": ""
+      },
+      {
+        "id": "mad-knight-s-soul",
+        "name": "Душа обезумевшего рыцаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODE1NGVlOWMtOGU4ZS00YzQyLWFkZWUtMjk2YmM2MzMxMzVhLW1vYl9ncmF2ZWdoXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mad-knight-s-soul",
+        "loc": ""
+      },
+      {
+        "id": "mad-apostle-of-ru",
+        "name": "Обезумевший апостол Ру",
+        "lvl": "45",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQxYzdkYzctMjQxMy00NWViLWI0OTYtZTM0MzdjNjQzMjViLW1vYl9kYWV2YXdhcl8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mad-apostle-of-ru",
+        "loc": ""
+      },
+      {
+        "id": "decaying-ancient-priest",
+        "name": "Гниющий древний жрец",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmY0NGVjNjgtZjdiYi00NTgwLThjODktZWY3MWZhM2FlMjc2LW1vYl93cmFwcnN0XzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/decaying-ancient-priest",
+        "loc": ""
+      },
+      {
+        "id": "sorcery-guardian",
+        "name": "Хранитель чар",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjZiZDIwMGItODRlZS00ODQ4LTg5YmYtOTk1ZTI1NzEzZGNiLW1vYl9nYXJnb3lsZV8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sorcery-guardian",
+        "loc": ""
+      },
+      {
+        "id": "ruins-bat",
+        "name": "Летучая мышь руин",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmY4NjNmNmItYjI3MS00ZTNjLWIzMzItN2Y0M2EzN2Y5ZmQxLW1vYl9jYXZlYmF0XzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ruins-bat",
+        "loc": ""
+      },
+      {
+        "id": "decaying-ancient-knight",
+        "name": "Гниющий древний рыцарь",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDI4OTk2MDctMzQzZC00NTkyLTg2M2ItZjI2ODdlNTU3ZGUyLW1vYl93cmFrbnRfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/decaying-ancient-knight",
+        "loc": ""
+      },
+      {
+        "id": "divided-aponos",
+        "name": "Фрагмент Апноса",
+        "lvl": "45 - 60",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjgyYmU2YzUtMzBhMy00MjMxLWI2ZDktNDVjMTNlOTUxMzA2LW1vYl9kZWJndWFyZF8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/divided-aponos",
+        "loc": ""
+      },
+      {
+        "id": "altar-guardian",
+        "name": "Хранитель алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NlZTc4ZjEtMzExMy00NDgwLTliOGItMTk2ZWZmZGI1MmZhLW1vYl9kZWJndWFyZF8wNS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-guardian",
+        "loc": ""
+      },
+      {
+        "id": "altar-watcher",
+        "name": "Дозорный солдат алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI4OTJkZmQtYWRhZi00ZTlmLThjMjQtOTczOTE3ODhiNTc1LW1vYl9kZWJndWFyZF8wNC5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-watcher",
+        "loc": ""
+      },
+      {
+        "id": "altar-elite-shieldbearer",
+        "name": "Элитный щитоносец алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-elite-shieldbearer",
+        "loc": ""
+      },
+      {
+        "id": "altar-elite-assault-trooper",
+        "name": "Элитный штурмовик алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-elite-assault-trooper",
+        "loc": ""
+      },
+      {
+        "id": "altar-daeva-patrol",
+        "name": "Патрульный даэвов алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-daeva-patrol",
+        "loc": ""
+      },
+      {
+        "id": "altar-dark-mage",
+        "name": "Темный маг алтаря",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/altar-dark-mage",
+        "loc": ""
+      },
+      {
+        "id": "void-helicoid",
+        "name": "Спираль пустоты",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2I3NDYyZjEtNGI2Ni00ZDg3LWI3MGUtODVjMzA5ODMyYTE2LW1vYl9hd2FrZW5fMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/void-helicoid",
+        "loc": ""
+      },
+      {
+        "id": "featherstorm-duduri",
+        "name": "Пернатый Дудури",
+        "lvl": "45 - 60",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjQ0ZmM4ODAtYWNjYy00Nzg2LTk4Y2MtMWU0ZTM5MmMwZTgwLXV0XzI1Nl9tb2JfZHVkdXJpXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/featherstorm-duduri",
+        "loc": ""
+      },
+      {
+        "id": "watchful-raptor-dodori",
+        "name": "Пробудившийся хищнокрыл Додори",
+        "lvl": "45 - 60",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTlhZTBkY2MtNTA1My00ZjA3LThiMzQtYjY5MmZjODFiNzYyLW1vYl9kdWR1cmlfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/watchful-raptor-dodori",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-guard-troopers-captain",
+        "name": "Капитан охранников святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-guard-troopers-captain",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-superior-drakan",
+        "name": "Старший дракан святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-superior-drakan",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-drakan-chief",
+        "name": "Командир драканов святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-chief",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-balaur-warrior",
+        "name": "Воин балауров святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-balaur-warrior",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-balaur-ranger",
+        "name": "Рейнджер балауров святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-balaur-ranger",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-abyss-swarm",
+        "name": "Сворм пропасти святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-abyss-swarm",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-drakan-armed-soldier",
+        "name": "Вооруженный солдат драканов святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-armed-soldier",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-drakan-thaumaturge",
+        "name": "Чаротворец драканов святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDAyZjBiZTUtMWIwNC00ZjVhLWIyMTMtZDkxMTBiMThlMDNkLW1vYl9iZXJpdHJhY18wNV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-thaumaturge",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-elite-brawler",
+        "name": "Элитный храбрец святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-elite-brawler",
+        "loc": ""
+      },
+      {
+        "id": "sanctum-elite-watcher",
+        "name": "Элитный дозорный святилища",
+        "lvl": "45",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-elite-watcher",
+        "loc": ""
+      },
+      {
+        "id": "eternal-moss-crab",
+        "name": "Моховой краб вечности",
+        "lvl": "46 - 49",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/eternal-moss-crab",
+        "loc": ""
+      },
+      {
+        "id": "scouter-sahar",
+        "name": "Поисковик Сакар",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/scouter-sahar",
+        "loc": ""
+      },
+      {
+        "id": "destroyer-tarka",
+        "name": "Разрушитель Тарка",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/destroyer-tarka",
+        "loc": ""
+      },
+      {
+        "id": "personal-guard-irima",
+        "name": "Гвардеец Ирима",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/personal-guard-irima",
+        "loc": ""
+      },
+      {
+        "id": "watcher-krache",
+        "name": "Караульщик Краче",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/watcher-krache",
+        "loc": ""
+      },
+      {
+        "id": "executioner-nemok",
+        "name": "Эмиссар Немок",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/executioner-nemok",
+        "loc": ""
+      },
+      {
+        "id": "crimson-fairy",
+        "name": "Рубиновая фея",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjJmYTVhOGEtMGNiNi00NjY5LWJkY2MtOTkxZDRjMmI1OTExLW1vYl9kcmFuYWZhaXJ5XzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-fairy",
+        "loc": ""
+      },
+      {
+        "id": "crimson-drana-swarm",
+        "name": "Рубиновый сворм драны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjMxMmFmMjktMGQ4OS00MDMzLTgxYTgtYjczNDYwZTNiMGVkLW1vYl9hYnlzc3N3YXJtXzAxX2N2MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-drana-swarm",
+        "loc": ""
+      },
+      {
+        "id": "crimson-agrint",
+        "name": "Рубиновый агринт",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDlkOGQ2MmItODU1Yi00ZDA3LWE2MTktYTU5NWY5MzU4ZTYwLW1vYl9hZ3JpbnRfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-agrint",
+        "loc": ""
+      },
+      {
+        "id": "unstable-gravi",
+        "name": "Взбалмошный грави",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWJjOGIzYzEtMWI3Ni00MDA3LWFkNzctZDJiNTljYzFlMTRjLW1vYl9ncmF2aV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-gravi",
+        "loc": ""
+      },
+      {
+        "id": "unstable-fairy",
+        "name": "Взбалмошная фея",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQwMTMwZmMtOThjNi00YmY1LWIxYmMtOWYxMTY0MmIzYzNiLW1vYl9kcmFuYWZhaXJ5XzAxX2N2MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-fairy",
+        "loc": ""
+      },
+      {
+        "id": "faded-odyle-spirit",
+        "name": "Поблекший дух эфира",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZmZTYwMTAtMmEyMC00NTBmLWIwN2QtMTQ5ZTMzZDFmNzM5LW1vYl9lYXJ0aGVsZW9kXzAxX2N2MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/faded-odyle-spirit",
+        "loc": ""
+      },
+      {
+        "id": "unstable-rafflesia",
+        "name": "Взбалмошная рафлессия",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzM3NWIyOGEtMDBiYi00MjE2LTlkZjQtZWEzYmExM2U5OGU2LW1vYl9yYWZmbGVzaWFfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-rafflesia",
+        "loc": ""
+      },
+      {
+        "id": "unstable-kailin",
+        "name": "Взбалмошный каилин",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzk2Y2U4YzItNDQwNi00ZDA0LTk1ZDQtZDUxNTcwYmU0NWIyLW1vYl9rYWlsaW5fMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-kailin",
+        "loc": ""
+      },
+      {
+        "id": "unstable-young-kailin",
+        "name": "Взбалмошный малый каилин",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzlkZmFlOWMtMzBjZC00NTMwLTgxZWMtMmRkYzc4OGI2NGVmLW1vYl9rYWlsaW5fMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-young-kailin",
+        "loc": ""
+      },
+      {
+        "id": "unstable-intermediate-water-spirit",
+        "name": "Взбалмошный опытный дух воды",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmYxYzUzYjMtZGRkNC00N2UwLWJmYWMtYjA2ZDg3YWNhMmU1LW1vYl93YXRlcmVsZV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-intermediate-water-spirit",
+        "loc": ""
+      },
+      {
+        "id": "unstable-superior-water-spirit",
+        "name": "Взбалмошный старший дух воды",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM1YjVlODMtMWFlNC00NjVlLTkwOGEtOTAzYWM4ODdiZmFkLW1vYl93YXRlcmVsZV8wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-superior-water-spirit",
+        "loc": ""
+      },
+      {
+        "id": "coastal-moss-crab",
+        "name": "Моховой краб взморья",
+        "lvl": "46 - 49",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/coastal-moss-crab",
+        "loc": ""
+      },
+      {
+        "id": "watcher-brons",
+        "name": "Дозорщик Бронс",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/watcher-brons",
+        "loc": ""
+      },
+      {
+        "id": "annihilator-kardon",
+        "name": "Истребитель Кардон",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/annihilator-kardon",
+        "loc": ""
+      },
+      {
+        "id": "mad-lucant",
+        "name": "Рукант безумия",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/mad-lucant",
+        "loc": ""
+      },
+      {
+        "id": "predator-zrak",
+        "name": "Хищник Зрак",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/predator-zrak",
+        "loc": ""
+      },
+      {
+        "id": "ravager-krovan",
+        "name": "Уничтожитель Крован",
+        "lvl": "46",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/ravager-krovan",
+        "loc": ""
+      },
+      {
+        "id": "abyss-rusty-rotan",
+        "name": "Старый рокан Бездны",
+        "lvl": "46",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWI0ZjQ0OGUtN2I3OS00YTMzLTlkZmYtZDRmMGIyMWFiNzQxLW1vYl9yb3Rhbl8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-rusty-rotan",
+        "loc": ""
+      },
+      {
+        "id": "abyss-karnif",
+        "name": "Каллиф Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-karnif",
+        "loc": ""
+      },
+      {
+        "id": "abyss-krall-searcher",
+        "name": "Искатель краллов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-searcher",
+        "loc": ""
+      },
+      {
+        "id": "abyss-krall-ranger",
+        "name": "Рейнджер краллов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjJlZDIyYWYtOTc5NC00N2I4LThkYmMtZDJmNjg4MTQzNTBjLW1vYl9rcmFsbGFyY18wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-ranger",
+        "loc": ""
+      },
+      {
+        "id": "abyss-krall-search-party-captain",
+        "name": "Капитан искателей краллов Бездны",
+        "lvl": "46",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTkyODU5NGEtMWE0Yi00ZWE3LTlkMDctNjBmYTg0NWFjYzY2LXV0XzI1Nl9tb2Jfa3JhbGxlbGl0ZV8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-search-party-captain",
+        "loc": ""
+      },
+      {
+        "id": "abyss-old-blade-rotan",
+        "name": "Рокан старого клинка Бездны",
+        "lvl": "46",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWI0ZjQ0OGUtN2I3OS00YTMzLTlkZmYtZDRmMGIyMWFiNzQxLW1vYl9yb3Rhbl8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-old-blade-rotan",
+        "loc": ""
+      },
+      {
+        "id": "abyss-search-party-karnif",
+        "name": "Каллиф поискового отряда Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-search-party-karnif",
+        "loc": ""
+      },
+      {
+        "id": "abyss-krall-scout",
+        "name": "Солдат-разведчик краллов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-scout",
+        "loc": ""
+      },
+      {
+        "id": "abyss-krall-search-party-ranger",
+        "name": "Лучник поисковой группы краллов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjJlZDIyYWYtOTc5NC00N2I4LThkYmMtZDJmNjg4MTQzNTBjLW1vYl9rcmFsbGFyY18wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-search-party-ranger",
+        "loc": ""
+      },
+      {
+        "id": "abyss-swarm-mutant",
+        "name": "Мутант свормов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-swarm-mutant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-sulfur-slime",
+        "name": "Слизень серы Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0ZWIxNDEtNTA5Ni00MDQ3LTg2Y2EtMTVmNjYyZjNmYzFjLW1vYl9zbGltZV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-sulfur-slime",
+        "loc": ""
+      },
+      {
+        "id": "abyss-sulfur-skama",
+        "name": "Скама серы Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM3YzY0NGItZTk1Yi00N2Y3LWE3OGUtYjQ3NWQxMGQwYTMwLW1vYl9maXNoXzAxX3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-sulfur-skama",
+        "loc": ""
+      },
+      {
+        "id": "abyss-sulfur-cannibal-plant",
+        "name": "Серный жук-людоед Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZlNGZkNDctNzg2NS00NjcwLWEwOGQtZTAzNDg2ZDJjMTc4LW1vYl9zdWxmdXJwXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-sulfur-cannibal-plant",
+        "loc": ""
+      },
+      {
+        "id": "withered-sulfur-agrint",
+        "name": "Иссохший агринт серы",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2Y4MWIyOTYtZDY3YS00YTNiLTg0YmQtZmU5MDAyODM1ODk4LW1vYl9hZ3JpbnRfMDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/withered-sulfur-agrint",
+        "loc": ""
+      },
+      {
+        "id": "abyss-klaw-mutant",
+        "name": "Мутант ньютов Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTVkYmM0ZWItY2VjYS00ZDI5LWI4NmMtYzY2OWJiNDRjNTA1LW1vYl9uZXV0aF8wMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-klaw-mutant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-red-mutated-insectoid",
+        "name": "Красный мутировавший инсектоид Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTA0NDc0ZjYtYzljYS00MTA4LTg1ODAtZGUzZjMzZjI2MjBhLW1vYl9zcGlkZXJfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-red-mutated-insectoid",
+        "loc": ""
+      },
+      {
+        "id": "abyss-odyle-mutated-insectoid",
+        "name": "Эфирный мутировавший инсектоид Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzYzYmI5NDUtZmRiNy00NzMwLWFkNWItMzI2NDExOTAzZDg4LW1vYl9zcGlkZXJfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-odyle-mutated-insectoid",
+        "loc": ""
+      },
+      {
+        "id": "abyss-young-slink",
+        "name": "Малая чешуйница Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODU5MTMwNzYtOWE4Ny00ZDQ1LWIzMjUtNzYyYmZkYWI2ZGJmLW1vYl9sZXBpc21hXzAxX3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-young-slink",
+        "loc": ""
+      },
+      {
+        "id": "abyss-nasty-nepenthes",
+        "name": "Безобразный нефендес Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmU0YjNmODUtMjcyZi00OWE3LThkYzYtOGYwMjNiZWY4ODc5LW1vYl9yYWZmbGVzaWFfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-nasty-nepenthes",
+        "loc": ""
+      },
+      {
+        "id": "abyss-zelophi",
+        "name": "Зелофи Бездны",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDhkODVkMTMtYzY0MS00NDUxLWI4M2YtN2Y5N2ZkYzZkYTVmLW1vYl9qZWxsb2ZpXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-zelophi",
+        "loc": ""
+      },
+      {
+        "id": "chandala-krall-karnif",
+        "name": "Каллиф краллов Чандала",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/chandala-krall-karnif",
+        "loc": ""
+      },
+      {
+        "id": "makarah-krall-karnif",
+        "name": "Каллиф краллов Макарах",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/makarah-krall-karnif",
+        "loc": ""
+      },
+      {
+        "id": "unavarun-draconute-sniper",
+        "name": "Снайпер-драконид Унаварун",
+        "lvl": "46",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unavarun-draconute-sniper",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drana-giant-mutant",
+        "name": "Гигантский мутант драны Бездны",
+        "lvl": "46",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-giant-mutant",
+        "loc": ""
+      },
+      {
+        "id": "cold-hearted-kandak",
+        "name": "Беспощадный Кандак",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/cold-hearted-kandak",
+        "loc": ""
+      },
+      {
+        "id": "heartless-mozant",
+        "name": "Бессердечный Мозант",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/heartless-mozant",
+        "loc": ""
+      },
+      {
+        "id": "enraged-karsha",
+        "name": "Разъяренный Карша",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/enraged-karsha",
+        "loc": ""
+      },
+      {
+        "id": "scout-bagsh",
+        "name": "Багш поискового отряда",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/scout-bagsh",
+        "loc": ""
+      },
+      {
+        "id": "tracker-dazran",
+        "name": "Преследователь Дазран",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/tracker-dazran",
+        "loc": ""
+      },
+      {
+        "id": "crimson-mutated-spore",
+        "name": "Рубиновая мутировавшая спора",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWE4ZDIxZGEtOGQzYS00ODc5LWE0ZGMtZTU4OTcwZTk4M2NmLW1vYl9mb3Jlc3RlbGVfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-mutated-spore",
+        "loc": ""
+      },
+      {
+        "id": "crimson-drana-mutant",
+        "name": "Рубиновый мутант драны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTI1OWFjN2MtYWM5Yy00MDBkLWJiMTgtMzUzNmViYTk0NDU0LW1vYl9kcmFuYXZhcl8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-drana-mutant",
+        "loc": ""
+      },
+      {
+        "id": "crimson-krao-test-subject",
+        "name": "Рубиновый подопытный крао",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQ3N2RiNmEtYTE1Yy00ZTJkLWE4NDAtYTIyMmYyOTUxOWMzLW1vYl9rcmFvbWFnXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-krao-test-subject",
+        "loc": ""
+      },
+      {
+        "id": "crimson-rafflesia",
+        "name": "Рубиновая рафлессия",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzM3NWIyOGEtMDBiYi00MjE2LTlkZjQtZWEzYmExM2U5OGU2LW1vYl9yYWZmbGVzaWFfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-rafflesia",
+        "loc": ""
+      },
+      {
+        "id": "contaminated-fairy",
+        "name": "Зараженная фея",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjJmYTVhOGEtMGNiNi00NjY5LWJkY2MtOTkxZDRjMmI1OTExLW1vYl9kcmFuYWZhaXJ5XzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-fairy",
+        "loc": ""
+      },
+      {
+        "id": "unstable-poison-blood-clot",
+        "name": "Сгусток взбалмошных ядокровов",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjc1Yjk4NjMtMjQ3ZC00ODI4LTgzNTEtODRhMTJiOGExNTk1LW1vYl9mYWZsdW1wXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-poison-blood-clot",
+        "loc": ""
+      },
+      {
+        "id": "unstable-poison-blood",
+        "name": "Взбалмошный ядокров",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjhkZjFlNTgtODhiOS00OWY3LTg2OGUtMjI4YWM2YWJiZTM4LW1vYl9mYWZibG9vZF8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-poison-blood",
+        "loc": ""
+      },
+      {
+        "id": "unstable-poison-blood-spider",
+        "name": "Паук взбалмошных ядокровов",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTA0NDc0ZjYtYzljYS00MTA4LTg1ODAtZGUzZjMzZjI2MjBhLW1vYl9zcGlkZXJfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-poison-blood-spider",
+        "loc": ""
+      },
+      {
+        "id": "poison-blood-gatherer",
+        "name": "Собиратель ядокровов",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNkOTdiMWQtNGI4Zi00ZjJiLTliZDYtNzdlYzMyMzY5MjQ3LW1vYl9kcmFjdW5pXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/poison-blood-gatherer",
+        "loc": ""
+      },
+      {
+        "id": "bonechilling-rokand",
+        "name": "Локанд дрожи",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/bonechilling-rokand",
+        "loc": ""
+      },
+      {
+        "id": "immortal-garmon",
+        "name": "Бессмертный Гармон",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/immortal-garmon",
+        "loc": ""
+      },
+      {
+        "id": "destroyer-krosch",
+        "name": "Разрушитель Кроши",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/destroyer-krosch",
+        "loc": ""
+      },
+      {
+        "id": "torturer-tregon",
+        "name": "Истязатель Трегон",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/torturer-tregon",
+        "loc": ""
+      },
+      {
+        "id": "slayer-kroms",
+        "name": "Мясник Крумс",
+        "lvl": "47",
+        "rank": "Героический",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/slayer-kroms",
+        "loc": ""
+      },
+      {
+        "id": "sulfur-agrint",
+        "name": "Агринт серы",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDRkNzQ3MWItZjk0Ny00ZWU0LTlmMDYtYjY5ZTQ4ODk4MmEwLW1vYl9hZ3JpbnRfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/sulfur-agrint",
+        "loc": ""
+      },
+      {
+        "id": "thin-sulfur-agrint",
+        "name": "Истощенный агринт серы",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDlkOGQ2MmItODU1Yi00ZDA3LWE2MTktYTU5NWY5MzU4ZTYwLW1vYl9hZ3JpbnRfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/thin-sulfur-agrint",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-combatant",
+        "name": "Борец драконидов Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjE3ODRjN2QtYmY4ZS00ZmJjLWE0ZjYtMzNkMTM3MGViOWNkLW1vYl9kcmFjb3dhcl8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-combatant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-sniper",
+        "name": "Снайпер драконидов Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjM0YmMxZDQtYzVlZS00OGFiLTg3NWEtYjBkM2JmMTIxODMzLW1vYl9kcmFjb2FyY18wNC5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-sniper",
+        "loc": ""
+      },
+      {
+        "id": "abyss-slink",
+        "name": "Чешуйница Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-slink",
+        "loc": ""
+      },
+      {
+        "id": "abyssal-kalgolem",
+        "name": "Калькельм Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGRkZGVkYTAtYTE3NC00NmY5LTgzZmYtM2U1ZDA5YWQxMDhkLW1vYl9rYWxnb2xlbV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-kalgolem",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-scout-beast",
+        "name": "Зверь разведчиков драканов Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-scout-beast",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-combatant",
+        "name": "Борец драканов Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-combatant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-sniper",
+        "name": "Снайпер драканов Бездны",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODY1MjlkODctMTU2Zi00NGQ4LTlmMDAtNzAxYjkwZjdjZDExLW1vYl9iZXJpdHJhY18wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-sniper",
+        "loc": ""
+      },
+      {
+        "id": "dark-spirit-s-sealed-apparition",
+        "name": "Запечатанный фантом мрачной тени",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGE0MTkyZDgtMDY2Ni00ZjM5LThjMGYtM2Q4N2NmNzI2OTY1LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDJfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/dark-spirit-s-sealed-apparition",
+        "loc": ""
+      },
+      {
+        "id": "chandala-drakan-scout",
+        "name": "Разведчик драканов Чандала",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/chandala-drakan-scout",
+        "loc": ""
+      },
+      {
+        "id": "chandala-krall-ranger",
+        "name": "Рейнджер краллов Чандала",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/chandala-krall-ranger",
+        "loc": ""
+      },
+      {
+        "id": "undying-guard",
+        "name": "Бессмертный охранник",
+        "lvl": "47",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/undying-guard",
+        "loc": ""
+      },
+      {
+        "id": "makarah-drakan-scout",
+        "name": "Разведчик драканов Макарах",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/makarah-drakan-scout",
+        "loc": ""
+      },
+      {
+        "id": "makarah-krall-ranger",
+        "name": "Рейнджер краллов Макарах",
+        "lvl": "47",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/makarah-krall-ranger",
+        "loc": ""
+      },
+      {
+        "id": "unavarun-nagarant-praetorian",
+        "name": "Нагарратский преторианец Унаварун",
+        "lvl": "47",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unavarun-nagarant-praetorian",
+        "loc": ""
+      },
+      {
+        "id": "crimson-drana-predator",
+        "name": "Рубиновый хищник драны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTc5NDkzZmEtMTFlMC00NmQyLWI1MzYtMmYxZDZlMTNjZjhlLW1vYl9kcmFuYXZhcl8wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-drana-predator",
+        "loc": ""
+      },
+      {
+        "id": "crimson-manduri-fighter",
+        "name": "Рубиновая задира мандури",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjhhZTAzNDAtYWY1ZS00NGRkLWE3OGItODlmMjY2Y2ZkODBiLW1vYl9tYW5kdXJpd2FyXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-manduri-fighter",
+        "loc": ""
+      },
+      {
+        "id": "crimson-manduri-slinger",
+        "name": "Рубиновый метатель мандури",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTkwMDI4ZDgtNTRiMi00MTVhLThkNWUtNmFlMTY3NTQ1OTY1LW1vYl9tYW5kdXJpcm5nXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-manduri-slinger",
+        "loc": ""
+      },
+      {
+        "id": "crimson-spider",
+        "name": "Рубиновый паук",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTA0NDc0ZjYtYzljYS00MTA4LTg1ODAtZGUzZjMzZjI2MjBhLW1vYl9zcGlkZXJfMDFfdjAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/crimson-spider",
+        "loc": ""
+      },
+      {
+        "id": "unstable-ashen-spider",
+        "name": "Взбалмошный пепельный паук",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2QxMmQ5ODMtNWMyYy00YjE0LWE3OTYtZDE3YjU4MTA3ZTFjLW1vYl9vZHNwaWRlcl8wNF92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-ashen-spider",
+        "loc": ""
+      },
+      {
+        "id": "unstable-intermediate-fire-spirit",
+        "name": "Взбалмошный опытный дух огня",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjdhNDA2ODItZDAzOS00YjI2LWJlNDgtNTYwNmU0NmNkOWY4LW1vYl9maXJlZWxlXzAyLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-intermediate-fire-spirit",
+        "loc": ""
+      },
+      {
+        "id": "unstable-superior-fire-spirit",
+        "name": "Взбалмошный старший дух огня",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGVkNTI2YzgtNWUyMC00MjdlLWFlOTItMWIwMzEyOGM3MTFmLW1vYl9maXJlZWxlXzAzLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-superior-fire-spirit",
+        "loc": ""
+      },
+      {
+        "id": "unstable-agrint",
+        "name": "Взбалмошный агринт",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMGFmOGIzMDUtNWYwMC00Yzg4LTlhMWMtNjQ0MGRmMjgyMjhhLW1vYl9hZ3JpbnRfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-agrint",
+        "loc": ""
+      },
+      {
+        "id": "unstable-forest-guardian",
+        "name": "Взбалмошный хранитель леса",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjcwZTU3OTItZDUzMi00MmRhLThiNWItOTIzNjlkYjA0YWFjLW1vYl9mb3Jlc3RhcmNfMDFfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-forest-guardian",
+        "loc": ""
+      },
+      {
+        "id": "unstable-lava-glob",
+        "name": "Взбалмошный комок лавы",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-lava-glob",
+        "loc": ""
+      },
+      {
+        "id": "unstable-withered-agrint",
+        "name": "Взбалмошный иссохший агринт",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGIzMjM3NGItZDM2OC00OTM3LWFhZGUtOGI0MTg5ZDIxYWJlLW1vYl9hZ3JpbnRfMDJfY3YwMS5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/unstable-withered-agrint",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-warrior",
+        "name": "Воин драконидов Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDk2ZGQ0NjEtMDJiYS00NzdkLWE1ZDgtMGUyMjIzODU2YzliLW1vYl9kcmFjb3dhcl8wMV92MDIucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-warrior",
+        "loc": ""
+      },
+      {
+        "id": "abyss-nagarant-brawler",
+        "name": "Храбрец нагарратов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjVhNTBmYmItN2JjYy00NmJhLThjZmYtZjUyYmVkMWZlOTFmLW1vYl9uYWdhZWxpdGVfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-nagarant-brawler",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-superior-combatant",
+        "name": "Старший драконид-борец Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjlkZDFhZGEtZjYyMy00ZmYyLTk2M2EtZTRmNmI2ZGZiMDM5LW1vYl9kcmFjb3dhcl8wMV92MDEucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-superior-combatant",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-superior-sniper",
+        "name": "Старший снайпер драконидов Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-superior-sniper",
+        "loc": ""
+      },
+      {
+        "id": "abyss-draconute-captain",
+        "name": "Капитан драконидов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-draconute-captain",
+        "loc": ""
+      },
+      {
+        "id": "abyss-nagarant-warrior",
+        "name": "Воин нагарратов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjVhNTBmYmItN2JjYy00NmJhLThjZmYtZjUyYmVkMWZlOTFmLW1vYl9uYWdhZWxpdGVfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-nagarant-warrior",
+        "loc": ""
+      },
+      {
+        "id": "abyss-naga-dark-mage",
+        "name": "Темный маг нагов Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGEzNjNlMDctOTEyYi00Y2JiLWE0NmItZjY3YjQ1YTM2YjEyLW1vYl9uYWdhZWxpdGVfMDMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-naga-dark-mage",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-strike-force-member",
+        "name": "Ликвидатор драканов Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTgzYzRmMjItMjcwNi00NTFmLTk1ZTAtYjI3MGJiYTQ4ODlkLW1vYl9iZXJpdHJhYV8wMy5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-strike-force-member",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-strike-force-captain",
+        "name": "Капитан отряда ликвидации драканов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-strike-force-captain",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-officer",
+        "name": "Офицер драканов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMDE2NGU5MjgtZjc5Yy00YmQ0LThiYjktYzg5ODFiOGE5ODBiLXV0XzI1Nl9tb2JfYmVyaXRyYWRfMDMucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-officer",
+        "loc": ""
+      },
+      {
+        "id": "abyss-rock-spirit",
+        "name": "Дух скалы пропасти",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDdjMmI0NDAtNWRjZC00MTg1LTgyMjQtMjA1YWEwOTQzYjg1LW1vYl9lYXJ0aGVsZW9kXzAxLnBuZw",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-rock-spirit",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-scout",
+        "name": "Солдат-разведчик драканов Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-scout",
+        "loc": ""
+      },
+      {
+        "id": "abyss-drakan-searcher",
+        "name": "Искатель драканов Бездны",
+        "lvl": "48",
+        "rank": "Элитный",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drakan-searcher",
+        "loc": ""
+      },
+      {
+        "id": "abyss-coradon",
+        "name": "Корадон Бездны",
+        "lvl": "48",
+        "rank": "Общий",
+        "type": "",
+        "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTQxODRiMjQtNDAzYi00YzZiLThhNDItOTY1NDI3ODM0OTUyLW1vYl9jb3JhZG9uXzAxX3YwNC5wbmc",
+        "url": "https://wikily.gg/ru/aion-2/monsters/abyss-coradon",
+        "loc": ""
       }
     ],
     "dungeons": [
