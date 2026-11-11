@@ -7,7 +7,7 @@
 <meta name="color-scheme" content="dark">
 <title>Aion 2 · Гайдбук — PvE-гайды по классам</title>
 <meta name="description" content="PvE-гайды по классам Aion 2: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки. Бестиарий и база знаний.">
-<link rel="stylesheet" href="assets/style.css?v=35">
+<link rel="stylesheet" href="assets/style.css?v=36">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
@@ -20,9 +20,15 @@
       <span class="logo__word">AION <em>2</em></span>
       <span class="logo__sub">Guidebook</span>
     </a>
-    <nav class="main-nav" aria-label="Основная навигация">
-      <a class="main-nav__item is-active" href="#ranger" data-nav="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды классов</span></a>
-      <a class="main-nav__item" href="#bestiary" data-nav="bestiary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3.5 0 6 2.6 6 6v3.5c0 4-2.7 7.4-6 8.5-3.3-1.1-6-4.5-6-8.5V9c0-3.4 2.5-6 6-6z"/><path d="M9 10h.01M15 10h.01M9.5 15c1.5 1 3.5 1 5 0"/></svg><span>Бестиарий</span></a>
+    <nav class="main-nav main-nav--wide" aria-label="Основная навигация">
+      <a class="main-nav__item is-active" href="#ranger" data-nav="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды</span></a>
+      <a class="main-nav__item" href="#pets" data-nav="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span>Питомцы</span></a>
+      <a class="main-nav__item" href="#monsters" data-nav="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span>Монстры</span></a>
+      <a class="main-nav__item" href="#dungeons" data-nav="dungeons"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V8l8-4 8 4v12"/><path d="M9 20v-6h6v6"/></svg><span>Подземелья</span></a>
+      <a class="main-nav__item" href="#skills" data-nav="skills"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></svg><span>Умения</span></a>
+      <a class="main-nav__item" href="#classes" data-nav="classes"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.5-3.5 4-5 7-5s5.5 1.5 7 5"/></svg><span>Классы</span></a>
+      <a class="main-nav__item" href="#items" data-nav="items"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v10l-8 4-8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg><span>Предметы</span></a>
+      <a class="main-nav__item" href="#world" data-nav="world"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg><span>Мир</span></a>
       <a class="main-nav__item" href="#glossary" data-nav="glossary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4.5h-6a3 3 0 0 0-3 3V21a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg><span>База знаний</span></a>
     </nav>
     <div class="header-tools">
@@ -2873,53 +2879,159 @@
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
 </section>
-    <section class="view" id="view-bestiary" aria-label="Бестиарий">
-  <nav class="crumbs" aria-label="Хлебные крошки">
-    <a href="#ranger">Главная</a><span class="sep">/</span>
-    <span class="current">Бестиарий</span>
-  </nav>
-
+    
+    <section class="view" id="view-pets" aria-label="Питомцы">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Питомцы</span></nav>
   <header class="view-head">
     <div>
-      <div class="eyebrow">Полевой справочник</div>
-      <h1>Бестиарий</h1>
-      <p class="lead">Кого вы встретите в Атрее.</p>
-      <p class="desc">Типы существ, места обитания, поведение и советы по бою. Используйте поиск, фильтры и сортировку, чтобы быстро найти нужную запись.</p>
-    </div>
-    <div class="view-head__actions">
-      <a class="btn btn--ghost" href="#ranger" id="bestiary-back">← Вернуться к гайду Лучника</a>
+      <div class="eyebrow">Каталог wikily.gg · AION 2</div>
+      <h1>Питомцы</h1>
+      <p class="lead">Полный каталог питомцев Aion 2 — все 210 записей.</p>
+      <p class="desc">Имя, вид, ранг, изображение и ссылка на источник wikily. Поиск, фильтры по виду и рангу, сортировка. Детали по уровням знания и полным источникам можно дополнить позже.</p>
     </div>
   </header>
-
-  <div class="bestiary-controls">
-    <label class="field" for="beast-search">
-      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
-      <input id="beast-search" type="search" placeholder="Поиск существа, тип, слабость…" autocomplete="off" spellcheck="false">
-    </label>
-    <div class="select">
-      <select id="beast-sort" aria-label="Сортировка">
-        <option value="alpha">По алфавиту</option>
-        <option value="type">По типу</option>
-        <option value="fav">Сначала избранные</option>
-      </select>
-    </div>
-    <button class="btn favorite-filter" id="beast-fav-filter" type="button" aria-pressed="false">
-      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>Избранные</span>
-    </button>
+  <div class="catalog-controls">
+    <label class="field" for="pet-search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="pet-search" type="search" placeholder="Поиск питомца по имени…" autocomplete="off" spellcheck="false"></label>
+    <div class="select"><select id="pet-type" aria-label="Вид"><option value="all">Все виды</option></select></div>
+    <div class="select"><select id="pet-sort" aria-label="Сортировка"><option value="alpha">По названию</option><option value="type">По виду</option><option value="rank">По рангу</option></select></div>
   </div>
+  <div class="catalog-meta"><span id="pet-count"></span><a href="https://wikily.gg/ru/aion-2/pets" target="_blank" rel="noopener">Источник: wikily.gg</a></div>
+  <div class="catalog-grid" id="pet-grid"></div>
+  <div class="catalog-foot" id="pet-foot"></div>
+</section>
 
-  <div class="filter-chips" id="beast-types"></div>
-
-  <div class="bestiary-layout">
+    <section class="view" id="view-monsters" aria-label="Монстры">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Монстры</span></nav>
+  <header class="view-head">
     <div>
-      <div class="beast-list__head"><span>Каталог существ</span><span>Тип, описание и тактика</span></div>
-      <div class="beast-list" id="beast-list"></div>
-      <div class="beast-list__foot"><span id="beast-count">6 записей</span><span>Выберите существо, чтобы открыть карточку</span></div>
+      <div class="eyebrow">Каталог wikily.gg · AION 2</div>
+      <h1>Монстры</h1>
+      <p class="lead">Монстры Атреи — 1 814 записей на wikily (уровни, ранги, типы существ, локации, добыча).</p>
+      <p class="desc">Раздел подключён к структуре wikily: ниже — подборка и категории. Полный каталог с добычей и картами доступен по ссылке на источник.</p>
     </div>
-    <aside class="beast-detail" id="beast-detail" aria-live="polite"></aside>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/monsters" target="_blank" rel="noopener">Полный каталог на wikily →</a></div>
+  </header>
+  <div class="info-chips">
+    <span class="chip">Всего: 1 814</span><span class="chip">Элитных: 153</span><span class="chip">Героических: 201</span><span class="chip">С добычей: 736</span>
+  </div>
+  <h2 class="subhead">Подборка монстров (wikily)</h2>
+  <div class="catalog-grid catalog-grid--monsters" id="monsters-grid"></div>
+  <div class="ref-links">
+    <h3>Регионы и подборки</h3>
+    <a href="https://wikily.gg/ru/aion-2/monsters/poeta" target="_blank" rel="noopener">Фоэта (26)</a>
+    <a href="https://wikily.gg/ru/aion-2/monsters/verteron" target="_blank" rel="noopener">Бертрон (740)</a>
+    <a href="https://wikily.gg/ru/aion-2/monsters/ishalgen" target="_blank" rel="noopener">Исхальген (27)</a>
+    <a href="https://wikily.gg/ru/aion-2/monsters/altgard" target="_blank" rel="noopener">Альтгард (697)</a>
+    <a href="https://wikily.gg/ru/aion-2/monsters/dungeons" target="_blank" rel="noopener">Подземелья (233)</a>
+    <a href="https://wikily.gg/ru/aion-2/bosses" target="_blank" rel="noopener">Боссы (56)</a>
   </div>
 </section>
-    <section class="view" id="view-glossary" aria-label="База знаний">
+
+    <section class="view" id="view-dungeons" aria-label="Подземелья">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Подземелья</span></nav>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Каталог wikily.gg · AION 2</div>
+      <h1>Подземелья и боссы</h1>
+      <p class="lead">136 подземелий: режимы, ограничения входа, боссы и награды.</p>
+      <p class="desc">Кошмары, запечатанные подземелья, экспедиции, неведомые разломы, битвы пробуждения и др. Подборка и типы — ниже.</p>
+    </div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/dungeons" target="_blank" rel="noopener">Все подземелья на wikily →</a></div>
+  </header>
+  <div class="info-chips">
+    <span class="chip">Всего: 136</span><span class="chip">Запечатанных: 121</span><span class="chip">Экспедиций: 8</span><span class="chip">Кошмары: 1</span><span class="chip">Битв пробуждения: 2</span>
+  </div>
+  <h2 class="subhead">Подборка подземелий</h2>
+  <div class="catalog-grid catalog-grid--dungeons" id="dungeons-grid"></div>
+  <div class="ref-links">
+    <h3>Боссы и типы</h3>
+    <a href="https://wikily.gg/ru/aion-2/bosses" target="_blank" rel="noopener">Боссы (56)</a>
+    <a href="https://wikily.gg/ru/aion-2/dungeons/nightmare" target="_blank" rel="noopener">Кошмары</a>
+    <a href="https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons" target="_blank" rel="noopener">Запечатанные</a>
+    <a href="https://wikily.gg/ru/aion-2/dungeons/expeditions" target="_blank" rel="noopener">Экспедиции</a>
+  </div>
+</section>
+
+    <section class="view" id="view-skills" aria-label="Умения">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Умения</span></nav>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Справочник wikily.gg · AION 2</div>
+      <h1>Умения</h1>
+      <p class="lead">288 умений классов: активные, пассивные и стигмы для всех 8 классов.</p>
+      <p class="desc">Категории и классы — ниже. Подробные описания — на wikily. В разделе «Гайды» разобраны ключевые билды.</p>
+    </div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/skills" target="_blank" rel="noopener">Все умения на wikily →</a></div>
+  </header>
+  <div class="info-cards" id="skills-cats"></div>
+  <div class="ref-links">
+    <h3>Умения по классам (wikily)</h3>
+    <a href="https://wikily.gg/ru/aion-2/skills/gladiator" target="_blank" rel="noopener">Гладиатор</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/templar" target="_blank" rel="noopener">Страж</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/assassin" target="_blank" rel="noopener">Убийца</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/ranger" target="_blank" rel="noopener">Стрелок</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/sorcerer" target="_blank" rel="noopener">Волшебник</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/spiritmaster" target="_blank" rel="noopener">Заклинатель</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/cleric" target="_blank" rel="noopener">Целитель</a>
+    <a href="https://wikily.gg/ru/aion-2/skills/chanter" target="_blank" rel="noopener">Чародей</a>
+  </div>
+</section>
+
+    <section class="view" id="view-classes" aria-label="Классы">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Классы</span></nav>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Справочник wikily.gg · AION 2</div>
+      <h1>Классы и информация</h1>
+      <p class="lead">8 классов Aion 2: оружие, роль, ресурс и умения.</p>
+      <p class="desc">Сводка по данным wikily. Подробные PvE-гайды доступны в разделе «Гайды».</p>
+    </div>
+    <div class="view-head__actions"><a class="btn btn--ghost" href="https://wikily.gg/ru/aion-2/classes" target="_blank" rel="noopener">Классы на wikily →</a></div>
+  </header>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>Класс (wikily)</th><th>Оружие</th><th>Роль</th><th>Ссылки</th></tr></thead><tbody id="classes-table"></tbody></table></div>
+  <p class="hint">Названия на wikily могут отличаться от принятых в гайдах (Стрелок/Лучник, Волшебник/Чародей, Заклинатель/Душелов, Целитель/Клирик, Чародей/Чантер, Страж/Храмовник).</p>
+</section>
+
+    <section class="view" id="view-items" aria-label="Предметы">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Предметы и сводки</span></nav>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Сводки wikily.gg · AION 2</div>
+      <h1>Предметы и сводки</h1>
+      <p class="lead">Предметы, квесты, титулы, эмоции и прочие игровые данные.</p>
+      <p class="desc">Навигатор по крупным категориям wikily (поэтапное наполнение).</p>
+    </div>
+  </header>
+  <div class="info-cards">
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/quests" target="_blank" rel="noopener"><b>Квесты</b><span>713 записей</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/titles" target="_blank" rel="noopener"><b>Титулы</b><span>121 запись</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/emotes" target="_blank" rel="noopener"><b>Эмоции</b><span>26 записей</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/daevanion" target="_blank" rel="noopener"><b>Даэванион</b><span>Доски и узлы</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/abyss-ranks" target="_blank" rel="noopener"><b>Ранги Бездны</b><span>ПвП-прогрессия</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/cubes" target="_blank" rel="noopener"><b>Кубы</b><span>Инвентарь</span></a>
+  </div>
+</section>
+
+    <section class="view" id="view-world" aria-label="Мир и активности">
+  <nav class="crumbs" aria-label="Хлебные крошки"><a href="#ranger">Главная</a><span class="sep">/</span><span class="current">Мир и активности</span></nav>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Сводки wikily.gg · AION 2</div>
+      <h1>Мир и активности</h1>
+      <p class="lead">Регионы, активности, боссы открытого мира и связанные системы.</p>
+      <p class="desc">Навигация по ключевым разделам мира Aion 2 по данным wikily.</p>
+    </div>
+  </header>
+  <div class="info-cards">
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/regions" target="_blank" rel="noopener"><b>Регионы</b><span>Карты и зоны</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/bosses" target="_blank" rel="noopener"><b>Боссы</b><span>56 записей</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/monsters" target="_blank" rel="noopener"><b>Монстры</b><span>1 814 записей</span></a>
+    <a class="info-card" href="https://wikily.gg/ru/aion-2/dungeons" target="_blank" rel="noopener"><b>Подземелья</b><span>136 записей</span></a>
+    <a class="info-card" href="#pets"><b>Питомцы</b><span>210 записей</span></a>
+    <a class="info-card" href="#skills"><b>Умения</b><span>288 записей</span></a>
+  </div>
+</section>
+<section class="view" id="view-glossary" aria-label="База знаний">
   <nav class="crumbs" aria-label="Хлебные крошки">
     <a href="#ranger">Главная</a><span class="sep">/</span>
     <span class="current">База знаний</span>
@@ -3089,8 +3201,8 @@
 
 <nav class="tabbar" aria-label="Мобильная навигация">
   <button type="button" data-tab="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды</span></button>
-  <button type="button" data-tab="bestiary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3.5 0 6 2.6 6 6v3.5c0 4-2.7 7.4-6 8.5-3.3-1.1-6-4.5-6-8.5V9c0-3.4 2.5-6 6-6z"/><path d="M9 10h.01M15 10h.01M9.5 15c1.5 1 3.5 1 5 0"/></svg><span>Бестиарий</span></button>
-  <button type="button" data-tab="favorites"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>Избранное</span></button>
+  <button type="button" data-tab="pets"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="6.5" cy="13.5" r="1.8"/><circle cx="17.5" cy="13.5" r="1.8"/><path d="M12 19c2.5 0 4-1.5 4-3.2 0-1.8-1.8-3.3-4-3.3s-4 1.5-4 3.3c0 1.7 1.5 3.2 4 3.2z"/></svg><span>Питомцы</span></button>
+  <button type="button" data-tab="monsters"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c4 0 7 3 7 7 0 2.6-1.2 4.4-3 5.6V19l-2-1-2 1-2-1-2 1v-3.4C6.2 14.4 5 12.6 5 10c0-4 3-7 7-7z"/><path d="M9.5 10h.01M14.5 10h.01"/></svg><span>Монстры</span></button>
   <button type="button" data-tab="search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span>Поиск</span></button>
 </nav>
 
@@ -3138,7 +3250,9 @@
   <img alt="">
 </div>
 
-<script src="assets/app.js?v=35"></script>
+<script src="assets/pets-data.js?v=36"></script>
+<script src="assets/wikily-data.js?v=36"></script>
+<script src="assets/app.js?v=36"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {

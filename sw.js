@@ -1,9 +1,11 @@
-﻿const CACHE = "aion2-guides-v18";
+﻿const CACHE = "aion2-guides-v19";
 const CORE = [
   "./",
   "./index.html",
   "./assets/style.css",
   "./assets/app.js",
+  "./assets/pets-data.js",
+  "./assets/wikily-data.js",
   "./manifest.webmanifest",
   "./img/icon-192.png",
   "./img/icon-512.png",

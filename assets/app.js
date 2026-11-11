@@ -134,20 +134,21 @@
   var favBeasts = readFav('aion2:favorites:beasts');
 
   /* ---------------- router ---------------- */
+  var CATALOG_VIEWS = {pets:1,monsters:1,dungeons:1,skills:1,classes:1,items:1,world:1,glossary:1,favorites:1};
   function parseHash() {
     var raw = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
     if (!raw) return { view: 'guide', key: 'ranger', sec: null };
     var parts = raw.split('/');
     var head = parts[0] || '';
     var sec = parts[1] || null;
-    if (head === 'bestiary' || head === 'glossary' || head === 'favorites') return { view: head, key: null, sec: sec };
+    if (head === 'bestiary') head = 'monsters';
+    if (CATALOG_VIEWS[head]) return { view: head, key: null, sec: sec };
     if (META[head]) return { view: 'guide', key: head, sec: sec };
     if (head.indexOf('gt-') === 0 || head.indexOf('g-') === 0) return { view: 'glossary', key: null, sec: head };
     var pre = head.split('-')[0];
     if (PREFIX[pre]) return { view: 'guide', key: PREFIX[pre], sec: head };
     return { view: 'guide', key: 'ranger', sec: null };
   }
-
   function go(hash) {
     if (location.hash === hash) render();
     else location.hash = hash;
@@ -216,18 +217,28 @@
       updateSideFav(key);
       renderSectionsSheet(key);
     } else {
-      $('#rail-left').innerHTML = '';
+      var rl = $('#rail-left'); if (rl) rl.innerHTML = '';
     }
 
     updateBackLinks();
 
-    if (view === 'bestiary') renderBestiary();
+    if (view === 'pets') renderPets();
+    if (view === 'monsters') renderMonsters();
+    if (view === 'dungeons') renderDungeons();
+    if (view === 'skills') renderSkillsView();
+    if (view === 'classes') renderClassesView();
     if (view === 'favorites') renderFavorites();
     if (view === 'glossary') setKbActive(sec || 'g-systems');
 
     var titles = {
       guide: META[key] ? META[key].name + ' · Aion 2 Гайдбук' : 'Aion 2 Гайдбук',
-      bestiary: 'Бестиарий · Aion 2 Гайдбук',
+      pets: 'Питомцы · Aion 2 Гайдбук',
+      monsters: 'Монстры · Aion 2 Гайдбук',
+      dungeons: 'Подземелья · Aion 2 Гайдбук',
+      skills: 'Умения · Aion 2 Гайдбук',
+      classes: 'Классы · Aion 2 Гайдбук',
+      items: 'Предметы · Aion 2 Гайдбук',
+      world: 'Мир · Aion 2 Гайдбук',
       glossary: 'База знаний · Aion 2 Гайдбук',
       favorites: 'Избранное · Aion 2 Гайдбук'
     };
@@ -475,6 +486,93 @@
     }
   }
 
+
+  /* ---------------- pets (wikily catalog, 210) ---------------- */
+  var petsState = { query: '', type: 'all', sort: 'alpha' };
+  function getPets(){ return (window.AION2_PETS || []); }
+  function filteredPets(){
+    var q = norm(petsState.query);
+    var list = getPets().filter(function(p){
+      if (petsState.type !== 'all' && p.type !== petsState.type) return false;
+      if (!q) return true;
+      return norm([p.name,p.type,p.rank,p.source].join(' ')).indexOf(q) > -1;
+    });
+    list.sort(function(a,b){
+      if (petsState.sort === 'type') { var d=(a.type||'').localeCompare(b.type||'','ru'); if(d) return d; }
+      if (petsState.sort === 'rank') { var d2=(a.rank||'').localeCompare(b.rank||'','ru'); if(d2) return d2; }
+      return (a.name||'').localeCompare(b.name||'','ru');
+    });
+    return list;
+  }
+  function renderPets(){
+    var grid = $('#pet-grid'); if(!grid) return;
+    var sel = $('#pet-type');
+    if (sel && sel.options.length <= 1) {
+      var types = {};
+      getPets().forEach(function(p){ types[p.type]=1; });
+      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru')}).forEach(function(t){
+        var o=document.createElement('option'); o.value=t; o.textContent=t; sel.appendChild(o);
+      });
+    }
+    var list = filteredPets();
+    grid.innerHTML = list.map(function(p){
+      return '<article class="catalog-card pet-card">' +
+        '<a class="catalog-card__img" href="'+esc(p.url)+'" target="_blank" rel="noopener"><img loading="lazy" src="'+esc(p.img)+'" alt=""></a>' +
+        '<div class="catalog-card__body">' +
+          '<div class="catalog-card__title"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a></div>' +
+          '<div class="catalog-card__meta"><span class="tag">'+esc(p.type)+'</span><span class="tag">'+esc(p.rank||'Обычный')+'</span></div>' +
+          '<div class="catalog-card__src">'+esc(p.source||'')+'</div>' +
+          '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Страница на wikily →</a>' +
+        '</div></article>';
+    }).join('');
+    var count = $('#pet-count'); if(count) count.textContent = list.length + ' из ' + getPets().length + ' питомцев';
+    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Данные каталога (список): wikily.gg/ru/aion-2/pets. Уровни знания и полные источники — на страницах питомцев и в будущих обновлениях.';
+  }
+  function initPets(){
+    var s2=$('#pet-search'); if(s2) s2.addEventListener('input', function(){ petsState.query=s2.value; renderPets(); });
+    var t=$('#pet-type'); if(t) t.addEventListener('change', function(){ petsState.type=t.value; renderPets(); });
+    var so=$('#pet-sort'); if(so) so.addEventListener('change', function(){ petsState.sort=so.value; renderPets(); });
+  }
+
+  /* ---------------- wikily scaffolds ---------------- */
+  function renderMonsters(){
+    var grid=$('#monsters-grid'); if(!grid) return;
+    var data=(window.AION2_WIKILY||{}).monstersSample||[];
+    grid.innerHTML = data.map(function(m){
+      return '<a class="catalog-card monster-card" href="'+esc(m.url)+'" target="_blank" rel="noopener">' +
+        '<div class="catalog-card__img"><img loading="lazy" src="'+esc(m.img)+'" alt=""></div>' +
+        '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(m.name)+'</div>' +
+        '<div class="catalog-card__meta"><span class="tag">Ур. '+esc(m.lvl)+'</span><span class="tag">'+esc(m.rank)+'</span><span class="tag">'+esc(m.type)+'</span></div></div></a>';
+    }).join('');
+  }
+  function renderDungeons(){
+    var grid=$('#dungeons-grid'); if(!grid) return;
+    var data=(window.AION2_WIKILY||{}).dungeonsSample||[];
+    grid.innerHTML = data.map(function(d){
+      return '<a class="catalog-card dungeon-card" href="'+esc(d.url)+'" target="_blank" rel="noopener">' +
+        '<div class="catalog-card__img"><img loading="lazy" src="'+esc(d.img)+'" alt=""></div>' +
+        '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(d.name)+'</div>' +
+        '<div class="catalog-card__meta"><span class="tag">'+esc(d.cat)+'</span></div>' +
+        '<div class="catalog-card__src">'+esc(d.note||'')+'</div></div></a>';
+    }).join('');
+  }
+  function renderSkillsView(){
+    var box=$('#skills-cats'); if(!box) return;
+    var data=(window.AION2_WIKILY||{}).skillsCats||[];
+    box.innerHTML = data.map(function(c){
+      return '<a class="info-card" href="'+esc(c.url)+'" target="_blank" rel="noopener"><b>'+esc(c.name)+'</b><span>'+c.count+' умений — '+esc(c.desc)+'</span></a>';
+    }).join('');
+  }
+  function renderClassesView(){
+    var tb=$('#classes-table'); if(!tb) return;
+    var data=(window.AION2_WIKILY||{}).classesInfo||[];
+    var guideMap={gladiator:'gladiator',templar:'templar',assassin:'assassin',ranger:'ranger',sorcerer:'sorcerer',spiritmaster:'spiritmaster',cleric:'cleric',chanter:'chanter'};
+    tb.innerHTML = data.map(function(c){
+      var g=guideMap[c.key] ? '<a href="#'+c.key+'">Гайд →</a>' : '';
+      return '<tr><td><b>'+esc(c.ru)+'</b> <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td><a href="'+esc(c.url)+'" target="_blank" rel="noopener">wikily</a> '+g+'</td></tr>';
+    }).join('');
+  }
+
   function initBestiary() {
     var chips = $('#beast-types');
     if (chips) {
@@ -715,13 +813,26 @@
         text: norm(term.textContent), raw: term.textContent.trim(), hash: '#glossary/' + term.id
       });
     });
-    BEASTS.forEach(function (b) {
-      var body = [b.latin, b.type, b.desc, b.habitat, b.weakness].join(' ');
-      INDEX.push({
-        kind: 'Бестиарий', label: b.type, title: b.name,
-        text: norm(body), raw: body, hash: '#bestiary/' + b.id
-      });
+    (window.AION2_PETS||[]).forEach(function (p) {
+      var body = [p.type, p.rank, p.source, 'питомец'].join(' ');
+      INDEX.push({ kind: 'Питомцы', label: p.type, title: p.name, text: norm(p.name+' '+body), raw: body, hash: '#pets' });
     });
+    ((window.AION2_WIKILY||{}).monstersSample||[]).forEach(function (m) {
+      var body = ['монстр', m.rank, m.lvl, m.type].join(' ');
+      INDEX.push({ kind: 'Монстры', label: m.rank, title: m.name, text: norm(m.name+' '+body), raw: body, hash: '#monsters' });
+    });
+    ((window.AION2_WIKILY||{}).dungeonsSample||[]).forEach(function (d) {
+      var body = ['подземелье', d.cat, d.note].join(' ');
+      INDEX.push({ kind: 'Подземелья', label: d.cat, title: d.name, text: norm(d.name+' '+body), raw: body, hash: '#dungeons' });
+    });
+    [{t:'Питомцы',h:'#pets',k:'Каталог',b:'210 питомцев Aion 2 поиск фильтры виды'},
+     {t:'Монстры',h:'#monsters',k:'Каталог',b:'1814 монстров боссы локации добыча'},
+     {t:'Подземелья',h:'#dungeons',k:'Каталог',b:'136 подземелий кошмары запечатанные экспедиции боссы награды'},
+     {t:'Умения',h:'#skills',k:'Справочник',b:'288 умений активные пассивные стигмы классы'},
+     {t:'Классы',h:'#classes',k:'Справочник',b:'8 классов оружие роль ресурсы'},
+     {t:'Предметы и сводки',h:'#items',k:'Сводки',b:'квесты титулы эмоции даэванион кубы ранги бездны'},
+     {t:'Мир и активности',h:'#world',k:'Сводки',b:'регионы боссы активности мир'}
+    ].forEach(function(x){ INDEX.push({kind:x.k,label:'Раздел',title:x.t,text:norm(x.t+' '+x.b),raw:x.b,hash:x.h}); });
   }
 
   var searchModal, searchInput, searchResults, searchMeta;
@@ -932,6 +1043,7 @@
   /* ---------------- boot ---------------- */
   function boot() {
     initBestiary();
+    initPets();
     initSheets();
     initActions();
     initSearch();
@@ -942,7 +1054,7 @@
 
     window.addEventListener('hashchange', render);
     window.addEventListener('resize', function () {
-      if (document.body.dataset.view === 'bestiary') renderBestiary();
+      if (document.body.dataset.view === 'monsters') renderMonsters();
     });
   }
 
