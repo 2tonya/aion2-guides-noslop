@@ -1,5 +1,5 @@
 /* ============================================================
-   AION 2 · GUIDEBOOK — router, rails, bestiary, search
+   AION 2 · GUIDEBOOK — router, rails, catalogs, search
    ============================================================ */
 (function () {
   'use strict';
@@ -19,110 +19,25 @@
 
   var PREFIX = { r: 'ranger', a: 'assassin', so: 'sorcerer', sp: 'spiritmaster', te: 'templar', gl: 'gladiator', cl: 'cleric', ch: 'chanter' };
 
-  var BEASTS = [
-    {
-      id: 'balaur', name: 'Балауры', latin: 'Balaur', type: 'Дракониды', img: 'img/beast-balaur.svg',
-      desc: 'Драконья раса, созданная Аионом для защиты Башни Вечности, но обратившаяся против элийцев и асмодиан. Встречаются как рядовые воины, так и заклинатели; часто используют огненное дыхание, ядовитые плевки и призыв подкрепления.',
-      habitat: 'Балаурейские укрепления, Абисс, зоны вторжений, инстансы и руины, связанные с драконьими легионами.',
-      weakness: 'Контроль прерывает опасные касты; не стойте в зонах поражения дыхания. Фокус по заклинателям и целителям снижает давление пачки.', related: 'drakan'
-    },
-    {
-      id: 'drakan', name: 'Драканы', latin: 'Drakan', type: 'Дракониды', img: 'img/beast-drakan.svg',
-      desc: 'Гуманоидные командиры и элита Балауров. Более дисциплинированны, чем рядовые твари, часто ведут отряды, накладывают усиления на союзников и бьют точечными умениями.',
-      habitat: 'Командные посты Балауров, элитные лагеря, сюжетные и групповые зоны Атреи и Балауреи.',
-      weakness: 'Сначала снимайте баффы/поддержку и отделяйте от пачки. Жёсткий контроль и бурст по одному опаснее AoE-размена.', related: 'balaur'
-    },
-    {
-      id: 'krall', name: 'Кралы', latin: 'Krall', type: 'Гуманоиды', img: 'img/beast-krall.svg',
-      desc: 'Грубые гуманоидные племена, порабощённые и вооружённые Балаурами. Действуют стаями, держат строй у лагерей и быстро зовут соседей, если бой затягивается.',
-      habitat: 'Лагеря, шахты и заставы в стартовых и средних зонах; часто рядом с балаурскими объектами.',
-      weakness: 'Лучше втягивать по одному, сбивать призыв/тревогу и не драться в центре лагеря. Уязвимы к контролю и дистанционному кайтингу.', related: 'kobold'
-    },
-    {
-      id: 'kobold', name: 'Кобольды', latin: 'Kobold', type: 'Гуманоиды', img: 'img/beast-kobold.svg',
-      desc: 'Мелкие родичи краллов, обычно рабочие и добытчики. Слабы поодиночке, но опасны группами и в тесных шахтах, где легко получить сразу несколько мобов.',
-      habitat: 'Шахты, рудные выработки, рабочие поселения и лагеря снабжения.',
-      weakness: 'AoE и контроль толпы эффективны, но важно следить за агро-соседями. Не тяните большие пачки в узких коридорах.', related: 'krall'
-    },
-    {
-      id: 'mau', name: 'Мау', latin: 'Mau', type: 'Зверолюди', img: 'img/beast-mau.svg',
-      desc: 'Кошачьи зверолюди-разбойники. Быстрые, ловкие, любят засады и короткие стычки; стрелки и шаманы держатся позади воинов.',
-      habitat: 'Леса, каньоны, равнины и караванные тропы; разбойничьи стоянки вдоль дорог.',
-      weakness: 'Снара/замедление не даёт уйти на расстояние. В первую очередь убирайте дальнобойных и поддерживающих Мау.', related: 'lycan'
-    },
-    {
-      id: 'lycan', name: 'Ликаны', latin: 'Lycan', type: 'Зверолюди', img: 'img/beast-lycan.svg',
-      desc: 'Волчьи племена-охотники, сильные в ближнем бою. Часто нападают группой, могут преследовать цель и давить числом.',
-      habitat: 'Дикие равнины, охотничьи угодья и лагеря племён в открытых зонах.',
-      weakness: 'Держите дистанцию, используйте замедление/сбивание рывков и не допускайте окружения несколькими бойцами.', related: 'mau'
-    },
-    {
-      id: 'shulack', name: 'Шулаки', latin: 'Shulack', type: 'Гуманоиды', img: 'img/beast-shulack.svg',
-      desc: 'Хитрые пиратские и торговые банды грызуноподобных гуманоидов. Используют механизмы, бомбы, ловушки и нечестные приёмы в бою.',
-      habitat: 'Корабли, пиратские бухты, мастерские, контрабандные лагеря и некоторые инстансы.',
-      weakness: 'Выходите из зон взрывов и ловушек, прерывайте опасные умения и фокусите инженеров/подрывников.', related: 'kerubim'
-    },
-    {
-      id: 'kerubim', name: 'Керубимы', latin: 'Kerubim', type: 'Духи', img: 'img/beast-kerubim.svg',
-      desc: 'Крылатые существа, связанные с древними святынями и магией Элиоса. В бою часто сочетают магические атаки с поддержкой союзников.',
-      habitat: 'Святилища, храмы, руины и места концентрации эфирной энергии.',
-      weakness: 'Прерывайте лечение/баффы и разбивайте группы: поодиночке керубимы заметно менее опасны.', related: 'elemental'
-    },
-    {
-      id: 'undead', name: 'Нежить', latin: 'Нежить', type: 'Нежить', img: 'img/beast-undead.svg',
-      desc: 'Оживлённые останки, проклятые души и стражи гробниц. Не отступают, часто накладывают болезни, страх или ослабления и опасны плотными группами.',
-      habitat: 'Кладбища, склепы, проклятые руины, поля древних битв и тёмные подземелья.',
-      weakness: 'Контроль нежити и AoE хорошо работают против пачек. Снимайте дебаффы и не затягивайте бой в узком месте.', related: 'spirit'
-    },
-    {
-      id: 'spirit', name: 'Духи', latin: 'Spirit', type: 'Духи', img: 'img/beast-spirit.svg',
-      desc: 'Бестелесные сущности — духи природы, погибших или искажённой магии. Могут использовать дистанционные заклинания и внезапно появляться рядом с целью.',
-      habitat: 'Лесные чащи, места силы, руины и зоны магических аномалий.',
-      weakness: 'Сбивайте касты и избегайте затяжных боёв сразу с несколькими заклинателями. Магическая защита/сопротивления снижают риск.', related: 'elemental'
-    },
-    {
-      id: 'elemental', name: 'Элементали', latin: 'Elemental', type: 'Духи', img: 'img/beast-elemental.svg',
-      desc: 'Живые проявления стихий — огня, воды, воздуха или земли. Атакуют в соответствии со своей стихией и часто усиливаются в «родной» местности.',
-      habitat: 'Вулканические зоны, побережья, штормовые плато, разломы и места стихийного дисбаланса.',
-      weakness: 'Учитывайте стихию урона и избегайте зональных атак. Контроль и фокус по одному элементалю безопаснее, чем бой в гуще.', related: 'spirit'
-    },
-    {
-      id: 'sprigg', name: 'Спригги', latin: 'Sprigg', type: 'Звери', img: 'img/beast-sprigg.svg',
-      desc: 'Небольшие лесные существа, внешне безобидные, но территориальные. Часто собираются группами и защищают свои поляны и заросли.',
-      habitat: 'Леса, поляны и заросшие тропы в природных зонах Атреи.',
-      weakness: 'Опасны только числом: разделяйте pulls и не цепляйте соседние группы. AoE быстро решает проблему.', related: 'worg'
-    },
-    {
-      id: 'worg', name: 'Ворги', latin: 'Worg', type: 'Звери', img: 'img/beast-worg.svg',
-      desc: 'Дикие хищники, нападающие стаей. Быстро сокращают дистанцию, могут преследовать раненую цель и наказывать за неосторожный пул.',
-      habitat: 'Степи, предгорья, лесные окраины и охотничьи территории.',
-      weakness: 'Замедление, кайт и контроль пачки. Сначала убирайте самых быстрых/опасных, чтобы не получить добивание в спину.', related: 'karnif'
-    },
-    {
-      id: 'karnif', name: 'Карнифы', latin: 'Karnif', type: 'Звери', img: 'img/beast-karnif.svg',
-      desc: 'Крупные кошачьи хищники с высоким уроном вблизи. Могут резко прыгать к цели и опасны для плохо экипированных персонажей.',
-      habitat: 'Саванны, скалистые равнины и охотничьи угодья, где водится крупная дичь.',
-      weakness: 'Не подпускайте слишком близко без защиты, используйте контроль в момент сближения и не тяните несколько особей сразу.', related: 'worg'
-    }
-  ];
-  var BEAST_BY_ID = {};
-  BEASTS.forEach(function (b) { BEAST_BY_ID[b.id] = b; });
-
-  var TYPE_ORDER = { 'Гуманоиды': 1, 'Дракониды': 2, 'Зверолюди': 3, 'Духи': 4, 'Нежить': 5, 'Звери': 6 };
-  var state = { lastGuide: 'ranger', activeSec: null, selectedBeast: 'balaur', openBeast: null, returnHash: null };
-  var beast = { query: '', type: 'all', sort: 'alpha', favOnly: false };
+  var state = { lastGuide: 'ranger', activeSec: null, returnHash: null, lang: 'ru', restoreScroll: false };
   var scrollMemo = {};
   try { state.returnHash = sessionStorage.getItem('aion2:return') || null; } catch (e) {}
+  try { state.lang = localStorage.getItem('aion2:lang') || 'ru'; } catch (e) {}
 
   function $(sel, root) { return (root || document).querySelector(sel); }
   function $$(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
   function pad(n) { return String(n).padStart(2, '0'); }
   function norm(s) { return String(s || '').toLowerCase().replace(/ё/g, 'е').replace(/\s+/g, ' ').trim(); }
   function esc(s) {
-    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
   function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-  function isMobile() { return window.matchMedia('(max-width: 979px)').matches; }
+  function plural(n, one, few, many) {
+    var m10 = n % 10, m100 = n % 100;
+    if (m10 === 1 && m100 !== 11) return one;
+    if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return few;
+    return many;
+  }
 
   function readFav(key) {
     try { return new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch (e) { return new Set(); }
@@ -131,7 +46,6 @@
     try { localStorage.setItem(key, JSON.stringify(Array.from(set))); } catch (e) {}
   }
   var favClasses = readFav('aion2:favorites:classes');
-  var favBeasts = readFav('aion2:favorites:beasts');
 
   /* ---------------- router ---------------- */
   var CATALOG_VIEWS = {pets:1,monsters:1,dungeons:1,skills:1,classes:1,items:1,world:1,glossary:1,favorites:1};
@@ -161,7 +75,7 @@
 
   function scrollToId(id) {
     var el = document.getElementById(id);
-    if (id.indexOf('-') > -1) {
+    if (id && id.indexOf('-') > -1) {
       var sec = $('[data-sec="' + id + '"]');
       if (sec) el = sec;
     }
@@ -187,10 +101,6 @@
     if (view === 'guide') {
       state.lastGuide = key;
       if (sec) state.activeSec = sec;
-    }
-    if (view === 'bestiary' && sec && BEAST_BY_ID[sec]) {
-      state.selectedBeast = sec;
-      state.openBeast = sec;
     }
 
     var targetId = view === 'guide' ? 'view-guide-' + key : 'view-' + view;
@@ -227,6 +137,8 @@
     if (view === 'dungeons') renderDungeons();
     if (view === 'skills') renderSkillsView();
     if (view === 'classes') renderClassesView();
+    if (view === 'items') renderItemsView();
+    if (view === 'world') renderWorldView();
     if (view === 'favorites') renderFavorites();
     if (view === 'glossary') setKbActive(sec || 'g-systems');
 
@@ -258,9 +170,6 @@
         if (sec) {
           scrollToId(sec);
           if (view === 'glossary') flash(sec);
-        } else if (view === 'bestiary') {
-          scrollToId('view-bestiary');
-          window.scrollTo(0, 0);
         } else {
           window.scrollTo(0, 0);
         }
@@ -286,7 +195,8 @@
     var html = secs.map(function (s, i) {
       return '<a href="#' + key + '/' + s.id + '" data-sec-link="' + s.id + '"><span class="num">' + pad(i + 1) + '</span><span>' + esc(s.label) + '</span></a>';
     }).join('');
-    $('#rail-left').innerHTML = html;
+    var left = $('#rail-left');
+    if (left) left.innerHTML = html;
     setActiveSec(state.activeSec);
   }
 
@@ -345,7 +255,7 @@
   }
 
   function toggleClassFav(key, silent) {
-    if (!key) return;
+    if (!key || !META[key]) return;
     if (favClasses.has(key)) favClasses.delete(key);
     else favClasses.add(key);
     writeFav('aion2:favorites:classes', favClasses);
@@ -354,23 +264,10 @@
     if (!silent) toast(favClasses.has(key) ? META[key].name + ' добавлен в избранное' : META[key].name + ' убран из избранного');
   }
 
-  function toggleBeastFav(id, silent) {
-    if (!id) return;
-    if (favBeasts.has(id)) favBeasts.delete(id);
-    else favBeasts.add(id);
-    writeFav('aion2:favorites:beasts', favBeasts);
-    if (document.body.dataset.view === 'bestiary') renderBestiary();
-    if (document.body.dataset.view === 'favorites') renderFavorites();
-    if (!silent) toast(favBeasts.has(id) ? BEAST_BY_ID[id].name + ' в избранном' : BEAST_BY_ID[id].name + ' убран из избранного');
-  }
-
-  var HEART = '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg>';
-
   function renderFavorites() {
     var wrap = $('#favorites-content');
     if (!wrap) return;
     var cls = CLASSES.filter(function (c) { return favClasses.has(c.key); });
-    var beasts = BEASTS.filter(function (b) { return favBeasts.has(b.id); });
 
     var html = '<section class="sec"><div class="sec__eyebrow"><span class="n">01</span><span>Классы</span></div><h2>Гайды классов</h2>';
     if (cls.length) {
@@ -381,113 +278,17 @@
           '<button class="icon-btn" type="button" data-unfav-class="' + c.key + '" aria-label="Убрать из избранного">×</button></div>';
       }).join('') + '</div>';
     } else {
-      html += '<p class="fav-empty">Пока пусто. Откройте гайд класса и нажмите «В избранное» в правой колонке.</p>';
+      html += '<p class="fav-empty">Пока пусто. Откройте гайд класса и нажмите «В избранное» в шапке гайда.</p>';
     }
     html += '</section>';
 
-    html += '<section class="sec"><div class="sec__eyebrow"><span class="n">02</span><span>Существа</span></div><h2>Бестиарий</h2>';
-    if (beasts.length) {
-      html += '<div class="fav-list">' + beasts.map(function (b) {
-        return '<div class="fav-row"><div class="fav-row__body"><b>' + b.name + '</b><span>' + b.latin + ' · ' + b.type + '</span></div>' +
-          '<a class="btn btn--ghost" href="#bestiary/' + b.id + '">Открыть</a>' +
-          '<button class="icon-btn" type="button" data-unfav-beast="' + b.id + '" aria-label="Убрать из избранного">×</button></div>';
-      }).join('') + '</div>';
-    } else {
-      html += '<p class="fav-empty">Пока пусто. В бестиарии откройте существо и нажмите «В избранное».</p>';
-    }
-    html += '</section>';
+    html += '<section class="sec"><div class="sec__eyebrow"><span class="n">02</span><span>Каталоги</span></div><h2>Справочники wikily</h2>' +
+      '<p class="fav-empty">Для питомцев, монстров, подземелий и умений используйте разделы каталога: <a class="g-link" href="#pets">Питомцы</a>, <a class="g-link" href="#monsters">Монстры</a>, <a class="g-link" href="#dungeons">Подземелья</a>, <a class="g-link" href="#skills">Умения</a>. Детальные карточки открываются на wikily.</p></section>';
 
     wrap.innerHTML = html;
   }
 
-  /* ---------------- bestiary ---------------- */
-  function plural(n, one, few, many) {
-    var m10 = n % 10, m100 = n % 100;
-    if (m10 === 1 && m100 !== 11) return one;
-    if (m10 >= 2 && m10 <= 4 && (m100 < 10 || m100 >= 20)) return few;
-    return many;
-  }
-
-  function beastDetail(b, mobile) {
-    var fav = favBeasts.has(b.id);
-    var rel = BEAST_BY_ID[b.related];
-    var img = b.img ? '<div class="beast-detail__art"><img src="' + esc(b.img) + '" alt="' + esc(b.name) + '"></div>' : '';
-    return (mobile ? '' : '<div class="beast-detail__label">Карточка существа</div>' + img + '<h2>' + b.name + '</h2><div class="beast-detail__latin">' + b.latin + ' · ' + b.type + '</div>') +
-      (mobile ? img : '') +
-      '<h3>Описание</h3><p>' + b.desc + '</p>' +
-      '<h3>Где встречается</h3><p>' + b.habitat + '</p>' +
-      '<h3>Тактика и слабости</h3><p>' + b.weakness + '</p>' +
-      '<button class="btn' + (fav ? ' is-fav' : '') + (mobile ? ' btn--ghost' : '') + '" type="button" data-fav-beast="' + b.id + '" aria-pressed="' + fav + '">' + HEART + '<span>' + (fav ? 'В избранном' : 'В избранное') + '</span></button>' +
-      (rel ? '<button class="beast-related" type="button" data-beast-link="' + rel.id + '"><span><b>' + rel.name + '</b><span>' + rel.type + ' · ' + rel.latin + '</span></span><span class="arrow">→</span></button>' : '');
-  }
-
-  function filteredBeasts() {
-    var q = norm(beast.query);
-    var list = BEASTS.filter(function (b) {
-      if (beast.type !== 'all' && b.type !== beast.type) return false;
-      if (beast.favOnly && !favBeasts.has(b.id)) return false;
-      if (!q) return true;
-      return norm([b.name, b.latin, b.type, b.desc, b.habitat, b.weakness].join(' ')).indexOf(q) > -1;
-    });
-    list.sort(function (a, b) {
-      if (beast.sort === 'type') {
-        var d = (TYPE_ORDER[a.type] || 9) - (TYPE_ORDER[b.type] || 9);
-        if (d) return d;
-      }
-      if (beast.sort === 'fav' || beast.sort === 'type') {
-        var f = (favBeasts.has(b.id) ? 1 : 0) - (favBeasts.has(a.id) ? 1 : 0);
-        if (beast.sort === 'fav' && f) return f;
-      }
-      return a.name.localeCompare(b.name, 'ru');
-    });
-    return list;
-  }
-
-  function renderBestiary() {
-    var listEl = $('#beast-list');
-    if (!listEl) return;
-    var list = filteredBeasts();
-    if (list.length && !list.some(function (b) { return b.id === state.selectedBeast; })) {
-      state.selectedBeast = list[0].id;
-    }
-    var selected = list.filter(function (b) { return b.id === state.selectedBeast; })[0] || null;
-
-    listEl.innerHTML = list.map(function (b, i) {
-      var active = selected && b.id === selected.id;
-      var open = isMobile() && state.openBeast === b.id;
-      var thumb = b.img ? '<img class="beast-row__thumb" src="' + b.img + '" alt="">' : '';
-      return '<div class="beast-row' + (active ? ' is-active' : '') + (open ? ' is-open' : '') + '" data-beast="' + b.id + '">' +
-        '<button class="beast-row__btn" type="button" aria-expanded="' + (open ? 'true' : 'false') + '">' +
-        '<span class="beast-row__num">' + pad(i + 1) + '</span>' +
-        thumb +
-        '<span class="beast-row__body"><span class="beast-row__name">' + b.name + '</span><span class="beast-row__desc">' + b.latin + ' · ' + b.type + '</span></span>' +
-        '<span class="beast-row__type">' + b.type + '</span>' +
-        '<span class="beast-row__arrow">→</span></button>' +
-        '<div class="beast-row__detail">' + beastDetail(b, true) + '</div></div>';
-    }).join('');
-
-    if (!list.length) {
-      listEl.innerHTML = '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    }
-
-    var detail = $('#beast-detail');
-    detail.innerHTML = selected ? beastDetail(selected, false) : '<div class="beast-detail__label">Карточка существа</div><p class="fav-empty">Выберите существо из каталога.</p>';
-
-    var count = $('#beast-count');
-    if (count) count.textContent = list.length + ' ' + plural(list.length, 'запись', 'записи', 'записей');
-
-    $$('#beast-types .filter-chip').forEach(function (c) {
-      c.classList.toggle('is-active', c.dataset.type === beast.type);
-    });
-    var favBtn = $('#beast-fav-filter');
-    if (favBtn) {
-      favBtn.classList.toggle('is-active', beast.favOnly);
-      favBtn.setAttribute('aria-pressed', String(beast.favOnly));
-    }
-  }
-
-
-  /* ---------------- pets (wikily catalog, 210) ---------------- */
+  /* ---------------- pets ---------------- */
   var petsState = { query: '', type: 'all', sort: 'alpha' };
   function getPets(){ return (window.AION2_PETS || []); }
   function filteredPets(){
@@ -510,7 +311,7 @@
     if (sel && sel.options.length <= 1) {
       var types = {};
       getPets().forEach(function(p){ types[p.type]=1; });
-      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru')}).forEach(function(t){
+      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(t){
         var o=document.createElement('option'); o.value=t; o.textContent=t; sel.appendChild(o);
       });
     }
@@ -524,110 +325,206 @@
           '<div class="catalog-card__src">'+esc(p.source||'')+'</div>' +
           '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Страница на wikily →</a>' +
         '</div></article>';
-    }).join('');
+    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
     var count = $('#pet-count'); if(count) count.textContent = list.length + ' из ' + getPets().length + ' питомцев';
-    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Данные каталога (список): wikily.gg/ru/aion-2/pets. Уровни знания и полные источники — на страницах питомцев и в будущих обновлениях.';
+    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Источник списка: wikily.gg/ru/aion-2/pets (210). Уровни знания, способы получения и детали — на страницах питомцев wikily.';
   }
   function initPets(){
-    var s2=$('#pet-search'); if(s2) s2.addEventListener('input', function(){ petsState.query=s2.value; renderPets(); });
+    var s=$('#pet-search'); if(s) s.addEventListener('input', function(){ petsState.query=s.value; renderPets(); });
     var t=$('#pet-type'); if(t) t.addEventListener('change', function(){ petsState.type=t.value; renderPets(); });
     var so=$('#pet-sort'); if(so) so.addEventListener('change', function(){ petsState.sort=so.value; renderPets(); });
   }
 
-  /* ---------------- wikily scaffolds ---------------- */
+  /* ---------------- monsters ---------------- */
+  var monstersState = { query: '', type: 'all', rank: 'all', sort: 'lvl' };
+  function getMonsters(){ return ((window.AION2_WIKILY||{}).monsters || []); }
+  function lvlNum(s){
+    var m = String(s||'').match(/(\d+)/);
+    return m ? parseInt(m[1],10) : 9999;
+  }
+  function filteredMonsters(){
+    var q = norm(monstersState.query);
+    var list = getMonsters().filter(function(m){
+      if (monstersState.type !== 'all' && m.type !== monstersState.type) return false;
+      if (monstersState.rank !== 'all' && norm(m.rank).indexOf(norm(monstersState.rank)) === -1) return false;
+      if (!q) return true;
+      return norm([m.name,m.type,m.rank,m.lvl,m.loc].join(' ')).indexOf(q) > -1;
+    });
+    list.sort(function(a,b){
+      if (monstersState.sort === 'name') return (a.name||'').localeCompare(b.name||'','ru');
+      if (monstersState.sort === 'rank') { var d=(a.rank||'').localeCompare(b.rank||'','ru'); if(d) return d; }
+      var la=lvlNum(a.lvl), lb=lvlNum(b.lvl); if (la!==lb) return la-lb;
+      return (a.name||'').localeCompare(b.name||'','ru');
+    });
+    return list;
+  }
   function renderMonsters(){
     var grid=$('#monsters-grid'); if(!grid) return;
-    var data=(window.AION2_WIKILY||{}).monstersSample||[];
-    grid.innerHTML = data.map(function(m){
+    var selT=$('#monster-type');
+    if (selT && selT.options.length <= 1) {
+      var types={}; getMonsters().forEach(function(m){ if(m.type) types[m.type]=1; });
+      Object.keys(types).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(t){ var o=document.createElement('option'); o.value=t; o.textContent=t; selT.appendChild(o); });
+    }
+    var selR=$('#monster-rank');
+    if (selR && selR.options.length <= 1) {
+      ['Общий','Элитный','Героический'].forEach(function(r){ var o=document.createElement('option'); o.value=r; o.textContent=r; selR.appendChild(o); });
+    }
+    var list = filteredMonsters();
+    grid.innerHTML = list.map(function(m){
       return '<a class="catalog-card monster-card" href="'+esc(m.url)+'" target="_blank" rel="noopener">' +
         '<div class="catalog-card__img"><img loading="lazy" src="'+esc(m.img)+'" alt=""></div>' +
         '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(m.name)+'</div>' +
-        '<div class="catalog-card__meta"><span class="tag">Ур. '+esc(m.lvl)+'</span><span class="tag">'+esc(m.rank)+'</span><span class="tag">'+esc(m.type)+'</span></div></div></a>';
-    }).join('');
+        '<div class="catalog-card__meta"><span class="tag">Ур. '+esc(m.lvl)+'</span><span class="tag">'+esc(m.rank)+'</span><span class="tag">'+esc(m.type)+'</span></div>' +
+        '<div class="catalog-card__src">'+esc(m.loc||'')+'</div></div></a>';
+    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
+    var count=$('#monsters-count'); if(count) count.textContent = list.length + ' из ' + getMonsters().length + ' загружено (всего 1 814 на wikily)';
+    var foot=$('#monsters-foot'); if(foot) foot.textContent = 'Подборка монстров из wikily (страницы каталога). Полный список 1 814, локации и добыча — по ссылкам на wikily и фильтрам регионов.';
+  }
+  function initMonsters(){
+    var s=$('#monster-search'); if(s) s.addEventListener('input', function(){ monstersState.query=s.value; renderMonsters(); });
+    var t=$('#monster-type'); if(t) t.addEventListener('change', function(){ monstersState.type=t.value; renderMonsters(); });
+    var r=$('#monster-rank'); if(r) r.addEventListener('change', function(){ monstersState.rank=r.value; renderMonsters(); });
+    var so=$('#monster-sort'); if(so) so.addEventListener('change', function(){ monstersState.sort=so.value; renderMonsters(); });
+  }
+
+  /* ---------------- dungeons ---------------- */
+  var dungeonsState = { query: '', cat: 'all' };
+  function getDungeons(){ return ((window.AION2_WIKILY||{}).dungeons || []); }
+  function filteredDungeons(){
+    var q = norm(dungeonsState.query);
+    return getDungeons().filter(function(d){
+      if (dungeonsState.cat !== 'all' && d.cat !== dungeonsState.cat) return false;
+      if (!q) return true;
+      return norm([d.name,d.cat,d.note,d.lvl,d.group].join(' ')).indexOf(q) > -1;
+    });
   }
   function renderDungeons(){
     var grid=$('#dungeons-grid'); if(!grid) return;
-    var data=(window.AION2_WIKILY||{}).dungeonsSample||[];
-    grid.innerHTML = data.map(function(d){
+    var sel=$('#dungeon-cat');
+    if (sel && sel.options.length <= 1) {
+      var cats={}; getDungeons().forEach(function(d){ if(d.cat) cats[d.cat]=1; });
+      Object.keys(cats).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(c){ var o=document.createElement('option'); o.value=c; o.textContent=c; sel.appendChild(o); });
+    }
+    var list = filteredDungeons();
+    grid.innerHTML = list.map(function(d){
       return '<a class="catalog-card dungeon-card" href="'+esc(d.url)+'" target="_blank" rel="noopener">' +
         '<div class="catalog-card__img"><img loading="lazy" src="'+esc(d.img)+'" alt=""></div>' +
         '<div class="catalog-card__body"><div class="catalog-card__title">'+esc(d.name)+'</div>' +
-        '<div class="catalog-card__meta"><span class="tag">'+esc(d.cat)+'</span></div>' +
+        '<div class="catalog-card__meta"><span class="tag">'+esc(d.cat)+'</span>'+(d.lvl&&d.lvl!=='—'?'<span class="tag">Ур. '+esc(d.lvl)+'</span>':'')+(d.group&&d.group!=='—'?'<span class="tag">Группа '+esc(d.group)+'</span>':'')+'</div>' +
         '<div class="catalog-card__src">'+esc(d.note||'')+'</div></div></a>';
-    }).join('');
+    }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
+    var count=$('#dungeons-count'); if(count) count.textContent = list.length + ' из ' + getDungeons().length + ' загружено (всего 136 на wikily)';
+    var foot=$('#dungeons-foot'); if(foot) foot.textContent = 'Подборка подземелий из wikily. Полный каталог 136 (режимы, боссы, награды, ограничения) — на wikily.gg/ru/aion-2/dungeons.';
   }
+  function initDungeons(){
+    var s=$('#dungeon-search'); if(s) s.addEventListener('input', function(){ dungeonsState.query=s.value; renderDungeons(); });
+    var c=$('#dungeon-cat'); if(c) c.addEventListener('change', function(){ dungeonsState.cat=c.value; renderDungeons(); });
+  }
+
+  /* ---------------- skills / classes / items / world ---------------- */
+  var skillsState = { query: '', cls: 'all', cat: 'all' };
+  function getSkills(){ return ((window.AION2_WIKILY||{}).skills || []); }
   function renderSkillsView(){
-    var box=$('#skills-cats'); if(!box) return;
-    var data=(window.AION2_WIKILY||{}).skillsCats||[];
-    box.innerHTML = data.map(function(c){
-      return '<a class="info-card" href="'+esc(c.url)+'" target="_blank" rel="noopener"><b>'+esc(c.name)+'</b><span>'+c.count+' умений — '+esc(c.desc)+'</span></a>';
-    }).join('');
+    var cats=$('#skills-cats');
+    if(cats){
+      var data=(window.AION2_WIKILY||{}).skillsCats||[];
+      cats.innerHTML = data.map(function(c){
+        return '<a class="info-card" href="'+esc(c.url)+'" target="_blank" rel="noopener"><b>'+esc(c.name)+'</b><span>'+c.count+' умений — '+esc(c.desc)+'</span></a>';
+      }).join('');
+    }
+    var grid=$('#skills-grid'); if(!grid) return;
+    var selC=$('#skill-class');
+    if(selC && selC.options.length <= 1){
+      var classes={}; getSkills().forEach(function(s){ if(s.class) classes[s.class]=1; });
+      Object.keys(classes).sort(function(a,b){return a.localeCompare(b,'ru');}).forEach(function(c){ var o=document.createElement('option'); o.value=c; o.textContent=c; selC.appendChild(o); });
+    }
+    var q=norm(skillsState.query);
+    var list=getSkills().filter(function(s){
+      if(skillsState.cls!=='all' && s.class!==skillsState.cls) return false;
+      if(skillsState.cat!=='all' && s.cat!==skillsState.cat) return false;
+      if(!q) return true;
+      return norm([s.name,s.class,s.cat,s.cd].join(' ')).indexOf(q)>-1;
+    });
+    grid.innerHTML = list.map(function(s){
+      return '<a class="skill-row-card" href="'+esc(s.url)+'" target="_blank" rel="noopener">' +
+        '<img src="'+esc(s.icon)+'" alt="" loading="lazy"><span class="skill-row-card__body"><b>'+esc(s.name)+'</b><span>'+esc(s.class)+' · '+esc(s.cat)+(s.cd?(' · КД '+esc(s.cd)):'')+'</span></span><span class="arrow">→</span></a>';
+    }).join('') || '<p class="fav-empty">Умения по выбранным фильтрам не найдены в локальной подборке. Полный каталог (288) — на wikily.</p>';
+    var count=$('#skills-count'); if(count) count.textContent = list.length + ' из ' + getSkills().length + ' загружено (всего 288 на wikily)';
   }
+  function initSkills(){
+    var s=$('#skill-search'); if(s) s.addEventListener('input', function(){ skillsState.query=s.value; renderSkillsView(); });
+    var c=$('#skill-class'); if(c) c.addEventListener('change', function(){ skillsState.cls=c.value; renderSkillsView(); });
+    var cat=$('#skill-cat'); if(cat) cat.addEventListener('change', function(){ skillsState.cat=cat.value; renderSkillsView(); });
+  }
+
   function renderClassesView(){
     var tb=$('#classes-table'); if(!tb) return;
     var data=(window.AION2_WIKILY||{}).classesInfo||[];
-    var guideMap={gladiator:'gladiator',templar:'templar',assassin:'assassin',ranger:'ranger',sorcerer:'sorcerer',spiritmaster:'spiritmaster',cleric:'cleric',chanter:'chanter'};
     tb.innerHTML = data.map(function(c){
-      var g=guideMap[c.key] ? '<a href="#'+c.key+'">Гайд →</a>' : '';
-      return '<tr><td><b>'+esc(c.ru)+'</b> <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td><a href="'+esc(c.url)+'" target="_blank" rel="noopener">wikily</a> '+g+'</td></tr>';
+      var g = '<a href="#'+c.key+'">Гайд →</a>';
+      var wikiName = c.wikilyRu && c.wikilyRu !== c.ru ? ' <span class="muted">(wikily: '+esc(c.wikilyRu)+')</span>' : '';
+      return '<tr><td><b>'+esc(c.ru)+'</b>'+wikiName+' <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td><a href="'+esc(c.url)+'" target="_blank" rel="noopener">wikily</a> '+g+'</td></tr>';
     }).join('');
   }
 
-  function initBestiary() {
-    var chips = $('#beast-types');
-    if (chips) {
-      var types = ['all'];
-      BEASTS.forEach(function (b) { if (types.indexOf(b.type) === -1) types.push(b.type); });
-      types.sort(function (a, b) { if (a === 'all') return -1; if (b === 'all') return 1; return (TYPE_ORDER[a] || 99) - (TYPE_ORDER[b] || 99); });
-      chips.innerHTML = types.map(function (t) {
-        return '<button class="filter-chip' + (t === 'all' ? ' is-active' : '') + '" type="button" data-type="' + t + '">' + (t === 'all' ? 'Все существа' : t) + '</button>';
-      }).join('');
-    }
-    var search = $('#beast-search');
-    if (search) search.addEventListener('input', function () { beast.query = search.value; renderBestiary(); });
-    var sort = $('#beast-sort');
-    if (sort) sort.addEventListener('change', function () { beast.sort = sort.value; renderBestiary(); });
-    var favFilter = $('#beast-fav-filter');
-    if (favFilter) favFilter.addEventListener('click', function () { beast.favOnly = !beast.favOnly; renderBestiary(); });
+  function renderItemsView(){
+    var box=$('#items-cards'); if(!box) return;
+    var items=[
+      {t:'Квесты',d:'713 записей — сюжет, побочные, региональные задания.',u:'https://wikily.gg/ru/aion-2/quests'},
+      {t:'Титулы',d:'121 титул — условия получения и бонусы.',u:'https://wikily.gg/ru/aion-2/titles'},
+      {t:'Эмоции',d:'26 эмоций персонажа.',u:'https://wikily.gg/ru/aion-2/emotes'},
+      {t:'Даэванион',d:'Доски, узлы и развитие персонажа.',u:'https://wikily.gg/ru/aion-2/daevanion'},
+      {t:'Ранги Бездны',d:'PvP-прогрессия и ранги.',u:'https://wikily.gg/ru/aion-2/abyss-ranks'},
+      {t:'Кубы',d:'Расширения инвентаря и хранилища.',u:'https://wikily.gg/ru/aion-2/cubes'},
+      {t:'Питомцы',d:'210 питомцев (локальный каталог + wikily).',u:'#pets',local:true},
+      {t:'Предметы (категории)',d:'Экипировка, расходники, материалы и прочее — каталоги wikily.',u:'https://wikily.gg/ru/aion-2/'}
+    ];
+    box.innerHTML = items.map(function(i){
+      var target = i.local ? '' : ' target="_blank" rel="noopener"';
+      return '<a class="info-card" href="'+esc(i.u)+'"'+target+'><b>'+esc(i.t)+'</b><span>'+esc(i.d)+'</span></a>';
+    }).join('');
+  }
 
-    if (chips) chips.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-type]');
-      if (!b) return;
-      beast.type = b.dataset.type;
-      renderBestiary();
-    });
-
-    var list = $('#beast-list');
-    if (list) list.addEventListener('click', function (e) {
-      var link = e.target.closest('[data-beast-link]');
-      if (link) {
-        state.selectedBeast = link.dataset.beastLink;
-        state.openBeast = link.dataset.beastLink;
-        renderBestiary();
-        return;
-      }
-      var btn = e.target.closest('.beast-row__btn');
-      if (!btn) return;
-      var row = btn.closest('.beast-row');
-      var id = row.dataset.beast;
-      if (isMobile()) {
-        var open = row.classList.contains('is-open');
-        $$('.beast-row', list).forEach(function (r) {
-          r.classList.remove('is-open');
-          r.classList.toggle('is-active', r === row);
-        });
-        row.classList.toggle('is-open', !open);
-        btn.setAttribute('aria-expanded', String(!open));
-        state.openBeast = open ? null : id;
-        state.selectedBeast = id;
-      } else {
-        state.selectedBeast = id;
-        renderBestiary();
-      }
-    });
+  function renderWorldView(){
+    var box=$('#world-cards'); if(!box) return;
+    var items=[
+      {t:'Регионы',d:'Зоны Атреи: локации, уровни, точки интереса.',u:'https://wikily.gg/ru/aion-2/regions'},
+      {t:'Монстры',d:'1 814 существ — локальная подборка и полный каталог wikily.',u:'#monsters',local:true},
+      {t:'Боссы',d:'56 боссов: места, механики, награды.',u:'https://wikily.gg/ru/aion-2/bosses'},
+      {t:'Подземелья',d:'136 инстансов и активностей.',u:'#dungeons',local:true},
+      {t:'Кошмары',d:'Режим с 7 боссами-испытаниями (ур. 45–65).',u:'https://wikily.gg/ru/aion-2/dungeons/nightmare'},
+      {t:'Экспедиции',d:'8 групповых экспедиций.',u:'https://wikily.gg/ru/aion-2/dungeons/expeditions'},
+      {t:'Запечатанные подземелья',d:'121 соло/групповое подземелье.',u:'https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons'},
+      {t:'Артефакты Бездны',d:'Активность Бездны и награды.',u:'https://wikily.gg/ru/aion-2/dungeons/abyss-corridor'}
+    ];
+    box.innerHTML = items.map(function(i){
+      var target = i.local ? '' : ' target="_blank" rel="noopener"';
+      return '<a class="info-card" href="'+esc(i.u)+'"'+target+'><b>'+esc(i.t)+'</b><span>'+esc(i.d)+'</span></a>';
+    }).join('');
   }
 
   /* ---------------- glossary ---------------- */
+  function injectGlossaryExtra(){
+    var extra = ((window.AION2_WIKILY||{}).glossaryExtra || []);
+    if(!extra.length) return;
+    var secs = {};
+    extra.forEach(function(item){ secs[item.sec] = secs[item.sec] || []; secs[item.sec].push(item); });
+    Object.keys(secs).forEach(function(secId){
+      var sec = $('[data-sec="'+secId+'"]', $('#view-glossary'));
+      if(!sec) return;
+      var list = sec.querySelector('.glossary-list');
+      if(!list) return;
+      secs[secId].forEach(function(item){
+        if(document.getElementById(item.id)) return;
+        var div = document.createElement('div');
+        div.className = 'glossary-term';
+        div.id = item.id;
+        div.innerHTML = '<h3>'+esc(item.title)+'</h3><p>'+item.body+'</p>';
+        list.appendChild(div);
+      });
+    });
+  }
+
   function setKbActive(id) {
     $$('#kb-nav [data-goto]').forEach(function (b) {
       b.classList.toggle('is-active', b.dataset.goto === id || (!id && b.dataset.goto === 'g-systems'));
@@ -648,11 +545,28 @@
       top.textContent = state.returnHash ? '← Назад к разделу' : '← К гайду ' + g.name;
       top.hidden = !state.returnHash;
     }
-    var bb = $('#bestiary-back');
-    if (bb) {
-      bb.href = '#' + g.key;
-      bb.textContent = '← Вернуться к гайду ' + g.name;
-    }
+  }
+
+  /* ---------------- language toggle ---------------- */
+  function applyLang(){
+    var lang = state.lang === 'en' ? 'en' : 'ru';
+    state.lang = lang;
+    document.documentElement.lang = lang;
+    document.body.dataset.lang = lang;
+    var btn = $('#lang-btn');
+    if (btn) { btn.textContent = lang === 'en' ? 'EN' : 'RU'; btn.setAttribute('aria-pressed', String(lang==='en')); btn.title = lang === 'en' ? 'Показаны английские названия классов' : 'Показаны русские названия классов'; }
+    // scope: toggle class EN labels visibility/highlight in guide headers and strip
+    $$('.guide-hero h1 .en').forEach(function(el){ el.classList.toggle('is-emph', lang==='en'); });
+  }
+  function initLang(){
+    var btn = $('#lang-btn');
+    if (btn) btn.addEventListener('click', function(){
+      state.lang = state.lang === 'en' ? 'ru' : 'en';
+      try { localStorage.setItem('aion2:lang', state.lang); } catch(e){}
+      applyLang();
+      toast(state.lang === 'en' ? 'EN: выделены английские названия классов' : 'RU: русский режим отображения');
+    });
+    applyLang();
   }
 
   /* ---------------- sheets ---------------- */
@@ -667,7 +581,7 @@
     var sheetId = aliases[id] || id;
     var s = document.getElementById(sheetId);
     if (!s) return;
-    if (id === 'sections-sheet') renderSectionsSheet(state.lastGuide);
+    if (sheetId === 'sections-sheet') renderSectionsSheet(state.lastGuide);
     s.classList.add('is-open');
     s.setAttribute('aria-hidden', 'false');
     bodyLock();
@@ -693,7 +607,7 @@
     var secs = getSections(key);
     var active = state.activeSec;
     var sub = $('#sections-sheet-sub');
-    if (sub) sub.textContent = secs.length + ' ' + plural(secs.length, 'раздел', 'раздела', 'разделов') + ' · читайте в своём темпе';
+    if (sub) sub.textContent = secs.length + ' ' + plural(secs.length, 'раздел', 'раздела', 'разделов');
     list.innerHTML = secs.map(function (s, i) {
       var here = s.id === active;
       return '<button type="button" data-section-sheet="' + s.id + '"' + (here ? ' class="is-active"' : '') + '>' +
@@ -714,64 +628,46 @@
 
     document.addEventListener('click', function (e) {
       var opener = e.target.closest('[data-open-sheet]');
-      if (opener) {
-        e.preventDefault();
-        openSheet(opener.dataset.openSheet);
-        return;
-      }
+      if (opener) { e.preventDefault(); openSheet(opener.dataset.openSheet); return; }
       var closer = e.target.closest('[data-sheet-close]');
-      if (closer) {
-        closeSheets(true);
-        return;
-      }
+      if (closer) { closeSheets(true); return; }
       var cls = e.target.closest('[data-class-sheet]');
-      if (cls) {
-        closeSheets(false);
-        go('#' + cls.dataset.classSheet);
-        return;
-      }
+      if (cls) { closeSheets(false); go('#' + cls.dataset.classSheet); return; }
       var sec = e.target.closest('[data-section-sheet]');
-      if (sec) {
-        closeSheets(false);
-        go('#' + state.lastGuide + '/' + sec.dataset.sectionSheet);
-      }
+      if (sec) { closeSheets(false); go('#' + state.lastGuide + '/' + sec.dataset.sectionSheet); }
     });
 
-    $('#menu-btn').addEventListener('click', function () { openSheet('classes-sheet'); });
+    var mb = $('#menu-btn'); if (mb) mb.addEventListener('click', function () { openSheet('classes-sheet'); });
   }
 
-  /* ---------------- fav + mode delegation ---------------- */
+  /* ---------------- actions ---------------- */
   function initActions() {
     document.addEventListener('click', function (e) {
       var gl = e.target.closest('a.g-link');
       if (gl) {
-        var here = location.hash || ('#' + state.lastGuide);
-        state.returnHash = here;
-        try { sessionStorage.setItem('aion2:return', here); } catch (err) {}
+        var href = gl.getAttribute('href') || '';
+        // only remember return point when jumping from a guide/other page into glossary
+        if (href.indexOf('#glossary') === 0 || href.indexOf('#gt-') === 0 || href.indexOf('#g-') === 0) {
+          var here = location.hash || ('#' + state.lastGuide);
+          if (parseHash().view !== 'glossary') {
+            state.returnHash = here;
+            try { sessionStorage.setItem('aion2:return', here); } catch (err) {}
+          }
+        }
       }
       var fc = e.target.closest('[data-fav-class]');
       if (fc) { toggleClassFav(fc.dataset.favClass); return; }
       var fcur = e.target.closest('[data-fav-current]');
       if (fcur) { toggleClassFav(state.lastGuide); return; }
-      var fb = e.target.closest('[data-fav-beast]');
-      if (fb) { toggleBeastFav(fb.dataset.favBeast); return; }
       var uf = e.target.closest('[data-unfav-class]');
       if (uf) { toggleClassFav(uf.dataset.unfavClass); return; }
-      var ub = e.target.closest('[data-unfav-beast]');
-      if (ub) { toggleBeastFav(ub.dataset.unfavBeast); return; }
       var mode = e.target.closest('[data-mode]');
       if (mode) {
-        if (mode.dataset.mode === 'pvp') {
-          toast('PvP-гайды пока в разработке — доступен PvE.');
-        }
+        if (mode.dataset.mode === 'pvp') toast('PvP-гайды пока в разработке — доступен PvE.');
         return;
       }
       var goto = e.target.closest('[data-goto]');
-      if (goto) {
-        setKbActive(goto.dataset.goto);
-        go('#glossary/' + goto.dataset.goto);
-        return;
-      }
+      if (goto) { setKbActive(goto.dataset.goto); go('#glossary/' + goto.dataset.goto); return; }
       var cls = e.target.closest('#class-strip [data-class]');
       if (cls) { go('#' + cls.dataset.class); }
     });
@@ -785,7 +681,7 @@
       });
     });
 
-    $('#favorites-btn').addEventListener('click', function () { go('#favorites'); });
+    var favBtn = $('#favorites-btn'); if (favBtn) favBtn.addEventListener('click', function () { go('#favorites'); });
   }
 
   /* ---------------- search ---------------- */
@@ -813,23 +709,27 @@
         text: norm(term.textContent), raw: term.textContent.trim(), hash: '#glossary/' + term.id
       });
     });
-    (window.AION2_PETS||[]).forEach(function (p) {
+    getPets().forEach(function (p) {
       var body = [p.type, p.rank, p.source, 'питомец'].join(' ');
       INDEX.push({ kind: 'Питомцы', label: p.type, title: p.name, text: norm(p.name+' '+body), raw: body, hash: '#pets' });
     });
-    ((window.AION2_WIKILY||{}).monstersSample||[]).forEach(function (m) {
-      var body = ['монстр', m.rank, m.lvl, m.type].join(' ');
+    getMonsters().forEach(function (m) {
+      var body = ['монстр', m.rank, m.lvl, m.type, m.loc].join(' ');
       INDEX.push({ kind: 'Монстры', label: m.rank, title: m.name, text: norm(m.name+' '+body), raw: body, hash: '#monsters' });
     });
-    ((window.AION2_WIKILY||{}).dungeonsSample||[]).forEach(function (d) {
-      var body = ['подземелье', d.cat, d.note].join(' ');
+    getDungeons().forEach(function (d) {
+      var body = ['подземелье', d.cat, d.note, d.lvl].join(' ');
       INDEX.push({ kind: 'Подземелья', label: d.cat, title: d.name, text: norm(d.name+' '+body), raw: body, hash: '#dungeons' });
     });
+    getSkills().forEach(function (s) {
+      var body = ['умение', s.class, s.cat, s.cd].join(' ');
+      INDEX.push({ kind: 'Умения', label: s.class, title: s.name, text: norm(s.name+' '+body), raw: body, hash: '#skills' });
+    });
     [{t:'Питомцы',h:'#pets',k:'Каталог',b:'210 питомцев Aion 2 поиск фильтры виды'},
-     {t:'Монстры',h:'#monsters',k:'Каталог',b:'1814 монстров боссы локации добыча'},
+     {t:'Монстры',h:'#monsters',k:'Каталог',b:'1814 монстров боссы локации добыча подборка'},
      {t:'Подземелья',h:'#dungeons',k:'Каталог',b:'136 подземелий кошмары запечатанные экспедиции боссы награды'},
      {t:'Умения',h:'#skills',k:'Справочник',b:'288 умений активные пассивные стигмы классы'},
-     {t:'Классы',h:'#classes',k:'Справочник',b:'8 классов оружие роль ресурсы'},
+     {t:'Классы',h:'#classes',k:'Справочник',b:'8 классов оружие роль ресурсы гайды'},
      {t:'Предметы и сводки',h:'#items',k:'Сводки',b:'квесты титулы эмоции даэванион кубы ранги бездны'},
      {t:'Мир и активности',h:'#world',k:'Сводки',b:'регионы боссы активности мир'}
     ].forEach(function(x){ INDEX.push({kind:x.k,label:'Раздел',title:x.t,text:norm(x.t+' '+x.b),raw:x.b,hash:x.h}); });
@@ -863,7 +763,7 @@
   function renderSearch(q) {
     var query = norm(q);
     if (!query) {
-      searchMeta.textContent = 'Начните вводить слово — поиск идёт по гайдам, базе знаний и бестиарию';
+      searchMeta.textContent = 'Начните вводить — поиск по гайдам, базе знаний, питомцам, монстрам, подземельям и умениям';
       searchResults.innerHTML = '';
       return;
     }
@@ -877,7 +777,7 @@
       var bt = words.every(function (w) { return norm(b.title).indexOf(w) > -1; }) ? 1 : 0;
       return bt - at;
     });
-    res = res.slice(0, 40);
+    res = res.slice(0, 50);
     searchMeta.textContent = res.length ? res.length + ' ' + plural(res.length, 'результат', 'результата', 'результатов') : 'Ничего не найдено';
     searchResults.innerHTML = res.map(function (it) {
       return '<button class="search-item" type="button" data-hash="' + it.hash + '">' +
@@ -889,9 +789,10 @@
 
   function openSearch() {
     closeSheets(false);
+    if (!searchModal) return;
     searchModal.classList.add('is-open');
     searchModal.setAttribute('aria-hidden', 'false');
-    $('#search-trigger').setAttribute('aria-expanded', 'true');
+    var st = $('#search-trigger'); if (st) st.setAttribute('aria-expanded', 'true');
     bodyLock();
     setTimeout(function () { searchInput.focus(); searchInput.select(); }, 30);
   }
@@ -911,11 +812,10 @@
     searchInput = $('#search-input');
     searchResults = $('#search-results');
     searchMeta = $('#search-meta');
+    if (!searchModal) return;
 
-    $('#search-trigger').addEventListener('click', openSearch);
-    $$('[data-search-close]').forEach(function (b) {
-      b.addEventListener('click', function () { closeSearch(true); });
-    });
+    var st = $('#search-trigger'); if (st) st.addEventListener('click', openSearch);
+    $$('[data-search-close]').forEach(function (b) { b.addEventListener('click', function () { closeSearch(true); }); });
     searchInput.addEventListener('input', function () { renderSearch(searchInput.value); });
 
     searchResults.addEventListener('click', function (e) {
@@ -952,6 +852,7 @@
   /* ---------------- lightbox ---------------- */
   var lightbox;
   function openLightbox(src, alt) {
+    if (!lightbox) return;
     lightbox.classList.add('is-open');
     lightbox.setAttribute('aria-hidden', 'false');
     lightbox.querySelector('img').src = src;
@@ -959,6 +860,7 @@
     bodyLock();
   }
   function closeLightbox() {
+    if (!lightbox) return;
     lightbox.classList.remove('is-open');
     lightbox.setAttribute('aria-hidden', 'true');
     bodyLock();
@@ -967,11 +869,7 @@
     lightbox = $('#lightbox');
     document.addEventListener('click', function (e) {
       var img = e.target.closest('.gallery img, .shot img');
-      if (img) {
-        e.preventDefault();
-        openLightbox(img.src, img.alt);
-        return;
-      }
+      if (img) { e.preventDefault(); openLightbox(img.src, img.alt); return; }
       if (e.target.closest('.lightbox__close') || e.target === lightbox) closeLightbox();
     });
   }
@@ -991,7 +889,6 @@
       var span = li.querySelector('span');
       if (img && span) map[span.textContent.trim()] = img.getAttribute('src');
     });
-    // manual aliases for names used in text
     var aliases = { 'Rage': 'img/s-fury.webp', 'Rage Burst': 'img/s-rage-burst.webp' };
     Object.keys(aliases).forEach(function (k) { if (!map[k]) map[k] = aliases[k]; });
     var names = Object.keys(map).filter(function (n) { return n && n.length > 2; });
@@ -1042,8 +939,12 @@
 
   /* ---------------- boot ---------------- */
   function boot() {
-    initBestiary();
+    injectGlossaryExtra();
+    initLang();
     initPets();
+    initMonsters();
+    initDungeons();
+    initSkills();
     initSheets();
     initActions();
     initSearch();
@@ -1053,9 +954,6 @@
     render();
 
     window.addEventListener('hashchange', render);
-    window.addEventListener('resize', function () {
-      if (document.body.dataset.view === 'monsters') renderMonsters();
-    });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
