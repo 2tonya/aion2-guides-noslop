@@ -232,8 +232,12 @@
   function getSections(key) {
     var view = document.getElementById('view-guide-' + key);
     if (!view) return [];
+    var lang = state.lang === 'en' ? 'en' : 'ru';
     return $$('.sec[data-sec]', view).map(function (sec) {
-      return { id: sec.dataset.sec, label: sec.dataset.label || '', el: sec };
+      var label = sec.dataset.label || (sec.querySelector('h2') || {}).textContent || '';
+      if (lang === 'en' && sec.getAttribute('data-label-en')) label = sec.getAttribute('data-label-en');
+      if (lang === 'ru' && sec.getAttribute('data-label-ru')) label = sec.getAttribute('data-label-ru') || sec.dataset.label || label;
+      return { id: sec.dataset.sec, label: (label || '').trim(), el: sec };
     });
   }
 
