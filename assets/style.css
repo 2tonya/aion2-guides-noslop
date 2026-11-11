@@ -328,9 +328,8 @@ svg{display:block}
 .ranks img{width:30px;height:30px;object-fit:cover;border-radius:1px;border:1px solid var(--line)}
 
 /* skills */
-.skill-ref{display:inline-flex;align-items:center;gap:5px;vertical-align:baseline}
-.skill-ref img{width:18px;height:18px;object-fit:cover;border-radius:2px;border:1px solid var(--line);flex:0 0 auto;vertical-align:-3px}
-.skill-ref .skill-ref__name{color:inherit}
+.skill-ref{display:inline;white-space:nowrap}
+.skill-ref img{width:1.05em;height:1.05em;object-fit:cover;border-radius:2px;border:1px solid var(--line);vertical-align:-0.18em;margin-right:0.3em}
 .skill{
   display:grid;grid-template-columns:58px minmax(0,1fr);gap:16px;
   padding:16px 0;border-bottom:1px solid var(--line-soft);
