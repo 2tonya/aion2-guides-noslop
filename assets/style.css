@@ -245,7 +245,7 @@ main{max-width:var(--wrap);margin:0 auto;padding:18px max(16px, env(safe-area-in
   border-radius:var(--radius);
   background:
     radial-gradient(320px 160px at 12% 0%, hsla(var(--hue),60%,50%,.16), transparent 70%),
-    linear-gradient(180deg,var(--panel),#111520);
+    linear-gradient(180deg,var(--panel),var(--panel-2));
 }
 .hero__icon{
   width:64px;height:64px;flex:0 0 auto;border-radius:16px;
