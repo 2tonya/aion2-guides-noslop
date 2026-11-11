@@ -283,7 +283,7 @@
     html += '</section>';
 
     html += '<section class="sec"><div class="sec__eyebrow"><span class="n">02</span><span>Каталоги</span></div><h2>Справочники wikily</h2>' +
-      '<p class="fav-empty">Для питомцев, монстров, подземелий и умений используйте разделы каталога: <a class="g-link" href="#pets">Питомцы</a>, <a class="g-link" href="#monsters">Монстры</a>, <a class="g-link" href="#dungeons">Подземелья</a>, <a class="g-link" href="#skills">Умения</a>. Детальные карточки открываются на wikily.</p></section>';
+      '<p class="fav-empty">Для питомцев, монстров, подземелий и умений используйте разделы каталога: <a class="g-link" href="#pets">Питомцы</a>, <a class="g-link" href="#monsters">Монстры</a>, <a class="g-link" href="#dungeons">Подземелья</a>, <a class="g-link" href="#skills">Умения</a>.</p></section>';
 
     wrap.innerHTML = html;
   }
@@ -323,11 +323,11 @@
           '<div class="catalog-card__title"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a></div>' +
           '<div class="catalog-card__meta"><span class="tag">'+esc(p.type)+'</span><span class="tag">'+esc(p.rank||'Обычный')+'</span></div>' +
           '<div class="catalog-card__src">'+esc(p.source||'')+'</div>' +
-          '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Страница на wikily →</a>' +
+          '<a class="catalog-card__link" href="'+esc(p.url)+'" target="_blank" rel="noopener">Открыть страницу →</a>' +
         '</div></article>';
     }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
     var count = $('#pet-count'); if(count) count.textContent = list.length + ' из ' + getPets().length + ' питомцев';
-    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Источник списка: wikily.gg/ru/aion-2/pets (210). Уровни знания, способы получения и детали — на страницах питомцев wikily.';
+    var foot = $('#pet-foot'); if(foot) foot.textContent = 'Полный каталог питомцев (210). Уровни знания, способы получения и детали — в карточках.';
   }
   function initPets(){
     var s=$('#pet-search'); if(s) s.addEventListener('input', function(){ petsState.query=s.value; renderPets(); });
@@ -377,8 +377,8 @@
         '<div class="catalog-card__meta"><span class="tag">Ур. '+esc(m.lvl)+'</span><span class="tag">'+esc(m.rank)+'</span><span class="tag">'+esc(m.type)+'</span></div>' +
         '<div class="catalog-card__src">'+esc(m.loc||'')+'</div></div></a>';
     }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    var count=$('#monsters-count'); if(count) count.textContent = list.length + ' из ' + getMonsters().length + ' загружено (всего 1 814 на wikily)';
-    var foot=$('#monsters-foot'); if(foot) foot.textContent = 'Подборка монстров из wikily (страницы каталога). Полный список 1 814, локации и добыча — по ссылкам на wikily и фильтрам регионов.';
+    var count=$('#monsters-count'); if(count) count.textContent = list.length + ' из ' + getMonsters().length + ' загружено (всего 1 814 )';
+    var foot=$('#monsters-foot'); if(foot) foot.textContent = 'Подборка монстров (загруженная выборка из 1 814). Полный список, локации и добыча — по ссылкам и фильтрам регионов.';
   }
   function initMonsters(){
     var s=$('#monster-search'); if(s) s.addEventListener('input', function(){ monstersState.query=s.value; renderMonsters(); });
@@ -413,8 +413,8 @@
         '<div class="catalog-card__meta"><span class="tag">'+esc(d.cat)+'</span>'+(d.lvl&&d.lvl!=='—'?'<span class="tag">Ур. '+esc(d.lvl)+'</span>':'')+(d.group&&d.group!=='—'?'<span class="tag">Группа '+esc(d.group)+'</span>':'')+'</div>' +
         '<div class="catalog-card__src">'+esc(d.note||'')+'</div></div></a>';
     }).join('') || '<p class="fav-empty">Ничего не найдено. Сбросьте фильтры или измените запрос.</p>';
-    var count=$('#dungeons-count'); if(count) count.textContent = list.length + ' из ' + getDungeons().length + ' загружено (всего 136 на wikily)';
-    var foot=$('#dungeons-foot'); if(foot) foot.textContent = 'Подборка подземелий из wikily. Полный каталог 136 (режимы, боссы, награды, ограничения) — на wikily.gg/ru/aion-2/dungeons.';
+    var count=$('#dungeons-count'); if(count) count.textContent = list.length + ' из ' + getDungeons().length + ' загружено (всего 136 )';
+    var foot=$('#dungeons-foot'); if(foot) foot.textContent = 'Подборка подземелий (загруженная выборка из 136). Полный каталог, режимы, боссы и награды — по ссылкам раздела.';
   }
   function initDungeons(){
     var s=$('#dungeon-search'); if(s) s.addEventListener('input', function(){ dungeonsState.query=s.value; renderDungeons(); });
@@ -448,8 +448,8 @@
     grid.innerHTML = list.map(function(s){
       return '<a class="skill-row-card" href="'+esc(s.url)+'" target="_blank" rel="noopener">' +
         '<img src="'+esc(s.icon)+'" alt="" loading="lazy"><span class="skill-row-card__body"><b>'+esc(s.name)+'</b><span>'+esc(s.class)+' · '+esc(s.cat)+(s.cd?(' · КД '+esc(s.cd)):'')+'</span></span><span class="arrow">→</span></a>';
-    }).join('') || '<p class="fav-empty">Умения по выбранным фильтрам не найдены в локальной подборке. Полный каталог (288) — на wikily.</p>';
-    var count=$('#skills-count'); if(count) count.textContent = list.length + ' из ' + getSkills().length + ' загружено (всего 288 на wikily)';
+    }).join('') || '<p class="fav-empty">Умения по выбранным фильтрам не найдены в локальной подборке. Полный каталог — в разделе умений.</p>';
+    var count=$('#skills-count'); if(count) count.textContent = list.length + ' из ' + getSkills().length + ' загружено (всего 288 )';
   }
   function initSkills(){
     var s=$('#skill-search'); if(s) s.addEventListener('input', function(){ skillsState.query=s.value; renderSkillsView(); });
@@ -462,8 +462,8 @@
     var data=(window.AION2_WIKILY||{}).classesInfo||[];
     tb.innerHTML = data.map(function(c){
       var g = '<a href="#'+c.key+'">Гайд →</a>';
-      var wikiName = c.wikilyRu && c.wikilyRu !== c.ru ? ' <span class="muted">(wikily: '+esc(c.wikilyRu)+')</span>' : '';
-      return '<tr><td><b>'+esc(c.ru)+'</b>'+wikiName+' <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td><a href="'+esc(c.url)+'" target="_blank" rel="noopener">wikily</a> '+g+'</td></tr>';
+      var wikiName = c.wikilyRu && c.wikilyRu !== c.ru ? ' <span class="muted"></span>' : '';
+      return '<tr><td><b>'+esc(c.ru)+'</b>'+wikiName+' <span class="muted">('+esc(c.en)+')</span></td><td>'+esc(c.weapon)+'</td><td>'+esc(c.role)+'</td><td>'+g+'</td></tr>';
     }).join('');
   }
 
@@ -476,8 +476,8 @@
       {t:'Даэванион',d:'Доски, узлы и развитие персонажа.',u:'https://wikily.gg/ru/aion-2/daevanion'},
       {t:'Ранги Бездны',d:'PvP-прогрессия и ранги.',u:'https://wikily.gg/ru/aion-2/abyss-ranks'},
       {t:'Кубы',d:'Расширения инвентаря и хранилища.',u:'https://wikily.gg/ru/aion-2/cubes'},
-      {t:'Питомцы',d:'210 питомцев (локальный каталог + wikily).',u:'#pets',local:true},
-      {t:'Предметы (категории)',d:'Экипировка, расходники, материалы и прочее — каталоги wikily.',u:'https://wikily.gg/ru/aion-2/'}
+      {t:'Питомцы',d:'210 питомцев (локальный каталог).',u:'#pets',local:true},
+      {t:'Предметы (категории)',d:'Экипировка, расходники, материалы и прочее — сводные разделы.',u:'https://wikily.gg/ru/aion-2/'}
     ];
     box.innerHTML = items.map(function(i){
       var target = i.local ? '' : ' target="_blank" rel="noopener"';
@@ -489,7 +489,7 @@
     var box=$('#world-cards'); if(!box) return;
     var items=[
       {t:'Регионы',d:'Зоны Атреи: локации, уровни, точки интереса.',u:'https://wikily.gg/ru/aion-2/regions'},
-      {t:'Монстры',d:'1 814 существ — локальная подборка и полный каталог wikily.',u:'#monsters',local:true},
+      {t:'Монстры',d:'1 814 существ — локальная подборка и каталог.',u:'#monsters',local:true},
       {t:'Боссы',d:'56 боссов: места, механики, награды.',u:'https://wikily.gg/ru/aion-2/bosses'},
       {t:'Подземелья',d:'136 инстансов и активностей.',u:'#dungeons',local:true},
       {t:'Кошмары',d:'Режим с 7 боссами-испытаниями (ур. 45–65).',u:'https://wikily.gg/ru/aion-2/dungeons/nightmare'},

@@ -1,5 +1,4 @@
 (function(){
-  // Pets catalog sourced from wikily.gg/ru/aion-2/pets (list data), 210 entries.
   window.AION2_PETS = [
   {
     "id": "krall-laborer",
