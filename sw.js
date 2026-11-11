@@ -1,4 +1,4 @@
-﻿const CACHE = "aion2-guides-v26";
+﻿const CACHE = "aion2-guides-v27";
 const CORE = [
   "./",
   "./index.html",
