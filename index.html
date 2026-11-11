@@ -1,284 +1,126 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0b0d12">
-<meta name="color-scheme" content="dark light">
-<title>Aion 2 — PvE гайды по классам</title>
-<meta name="description" content="Короткие PvE-гайды по Aion 2 для всех классов: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки от новичка до топа.">
-<link rel="stylesheet" href="assets/style.css?v=29">
+<meta name="theme-color" content="#0a0a0a">
+<meta name="color-scheme" content="dark">
+<title>Aion 2 · Гайдбук — PvE-гайды по классам</title>
+<meta name="description" content="PvE-гайды по классам Aion 2: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки. Бестиарий и база знаний.">
+<link rel="stylesheet" href="assets/style.css?v=31">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
 </head>
-<body>
+<body data-view="guide" data-class="ranger">
 
-<div class="app-layout">
-  <aside class="sidebar" id="sidebar" aria-label="Навигация (ПК)">
-    <div class="sidebar__brand">
-      <span class="brand__mark">A2</span>
-      <div class="sidebar__brand-text">
-        <div class="sidebar__title">Aion 2 — PvE гайды</div>
-        <div class="sidebar__current" id="sidebar-current">Лучник</div>
-      </div>
-    </div>
-    <div class="sidebar__section">
-      <div class="sidebar__label">Классы</div>
-      <nav class="sidebar__classes" id="sidebar-classes" aria-label="Классы"></nav>
-    </div>
-    <div class="sidebar__section sidebar__tools">
-      <button class="sidebar__tool" id="sidebar-glossary" type="button">Глоссарий</button>
-    </div>
-    <div class="sidebar__section">
-      <div class="sidebar__label">Тема</div>
-      <div class="sidebar__themes" id="sidebar-themes"></div>
-    </div>
-  </aside>
-  <div class="app-main">
-    <div class="desktop-search" id="desktop-search-bar">
-      <label class="desktop-search__field" for="desktop-search-input">
-        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-        <input class="desktop-search__input" id="desktop-search-input" type="search" placeholder="Поиск по гайдам: скилл, слово, класс…" autocomplete="off" spellcheck="false">
-      </label>
-    </div>
-    <div class="content-layout">
-      <div class="content-main">
-
-<header class="topbar">
-  <div class="topbar__inner">
-    <button class="brand" id="menu-btn" type="button" aria-controls="drawer" aria-expanded="false" aria-label="Меню классов">
-      <span class="brand__mark">A2</span>
-      <span class="brand__text">PvE гайды</span>
-      <span class="brand__current" id="current-class">Лучник</span>
-    </button>
-    <nav class="switch" role="tablist" aria-label="Выбор класса">
-      <button class="switch__btn is-active" role="tab" id="tab-ranger" aria-controls="ranger" aria-selected="true" data-class="ranger">
-        <img src="img/class-ranger.png" alt="" width="24" height="24"><span>Лучник</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-assassin" aria-controls="assassin" aria-selected="false" data-class="assassin">
-        <img src="img/class-assassin.png" alt="" width="24" height="24"><span>Ассасин</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-sorcerer" aria-controls="sorcerer" aria-selected="false" data-class="sorcerer">
-        <img src="img/class-sorcerer.png" alt="" width="24" height="24"><span>Чародей</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-spiritmaster" aria-controls="spiritmaster" aria-selected="false" data-class="spiritmaster">
-        <img src="img/class-spiritmaster.png" alt="" width="24" height="24"><span>Душелов</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-templar" aria-controls="templar" aria-selected="false" data-class="templar">
-        <img src="img/class-templar.png" alt="" width="24" height="24"><span>Храмовник</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-gladiator" aria-controls="gladiator" aria-selected="false" data-class="gladiator">
-        <img src="img/class-gladiator.png" alt="" width="24" height="24"><span>Гладиатор</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-cleric" aria-controls="cleric" aria-selected="false" data-class="cleric">
-        <img src="img/class-cleric.png" alt="" width="24" height="24"><span>Клирик</span>
-      </button>
-      <button class="switch__btn" role="tab" id="tab-chanter" aria-controls="chanter" aria-selected="false" data-class="chanter">
-        <img src="img/class-chanter.png" alt="" width="24" height="24"><span>Чантер</span>
-      </button>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="logo" href="#ranger" aria-label="Aion 2 Гайдбук — на главную">
+      <span class="logo__word">AION <em>2</em></span>
+      <span class="logo__sub">Guidebook</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a class="main-nav__item is-active" href="#ranger" data-nav="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды классов</span></a>
+      <a class="main-nav__item" href="#bestiary" data-nav="bestiary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3.5 0 6 2.6 6 6v3.5c0 4-2.7 7.4-6 8.5-3.3-1.1-6-4.5-6-8.5V9c0-3.4 2.5-6 6-6z"/><path d="M9 10h.01M15 10h.01M9.5 15c1.5 1 3.5 1 5 0"/></svg><span>Бестиарий</span></a>
+      <a class="main-nav__item" href="#glossary" data-nav="glossary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h6a3 3 0 0 1 3 3V21a2.5 2.5 0 0 0-2.5-2.5H4z"/><path d="M20 4.5h-6a3 3 0 0 0-3 3V21a2.5 2.5 0 0 1 2.5-2.5H20z"/></svg><span>База знаний</span></a>
     </nav>
-    <button class="search-btn" id="search-btn" type="button" aria-label="Поиск по гайдам" aria-controls="search-panel" aria-expanded="false">
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-    </button>
+    <div class="header-tools">
+      <button class="search-trigger" id="search-trigger" type="button" aria-controls="search-modal" aria-expanded="false">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span class="label">Поиск по гайдбуку</span><kbd>/</kbd>
+      </button>
+      <button class="icon-btn" id="favorites-btn" type="button" aria-label="Избранное" aria-controls="view-favorites">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg>
+      </button>
+      <span class="lang">RU</span>
+      <button class="icon-btn icon-btn--menu" id="menu-btn" type="button" aria-label="Меню классов" aria-controls="classes-sheet" aria-expanded="false">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
   </div>
-  <div class="chips" id="chips"></div>
 </header>
 
-<div class="drawer" id="drawer" hidden>
-  <div class="drawer__backdrop" data-drawer-close></div>
-  <aside class="drawer__panel" role="dialog" aria-modal="true" aria-label="Меню">
-    <div class="drawer__head">
-      <span>Aion 2 • меню</span>
-      <button class="drawer__close" type="button" data-drawer-close aria-label="Закрыть">✕</button>
+<div class="class-strip">
+  <div class="class-strip__inner">
+    <div class="class-strip__label">Классы</div>
+    <div class="class-strip__list" id="class-strip">
+      <button class="class-pill is-active" type="button" data-class="ranger">
+          <img src="img/class-ranger.png" alt="" width="26" height="26"><span>Лучник</span>
+        </button>
+<button class="class-pill" type="button" data-class="assassin">
+          <img src="img/class-assassin.png" alt="" width="26" height="26"><span>Ассасин</span>
+        </button>
+<button class="class-pill" type="button" data-class="sorcerer">
+          <img src="img/class-sorcerer.png" alt="" width="26" height="26"><span>Чародей</span>
+        </button>
+<button class="class-pill" type="button" data-class="spiritmaster">
+          <img src="img/class-spiritmaster.png" alt="" width="26" height="26"><span>Душелов</span>
+        </button>
+<button class="class-pill" type="button" data-class="templar">
+          <img src="img/class-templar.png" alt="" width="26" height="26"><span>Храмовник</span>
+        </button>
+<button class="class-pill" type="button" data-class="gladiator">
+          <img src="img/class-gladiator.png" alt="" width="26" height="26"><span>Гладиатор</span>
+        </button>
+<button class="class-pill" type="button" data-class="cleric">
+          <img src="img/class-cleric.png" alt="" width="26" height="26"><span>Клирик</span>
+        </button>
+<button class="class-pill" type="button" data-class="chanter">
+          <img src="img/class-chanter.png" alt="" width="26" height="26"><span>Чантер</span>
+        </button>
     </div>
+  </div>
+</div>
 
-    <div class="drawer__section">
-      <div class="drawer__title">Классы</div>
-      <nav class="drawer__list" id="drawer-list" aria-label="Классы"></nav>
-    </div>
+<main class="page">
+  <aside class="rail rail--left" aria-label="Разделы гайда">
+    <div class="rail__label">Разделы гайда</div>
+    <nav class="rail-nav" id="rail-left"></nav>
+    <div class="rail__foot">Нужен другой класс?<br><a href="#ranger" data-open-sheet="classes">Все классы →</a></div>
+  </aside>
 
-    <div class="drawer__section">
-      <div class="drawer__title">Тема</div>
-      <div class="theme-picker" id="theme-picker" role="group" aria-label="Выбор темы">
-        <button class="theme-opt" type="button" data-theme="system"><span class="theme-opt__swatch swatch--system"></span><span>Системная</span></button>
-        <button class="theme-opt" type="button" data-theme="dark"><span class="theme-opt__swatch swatch--dark"></span><span>Тёмная</span></button>
-        <button class="theme-opt" type="button" data-theme="light"><span class="theme-opt__swatch swatch--light"></span><span>Светлая</span></button>
-        <button class="theme-opt" type="button" data-theme="pumpkin"><span class="theme-opt__swatch swatch--pumpkin"></span><span>Тыквенная</span></button>
-        <button class="theme-opt" type="button" data-theme="blue"><span class="theme-opt__swatch swatch--blue"></span><span>Голубая</span></button>
+  <div class="content" id="content">
+    <section class="view view--guide is-active" id="view-guide-ranger" data-class-key="ranger" aria-label="Гайд: Лучник">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#ranger">Главная</a><span class="sep">/</span>
+    <a href="#ranger">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Лучник</span>
+  </nav>
+
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Лучник <span class="en">Ranger</span></h1>
+        <p class="guide-hero__tagline">Заряженный <b>Deadshot</b> и баффы, которые жмутся руками.</p>
+        <p class="guide-hero__lead">PvE-гайд по Лучнику: приоритеты прокачки, скиллы и Specialty, стигмы, макрос, ротация и экипировка. Всё, чтобы Deadshot бил в полную силу.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
       </div>
+      <img class="guide-hero__emblem" src="img/class-ranger.png" alt="" width="150" height="150">
     </div>
-
-    <div class="drawer__section">
-      <div class="drawer__title">Справка</div>
-      <button class="drawer__item drawer__item--tool" id="open-glossary" type="button">
-        <span class="drawer__tool-icon">📘</span><span>Глоссарий терминов</span>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-ranger.png" alt="" width="26" height="26"><span>Лучник</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
       </button>
     </div>
+  </header>
 
-    <p class="drawer__foot">Данные и билды: Mobalytics</p>
-  </aside>
-</div>
-
-<div class="search" id="search-panel" hidden>
-  <div class="search__backdrop" data-search-close></div>
-  <div class="search__panel" role="dialog" aria-modal="true" aria-label="Поиск по гайдам">
-    <div class="search__head">
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <input class="search__input" id="search-input" type="search" placeholder="Скилл, слово, класс…" autocomplete="off" spellcheck="false">
-      <button class="search__close" type="button" data-search-close aria-label="Закрыть">✕</button>
-    </div>
-    <div class="search__meta" id="search-meta">Введите слово для поиска по всем гайдам</div>
-    <div class="search__results" id="search-results"></div>
-  </div>
-</div>
-
-<main>
-
-<section class="glossary-view is-hidden" id="glossary-view" aria-label="Глоссарий">
-  <div class="hero hero--glossary">
-    <div>
-      <h1>Глоссарий <span>Термины Aion 2 PvE</span></h1>
-      <p class="hero__sub">Короткие пояснения к терминам, которые встречаются в гайдах: механики, статы, системы и интерфейс.</p>
-      <ul class="badges"><li>Справка</li><li>Aion 2</li></ul>
-    </div>
+  <div class="facts">
+    <div><span>Роль</span><b>Дальний DPS</b></div>
+    <div><span>Оружие</span><b>Лук</b></div>
+    <div><span>Фокус</span><b>Deadshot · Precision</b></div>
   </div>
 
-  <section class="card">
-    <h2 id="g-systems">Системы и прогрессия</h2>
-    <div class="glossary-list">
-      <div class="glossary-term" id="gt-specialty"><h3>Specialty (Специализация скилла)</h3><p>Дополнительное усиление навыка, которое открывается на определённых уровнях скилла. Важно: разблокировать мало — Specialty нужно <b>выбрать и экипировать</b> в настройках скилла, иначе бонус не работает.</p></div>
-      <div class="glossary-term" id="gt-stigma"><h3>Stigma (Стигма)</h3><p>Отдельный слот активных или пассивных умений, которые дополняют основной набор скиллов класса. Стигмы прокачиваются отдельно и часто дают ключевые баффы, дебаффы или новые кнопки в ротации.</p></div>
-      <div class="glossary-term" id="gt-daevanion"><h3>Daevanion (Дэванион)</h3><p>Система досок с узлами развития персонажа. Узлы дают <a class="g-link" href="#gt-skill-level">уровни скиллам</a>, пассивкам и статы. Очки ограничены, поэтому доски обычно не заполняют целиком — идут по маршруту к нужным <a class="g-link" href="#gt-skill-level">брейкпоинтам</a>.</p></div>
-      <div class="glossary-term" id="gt-arcana"><h3>Arcana (Аркана)</h3><p>Карты/предметы прогрессии, которые дают дополнительные <a class="g-link" href="#gt-skill-level">уровни скиллам</a> и пассивкам, а также статы. Замена карты может поднять один скилл, но опустить другой — перед заменой важно проверять суммарные уровни. Часто используются вместе с <a class="g-link" href="#gt-daevanion">Дэванионом</a>; часть добывается в <a class="g-link" href="#gt-transcendence">Transcendence</a>.</p></div>
-      <div class="glossary-term" id="gt-pantheon"><h3>Pantheon (Пантеон)</h3><p>Система размещения особых реликвий/украшений, дающих постоянные бонусы к характеристикам. Бонусы зависят от установленных предметов и их наборов.</p></div>
-      <div class="glossary-term" id="gt-transcendence"><h3>Transcendence (Трансценденция)</h3><p>Контент/источник прогрессии высокого уровня, в том числе фарма Arcana и улучшений персонажа. Часто упоминается как место получения карт с нужными уровнями скиллов.</p></div>
-      <div class="glossary-term" id="gt-nightmare"><h3>Nightmare</h3><p>Более сложная версия контента (данжи/рейды/испытания), из которой добываются продвинутые награды — улучшения, крылья, материалы для Пантеона и т.п.</p></div>
-      <div class="glossary-term" id="gt-skill-level"><h3>Skill Level / Брейкпоинт</h3><p>Суммарный уровень навыка складывается из вложенных очков, экипировки, Arcana, Дэваниона и других бонусов. «Брейкпоинт» — уровень, на котором открывается важная Specialty или сильный эффект (часто 12, 16, 20).</p></div>
-    </div>
-  </section>
-
-  <section class="card">
-    <h2 id="g-combat">Бой и ротация</h2>
-    <div class="glossary-list">
-      <div class="glossary-term" id="gt-ротация"><h3>Ротация</h3><p>Порядок применения умений для максимального урона, лечения или защиты. Обычно делится на открывающий <a class="g-link" href="#gt-бурст">бурст</a> (opener), основной цикл и <a class="g-link" href="#gt-филлер">филлеры</a> в простоях.</p></div>
-      <div class="glossary-term" id="gt-бурст"><h3>Бурст / Окно урона</h3><p>Короткий промежуток, когда активны усиления (баффы, дебаффы на боссе, <a class="g-link" href="#gt-прок">проки</a>) и нужно вложить самые сильные умения.</p></div>
-      <div class="glossary-term" id="gt-кд"><h3>КД (Cooldown)</h3><p>Время перезарядки умения после использования. Управление КД — основа <a class="g-link" href="#gt-ротация">ротации</a>: сильные скиллы жмут по готовности в правильное окно.</p></div>
-      <div class="glossary-term" id="gt-филлер"><h3>Филлер</h3><p>Умение, которое используют, когда основные скиллы на <a class="g-link" href="#gt-кд">перезарядке</a>, чтобы не терять урон и/или восстанавливать ресурс.</p></div>
-      <div class="glossary-term" id="gt-прок"><h3>Прок (Proc)</h3><p>Срабатывание эффекта по условию или с шансом (например, сброс <a class="g-link" href="#gt-кд">КД</a> при <a class="g-link" href="#gt-crit">крите</a>, активация умения после удара духа). Многие билды строятся вокруг <a class="g-link" href="#gt-прок">проков</a>.</p></div>
-      <div class="glossary-term" id="gt-стаки"><h3>Стаки (Stacks)</h3><p>Накопительные заряды эффекта на цели или на персонаже. Урон/эффект умения может зависеть от числа <a class="g-link" href="#gt-стаки">стаков</a> (снять, потратить или усилиться от них).</p></div>
-      <div class="glossary-term" id="gt-макрос"><h3>Макрос</h3><p>Внутриигровая последовательность действий/скиллов на одной кнопке. Удобен для рутины, но не умеет удерживать заряжаемые умения и не всегда учитывает тайминги механик.</p></div>
-      <div class="glossary-term" id="gt-дот"><h3>Дот (DoT)</h3><p>Damage over Time — периодический урон (или лечение HoT), который наносится не мгновенно, а тиками в течение времени.</p></div>
-      <div class="glossary-term" id="gt-aoe"><h3>AoE</h3><p>Area of Effect — умение, действующее по области и задевающее несколько целей, в отличие от одиночной (single target) атаки.</p></div>
-      <div class="glossary-term" id="gt-стаггер"><h3>Стаггер / Стан / Контроль</h3><p>Эффекты контроля: прерывание, оглушение, обездвиживание и т.п. В PvE важны для механик боссов и окон уязвимости, а также для условий некоторых скиллов.</p></div>
-      <div class="glossary-term" id="gt-триггер"><h3>Триггер</h3><p>Условие, которое делает умение доступным или усиливает его (удар за спину, крит, статус на цели, действие питомца и т.д.).</p></div>
-    </div>
-  </section>
-
-  <section class="card">
-    <h2 id="g-stats">Характеристики</h2>
-    <div class="glossary-list">
-      <div class="glossary-term" id="gt-hp"><h3>HP / Макс. HP (Здоровье)</h3><p>Запас здоровья персонажа. Чем выше максимум HP, тем больше урона можно пережить. Повышается уровнем, экипировкой, камнями и баффами.</p></div>
-      <div class="glossary-term" id="gt-mp"><h3>MP / Макс. MP (Мана)</h3><p>Ресурс для использования умений. Управление MP важно для стабильной <a class="g-link" href="#gt-ротация">ротации</a> (филлеры, восстановление, зелья, сетовые и классовые эффекты).</p></div>
-      <div class="glossary-term" id="gt-attack"><h3>Attack / Сила атаки</h3><p>Базовая характеристика физического урона. Повышает урон умений и автоатак, зависящих от атаки.</p></div>
-      <div class="glossary-term" id="gt-magic-boost"><h3>Magic Boost (Маг. сила)</h3><p>Характеристика, усиливающая магический урон и/или эффективность магических умений (в зависимости от класса и навыка).</p></div>
-      <div class="glossary-term" id="gt-weapon-damage-boost"><h3>Weapon Damage Boost (Усиление урона оружия)</h3><p>Повышает вклад/урон от оружия. Встречается на экипировке и в soul binding; ценен для классов, у которых значим урон оружия.</p></div>
-      <div class="glossary-term" id="gt-defense"><h3>Defense / Физ. защита</h3><p>Снижает получаемый физический урон. Важна для выживаемости, особенно танкам и в сложном PvE-контенте.</p></div>
-      <div class="glossary-term" id="gt-magic-defense"><h3>Magic Defense / Маг. защита</h3><p>Снижает получаемый магический урон.</p></div>
-      <div class="glossary-term" id="gt-accuracy"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/того, что цель уклонится. Важна, чтобы ключевые умения и <a class="g-link" href="#gt-ротация">ротация</a> не «ломались» от промахов.</p></div>
-      <div class="glossary-term" id="gt-evasion"><h3>Evasion / Уклонение (УКЛН)</h3><p>Шанс уклониться от атаки и избежать её попадания/урона (по правилам конкретной атаки). Контрстат для <a class="g-link" href="#gt-accuracy">Точности</a>.</p></div>
-      <div class="glossary-term" id="gt-block"><h3>Block (Блок)</h3><p>Шанс заблокировать атаку (часто щитом/защитным умением), уменьшив или нивелировав урон по правилам механики. Важен для защитных классов.</p></div>
-      <div class="glossary-term" id="gt-parry"><h3>Parry (Парирование)</h3><p>Шанс парировать атаку, снизив/отразив её эффект по правилам игры. Относится к защитным механикам снижения входящего урона.</p></div>
-      <div class="glossary-term" id="gt-crit"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, <a class="g-link" href="#gt-specialty">Specialty</a> и <a class="g-link" href="#gt-прок">проки</a> завязаны именно на крит.</p></div>
-      <div class="glossary-term" id="gt-crit-damage"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом <a class="g-link" href="#gt-crit">крита</a>.</p></div>
-      <div class="glossary-term" id="gt-crit-resist"><h3>Crit Resist (Сопротивление криту)</h3><p>Снижает шанс получить критический удар от противника. Защитный стат для повышения выживаемости.</p></div>
-      <div class="glossary-term" id="gt-multi-hit"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на <a class="g-link" href="#gt-прок">проки</a> и дополнительный урон.</p></div>
-      <div class="glossary-term" id="gt-multi-hit-resist"><h3>Multi-Hit Resist (Сопротивление мультиудару)</h3><p>Снижает шанс получения дополнительных ударов (мультиударов) от противника.</p></div>
-      <div class="glossary-term" id="gt-double-chance"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами (Double Chance, Perfect Chance и т.п.). Конкретный эффект зависит от реализации в экипировке и источниках бонусов.</p></div>
-      <div class="glossary-term" id="gt-combat-speed"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность <a class="g-link" href="#gt-ротация">ротации</a>. Часто приоритетный стат для DPS.</p></div>
-      <div class="glossary-term" id="gt-move-speed"><h3>Move Speed (Скорость передвижения)</h3><p>Скорость перемещения персонажа. Влияет на позиционирование, уклонение от механик и аптайм в бою.</p></div>
-      <div class="glossary-term" id="gt-penetration"><h3>Penetration (Пробивание)</h3><p>Помогает эффективнее наносить урон по защищённым целям, снижая влияние их защиты/сопротивления.</p></div>
-      <div class="glossary-term" id="gt-magic-penetration"><h3>Magic Penetration (Маг. пробивание)</h3><p>Пробивание для магического урона: снижает влияние магической защиты цели.</p></div>
-      <div class="glossary-term" id="gt-concentration"><h3>Concentration (Концентрация)</h3><p>Характеристика, влияющая на устойчивость/эффективность применения умений в бою (в зависимости от механик). Может встречаться на экипировке и в эффектах.</p></div>
-      <div class="glossary-term" id="gt-enmity"><h3>Enmity (Угроза/агро)</h3><p>Показатель угрозы для монстра. Танк набирает агро умениями с повышенной угрозой; DPS и хилы следят, чтобы не перехватить цель.</p></div>
-      <div class="glossary-term" id="gt-pve-damage-boost"><h3>PvE Damage Boost / Tolerance</h3><p>Boost — увеличение урона по PvE-целям. Tolerance — устойчивость/снижение получаемого урона у цели; некоторые дебаффы её уменьшают, усиливая урон группы.</p></div>
-      <div class="glossary-term" id="gt-pvp-stats"><h3>PvP-статы (PvP Damage / Resist и др.)</h3><p>Отдельные показатели, влияющие на урон и защиту в PvP. В PvE-гайдах обычно вторичны, но могут встречаться на экипировке и в эффектах.</p></div>
-    </div>
-  </section>
-
-  <button class="glossary-back is-hidden" id="glossary-back" type="button">← Назад к гайду</button>
-  <div class="credit">
-    <span>Справочник по терминам Aion 2 для PvE-гайдов</span>
-  </div>
-
-  <section class="card" id="g-compare-card">
-    <h2 id="g-compare">Сравнение классов (PvE)</h2>
-    <p class="muted">Краткое ориентировочное сравнение по роли и стилю игры. Подробности, ротации и сборки — в гайдах классов; мета и баланс могут меняться патчами.</p>
-    <div class="compare-wrap">
-      <table class="compare-table">
-        <thead>
-          <tr><th>Класс</th><th>Роль</th><th>Стиль в PvE (общее)</th><th>На что обращать внимание</th></tr>
-        </thead>
-        <tbody>
-          <tr><td><b>Лучник (Ranger)</b></td><td>DPS</td><td>Дальний физический урон, заряженные выстрелы и поддержание баффов</td><td>Держать баффы (Precision/Gale), не срывать заряженные навыки, планировать окна урона</td></tr>
-          <tr><td><b>Ассасин (Assassin)</b></td><td>DPS</td><td>Ближний взрывной урон, игра от позиции и критов</td><td>Позиционирование (атаки в спину), контроль ключевых откатов и бурст-окон</td></tr>
-          <tr><td><b>Чародей (Sorcerer)</b></td><td>DPS</td><td>Дальний магический урон, подготовка окна и мощные заряжаемые навыки</td><td>Подготовка баффов/дебаффов перед залпом, не прерывать заряды (напр. Hellfire)</td></tr>
-          <tr><td><b>Заклинатель (Spiritmaster)</b></td><td>DPS</td><td>Дальний урон через духов и связки навыков</td><td>Управление циклами духов и статусами (напр. Four Elements), поддержание темпа</td></tr>
-          <tr><td><b>Страж (Templar)</b></td><td>Танк</td><td>Танкование, удержание агро и урон в «окна»</td><td>Генерация угрозы, выживаемость, использование защитных навыков для открытия окон урона</td></tr>
-          <tr><td><b>Гладиатор (Gladiator)</b></td><td>DPS</td><td>Ближний физический урон, связки ударов и управление ресурсом</td><td>Соблюдение условий ключевых навыков, контроль маны/откатов и баффов</td></tr>
-          <tr><td><b>Клирик (Cleric)</b></td><td>Хил</td><td>Лечение и поддержка группы, урон по ситуации</td><td>Приоритет выживания группы, тайминги хилов и поддержание нужных эффектов</td></tr>
-          <tr><td><b>Чантер (Chanter)</b></td><td>Саппорт</td><td>Поддержка/баффы и ближний урон в связках</td><td>Поддержание мантр и баффов, позиционирование в мили, работа от триггеров навыков</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="muted note-compact">«Сложность освоения» зависит от опыта игрока: в целом требовательнее классы, завязанные на строгие окна, позиционирование, управление питомцами/духами или одновременное выполнение роли поддержки/танка.</p>
-  </section>
-
-
-  <section class="card" id="g-faq-card">
-    <h2 id="g-faq">FAQ — частые вопросы новичка</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>С чего начать и что качать в первую очередь?</summary>
-        <p>Откройте нужный класс в меню, затем раздел <b>«Старт»</b> (быстрый старт/P1) и <b>«Путь»</b> — там приоритеты по этапам (P1–P4). Общие термины см. в глоссарии: <a class="g-link" href="#gt-skill-level">брейкпоинты</a>, <a class="g-link" href="#gt-specialty">Specialty</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Где найти ротацию, макросы и настройки?</summary>
-        <p>В гайде класса есть разделы <b>«Макрос»</b>, <b>«Ротация»</b> (и при наличии — <b>«Настройки»</b>). Переключайтесь между разделами чипами под шапкой. Термины: <a class="g-link" href="#gt-ротация">ротация</a>, <a class="g-link" href="#gt-бурст">бурст</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Что такое Specialty, стигмы и доски Дэваниона?</summary>
-        <p><a class="g-link" href="#gt-specialty">Specialty</a> — усиление навыка (его нужно выбрать в настройках скилла). <a class="g-link" href="#gt-stigma">Стигмы</a> — дополнительные умения. <a class="g-link" href="#gt-daevanion">Дэванион</a> — доски развития с узлами. Подробности — в разделах «Пассивки/Стигмы/Дэванион» гайда класса.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Какие характеристики важны?</summary>
-        <p>См. раздел глоссария <a class="g-link" href="#g-stats">«Характеристики»</a> (в т.ч. <a class="g-link" href="#gt-accuracy">Точность</a>, <a class="g-link" href="#gt-evasion">Уклонение/УКЛН</a>, <a class="g-link" href="#gt-crit">Крит</a>, <a class="g-link" href="#gt-combat-speed">Скорость боя</a> и др.). Приоритеты по статам зависят от класса и билда — ориентируйтесь на разделы «Экипировка/Arcana» в гайде.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Информация устарела или нашлась ошибка — куда написать?</summary>
-        <p>Можно создать issue в репозитории: <a href="https://github.com/2tonya/aion2-guides/issues/new" target="_blank" rel="noopener">сообщить об ошибке/устаревших данных</a>. Укажите класс, раздел, что неверно, и по возможности ссылку на актуальный источник.</p>
-      </details>
-    </div>
-  </section>
-
-</section>
-
-<!-- ===================== ЛУЧНИК ===================== -->
-<section class="guide" id="ranger" role="tabpanel" aria-labelledby="tab-ranger">
-
-  <div class="hero" style="--hue:150">
-    <img class="hero__icon" src="img/class-ranger.png" alt="Класс Лучник" width="72" height="72">
-    <div>
-      <h1>Лучник <span>Ranger</span></h1>
-      <p class="hero__sub">Заряженный <b>Deadshot</b> и баффы, которые жмутся руками.</p>
-      <ul class="badges">
-        <li>Дальний бой</li><li>10–12 м</li><li>Средняя сложность</li>
-      </ul>
-    </div>
-  </div>
-
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="r-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="r-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build" target="_blank" rel="noopener">Ranger PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -293,7 +135,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="r-tldr">Главное за минуту</h2>
     <ul class="check">
       <li><b>Precision</b> (Marking Shot) — Deadshot бьёт на <b>+35%</b>. Без баффа заряженный выстрел почти не имеет смысла.</li>
@@ -304,7 +147,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="r-road">Путь: от новичка до топа</h2>
     <p class="lead">Порядок, в котором прокачка реально даёт урон. Сверху — что делать первым.</p>
     <div class="road">
@@ -364,7 +208,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="r-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -379,7 +224,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="r-skills">Скиллы и Specialty</h2>
     <p class="lead">Уровни — суммарные (экипировка, Arcana, Дэванион тоже считаются).</p>
 
@@ -465,7 +311,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="r-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-hunters-resolve.webp" alt=""><span>Hunter's Resolve</span></li>
@@ -479,7 +326,8 @@
     <p class="lead">Те же бонусы ищи в броне, бижутерии, Arcana и Дэванионе — не гонись за одним идеальным предметом.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="r-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-vaizels-authority.webp" alt=""><b>Vaizel's Authority</b><span>20 ур. — первый вклад</span></div>
@@ -494,7 +342,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="r-macro">Макрос</h2>
     <p class="lead">Выключи Skill Queue. Разложи атаки в <b>два стека</b>, баффы — отдельно.</p>
     <div class="stacks">
@@ -515,7 +364,8 @@
     <p class="hint">В макрос: Gale Arrow — 10 мс, Griffon Arrow — 10 мс. Баффы в макрос не ставим.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="r-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Vaizel's Authority + Supporting Fire + Bow of Blessing</b></li>
@@ -531,7 +381,8 @@
     
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="r-gear">Экипировка</h2>
     <p class="lead">Данж-шмот — нормальная база. Крафт не обязателен: считай ~70% материалов как ориентир по бюджету.</p>
 
@@ -579,7 +430,8 @@
     </details>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-misc" data-label="Arcana и титулы">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Arcana и титулы</span></div>
     <h2 id="r-misc">Arcana, питомцы, титулы</h2>
     <div class="cols">
       <div>
@@ -608,14 +460,16 @@
   </section>
 
   
-  <section class="card">
+  <section class="sec" data-sec="r-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Ошибки</span></div>
     <h2 id="r-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Не жми баффы перед механикой.</b> 5 секунд баффа перед 10-секундной неуязвимостью босса — это выкинутый КД. Дождись окна.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="r-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">13</span><span>Дэванион</span></div>
     <h2 id="r-board">Дэванион: доски</h2>
     <p class="lead">Доски <b>не рассчитаны</b> на полное заполнение — иди по маршруту под свои скиллы.</p>
     <div class="gallery">
@@ -627,30 +481,54 @@
       <figure><img src="img/r-azphel.jpg" alt="Доска Azphel"><figcaption>Azphel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Mobalytics-Oli</b> (билд: FRESHY)</span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-assassin" data-class-key="assassin" aria-label="Гайд: Ассасин">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#assassin">Главная</a><span class="sep">/</span>
+    <a href="#assassin">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Ассасин</span>
+  </nav>
 
-<!-- ===================== АССАСИН ===================== -->
-<section class="guide is-hidden" id="assassin" role="tabpanel" aria-labelledby="tab-assassin">
-
-  <div class="hero" style="--hue:345">
-    <img class="hero__icon" src="img/class-assassin.png" alt="Класс Ассасин" width="72" height="72">
-    <div>
-      <h1>Ассасин <span>Assassin</span></h1>
-      <p class="hero__sub">Бурст через криты и стаки <b>Insignia</b>. Всё решает спина босса.</p>
-      <ul class="badges">
-        <li>Ближний бой</li><li>Удар в спину</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Ассасин <span class="en">Assassin</span></h1>
+        <p class="guide-hero__tagline">Бурст через криты и стаки <b>Insignia</b>. Всё решает спина босса.</p>
+        <p class="guide-hero__lead">PvE-гайд по Ассасину: как собирать стаки Insignia, держать спину босса и не терять урон на перебежках.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-assassin.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-assassin.png" alt="" width="26" height="26"><span>Ассасин</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Ближний DPS</b></div>
+    <div><span>Оружие</span><b>Кинжалы</b></div>
+    <div><span>Фокус</span><b>Insignia · криты</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="a-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="a-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Assassin Burst PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -665,7 +543,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="a-tldr">Главное за минуту</h2>
     <ul class="check">
       <li>Урон держится на <b>4 скиллах</b>: Heart Gore, Insignia Explosion, Quick Slice, Savage Roar.</li>
@@ -676,7 +555,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="a-road">Путь: от новичка до топа</h2>
     <p class="lead">Ассасин начинает работать только после двух вещей: индикатор спины и правильный макрос.</p>
     <div class="road">
@@ -734,7 +614,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="a-order">Порядок прокачки</h2>
     <ol class="ranks ranks--num">
       <li><img src="img/s-heart-gore.webp" alt=""><span>Heart Gore</span></li>
@@ -748,7 +629,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="a-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -829,7 +711,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="a-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-exploit-weakness.webp" alt=""><span>Exploit Weakness</span></li>
@@ -842,7 +725,8 @@
     <p class="hint">Порядок приоритета: качай по списку сверху вниз, уровень — по возможности.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="a-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-illusive-clone.webp" alt=""><b>Illusive Clone</b><span>Снимает КД Heart Gore; 10 ур. — +Crit Damage</span></div>
@@ -853,7 +737,8 @@
     <p class="hint">4-й слот гибкий: часто берут Triniel's Dagger, но Evasion Stance и защитные стигмы тоже живы.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="a-macro">Макрос</h2>
     <p class="lead">Макрос на ПКМ, слоты по порядку:</p>
     <ol class="steps steps--tight">
@@ -871,7 +756,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="a-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Swift Contract + Illusive Clone</b></li>
@@ -883,7 +769,8 @@
     <p class="hint">Просадка по позиции — добивай Infiltrate и Flash Slice, они оба закидывают за спину.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-setup" data-label="Настройки">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Настройки</span></div>
     <h2 id="a-setup">Настройки, которые реально бустят урон</h2>
     <div class="cols">
       <div>
@@ -909,7 +796,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="a-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Экипировка</span></div>
     <h2 id="a-gear">Экипировка и Arcana</h2>
     <p class="lead">По гайду Mobalytics акцент на скилловой сборке и ротации; послотовая раскладка статов не приведена. Ниже — структура слотов и подтверждённые приоритеты.</p>
     <div class="cols">
@@ -931,14 +819,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Ошибки</span></div>
     <h2 id="a-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Зажимай ЛКМ + ПКМ.</b> Не «тапай» ПКМ: удержание обоих кнопок само вплетает Quick Slice между Savage Roar.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="a-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">13</span><span>Дэванион</span></div>
     <h2 id="a-board">Дэванион: доски</h2>
     <p class="lead">Старт — узлы под <b>Heart Gore</b> и <b>Insignia Explosion</b>. Доски не заполняются целиком.</p>
     <div class="gallery">
@@ -948,30 +838,54 @@
       <figure><img src="img/a-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulvier</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-sorcerer" data-class-key="sorcerer" aria-label="Гайд: Чародей">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#sorcerer">Главная</a><span class="sep">/</span>
+    <a href="#sorcerer">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Чародей</span>
+  </nav>
 
-<!-- ===================== ЧАРОДЕЙ ===================== -->
-<section class="guide is-hidden" id="sorcerer" role="tabpanel" aria-labelledby="tab-sorcerer">
-
-  <div class="hero" style="--hue:22">
-    <img class="hero__icon" src="img/class-sorcerer.png" alt="Класс Чародей" width="72" height="72">
-    <div>
-      <h1>Чародей <span>Sorcerer</span></h1>
-      <p class="hero__sub">Заряженный <b>Hellfire</b> внутри заранее подготовленного окна урона.</p>
-      <ul class="badges">
-        <li>Дальний бой</li><li>Каст</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Чародей <span class="en">Sorcerer</span></h1>
+        <p class="guide-hero__tagline">Заряженный <b>Hellfire</b> внутри заранее подготовленного окна урона.</p>
+        <p class="guide-hero__lead">PvE-гайд по Чародею: подготовка окна урона, Hellfire и порядок вложений в скиллы.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-sorcerer.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-sorcerer.png" alt="" width="26" height="26"><span>Чародей</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Магический DPS</b></div>
+    <div><span>Оружие</span><b>Посох</b></div>
+    <div><span>Фокус</span><b>Hellfire · окно урона</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="so-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="so-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build" target="_blank" rel="noopener">Sorcerer Hellfire PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -986,7 +900,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="so-tldr">Главное за минуту</h2>
     <ul class="check">
       <li><b>Hellfire</b> — главный урон. Заряд держать до конца: прерванный каст — это слабая версия.</li>
@@ -997,7 +912,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="so-road">Путь: от новичка до топа</h2>
     <p class="lead">У Чародея урон делает не шмот, а два окна: полный заряд Hellfire и баффы перед ним.</p>
     <div class="road">
@@ -1051,7 +967,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="so-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -1065,7 +982,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="so-skills">Скиллы и Specialty</h2>
     <p class="lead">Specialty надо именно <b>выбрать и экипировать</b> — разблокировка сама по себе ничего не даёт.</p>
 
@@ -1142,7 +1060,8 @@
     </details>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="so-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-fire-mark.webp" alt=""><span>Fire Mark</span></li>
@@ -1155,7 +1074,8 @@
     <p class="hint">Нужна защита — добавь Grace of Resistance, но основные скиллы урона не бросай.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="so-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-element-enhancement.webp" alt=""><b>Element Enhancement</b><span>Открывающий бафф перед бурстом</span></div>
@@ -1166,7 +1086,8 @@
     <p class="hint"><b>Свапы:</b> Cold Storm → <b>Steel Barrier</b>, когда важнее выжить (Nightmare, Transcendence). Не хватает стаггера — Cold Storm → <b>Divine Burst</b>.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="so-macro">Макрос</h2>
     <p class="lead">Приоритет в стеке — порядок активации, а не расположение иконок.</p>
     <div class="stacks">
@@ -1187,7 +1108,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="so-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Element Enhancement</b></li>
@@ -1205,7 +1127,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="so-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="so-gear">Экипировка и Arcana</h2>
     <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Структура слотов — с опорой на ключевые приоритеты билда.</p>
     <div class="cols">
@@ -1226,14 +1149,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Ошибки</span></div>
     <h2 id="so-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Hellfire в макрос не ставим.</b> Макрос не удерживает кнопку, поэтому выйдет слабая версия. Плюс легко проскочить окно баффов.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="so-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Дэванион</span></div>
     <h2 id="so-board">Дэванион: доски</h2>
     <p class="lead">Узлы под Hellfire, Firestorm, Bittercold Wind, Blaze и Wish of Concentration. Доски целиком не заполняются.</p>
     <div class="gallery">
@@ -1243,30 +1168,54 @@
       <figure><img src="img/so-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Eutopia</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-spiritmaster" data-class-key="spiritmaster" aria-label="Гайд: Душелов">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#spiritmaster">Главная</a><span class="sep">/</span>
+    <a href="#spiritmaster">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Душелов</span>
+  </nav>
 
-<!-- ===================== ДУШЕЛОВ ===================== -->
-<section class="guide is-hidden" id="spiritmaster" role="tabpanel" aria-labelledby="tab-spiritmaster">
-
-  <div class="hero" style="--hue:262">
-    <img class="hero__icon" src="img/class-spiritmaster.png" alt="Класс Душелов" width="72" height="72">
-    <div>
-      <h1>Душелов <span>Spiritmaster</span></h1>
-      <p class="hero__sub">Крути духов, чтобы <b>Elemental Fusion</b> был доступен как можно чаще.</p>
-      <ul class="badges">
-        <li>Дальний бой</li><li>Пет-класс</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Душелов <span class="en">Spiritmaster</span></h1>
+        <p class="guide-hero__tagline">Крути духов, чтобы <b>Elemental Fusion</b> был доступен как можно чаще.</p>
+        <p class="guide-hero__lead">PvE-гайд по Душелову: цикл духов, Elemental Fusion и приоритеты прокачки.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-spiritmaster.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-spiritmaster.png" alt="" width="26" height="26"><span>Душелов</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>DPS · пет-класс</b></div>
+    <div><span>Оружие</span><b>Посох</b></div>
+    <div><span>Фокус</span><b>Elemental Fusion</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="sp-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="sp-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build" target="_blank" rel="noopener">Spiritmaster Elemental Fusion PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -1281,7 +1230,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="sp-tldr">Главное за минуту</h2>
     <ul class="check">
       <li><b>Elemental Fusion</b> кастуется только со статусом <b>Four Elements</b> — его дают 4 скилла духов.</li>
@@ -1292,7 +1242,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="sp-road">Путь: от новичка до топа</h2>
     <p class="lead">Душелов раскрывается, когда духи крутятся без остановки: тогда Four Elements приходит часто и Elemental Fusion не простаивает.</p>
     <div class="road">
@@ -1347,7 +1298,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="sp-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -1363,7 +1315,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="sp-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -1448,7 +1401,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="sp-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-spirit-strike.webp" alt=""><span>Spirit Strike</span></li>
@@ -1461,7 +1415,8 @@
     <p class="hint">Порядок приоритета: качай по списку сверху вниз, уровень — по возможности.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="sp-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-summon-ancient-spirit.webp" alt=""><b>Summon: Ancient Spirit</b><span>30 сек, даёт Four Elements с каждого скилла</span></div>
@@ -1472,7 +1427,8 @@
     <p class="hint"><b>Destructive Attack</b> на 20 ур. сбрасывает КД Corrode и Curse — сильный вариант для боссов. <b>Flame Blessing</b> — проще: точность и шанс доп. урона.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="sp-macro">Макрос</h2>
     <p class="lead">Два хоткея: один на урон, второй на духов.</p>
     <div class="stacks">
@@ -1483,7 +1439,8 @@
     <p class="hint">Проверяй и макрос, и квик-слоты. Тест на манекене: все духи выходят, дебаффы висят.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="sp-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Flame Blessing</b> + <b>Enhance: Spirit's Benediction</b></li>
@@ -1498,7 +1455,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="sp-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="sp-gear">Экипировка и Arcana</h2>
     <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Ниже — слотовая структура и подтверждённые приоритеты.</p>
     <div class="cols">
@@ -1519,14 +1477,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Ошибки</span></div>
     <h2 id="sp-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Зажимай ЛКМ + ПКМ.</b> Cold Shock вплетается в Combustion, духи выходят по КД, а Fusion и Dimensional Control — сразу как только доступны.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="sp-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Дэванион</span></div>
     <h2 id="sp-board">Дэванион: доски</h2>
     <p class="lead">Приоритет — <b>Elemental Fusion</b> и <b>Dimensional Control</b>. Узлы Soul's Cry (PvP-страх) лучше пропускать.</p>
     <div class="gallery">
@@ -1536,30 +1496,54 @@
       <figure><img src="img/sp-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulvier</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-templar" data-class-key="templar" aria-label="Гайд: Храмовник">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#templar">Главная</a><span class="sep">/</span>
+    <a href="#templar">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Храмовник</span>
+  </nav>
 
-<!-- ===================== ХРАМОВНИК ===================== -->
-<section class="guide is-hidden" id="templar" role="tabpanel" aria-labelledby="tab-templar">
-
-  <div class="hero" style="--hue:48">
-    <img class="hero__icon" src="img/class-templar.png" alt="Класс Храмовник" width="72" height="72">
-    <div>
-      <h1>Храмовник <span>Templar</span></h1>
-      <p class="hero__sub">Урон через серии <b>Judgment</b>, а танкование — на ручном контроле.</p>
-      <ul class="badges">
-        <li>Танк</li><li>Ближний бой</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Храмовник <span class="en">Templar</span></h1>
+        <p class="guide-hero__tagline">Урон через серии <b>Judgment</b>, а танкование — на ручном контроле.</p>
+        <p class="guide-hero__lead">PvE-гайд по Храмовнику: серии Judgment, удержание агро и защитные кнопки на ручном контроле.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-templar.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-templar.png" alt="" width="26" height="26"><span>Храмовник</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Танк</b></div>
+    <div><span>Оружие</span><b>Меч и щит</b></div>
+    <div><span>Фокус</span><b>Judgment · агро</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="te-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="te-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build" target="_blank" rel="noopener">Templar PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -1574,7 +1558,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="te-tldr">Главное за минуту</h2>
     <ul class="check">
       <li>Урон = <b>Judgment</b>. Окна открывают Shield Smite, Warding Strike, Shield Rush и Doom Shield.</li>
@@ -1585,7 +1570,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="te-road">Путь: от новичка до топа</h2>
     <p class="lead">Храмовник делает урон окнами Judgment. Всё остальное — сервис вокруг этих окон.</p>
     <div class="road">
@@ -1641,7 +1627,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="te-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -1656,7 +1643,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="te-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -1741,7 +1729,8 @@
     </details>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="te-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-fury.webp" alt=""><span>Fury</span></li>
@@ -1755,7 +1744,8 @@
     <p class="hint">Fury срабатывает на блок и баффает урон тебе и пати на 20 сек — выгодно всей группе.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="te-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-shield-of-protection.webp" alt=""><b>Shield of Protection</b><span>Блок по кнопке; 5 ур. — второй заряд</span></div>
@@ -1766,7 +1756,8 @@
     <p class="hint"><b>Поздняя игра:</b> Banner → <b>Taunt 15</b>. Дебафф −10% Damage Mitigation помогает всей пати и возвращает агро.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="te-macro">Макрос</h2>
     <div class="stacks">
       <div class="stack"><h3>Стек Judgment</h3><p>Judgment → Shield Smite → Warding Strike → Pummel</p></div>
@@ -1781,7 +1772,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="te-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Noble Armor</b> (+ Battlefield Banner, если есть)</li>
@@ -1797,7 +1789,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="te-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="te-gear">Экипировка и Arcana</h2>
     <p class="lead">По гайду Mobalytics: фокус на скилловых вехах важнее идеального набора шмота. Послотовая раскладка статов в источнике не приведена.</p>
     <div class="cols">
@@ -1816,14 +1809,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Ошибки</span></div>
     <h2 id="te-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li>Не переставляй Pummel во второй стек: макрос начнёт уходить с Judgment, пока тот ещё доступен, и сожжёт окно.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="te-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Дэванион</span></div>
     <h2 id="te-board">Дэванион: доски</h2>
     <p class="lead"><b>Ранняя — 140 очков:</b> +4 уровня к Judgment, Vicious Strike, Pummel и Punishment, чтобы быстрее выйти на 16.</p>
     <div class="gallery">
@@ -1840,30 +1835,54 @@
       <figure><img src="img/te-x4.jpg" alt="Эндгейм доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Mobalytics-Oli</b> (билд: NoBS Game Guides)</span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-gladiator" data-class-key="gladiator" aria-label="Гайд: Гладиатор">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#gladiator">Главная</a><span class="sep">/</span>
+    <a href="#gladiator">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Гладиатор</span>
+  </nav>
 
-<!-- ===================== ГЛАДИАТОР ===================== -->
-<section class="guide is-hidden" id="gladiator" role="tabpanel" aria-labelledby="tab-gladiator">
-
-  <div class="hero" style="--hue:212">
-    <img class="hero__icon" src="img/class-gladiator.png" alt="Класс Гладиатор" width="72" height="72">
-    <div>
-      <h1>Гладиатор <span>Gladiator</span></h1>
-      <p class="hero__sub">Endgame-билд: ровный урон по боссу, криты и контроль маны.</p>
-      <ul class="badges">
-        <li>Ближний бой</li><li>Endgame</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Гладиатор <span class="en">Gladiator</span></h1>
+        <p class="guide-hero__tagline">Endgame-билд: ровный урон по боссу, криты и контроль маны.</p>
+        <p class="guide-hero__lead">PvE-гайд по Гладиатору: endgame-билд, криты, контроль маны и стабильный урон по боссу.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-gladiator.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-gladiator.png" alt="" width="26" height="26"><span>Гладиатор</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Ближний DPS</b></div>
+    <div><span>Оружие</span><b>Двуручное</b></div>
+    <div><span>Фокус</span><b>Endgame · криты</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="gl-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="gl-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build" target="_blank" rel="noopener">Gladiator Endgame PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -1878,7 +1897,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="gl-tldr">Главное за минуту</h2>
     <ul class="check">
       <li>Ядро урона: <b>Overhead Slam</b>, <b>Rending Blow</b> и <b>Ruinous Blow</b>.</li>
@@ -1889,7 +1909,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="gl-road">Путь: от новичка до топа</h2>
     <p class="lead">Это эндгейм-билд: сначала два скилла до 16, иначе ротация просто не работает.</p>
     <div class="road">
@@ -1947,7 +1968,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="gl-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -1961,7 +1983,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="gl-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -2023,7 +2046,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="gl-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-attack-preparation-gladiator.webp" alt=""><span>Attack Preparation</span></li>
@@ -2039,7 +2063,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="gl-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-lunge-stance.webp" alt=""><b>Lunge Stance</b><span>20 ур. — шанс снять КД на крите</span></div>
@@ -2053,7 +2078,8 @@
     </figure>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="gl-macro">Макрос</h2>
     <p class="lead">Settings → Key Settings → General: макрос на <b>ПКМ</b>, Keen Strike на <b>ЛКМ</b>.</p>
     <div class="stacks">
@@ -2064,7 +2090,8 @@
     <p class="hint">В бою с боссом баффы ставь в безопасное окно: баннер механики может съесть весь их аптайм.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="gl-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Lunge Stance</b> + <b>Zikel's Blessing</b> — вручную, в безопасном окне</li>
@@ -2080,7 +2107,8 @@
     <p class="hint">Не сливай баффы перед механикой, которая выбьет тебя из мили: КД сгорят впустую.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="gl-gear">Экипировка</h2>
     <h3>Оружие и щит</h3>
     <div class="chips-list">
@@ -2104,7 +2132,8 @@
     <p class="hint">Поздняя цель — <b>Abyssal Bracelet</b> (3 Ludra Gear Voucher). Перед рунами проверяй штраф за провал и держи дубль.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-arcana" data-label="Arcana">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Arcana</span></div>
     <h2 id="gl-arcana">Arcana, титулы, крылья, Пантеон</h2>
     <div class="cols">
       <div>
@@ -2133,14 +2162,16 @@
   </section>
 
   
-  <section class="card">
+  <section class="sec" data-sec="gl-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Ошибки</span></div>
     <h2 id="gl-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li>Вариант с отдельной Rending Blow даёт больше урона, но <b>жрёт ману</b> и меняет частоту Keen Strike. Сравнивай на манекене двумя тестами по минуте.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="gl-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">13</span><span>Дэванион</span></div>
     <h2 id="gl-board">Дэванион: доски</h2>
     <p class="lead">Синие узлы — Overhead Slam, Ruinous Blow, Rending Blow. Зелёные — Attack Preparation, Experienced Counterstrike, Impact Hit, Murderous Burst. Дальше Attack Bonus и Critical Hit.</p>
     <div class="gallery">
@@ -2150,30 +2181,54 @@
       <figure><img src="img/gl-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulfhednar</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-cleric" data-class-key="cleric" aria-label="Гайд: Клирик">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#cleric">Главная</a><span class="sep">/</span>
+    <a href="#cleric">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Клирик</span>
+  </nav>
 
-<!-- ===================== КЛИРИК ===================== -->
-<section class="guide is-hidden" id="cleric" role="tabpanel" aria-labelledby="tab-cleric">
-
-  <div class="hero" style="--hue:44">
-    <img class="hero__icon" src="img/class-cleric.png" alt="Класс Клирик" width="72" height="72">
-    <div>
-      <h1>Клирик <span>Cleric</span></h1>
-      <p class="hero__sub">Комбо <b>Condemnation</b>: хилер, который внезапно выдаёт бурст.</p>
-      <ul class="badges">
-        <li>Хилер</li><li>Дальний бой</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Клирик <span class="en">Cleric</span></h1>
+        <p class="guide-hero__tagline">Комбо <b>Condemnation</b>: хилер, который внезапно выдаёт бурст.</p>
+        <p class="guide-hero__lead">PvE-гайд по Клирику: Condemnation, лечение группы и бурст в нужное окно.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-cleric.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-cleric.png" alt="" width="26" height="26"><span>Клирик</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Хилер</b></div>
+    <div><span>Оружие</span><b>Посох / булава</b></div>
+    <div><span>Фокус</span><b>Condemnation</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="cl-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="cl-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build" target="_blank" rel="noopener">Cleric Condemnation PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -2188,7 +2243,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="cl-tldr">Главное за минуту</h2>
     <ul class="check">
       <li>Ты <b>первый хилер</b>, урон — второй. Комбо можно и нужно прерывать ради пати.</li>
@@ -2199,7 +2255,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="cl-road">Путь: от новичка до топа</h2>
     <p class="lead">Клирик выходит на урон через два уровня: Earth Punishment 5 и Condemnation 12. До этого ты просто хилер.</p>
     <div class="road">
@@ -2251,7 +2308,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="cl-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -2267,7 +2325,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="cl-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -2352,7 +2411,8 @@
     </details>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="cl-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-empyrean-lords-grace.webp" alt=""><span>Empyrean Lord's Grace</span></li>
@@ -2366,7 +2426,8 @@
     <p class="hint">Порядок приоритета: качай по списку сверху вниз, уровень — по возможности.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="cl-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-earth-punishment.webp" alt=""><b>Earth Punishment</b><span>5 ур. — сердце комбо</span></div>
@@ -2377,7 +2438,8 @@
     <p class="hint">Если в пати и так много урона — меняй Prayer of Amplification на <b>Summon Resurrection</b> или <b>Absolution</b>.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="cl-macro">Макрос</h2>
     <p class="lead">ПКМ = макрос. Слоты по порядку:</p>
     <ol class="steps steps--tight">
@@ -2390,7 +2452,8 @@
     
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="cl-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Noble Aura</b> + <b>Light of Protection</b></li>
@@ -2408,7 +2471,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="cl-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="cl-gear">Экипировка и Arcana</h2>
     <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Структура по слотам — с приоритетом от билда.</p>
     <div class="cols">
@@ -2429,14 +2493,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Ошибки</span></div>
     <h2 id="cl-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Зажимай ЛКМ + ПКМ:</b> Earth's Retribution вплетается между кастами и держит ману. Condemnation и Light of Regeneration держи на своих кнопках.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="cl-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Дэванион</span></div>
     <h2 id="cl-board">Дэванион: доски</h2>
     <p class="lead">Приоритет узлов — <b>Condemnation</b> и <b>Chain of Torment</b>.</p>
     <div class="gallery">
@@ -2446,30 +2512,54 @@
       <figure><img src="img/cl-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulvier</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+<section class="view view--guide" id="view-guide-chanter" data-class-key="chanter" aria-label="Гайд: Чантер">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#chanter">Главная</a><span class="sep">/</span>
+    <a href="#chanter">Гайды классов</a><span class="sep">/</span>
+    <span class="current">Чантер</span>
+  </nav>
 
-<!-- ===================== ЧАНТЕР ===================== -->
-<section class="guide is-hidden" id="chanter" role="tabpanel" aria-labelledby="tab-chanter">
-
-  <div class="hero" style="--hue:190">
-    <img class="hero__icon" src="img/class-chanter.png" alt="Класс Чантер" width="72" height="72">
-    <div>
-      <h1>Чантер <span>Chanter</span></h1>
-      <p class="hero__sub">Мантры для пати и спам <b>Dark Crush</b> по триггеру.</p>
-      <ul class="badges">
-        <li>Поддержка</li><li>Ближний бой</li><li>Средняя сложность</li>
-      </ul>
+  <header class="guide-hero">
+    <div class="guide-hero__eyebrow">Гайд по классу · PvE</div>
+    <div class="guide-hero__grid">
+      <div>
+        <h1>Чантер <span class="en">Chanter</span></h1>
+        <p class="guide-hero__tagline">Мантры для пати и спам <b>Dark Crush</b> по триггеру.</p>
+        <p class="guide-hero__lead">PvE-гайд по Чантеру: мантры для пати, триггеры Dark Crush и игра в мили.</p>
+        <div class="seg" role="group" aria-label="Режим гайда">
+          <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
+          <button type="button" data-mode="pvp" aria-pressed="false">PvP</button>
+        </div>
+        <p class="guide-hero__note">PvP-гайды пока в разработке — здесь только PvE.</p>
+      </div>
+      <img class="guide-hero__emblem" src="img/class-chanter.png" alt="" width="150" height="150">
     </div>
+    <div class="guide-mobile-controls">
+      <button class="mobile-control" type="button" data-open-sheet="classes">
+        <img src="img/class-chanter.png" alt="" width="26" height="26"><span>Чантер</span><span class="chev">⌄</span>
+      </button>
+      <button class="mobile-control mobile-control--sections" type="button" data-open-sheet="sections">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Разделы гайда</span><span class="chev">⌄</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div><span>Роль</span><b>Саппорт</b></div>
+    <div><span>Оружие</span><b>Копьё</b></div>
+    <div><span>Фокус</span><b>Dark Crush · мантры</b></div>
   </div>
 
-
-  <section class="card card--quick">
+  <article class="guide-body">
+    <section class="sec sec--quick" data-sec="ch-quick" data-label="Старт">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="ch-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build" target="_blank" rel="noopener">Chanter Dark Crush PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
     <ul class="check">
@@ -2484,7 +2574,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-tldr" data-label="Главное">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="ch-tldr">Главное за минуту</h2>
     <ul class="check">
       <li>Ядро — <b>Dark Crush</b>. Он открывается после ranged-скилла (Spinning Strike, Impactful Crush и др.).</li>
@@ -2495,7 +2586,8 @@
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-road" data-label="Путь">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="ch-road">Путь: от новичка до топа</h2>
     <p class="lead">Чантер включается на Dark Crush 20: до третьего слота Specialty скилл живёт на КД.</p>
     <div class="road">
@@ -2549,7 +2641,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-order" data-label="Порядок">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="ch-order">Порядок прокачки</h2>
     <p class="lead">Порядок вложения Skill Points в активные скиллы — сверху вниз.</p>
     <ol class="ranks ranks--num">
@@ -2566,7 +2659,8 @@
     </ol>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-skills" data-label="Скиллы">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="ch-skills">Скиллы и Specialty</h2>
 
     <div class="skill">
@@ -2634,7 +2728,8 @@
     </details>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-passive" data-label="Пассивки">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="ch-passive">Пассивки — порядок</h2>
     <ol class="ranks">
       <li><img src="img/s-winds-promise.webp" alt=""><span>Wind's Promise</span></li>
@@ -2648,7 +2743,8 @@
     <p class="hint">Порядок приоритета: качай по списку сверху вниз, уровень — по возможности.</p>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-stigma" data-label="Стигмы">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="ch-stigma">Стигмы</h2>
     <div class="grid grid--4">
       <div class="mini"><img src="img/s-undefeated-mantra.webp" alt=""><b>Undefeated Mantra</b><span>+урон и устойчивость пати (toggle)</span></div>
@@ -2661,7 +2757,8 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-macro" data-label="Макрос">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="ch-macro">Макрос</h2>
     <p class="lead">ПКМ = макрос, всего три слота:</p>
     <ol class="steps steps--tight">
@@ -2673,7 +2770,8 @@
     
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-rotation" data-label="Ротация">
+    <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="ch-rotation">Ротация</h2>
     <ol class="steps">
       <li><b>Undefeated Mantra</b> + <b>Sprint Mantra</b> (проверь, что включены)</li>
@@ -2687,7 +2785,8 @@
 
   
   
-    <section class="card">
+    <section class="sec" data-sec="ch-gear" data-label="Экипировка">
+    <div class="sec__eyebrow"><span class="n">10</span><span>Экипировка</span></div>
     <h2 id="ch-gear">Экипировка и Arcana</h2>
     <p class="lead">В исходном гайде Mobalytics нет послотового разбора экипировки и точного набора Arcana. Ниже — слотовая структура под приоритеты билда.</p>
     <div class="cols">
@@ -2708,14 +2807,16 @@
     </div>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-mistakes" data-label="Ошибки">
+    <div class="sec__eyebrow"><span class="n">11</span><span>Ошибки</span></div>
     <h2 id="ch-mistakes">Частые ошибки</h2>
     <ul class="check">
       <li><b>Зажимай ЛКМ + ПКМ</b> в мили. Onslaught вплетается сам, мана и КД держатся на уровне.</li>
     </ul>
   </section>
 
-  <section class="card">
+  <section class="sec" data-sec="ch-board" data-label="Дэванион">
+    <div class="sec__eyebrow"><span class="n">12</span><span>Дэванион</span></div>
     <h2 id="ch-board">Дэванион: доски</h2>
     <p class="lead">Приоритет — <b>Dark Crush</b> и <b>Spinning Strike</b>: чем быстрее Dark Crush до 20, тем раньше третий слот Specialty со снятием КД.</p>
     <div class="gallery">
@@ -2725,50 +2826,304 @@
       <figure><img src="img/ch-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+  </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulvier</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
   </div>
-
 </section>
+    <section class="view" id="view-bestiary" aria-label="Бестиарий">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#ranger">Главная</a><span class="sep">/</span>
+    <span class="current">Бестиарий</span>
+  </nav>
 
-</main>
+  <header class="view-head">
+    <div>
+      <div class="eyebrow">Полевой справочник</div>
+      <h1>Бестиарий</h1>
+      <p class="lead">Кого вы встретите в Атрее.</p>
+      <p class="desc">Типы существ, поведение и слабости. Демонстрационное наполнение каталога.</p>
+    </div>
+    <div class="view-head__actions">
+      <a class="btn btn--ghost" href="#ranger" id="bestiary-back">← Вернуться к гайду Лучника</a>
+    </div>
+  </header>
 
-<footer class="foot">
-  <p>Источники (Mobalytics): 
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-ranger-pve-build" target="_blank" rel="noopener">Лучник — Ranger PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Ассасин — Burst PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-sorcerer-hellfire-pve-build" target="_blank" rel="noopener">Чародей — Hellfire PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-spiritmaster-elemental-fusion-pve-build" target="_blank" rel="noopener">Душелов — Elemental Fusion PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-templar-pve-build" target="_blank" rel="noopener">Храмовник — Templar PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-gladiator-endgame-build" target="_blank" rel="noopener">Гладиатор — Endgame PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-cleric-condemnation-pve-build" target="_blank" rel="noopener">Клирик — Condemnation PvE</a>,
-    <a href="https://mobalytics.gg/gamebase/guides/aion-2-chanter-dark-crush-pve-build" target="_blank" rel="noopener">Чантер — Dark Crush PvE</a>. 
-    Сокращённый перевод для личного использования. <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener">Сообщить об ошибке/устаревшем</a> • <span class="foot__meta">Дизайн доработан с применением скиллов anti-AI-slop (avoid-ai-design, frontend-design, taste-skill).</span>
-  </p>
-</footer>
+  <div class="bestiary-controls">
+    <label class="field" for="beast-search">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="beast-search" type="search" placeholder="Поиск существа, тип, слабость…" autocomplete="off" spellcheck="false">
+    </label>
+    <div class="select">
+      <select id="beast-sort" aria-label="Сортировка">
+        <option value="alpha">По алфавиту</option>
+        <option value="type">По типу</option>
+        <option value="fav">Сначала избранные</option>
+      </select>
+    </div>
+    <button class="btn favorite-filter" id="beast-fav-filter" type="button" aria-pressed="false">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>Избранные</span>
+    </button>
+  </div>
 
-      </div>
-      <aside class="toc" id="toc" aria-label="Разделы (ПК)">
-        <div class="toc__inner">
-          <div class="toc__label">Разделы</div>
-          <nav class="sidebar__chips toc__chips" id="side-chips" aria-label="Разделы гайда"></nav>
-        </div>
-      </aside>
+  <div class="filter-chips" id="beast-types"></div>
+
+  <div class="bestiary-layout">
+    <div>
+      <div class="beast-list__head"><span>Каталог существ</span><span>Демонстрационное наполнение каталога</span></div>
+      <div class="beast-list" id="beast-list"></div>
+      <div class="beast-list__foot"><span id="beast-count">6 записей</span><span>Выберите существо, чтобы открыть карточку</span></div>
+    </div>
+    <aside class="beast-detail" id="beast-detail" aria-live="polite"></aside>
+  </div>
+</section>
+    <section class="view" id="view-glossary" aria-label="База знаний">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#ranger">Главная</a><span class="sep">/</span>
+    <span class="current">База знаний</span>
+  </nav>
+
+  <header class="kb-head">
+    <div class="eyebrow">Справочник</div>
+    <h1>База знаний</h1>
+    <p class="lead">Термины, механики и характеристики Aion 2.</p>
+    <p class="desc">Короткие пояснения к тому, что встречается в гайдах: системы, бой, статы.</p>
+  </header>
+
+  <nav class="kb-nav" id="kb-nav" aria-label="Разделы базы знаний">
+    <button type="button" class="is-active" data-goto="g-systems">Системы</button>
+    <button type="button" data-goto="g-combat">Бой</button>
+    <button type="button" data-goto="g-stats">Характеристики</button>
+    <button type="button" data-goto="g-compare">Сравнение</button>
+    <button type="button" data-goto="g-faq">FAQ</button>
+  </nav>
+
+  <section class="sec" data-sec="g-systems" data-label="Системы">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Системы</span></div>
+    <h2 id="g-systems">Системы и прогрессия</h2>
+    <div class="glossary-list">
+      <div class="glossary-term" id="gt-specialty"><h3>Specialty (Специализация скилла)</h3><p>Дополнительное усиление навыка, которое открывается на определённых уровнях скилла. Важно: разблокировать мало — Specialty нужно <b>выбрать и экипировать</b> в настройках скилла, иначе бонус не работает.</p></div>
+      <div class="glossary-term" id="gt-stigma"><h3>Stigma (Стигма)</h3><p>Отдельный слот активных или пассивных умений, которые дополняют основной набор скиллов класса. Стигмы прокачиваются отдельно и часто дают ключевые баффы, дебаффы или новые кнопки в ротации.</p></div>
+      <div class="glossary-term" id="gt-daevanion"><h3>Daevanion (Дэванион)</h3><p>Система досок с узлами развития персонажа. Узлы дают <a class="g-link" href="#gt-skill-level">уровни скиллам</a>, пассивкам и статы. Очки ограничены, поэтому доски обычно не заполняют целиком — идут по маршруту к нужным <a class="g-link" href="#gt-skill-level">брейкпоинтам</a>.</p></div>
+      <div class="glossary-term" id="gt-arcana"><h3>Arcana (Аркана)</h3><p>Карты/предметы прогрессии, которые дают дополнительные <a class="g-link" href="#gt-skill-level">уровни скиллам</a> и пассивкам, а также статы. Замена карты может поднять один скилл, но опустить другой — перед заменой важно проверять суммарные уровни. Часто используются вместе с <a class="g-link" href="#gt-daevanion">Дэванионом</a>; часть добывается в <a class="g-link" href="#gt-transcendence">Transcendence</a>.</p></div>
+      <div class="glossary-term" id="gt-pantheon"><h3>Pantheon (Пантеон)</h3><p>Система размещения особых реликвий/украшений, дающих постоянные бонусы к характеристикам. Бонусы зависят от установленных предметов и их наборов.</p></div>
+      <div class="glossary-term" id="gt-transcendence"><h3>Transcendence (Трансценденция)</h3><p>Контент/источник прогрессии высокого уровня, в том числе фарма Arcana и улучшений персонажа. Часто упоминается как место получения карт с нужными уровнями скиллов.</p></div>
+      <div class="glossary-term" id="gt-nightmare"><h3>Nightmare</h3><p>Более сложная версия контента (данжи/рейды/испытания), из которой добываются продвинутые награды — улучшения, крылья, материалы для Пантеона и т.п.</p></div>
+      <div class="glossary-term" id="gt-skill-level"><h3>Skill Level / Брейкпоинт</h3><p>Суммарный уровень навыка складывается из вложенных очков, экипировки, Arcana, Дэваниона и других бонусов. «Брейкпоинт» — уровень, на котором открывается важная Specialty или сильный эффект (часто 12, 16, 20).</p></div>
+    </div>
+  </section>
+  <section class="sec" data-sec="g-combat" data-label="Бой">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Бой</span></div>
+    <h2 id="g-combat">Бой и ротация</h2>
+    <div class="glossary-list">
+      <div class="glossary-term" id="gt-ротация"><h3>Ротация</h3><p>Порядок применения умений для максимального урона, лечения или защиты. Обычно делится на открывающий <a class="g-link" href="#gt-бурст">бурст</a> (opener), основной цикл и <a class="g-link" href="#gt-филлер">филлеры</a> в простоях.</p></div>
+      <div class="glossary-term" id="gt-бурст"><h3>Бурст / Окно урона</h3><p>Короткий промежуток, когда активны усиления (баффы, дебаффы на боссе, <a class="g-link" href="#gt-прок">проки</a>) и нужно вложить самые сильные умения.</p></div>
+      <div class="glossary-term" id="gt-кд"><h3>КД (Cooldown)</h3><p>Время перезарядки умения после использования. Управление КД — основа <a class="g-link" href="#gt-ротация">ротации</a>: сильные скиллы жмут по готовности в правильное окно.</p></div>
+      <div class="glossary-term" id="gt-филлер"><h3>Филлер</h3><p>Умение, которое используют, когда основные скиллы на <a class="g-link" href="#gt-кд">перезарядке</a>, чтобы не терять урон и/или восстанавливать ресурс.</p></div>
+      <div class="glossary-term" id="gt-прок"><h3>Прок (Proc)</h3><p>Срабатывание эффекта по условию или с шансом (например, сброс <a class="g-link" href="#gt-кд">КД</a> при <a class="g-link" href="#gt-crit">крите</a>, активация умения после удара духа). Многие билды строятся вокруг <a class="g-link" href="#gt-прок">проков</a>.</p></div>
+      <div class="glossary-term" id="gt-стаки"><h3>Стаки (Stacks)</h3><p>Накопительные заряды эффекта на цели или на персонаже. Урон/эффект умения может зависеть от числа <a class="g-link" href="#gt-стаки">стаков</a> (снять, потратить или усилиться от них).</p></div>
+      <div class="glossary-term" id="gt-макрос"><h3>Макрос</h3><p>Внутриигровая последовательность действий/скиллов на одной кнопке. Удобен для рутины, но не умеет удерживать заряжаемые умения и не всегда учитывает тайминги механик.</p></div>
+      <div class="glossary-term" id="gt-дот"><h3>Дот (DoT)</h3><p>Damage over Time — периодический урон (или лечение HoT), который наносится не мгновенно, а тиками в течение времени.</p></div>
+      <div class="glossary-term" id="gt-aoe"><h3>AoE</h3><p>Area of Effect — умение, действующее по области и задевающее несколько целей, в отличие от одиночной (single target) атаки.</p></div>
+      <div class="glossary-term" id="gt-стаггер"><h3>Стаггер / Стан / Контроль</h3><p>Эффекты контроля: прерывание, оглушение, обездвиживание и т.п. В PvE важны для механик боссов и окон уязвимости, а также для условий некоторых скиллов.</p></div>
+      <div class="glossary-term" id="gt-триггер"><h3>Триггер</h3><p>Условие, которое делает умение доступным или усиливает его (удар за спину, крит, статус на цели, действие питомца и т.д.).</p></div>
+    </div>
+  </section>
+  <section class="sec" data-sec="g-stats" data-label="Характеристики">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Характеристики</span></div>
+    <h2 id="g-stats">Характеристики</h2>
+    <div class="glossary-list">
+      <div class="glossary-term" id="gt-hp"><h3>HP / Макс. HP (Здоровье)</h3><p>Запас здоровья персонажа. Чем выше максимум HP, тем больше урона можно пережить. Повышается уровнем, экипировкой, камнями и баффами.</p></div>
+      <div class="glossary-term" id="gt-mp"><h3>MP / Макс. MP (Мана)</h3><p>Ресурс для использования умений. Управление MP важно для стабильной <a class="g-link" href="#gt-ротация">ротации</a> (филлеры, восстановление, зелья, сетовые и классовые эффекты).</p></div>
+      <div class="glossary-term" id="gt-attack"><h3>Attack / Сила атаки</h3><p>Базовая характеристика физического урона. Повышает урон умений и автоатак, зависящих от атаки.</p></div>
+      <div class="glossary-term" id="gt-magic-boost"><h3>Magic Boost (Маг. сила)</h3><p>Характеристика, усиливающая магический урон и/или эффективность магических умений (в зависимости от класса и навыка).</p></div>
+      <div class="glossary-term" id="gt-weapon-damage-boost"><h3>Weapon Damage Boost (Усиление урона оружия)</h3><p>Повышает вклад/урон от оружия. Встречается на экипировке и в soul binding; ценен для классов, у которых значим урон оружия.</p></div>
+      <div class="glossary-term" id="gt-defense"><h3>Defense / Физ. защита</h3><p>Снижает получаемый физический урон. Важна для выживаемости, особенно танкам и в сложном PvE-контенте.</p></div>
+      <div class="glossary-term" id="gt-magic-defense"><h3>Magic Defense / Маг. защита</h3><p>Снижает получаемый магический урон.</p></div>
+      <div class="glossary-term" id="gt-accuracy"><h3>Accuracy (Точность)</h3><p>Снижает шанс промаха/того, что цель уклонится. Важна, чтобы ключевые умения и <a class="g-link" href="#gt-ротация">ротация</a> не «ломались» от промахов.</p></div>
+      <div class="glossary-term" id="gt-evasion"><h3>Evasion / Уклонение (УКЛН)</h3><p>Шанс уклониться от атаки и избежать её попадания/урона (по правилам конкретной атаки). Контрстат для <a class="g-link" href="#gt-accuracy">Точности</a>.</p></div>
+      <div class="glossary-term" id="gt-block"><h3>Block (Блок)</h3><p>Шанс заблокировать атаку (часто щитом/защитным умением), уменьшив или нивелировав урон по правилам механики. Важен для защитных классов.</p></div>
+      <div class="glossary-term" id="gt-parry"><h3>Parry (Парирование)</h3><p>Шанс парировать атаку, снизив/отразив её эффект по правилам игры. Относится к защитным механикам снижения входящего урона.</p></div>
+      <div class="glossary-term" id="gt-crit"><h3>Crit / Critical Hit (Крит)</h3><p>Шанс нанести критический удар. Многие пассивки, <a class="g-link" href="#gt-specialty">Specialty</a> и <a class="g-link" href="#gt-прок">проки</a> завязаны именно на крит.</p></div>
+      <div class="glossary-term" id="gt-crit-damage"><h3>Crit Damage (Крит. урон)</h3><p>Множитель урона критических ударов. Хорошо работает в связке с достаточным шансом <a class="g-link" href="#gt-crit">крита</a>.</p></div>
+      <div class="glossary-term" id="gt-crit-resist"><h3>Crit Resist (Сопротивление криту)</h3><p>Снижает шанс получить критический удар от противника. Защитный стат для повышения выживаемости.</p></div>
+      <div class="glossary-term" id="gt-multi-hit"><h3>Multi-Hit (Мультиудар)</h3><p>Шанс/эффект дополнительного срабатывания удара. Даёт больше попаданий, а значит больше шансов на <a class="g-link" href="#gt-прок">проки</a> и дополнительный урон.</p></div>
+      <div class="glossary-term" id="gt-multi-hit-resist"><h3>Multi-Hit Resist (Сопротивление мультиудару)</h3><p>Снижает шанс получения дополнительных ударов (мультиударов) от противника.</p></div>
+      <div class="glossary-term" id="gt-double-chance"><h3>Double Chance / Perfect</h3><p>Характеристики, связанные с дополнительными срабатываниями/улучшенными результатами (Double Chance, Perfect Chance и т.п.). Конкретный эффект зависит от реализации в экипировке и источниках бонусов.</p></div>
+      <div class="glossary-term" id="gt-combat-speed"><h3>Combat Speed (Скорость боя)</h3><p>Влияет на скорость выполнения боевых действий/кастов и общую плавность <a class="g-link" href="#gt-ротация">ротации</a>. Часто приоритетный стат для DPS.</p></div>
+      <div class="glossary-term" id="gt-move-speed"><h3>Move Speed (Скорость передвижения)</h3><p>Скорость перемещения персонажа. Влияет на позиционирование, уклонение от механик и аптайм в бою.</p></div>
+      <div class="glossary-term" id="gt-penetration"><h3>Penetration (Пробивание)</h3><p>Помогает эффективнее наносить урон по защищённым целям, снижая влияние их защиты/сопротивления.</p></div>
+      <div class="glossary-term" id="gt-magic-penetration"><h3>Magic Penetration (Маг. пробивание)</h3><p>Пробивание для магического урона: снижает влияние магической защиты цели.</p></div>
+      <div class="glossary-term" id="gt-concentration"><h3>Concentration (Концентрация)</h3><p>Характеристика, влияющая на устойчивость/эффективность применения умений в бою (в зависимости от механик). Может встречаться на экипировке и в эффектах.</p></div>
+      <div class="glossary-term" id="gt-enmity"><h3>Enmity (Угроза/агро)</h3><p>Показатель угрозы для монстра. Танк набирает агро умениями с повышенной угрозой; DPS и хилы следят, чтобы не перехватить цель.</p></div>
+      <div class="glossary-term" id="gt-pve-damage-boost"><h3>PvE Damage Boost / Tolerance</h3><p>Boost — увеличение урона по PvE-целям. Tolerance — устойчивость/снижение получаемого урона у цели; некоторые дебаффы её уменьшают, усиливая урон группы.</p></div>
+      <div class="glossary-term" id="gt-pvp-stats"><h3>PvP-статы (PvP Damage / Resist и др.)</h3><p>Отдельные показатели, влияющие на урон и защиту в PvP. В PvE-гайдах обычно вторичны, но могут встречаться на экипировке и в эффектах.</p></div>
+    </div>
+  </section>
+  <section class="sec" data-sec="g-compare" data-label="Сравнение">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Сравнение</span></div>
+    <h2 id="g-compare">Сравнение классов (PvE)</h2>
+    <p class="muted">Краткое ориентировочное сравнение по роли и стилю игры. Подробности, ротации и сборки — в гайдах классов; мета и баланс могут меняться патчами.</p>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr><th>Класс</th><th>Роль</th><th>Стиль в PvE (общее)</th><th>На что обращать внимание</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>Лучник (Ranger)</b></td><td>DPS</td><td>Дальний физический урон, заряженные выстрелы и поддержание баффов</td><td>Держать баффы (Precision/Gale), не срывать заряженные навыки, планировать окна урона</td></tr>
+          <tr><td><b>Ассасин (Assassin)</b></td><td>DPS</td><td>Ближний взрывной урон, игра от позиции и критов</td><td>Позиционирование (атаки в спину), контроль ключевых откатов и бурст-окон</td></tr>
+          <tr><td><b>Чародей (Sorcerer)</b></td><td>DPS</td><td>Дальний магический урон, подготовка окна и мощные заряжаемые навыки</td><td>Подготовка баффов/дебаффов перед залпом, не прерывать заряды (напр. Hellfire)</td></tr>
+          <tr><td><b>Заклинатель (Spiritmaster)</b></td><td>DPS</td><td>Дальний урон через духов и связки навыков</td><td>Управление циклами духов и статусами (напр. Four Elements), поддержание темпа</td></tr>
+          <tr><td><b>Страж (Templar)</b></td><td>Танк</td><td>Танкование, удержание агро и урон в «окна»</td><td>Генерация угрозы, выживаемость, использование защитных навыков для открытия окон урона</td></tr>
+          <tr><td><b>Гладиатор (Gladiator)</b></td><td>DPS</td><td>Ближний физический урон, связки ударов и управление ресурсом</td><td>Соблюдение условий ключевых навыков, контроль маны/откатов и баффов</td></tr>
+          <tr><td><b>Клирик (Cleric)</b></td><td>Хил</td><td>Лечение и поддержка группы, урон по ситуации</td><td>Приоритет выживания группы, тайминги хилов и поддержание нужных эффектов</td></tr>
+          <tr><td><b>Чантер (Chanter)</b></td><td>Саппорт</td><td>Поддержка/баффы и ближний урон в связках</td><td>Поддержание мантр и баффов, позиционирование в мили, работа от триггеров навыков</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="muted note-compact">«Сложность освоения» зависит от опыта игрока: в целом требовательнее классы, завязанные на строгие окна, позиционирование, управление питомцами/духами или одновременное выполнение роли поддержки/танка.</p>
+  </section>
+  <section class="sec" data-sec="g-faq" data-label="FAQ">
+    <div class="sec__eyebrow"><span class="n">05</span><span>FAQ</span></div>
+    <h2 id="g-faq">FAQ — частые вопросы новичка</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>С чего начать и что качать в первую очередь?</summary>
+        <p>Откройте нужный класс в меню, затем раздел <b>«Старт»</b> (быстрый старт/P1) и <b>«Путь»</b> — там приоритеты по этапам (P1–P4). Общие термины см. в глоссарии: <a class="g-link" href="#gt-skill-level">брейкпоинты</a>, <a class="g-link" href="#gt-specialty">Specialty</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Где найти ротацию, макросы и настройки?</summary>
+        <p>В гайде класса есть разделы <b>«Макрос»</b>, <b>«Ротация»</b> (и при наличии — <b>«Настройки»</b>). Переключайтесь между разделами чипами под шапкой. Термины: <a class="g-link" href="#gt-ротация">ротация</a>, <a class="g-link" href="#gt-бурст">бурст</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Что такое Specialty, стигмы и доски Дэваниона?</summary>
+        <p><a class="g-link" href="#gt-specialty">Specialty</a> — усиление навыка (его нужно выбрать в настройках скилла). <a class="g-link" href="#gt-stigma">Стигмы</a> — дополнительные умения. <a class="g-link" href="#gt-daevanion">Дэванион</a> — доски развития с узлами. Подробности — в разделах «Пассивки/Стигмы/Дэванион» гайда класса.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Какие характеристики важны?</summary>
+        <p>См. раздел глоссария <a class="g-link" href="#g-stats">«Характеристики»</a> (в т.ч. <a class="g-link" href="#gt-accuracy">Точность</a>, <a class="g-link" href="#gt-evasion">Уклонение/УКЛН</a>, <a class="g-link" href="#gt-crit">Крит</a>, <a class="g-link" href="#gt-combat-speed">Скорость боя</a> и др.). Приоритеты по статам зависят от класса и билда — ориентируйтесь на разделы «Экипировка/Arcana» в гайде.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Информация устарела или нашлась ошибка — куда написать?</summary>
+        <p>Можно создать issue в репозитории: <a href="https://github.com/2tonya/aion2-guides/issues/new" target="_blank" rel="noopener">сообщить об ошибке/устаревших данных</a>. Укажите класс, раздел, что неверно, и по возможности ссылку на актуальный источник.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="kb-back">
+    <a class="btn" href="#ranger" id="glossary-back">← Вернуться к гайду Лучника</a>
+  </div>
+</section>
+    <section class="view" id="view-favorites" aria-label="Избранное">
+  <nav class="crumbs" aria-label="Хлебные крошки">
+    <a href="#ranger">Главная</a><span class="sep">/</span>
+    <span class="current">Избранное</span>
+  </nav>
+
+  <header class="kb-head">
+    <div class="eyebrow">Личное</div>
+    <h1>Избранное</h1>
+    <p class="lead">Гайды и существа, которые вы сохранили.</p>
+    <p class="desc">Список хранится в этом браузере — ничего не отправляется на сервер.</p>
+  </header>
+
+  <div id="favorites-content"></div>
+</section>
+  </div>
+
+  <aside class="rail rail--right" aria-label="На этой странице">
+    <div class="rail__label">На этой странице</div>
+    <nav class="rail-nav" id="rail-right"></nav>
+
+    <div class="side-card">
+      <div class="side-card__label">Бестиарий</div>
+      <h3>Знайте своего противника</h3>
+      <p>Кто встретится вам в Атрее: типы, поведение и слабости.</p>
+      <a class="side-card__link" href="#bestiary">Открыть бестиарий <span>→</span></a>
     </div>
 
-<button class="glossary-back is-hidden" id="glossary-back" type="button">← Назад к гайду</button>
+    <div class="side-block">
+      <h3>Гайд под рукой</h3>
+      <p>Сохраните класс в избранное — вернётесь, когда понадобится.</p>
+      <button class="btn" id="side-fav" type="button" data-fav-class="ranger">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>В избранное</span>
+      </button>
+    </div>
 
-<div class="lightbox" id="lightbox" hidden>
-  <button class="lightbox__close" aria-label="Закрыть">×</button>
-  <img alt="">
-</div>
+    <div class="side-block">
+      <h3>Нашли неточность?</h3>
+      <p>Напишите, что не сходится, — мы проверим по источнику.</p>
+      <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener">Сообщить об ошибке →</a>
+    </div>
+  </aside>
+</main>
 
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">Aion 2 · Guidebook</div>
+    <div class="site-footer__center">Неофициальный фан-проект. Данные и билды: Mobalytics. Баланс меняется патчами — сверяйтесь с источником.</div>
+    <div class="site-footer__links">
+      <a href="#glossary">База знаний</a>
+      <a href="#bestiary">Бестиарий</a>
+      <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener">Ошибка?</a>
+    </div>
+  </div>
+</footer>
+
+<nav class="tabbar" aria-label="Мобильная навигация">
+  <button type="button" data-tab="guide"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v18H6.5A2.5 2.5 0 0 1 4 18.5z"/><path d="M8 3v18"/></svg><span>Гайды</span></button>
+  <button type="button" data-tab="bestiary"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c3.5 0 6 2.6 6 6v3.5c0 4-2.7 7.4-6 8.5-3.3-1.1-6-4.5-6-8.5V9c0-3.4 2.5-6 6-6z"/><path d="M9 10h.01M15 10h.01M9.5 15c1.5 1 3.5 1 5 0"/></svg><span>Бестиарий</span></button>
+  <button type="button" data-tab="favorites"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span>Избранное</span></button>
+  <button type="button" data-tab="search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span>Поиск</span></button>
+</nav>
+
+<div class="sheet" id="classes-sheet" aria-hidden="true">
+  <div class="sheet__backdrop" data-sheet-close></div>
+  <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Выбор класса">
+    <div class="sheet__head">
+      <h2>Выберите класс</h2>
+      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="sheet__sub">8 классов · PvE-гайды</div>
+    <div class="sheet-list" id="classes-sheet-list"></div>
   </div>
 </div>
 
-<script src="assets/app.js?v=29"></script>
+<div class="sheet" id="sections-sheet" aria-hidden="true">
+  <div class="sheet__backdrop" data-sheet-close></div>
+  <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Разделы гайда">
+    <div class="sheet__head">
+      <h2>Разделы гайда</h2>
+      <button class="sheet__close" type="button" data-sheet-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="sheet__sub" id="sections-sheet-sub">12 разделов · читайте в своём темпе</div>
+    <div class="sheet-list" id="sections-sheet-list"></div>
+  </div>
+</div>
+
+<div class="search-modal" id="search-modal" aria-hidden="true">
+  <div class="search-modal__backdrop" data-search-close></div>
+  <div class="search-panel" role="dialog" aria-modal="true" aria-label="Поиск по гайдбуку">
+    <div class="search-head">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input class="search-input" id="search-input" type="search" placeholder="Скилл, класс, термин, существо…" autocomplete="off" spellcheck="false">
+      <button class="search-close" type="button" data-search-close aria-label="Закрыть"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="search-meta" id="search-meta">Начните вводить слово — поиск идёт по гайдам, базе знаний и бестиарию</div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" type="button" aria-label="Закрыть">×</button>
+  <img alt="">
+</div>
+
+<script src="assets/app.js?v=31"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
