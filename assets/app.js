@@ -470,14 +470,14 @@
   function renderItemsView(){
     var box=$('#items-cards'); if(!box) return;
     var items=[
-      {t:'Квесты',d:'713 записей — сюжет, побочные, региональные задания.',u:'https://wikily.gg/ru/aion-2/quests'},
-      {t:'Титулы',d:'121 титул — условия получения и бонусы.',u:'https://wikily.gg/ru/aion-2/titles'},
-      {t:'Эмоции',d:'26 эмоций персонажа.',u:'https://wikily.gg/ru/aion-2/emotes'},
-      {t:'Даэванион',d:'Доски, узлы и развитие персонажа.',u:'https://wikily.gg/ru/aion-2/daevanion'},
-      {t:'Ранги Бездны',d:'PvP-прогрессия и ранги.',u:'https://wikily.gg/ru/aion-2/abyss-ranks'},
-      {t:'Кубы',d:'Расширения инвентаря и хранилища.',u:'https://wikily.gg/ru/aion-2/cubes'},
-      {t:'Питомцы',d:'210 питомцев (локальный каталог).',u:'#pets',local:true},
-      {t:'Предметы (категории)',d:'Экипировка, расходники, материалы и прочее — сводные разделы.',u:'https://wikily.gg/ru/aion-2/'}
+      {t:'Квесты',d:'713 заданий: Эпизод (175), Регион (116), Приказы (113), Миссии (146), Создание (12), Исследование (151). Цели, уровни, NPC и награды.',u:'https://wikily.gg/ru/aion-2/quests'},
+      {t:'Титулы',d:'542 титула: Испытания (106), Столкновение (52), Исследование (179), Рост (42), Задание (115) и др. Эффекты «при применении/при наличии» и источники.',u:'https://wikily.gg/ru/aion-2/titles'},
+      {t:'Эмоции',d:'26 эмоций персонажа — коллекция анимаций и способов получения.',u:'https://wikily.gg/ru/aion-2/emotes'},
+      {t:'Даэванион',d:'Доски развития персонажа: узлы, бонусы и маршруты прокачки (Nezekan, Zikel, Vaizel, Triniel, Ariel, Azphel).',u:'https://wikily.gg/ru/aion-2/daevanion'},
+      {t:'Ранги Бездны',d:'PvP-прогрессия и ранги Бездны: ступени, очки и награды.',u:'https://wikily.gg/ru/aion-2/abyss-ranks'},
+      {t:'Кубы',d:'Расширения инвентаря и хранилища (кубы) — слоты и способы получения.',u:'https://wikily.gg/ru/aion-2/cubes'},
+      {t:'Питомцы',d:'210 питомцев: виды, ранги, изображения и карточки (полный локальный каталог).',u:'#pets',local:true},
+      {t:'Экипировка и ресурсы',d:'Сводный раздел: оружие, броня, аксессуары, расходники, материалы и прочие категории предметов.',u:'https://wikily.gg/ru/aion-2/'}
     ];
     box.innerHTML = items.map(function(i){
       var target = i.local ? '' : ' target="_blank" rel="noopener"';
@@ -488,14 +488,15 @@
   function renderWorldView(){
     var box=$('#world-cards'); if(!box) return;
     var items=[
-      {t:'Регионы',d:'Зоны Атреи: локации, уровни, точки интереса.',u:'https://wikily.gg/ru/aion-2/regions'},
-      {t:'Монстры',d:'1 814 существ — локальная подборка и каталог.',u:'#monsters',local:true},
-      {t:'Боссы',d:'56 боссов: места, механики, награды.',u:'https://wikily.gg/ru/aion-2/bosses'},
-      {t:'Подземелья',d:'136 инстансов и активностей.',u:'#dungeons',local:true},
-      {t:'Кошмары',d:'Режим с 7 боссами-испытаниями (ур. 45–65).',u:'https://wikily.gg/ru/aion-2/dungeons/nightmare'},
-      {t:'Экспедиции',d:'8 групповых экспедиций.',u:'https://wikily.gg/ru/aion-2/dungeons/expeditions'},
-      {t:'Запечатанные подземелья',d:'121 соло/групповое подземелье.',u:'https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons'},
-      {t:'Артефакты Бездны',d:'Активность Бездны и награды.',u:'https://wikily.gg/ru/aion-2/dungeons/abyss-corridor'}
+      {t:'Регионы',d:'Зоны Атреи: локации, уровни, ключевые точки и активности по регионам.',u:'https://wikily.gg/ru/aion-2/regions'},
+      {t:'Монстры',d:'1 814 существ: уровень, ранг, тип, места появления и добыча (локальная подборка + каталог).',u:'#monsters',local:true},
+      {t:'Боссы',d:'56 боссов: локации, механики и награды.',u:'https://wikily.gg/ru/aion-2/bosses'},
+      {t:'Подземелья',d:'136 активностей всех типов: уровни входа, группа, боссы и награды (локальная подборка + каталог).',u:'#dungeons',local:true},
+      {t:'Кошмары',d:'1 активность-испытание с 7 боссами (ур. 45–65) и отдельными наградами.',u:'https://wikily.gg/ru/aion-2/dungeons/nightmare'},
+      {t:'Экспедиции',d:'8 групповых экспедиций для скоординированных прохождений.',u:'https://wikily.gg/ru/aion-2/dungeons/expeditions'},
+      {t:'Запечатанные подземелья',d:'121 подземелье (соло/группа) — основная массовая категория инстансов.',u:'https://wikily.gg/ru/aion-2/dungeons/sealed-dungeons'},
+      {t:'Неведомые разломы',d:'2 разлома — особые инстанс-активности с отдельными условиями.',u:'https://wikily.gg/ru/aion-2/dungeons/dimensional-rifts'},
+      {t:'Артефакты и Бездна',d:'Активности Бездны, артефакты и связанные награды/прогрессия.',u:'https://wikily.gg/ru/aion-2/dungeons/abyss-corridor'}
     ];
     box.innerHTML = items.map(function(i){
       var target = i.local ? '' : ' target="_blank" rel="noopener"';
