@@ -27,12 +27,7 @@
       <div class="sidebar__label">Классы</div>
       <nav class="sidebar__classes" id="sidebar-classes" aria-label="Классы"></nav>
     </div>
-    <div class="sidebar__section">
-      <div class="sidebar__label">Разделы</div>
-      <nav class="sidebar__chips" id="side-chips" aria-label="Разделы гайда"></nav>
-    </div>
     <div class="sidebar__section sidebar__tools">
-      <button class="sidebar__tool" id="sidebar-search" type="button">Поиск</button>
       <button class="sidebar__tool" id="sidebar-glossary" type="button">Глоссарий</button>
     </div>
     <div class="sidebar__section">
@@ -41,6 +36,14 @@
     </div>
   </aside>
   <div class="app-main">
+    <div class="desktop-search" id="desktop-search-bar">
+      <label class="desktop-search__field" for="desktop-search-input">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input class="desktop-search__input" id="desktop-search-input" type="search" placeholder="Поиск по гайдам: скилл, слово, класс…" autocomplete="off" spellcheck="false">
+      </label>
+    </div>
+    <div class="content-layout">
+      <div class="content-main">
 
 <header class="topbar">
   <div class="topbar__inner">
@@ -2745,6 +2748,17 @@
     Сокращённый перевод для личного использования. <a href="https://github.com/2tonya/aion2-guides-noslop/issues/new" target="_blank" rel="noopener">Сообщить об ошибке/устаревшем</a> • <span class="foot__meta">Дизайн доработан с применением скиллов anti-AI-slop (avoid-ai-design, frontend-design, taste-skill).</span>
   </p>
 </footer>
+
+      </div>
+      <aside class="toc" id="toc" aria-label="Разделы (ПК)">
+        <div class="toc__inner">
+          <div class="toc__label">Разделы</div>
+          <nav class="sidebar__chips toc__chips" id="side-chips" aria-label="Разделы гайда"></nav>
+        </div>
+      </aside>
+    </div>
+
+<button class="glossary-back is-hidden" id="glossary-back" type="button">← Назад к гайду</button>
 
 <div class="lightbox" id="lightbox" hidden>
   <button class="lightbox__close" aria-label="Закрыть">×</button>

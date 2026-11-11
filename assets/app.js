@@ -311,7 +311,10 @@
   }
 
   function getScrollOffset() {
-    if (isDesktopLayout()) return 24;
+    if (isDesktopLayout()) {
+      var ds = document.querySelector(".desktop-search");
+      return (ds ? ds.offsetHeight : 0) + 16;
+    }
     var tb = document.querySelector(".topbar");
     return (tb ? tb.offsetHeight : 0) + 24;
   }
@@ -720,18 +723,23 @@
 
   function openSearch() {
     searchPanel.hidden = false;
-    searchBtn.setAttribute("aria-expanded", "true");
-    document.body.style.overflow = "hidden";
-    searchInput.value = "";
+    if (searchBtn) searchBtn.setAttribute("aria-expanded", "true");
+    if (!isDesktopLayout()) document.body.style.overflow = "hidden";
+    var preset = (isDesktopLayout() && desktopSearchInput) ? (desktopSearchInput.value || "") : "";
+    searchInput.value = preset;
     searchMeta.textContent = "Введите слово для поиска по всем гайдам";
     searchResults.innerHTML = "";
-    setTimeout(function () { searchInput.focus(); }, 20);
+    if (preset) {
+      if (typeof runSearch === "function") runSearch();
+    }
+    setTimeout(function () { if (!isDesktopLayout()) searchInput.focus(); }, 20);
   }
 
   function closeSearch() {
     searchPanel.hidden = true;
-    searchBtn.setAttribute("aria-expanded", "false");
+    if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
     document.body.style.overflow = "";
+    if (desktopSearchInput && !isDesktopLayout()) desktopSearchInput.value = "";
   }
 
   searchBtn.addEventListener("click", function () {
@@ -833,7 +841,12 @@
     });
   }
 
-  searchInput.addEventListener("input", runSearch);
+  searchInput.addEventListener("input", function () {
+    if (desktopSearchInput && document.activeElement !== desktopSearchInput) {
+      desktopSearchInput.value = searchInput.value;
+    }
+    runSearch();
+  });
 
   document.addEventListener("keydown", function (e) {
     if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
@@ -849,10 +862,11 @@
 
   buildSearchIndex();
 
-  // ---- sidebar (desktop layout) ----
+  // ---- sidebar / desktop layout ----
   var sidebarSearchBtn = document.getElementById("sidebar-search");
   var sidebarGlossaryBtn = document.getElementById("sidebar-glossary");
   var sidebarThemes = document.getElementById("sidebar-themes");
+  var desktopSearchInput = document.getElementById("desktop-search-input");
   if (sidebarSearchBtn) {
     sidebarSearchBtn.addEventListener("click", function () { openSearch(); });
   }
@@ -861,6 +875,29 @@
       glossaryReturn = null;
       showGlossary(true);
       history.replaceState(null, "", "#glossary");
+    });
+  }
+  if (desktopSearchInput) {
+    desktopSearchInput.addEventListener("focus", function () {
+      if (searchPanel && searchPanel.hidden) openSearch();
+      if (searchInput) {
+        searchInput.value = desktopSearchInput.value || "";
+        if (typeof runSearch === "function") runSearch();
+      }
+    });
+    desktopSearchInput.addEventListener("input", function () {
+      if (searchPanel && searchPanel.hidden) openSearch();
+      if (searchInput) {
+        searchInput.value = desktopSearchInput.value || "";
+        if (typeof runSearch === "function") runSearch();
+      }
+    });
+    desktopSearchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        desktopSearchInput.value = "";
+        if (searchPanel && !searchPanel.hidden) closeSearch();
+        desktopSearchInput.blur();
+      }
     });
   }
   if (sidebarThemes) {
