@@ -21,48 +21,98 @@
 
   var BEASTS = [
     {
-      id: 'balaur', name: 'Балауры', latin: 'Balaur', type: 'Дракониды',
-      desc: 'Древние дракониды и потомки драконьих лордов. Держатся группами, бьют по площади и не любят, когда их окружают.',
-      habitat: 'Крепости и руины Атреи, подземелья с драконьими алтарями.',
-      weakness: 'Огонь и контроль: сбивайте каст и не стойте в куче.', related: 'krall'
+      id: 'balaur', name: 'Балауры', latin: 'Balaur', type: 'Дракониды', img: 'img/beast-balaur.svg',
+      desc: 'Драконья раса, созданная Аионом для защиты Башни Вечности, но обратившаяся против элийцев и асмодиан. Встречаются как рядовые воины, так и заклинатели; часто используют огненное дыхание, ядовитые плевки и призыв подкрепления.',
+      habitat: 'Балаурейские укрепления, Абисс, зоны вторжений, инстансы и руины, связанные с драконьими легионами.',
+      weakness: 'Контроль прерывает опасные касты; не стойте в зонах поражения дыхания. Фокус по заклинателям и целителям снижает давление пачки.', related: 'drakan'
     },
     {
-      id: 'krall', name: 'Кралы', latin: 'Krall', type: 'Гуманоиды',
-      desc: 'Воинственные племена, которые держат позиции и зовут подкрепление. Опасны в ближнем бою и не отступают по одному.',
-      habitat: 'Пустоши и лагеря на границе Атреи.',
-      weakness: 'Дальний бой и AoE: разрывайте строй до подхода подкрепления.', related: 'mau'
+      id: 'drakan', name: 'Драканы', latin: 'Drakan', type: 'Дракониды', img: 'img/beast-drakan.svg',
+      desc: 'Гуманоидные командиры и элита Балауров. Более дисциплинированны, чем рядовые твари, часто ведут отряды, накладывают усиления на союзников и бьют точечными умениями.',
+      habitat: 'Командные посты Балауров, элитные лагеря, сюжетные и групповые зоны Атреи и Балауреи.',
+      weakness: 'Сначала снимайте баффы/поддержку и отделяйте от пачки. Жёсткий контроль и бурст по одному опаснее AoE-размена.', related: 'balaur'
     },
     {
-      id: 'mau', name: 'Мау', latin: 'Mau', type: 'Гуманоиды',
-      desc: 'Кошачьи племена, быстрые и ловкие. Атакуют из засады и отступают, когда теряют преимущество.',
-      habitat: 'Джунгли, каньоны и заброшенные караванные тропы.',
-      weakness: 'Замедление и контроль: не давайте уйти на перебежку.', related: 'kerubim'
+      id: 'krall', name: 'Кралы', latin: 'Krall', type: 'Гуманоиды', img: 'img/beast-krall.svg',
+      desc: 'Грубые гуманоидные племена, порабощённые и вооружённые Балаурами. Действуют стаями, держат строй у лагерей и быстро зовут соседей, если бой затягивается.',
+      habitat: 'Лагеря, шахты и заставы в стартовых и средних зонах; часто рядом с балаурскими объектами.',
+      weakness: 'Лучше втягивать по одному, сбивать призыв/тревогу и не драться в центре лагеря. Уязвимы к контролю и дистанционному кайтингу.', related: 'kobold'
     },
     {
-      id: 'kerubim', name: 'Керубимы', latin: 'Kerubim', type: 'Духи',
-      desc: 'Крылатые стражи святынь. Поддерживают союзников барьерами и лечат раненых, пока те держат строй.',
-      habitat: 'Храмы, святилища и места силы.',
-      weakness: 'Пробивание и фокус: снимайте барьер и добивайте по одному.', related: 'mau'
+      id: 'kobold', name: 'Кобольды', latin: 'Kobold', type: 'Гуманоиды', img: 'img/beast-kobold.svg',
+      desc: 'Мелкие родичи краллов, обычно рабочие и добытчики. Слабы поодиночке, но опасны группами и в тесных шахтах, где легко получить сразу несколько мобов.',
+      habitat: 'Шахты, рудные выработки, рабочие поселения и лагеря снабжения.',
+      weakness: 'AoE и контроль толпы эффективны, но важно следить за агро-соседями. Не тяните большие пачки в узких коридорах.', related: 'krall'
     },
     {
-      id: 'undead', name: 'Нежить', latin: 'Undead', type: 'Нежить',
-      desc: 'Безымянные тела, поднятые тёмной магией. Медлительны, но не отступают и не знают страха.',
-      habitat: 'Склепы, поля старых битв и проклятые руины.',
-      weakness: 'Свет и крит: урон по площади быстро чистит группы.', related: 'elemental'
+      id: 'mau', name: 'Мау', latin: 'Mau', type: 'Зверолюди', img: 'img/beast-mau.svg',
+      desc: 'Кошачьи зверолюди-разбойники. Быстрые, ловкие, любят засады и короткие стычки; стрелки и шаманы держатся позади воинов.',
+      habitat: 'Леса, каньоны, равнины и караванные тропы; разбойничьи стоянки вдоль дорог.',
+      weakness: 'Снара/замедление не даёт уйти на расстояние. В первую очередь убирайте дальнобойных и поддерживающих Мау.', related: 'lycan'
     },
     {
-      id: 'elemental', name: 'Элементали', latin: 'Elementals', type: 'Духи',
-      desc: 'Сгустки стихий, которые появляются там, где нарушен баланс. Уязвимы к противоположной стихии.',
-      habitat: 'Разломы, аномалии и зоны магических бурь.',
-      weakness: 'Противоположная стихия: меняйте школу урона под цель.', related: 'undead'
+      id: 'lycan', name: 'Ликаны', latin: 'Lycan', type: 'Зверолюди', img: 'img/beast-lycan.svg',
+      desc: 'Волчьи племена-охотники, сильные в ближнем бою. Часто нападают группой, могут преследовать цель и давить числом.',
+      habitat: 'Дикие равнины, охотничьи угодья и лагеря племён в открытых зонах.',
+      weakness: 'Держите дистанцию, используйте замедление/сбивание рывков и не допускайте окружения несколькими бойцами.', related: 'mau'
+    },
+    {
+      id: 'shulack', name: 'Шулаки', latin: 'Shulack', type: 'Гуманоиды', img: 'img/beast-shulack.svg',
+      desc: 'Хитрые пиратские и торговые банды грызуноподобных гуманоидов. Используют механизмы, бомбы, ловушки и нечестные приёмы в бою.',
+      habitat: 'Корабли, пиратские бухты, мастерские, контрабандные лагеря и некоторые инстансы.',
+      weakness: 'Выходите из зон взрывов и ловушек, прерывайте опасные умения и фокусите инженеров/подрывников.', related: 'kerubim'
+    },
+    {
+      id: 'kerubim', name: 'Керубимы', latin: 'Kerubim', type: 'Духи', img: 'img/beast-kerubim.svg',
+      desc: 'Крылатые существа, связанные с древними святынями и магией Элиоса. В бою часто сочетают магические атаки с поддержкой союзников.',
+      habitat: 'Святилища, храмы, руины и места концентрации эфирной энергии.',
+      weakness: 'Прерывайте лечение/баффы и разбивайте группы: поодиночке керубимы заметно менее опасны.', related: 'elemental'
+    },
+    {
+      id: 'undead', name: 'Нежить', latin: 'Нежить', type: 'Нежить', img: 'img/beast-undead.svg',
+      desc: 'Оживлённые останки, проклятые души и стражи гробниц. Не отступают, часто накладывают болезни, страх или ослабления и опасны плотными группами.',
+      habitat: 'Кладбища, склепы, проклятые руины, поля древних битв и тёмные подземелья.',
+      weakness: 'Контроль нежити и AoE хорошо работают против пачек. Снимайте дебаффы и не затягивайте бой в узком месте.', related: 'spirit'
+    },
+    {
+      id: 'spirit', name: 'Духи', latin: 'Spirit', type: 'Духи', img: 'img/beast-spirit.svg',
+      desc: 'Бестелесные сущности — духи природы, погибших или искажённой магии. Могут использовать дистанционные заклинания и внезапно появляться рядом с целью.',
+      habitat: 'Лесные чащи, места силы, руины и зоны магических аномалий.',
+      weakness: 'Сбивайте касты и избегайте затяжных боёв сразу с несколькими заклинателями. Магическая защита/сопротивления снижают риск.', related: 'elemental'
+    },
+    {
+      id: 'elemental', name: 'Элементали', latin: 'Elemental', type: 'Духи', img: 'img/beast-elemental.svg',
+      desc: 'Живые проявления стихий — огня, воды, воздуха или земли. Атакуют в соответствии со своей стихией и часто усиливаются в «родной» местности.',
+      habitat: 'Вулканические зоны, побережья, штормовые плато, разломы и места стихийного дисбаланса.',
+      weakness: 'Учитывайте стихию урона и избегайте зональных атак. Контроль и фокус по одному элементалю безопаснее, чем бой в гуще.', related: 'spirit'
+    },
+    {
+      id: 'sprigg', name: 'Спригги', latin: 'Sprigg', type: 'Звери', img: 'img/beast-sprigg.svg',
+      desc: 'Небольшие лесные существа, внешне безобидные, но территориальные. Часто собираются группами и защищают свои поляны и заросли.',
+      habitat: 'Леса, поляны и заросшие тропы в природных зонах Атреи.',
+      weakness: 'Опасны только числом: разделяйте pulls и не цепляйте соседние группы. AoE быстро решает проблему.', related: 'worg'
+    },
+    {
+      id: 'worg', name: 'Ворги', latin: 'Worg', type: 'Звери', img: 'img/beast-worg.svg',
+      desc: 'Дикие хищники, нападающие стаей. Быстро сокращают дистанцию, могут преследовать раненую цель и наказывать за неосторожный пул.',
+      habitat: 'Степи, предгорья, лесные окраины и охотничьи территории.',
+      weakness: 'Замедление, кайт и контроль пачки. Сначала убирайте самых быстрых/опасных, чтобы не получить добивание в спину.', related: 'karnif'
+    },
+    {
+      id: 'karnif', name: 'Карнифы', latin: 'Karnif', type: 'Звери', img: 'img/beast-karnif.svg',
+      desc: 'Крупные кошачьи хищники с высоким уроном вблизи. Могут резко прыгать к цели и опасны для плохо экипированных персонажей.',
+      habitat: 'Саванны, скалистые равнины и охотничьи угодья, где водится крупная дичь.',
+      weakness: 'Не подпускайте слишком близко без защиты, используйте контроль в момент сближения и не тяните несколько особей сразу.', related: 'worg'
     }
   ];
   var BEAST_BY_ID = {};
   BEASTS.forEach(function (b) { BEAST_BY_ID[b.id] = b; });
 
-  var TYPE_ORDER = { 'Гуманоиды': 1, 'Дракониды': 2, 'Духи': 3, 'Нежить': 4 };
-  var state = { lastGuide: 'ranger', activeSec: null, selectedBeast: 'balaur', openBeast: null };
+  var TYPE_ORDER = { 'Гуманоиды': 1, 'Дракониды': 2, 'Зверолюди': 3, 'Духи': 4, 'Нежить': 5, 'Звери': 6 };
+  var state = { lastGuide: 'ranger', activeSec: null, selectedBeast: 'balaur', openBeast: null, returnHash: null };
   var beast = { query: '', type: 'all', sort: 'alpha', favOnly: false };
+  var scrollMemo = {};
+  try { state.returnHash = sessionStorage.getItem('aion2:return') || null; } catch (e) {}
 
   function $(sel, root) { return (root || document).querySelector(sel); }
   function $$(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
@@ -167,7 +217,6 @@
       renderSectionsSheet(key);
     } else {
       $('#rail-left').innerHTML = '';
-      $('#rail-right').innerHTML = '';
     }
 
     updateBackLinks();
@@ -186,6 +235,15 @@
 
     requestAnimationFrame(function () {
       setTimeout(function () {
+        var hash = location.hash || '#';
+        if (state.restoreScroll) {
+          state.restoreScroll = false;
+          if (scrollMemo[hash] != null) {
+            window.scrollTo(0, scrollMemo[hash]);
+            if (view === 'guide') spy();
+            return;
+          }
+        }
         if (sec) {
           scrollToId(sec);
           if (view === 'glossary') flash(sec);
@@ -218,7 +276,6 @@
       return '<a href="#' + key + '/' + s.id + '" data-sec-link="' + s.id + '"><span class="num">' + pad(i + 1) + '</span><span>' + esc(s.label) + '</span></a>';
     }).join('');
     $('#rail-left').innerHTML = html;
-    $('#rail-right').innerHTML = html;
     setActiveSec(state.activeSec);
   }
 
@@ -257,16 +314,18 @@
     requestAnimationFrame(function () {
       spyTick = false;
       spy();
+      scrollMemo[location.hash || '#'] = window.scrollY;
     });
   }, { passive: true });
+
+  window.addEventListener('popstate', function () { state.restoreScroll = true; });
 
   /* ---------------- favorites ---------------- */
   function isFavClass(key) { return favClasses.has(key); }
 
   function updateSideFav(key) {
-    var btn = $('#side-fav');
+    var btn = $('#view-guide-' + key + ' [data-fav-current]');
     if (!btn) return;
-    btn.dataset.favClass = key;
     var on = isFavClass(key);
     var label = btn.querySelector('span');
     if (label) label.textContent = on ? 'В избранном' : 'В избранное';
@@ -341,13 +400,14 @@
   function beastDetail(b, mobile) {
     var fav = favBeasts.has(b.id);
     var rel = BEAST_BY_ID[b.related];
-    return (mobile ? '' : '<div class="beast-detail__label">Карточка существа</div><h2>' + b.name + '</h2><div class="beast-detail__latin">' + b.latin + ' · ' + b.type + '</div>') +
+    var img = b.img ? '<div class="beast-detail__art"><img src="' + esc(b.img) + '" alt="' + esc(b.name) + '"></div>' : '';
+    return (mobile ? '' : '<div class="beast-detail__label">Карточка существа</div>' + img + '<h2>' + b.name + '</h2><div class="beast-detail__latin">' + b.latin + ' · ' + b.type + '</div>') +
+      (mobile ? img : '') +
       '<h3>Описание</h3><p>' + b.desc + '</p>' +
       '<h3>Где встречается</h3><p>' + b.habitat + '</p>' +
-      '<h3>Слабость</h3><p>' + b.weakness + '</p>' +
+      '<h3>Тактика и слабости</h3><p>' + b.weakness + '</p>' +
       '<button class="btn' + (fav ? ' is-fav' : '') + (mobile ? ' btn--ghost' : '') + '" type="button" data-fav-beast="' + b.id + '" aria-pressed="' + fav + '">' + HEART + '<span>' + (fav ? 'В избранном' : 'В избранное') + '</span></button>' +
-      (rel ? '<button class="beast-related" type="button" data-beast-link="' + rel.id + '"><span><b>' + rel.name + '</b><span>' + rel.type + ' · ' + rel.latin + '</span></span><span class="arrow">→</span></button>' : '') +
-      (mobile ? '' : '<p class="beast-detail__note">Демонстрационная запись каталога. Типы и описания — заготовка для будущего справочника.</p>');
+      (rel ? '<button class="beast-related" type="button" data-beast-link="' + rel.id + '"><span><b>' + rel.name + '</b><span>' + rel.type + ' · ' + rel.latin + '</span></span><span class="arrow">→</span></button>' : '');
   }
 
   function filteredBeasts() {
@@ -384,9 +444,11 @@
     listEl.innerHTML = list.map(function (b, i) {
       var active = selected && b.id === selected.id;
       var open = isMobile() && state.openBeast === b.id;
+      var thumb = b.img ? '<img class="beast-row__thumb" src="' + b.img + '" alt="">' : '';
       return '<div class="beast-row' + (active ? ' is-active' : '') + (open ? ' is-open' : '') + '" data-beast="' + b.id + '">' +
         '<button class="beast-row__btn" type="button" aria-expanded="' + (open ? 'true' : 'false') + '">' +
         '<span class="beast-row__num">' + pad(i + 1) + '</span>' +
+        thumb +
         '<span class="beast-row__body"><span class="beast-row__name">' + b.name + '</span><span class="beast-row__desc">' + b.latin + ' · ' + b.type + '</span></span>' +
         '<span class="beast-row__type">' + b.type + '</span>' +
         '<span class="beast-row__arrow">→</span></button>' +
@@ -416,7 +478,10 @@
   function initBestiary() {
     var chips = $('#beast-types');
     if (chips) {
-      chips.innerHTML = ['all', 'Гуманоиды', 'Дракониды', 'Духи', 'Нежить'].map(function (t) {
+      var types = ['all'];
+      BEASTS.forEach(function (b) { if (types.indexOf(b.type) === -1) types.push(b.type); });
+      types.sort(function (a, b) { if (a === 'all') return -1; if (b === 'all') return 1; return (TYPE_ORDER[a] || 99) - (TYPE_ORDER[b] || 99); });
+      chips.innerHTML = types.map(function (t) {
         return '<button class="filter-chip' + (t === 'all' ? ' is-active' : '') + '" type="button" data-type="' + t + '">' + (t === 'all' ? 'Все существа' : t) + '</button>';
       }).join('');
     }
@@ -473,10 +538,17 @@
 
   function updateBackLinks() {
     var g = META[state.lastGuide] || META.ranger;
+    var ret = state.returnHash || ('#' + g.key);
     var back = $('#glossary-back');
     if (back) {
-      back.href = '#' + g.key;
-      back.textContent = '← Вернуться к гайду ' + g.name;
+      back.href = ret;
+      back.textContent = state.returnHash ? '← Вернуться к разделу' : '← Вернуться к гайду ' + g.name;
+    }
+    var top = $('#glossary-back-top');
+    if (top) {
+      top.href = ret;
+      top.textContent = state.returnHash ? '← Назад к разделу' : '← К гайду ' + g.name;
+      top.hidden = !state.returnHash;
     }
     var bb = $('#bestiary-back');
     if (bb) {
@@ -573,8 +645,16 @@
   /* ---------------- fav + mode delegation ---------------- */
   function initActions() {
     document.addEventListener('click', function (e) {
+      var gl = e.target.closest('a.g-link');
+      if (gl) {
+        var here = location.hash || ('#' + state.lastGuide);
+        state.returnHash = here;
+        try { sessionStorage.setItem('aion2:return', here); } catch (err) {}
+      }
       var fc = e.target.closest('[data-fav-class]');
       if (fc) { toggleClassFav(fc.dataset.favClass); return; }
+      var fcur = e.target.closest('[data-fav-current]');
+      if (fcur) { toggleClassFav(state.lastGuide); return; }
       var fb = e.target.closest('[data-fav-beast]');
       if (fb) { toggleBeastFav(fb.dataset.favBeast); return; }
       var uf = e.target.closest('[data-unfav-class]');
@@ -785,6 +865,70 @@
     });
   }
 
+  /* ---------------- inline skill icons in text ---------------- */
+  function initInlineSkillIcons() {
+    var map = {};
+    $$('.skill').forEach(function (el) {
+      var img = el.querySelector('img');
+      var h = el.querySelector('h3');
+      if (!img || !h) return;
+      var name = (h.childNodes[0] && h.childNodes[0].textContent || h.textContent || '').trim();
+      if (name) map[name] = img.getAttribute('src');
+    });
+    $$('.ranks li').forEach(function (li) {
+      var img = li.querySelector('img');
+      var span = li.querySelector('span');
+      if (img && span) map[span.textContent.trim()] = img.getAttribute('src');
+    });
+    // manual aliases for names used in text
+    var aliases = { 'Rage': 'img/s-fury.webp', 'Rage Burst': 'img/s-rage-burst.webp' };
+    Object.keys(aliases).forEach(function (k) { if (!map[k]) map[k] = aliases[k]; });
+    var names = Object.keys(map).filter(function (n) { return n && n.length > 2; });
+    names.sort(function (a, b) { return b.length - a.length; });
+    if (!names.length) return;
+    var re = new RegExp('(^|[^\\wА-Яа-яЁё])(' + names.map(function (n) { return escRe(n); }).join('|') + ')(?=$|[^\\wА-Яа-яЁё])', 'g');
+    var skip = { SCRIPT: 1, STYLE: 1, TEXTAREA: 1, IMG: 1, SVG: 1 };
+    $$('.view--guide').forEach(function (view) {
+      var walker = document.createTreeWalker(view, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+          var p = node.parentElement;
+          if (!p) return NodeFilter.FILTER_REJECT;
+          if (skip[p.tagName]) return NodeFilter.FILTER_REJECT;
+          if (p.closest('.skill, .ranks, .skill-ref, .sheet, .guide-mobile-controls, .focus-grid, .class-strip, .rail, .crumbs, .kb-nav, .search-modal')) return NodeFilter.FILTER_REJECT;
+          re.lastIndex = 0;
+          return re.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+        }
+      });
+      var nodes = [], n;
+      while ((n = walker.nextNode())) nodes.push(n);
+      nodes.forEach(function (textNode) {
+        var text = textNode.nodeValue;
+        re.lastIndex = 0;
+        var frag = document.createDocumentFragment();
+        var last = 0, m;
+        while ((m = re.exec(text))) {
+          var pre = m[1] || '';
+          var name = m[2];
+          var start = m.index + pre.length;
+          if (start > last) frag.appendChild(document.createTextNode(text.slice(last, start)));
+          var span = document.createElement('span');
+          span.className = 'skill-ref';
+          var img = document.createElement('img');
+          img.src = map[name];
+          img.alt = '';
+          span.appendChild(img);
+          span.appendChild(document.createTextNode(name));
+          frag.appendChild(span);
+          last = start + name.length;
+          re.lastIndex = last;
+        }
+        if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+        if (frag.childNodes.length && textNode.parentNode) textNode.parentNode.replaceChild(frag, textNode);
+      });
+    });
+  }
+
   /* ---------------- boot ---------------- */
   function boot() {
     initBestiary();
@@ -793,6 +937,7 @@
     initSearch();
     initLightbox();
     buildIndex();
+    initInlineSkillIcons();
     render();
 
     window.addEventListener('hashchange', render);
