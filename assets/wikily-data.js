@@ -1,5 +1,4 @@
-(function(){
-  window.AION2_WIKILY = {
+window.AION2_WIKILY = {
   "counts": {
     "pets": 210,
     "monsters": 2218,
@@ -5438,500 +5437,1168 @@
       "name": "Рейнджер - бандит руин",
       "lvl": "21",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-bandit-ranger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Рейнджер - бандит руин - общий монстр расы «Разумные» в AION 2, обитает в локации Развалины укрытия лесорубов.",
+      "locDetail": "Альтгард",
+      "spawnCount": 54
     },
     {
       "id": "ruins-bandit-thief",
       "name": "Вор разбойников руин",
       "lvl": "21",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-bandit-thief",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Вор разбойников руин - общий монстр расы «Разумные» в AION 2, обитает в локации Развалины укрытия лесорубов. Там же встречается Лидер Торбен.",
+      "locDetail": "Альтгард",
+      "spawnCount": 108
     },
     {
       "id": "ruins-bandit-scout",
       "name": "Солдат-разведчик разбойников руин",
       "lvl": "21",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-bandit-scout",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Солдат-разведчик разбойников руин - общий монстр расы «Разумные» в AION 2, обитает в локации Развалины укрытия лесорубов.",
+      "locDetail": "Альтгард",
+      "spawnCount": 115
     },
     {
       "id": "blades-enforcer-nadin",
       "name": "Капитан операций банды клинков Надин",
       "lvl": "21",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmViYWU1OTItZjRjMy00MjFlLThkMzEtNDEwNGE1N2IwNGFlLXV0XzI1Nl9tb2JfYWx0a25pZmVfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-enforcer-nadin",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Капитан операций банды клинков Надин - героический монстр расы «Разумные» в AION 2, обитает в локации Временная застава банды клинков.",
+      "locDetail": "Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "enhanced-krall-sentry",
       "name": "Усиленный солдат-пограничник краллов",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWVhMjA3NTktYzg4ZC00OGZiLTk2ODAtOGY0OGE1ZDEwNWM4LW1vYl9rcmFsbHdhcl8wMV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-sentry",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усиленный солдат-пограничник краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Руины крепости Бертрон",
+      "spawnCount": 22,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-sentry/drops",
+          "chance": "2,31%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-sentry/drops",
+          "chance": "1,03%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,97%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-sentry/drops",
+          "chance": "0,93%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-sentry/drops",
+          "chance": "0,42%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,24%"
+        }
+      ]
     },
     {
       "id": "enhanced-krall-assault-trooper",
       "name": "Усиленный штурмовик краллов",
       "lvl": "22 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWVhMjA3NTktYzg4ZC00OGZiLTk2ODAtOGY0OGE1ZDEwNWM4LW1vYl9rcmFsbHdhcl8wMV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-assault-trooper",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усиленный штурмовик краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. Там же встречается Усиленный борец краллов.",
+      "locDetail": "Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "enhanced-krall-combatant",
       "name": "Усиленный борец краллов",
       "lvl": "22 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-combatant",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усиленный борец краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Ораторий иллюзий и Руины крепости Бертрон",
+      "spawnCount": 27,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-combatant/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-combatant/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-combatant/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-combatant/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "enhanced-krall-watcher",
       "name": "Усиленный дозорный солдат краллов",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGE3MzM1ZDgtNWJhMi00NjJjLWIwOTktYzE2MTdiOWU2MjJiLW1vYl9rcmFsbGFyY18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-watcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усиленный дозорный солдат краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Ораторий иллюзий и Руины крепости Бертрон",
+      "spawnCount": 21,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-watcher/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-watcher/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-watcher/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-watcher/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "aullaeu-apprentice-shaman",
       "name": "Ученик колдуна ауллау",
       "lvl": "22 - 27",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmQwMGVlNmMtYzAwNS00NWY0LTg5OWYtMDUyY2I5N2I2YzIwLW1vYl9vd2xtYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Ученик колдуна ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник старейшины и Набедренники старейшины.",
+      "locDetail": "Поселение ауллау",
+      "spawnCount": 15,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Легендарное оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-apprentice-shaman/drops",
+          "chance": "0,093%"
+        }
+      ]
     },
     {
       "id": "morphed-ferocious-cannibal-plant",
       "name": "Преобразованный свирепый каннибал",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZlNGZkNDctNzg2NS00NjcwLWEwOGQtZTAzNDg2ZDJjMTc4LW1vYl9zdWxmdXJwXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/morphed-ferocious-cannibal-plant",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Преобразованный свирепый каннибал - общий монстр расы «Природные» в AION 2, обитает в локации Лаборатория крейонов.",
+      "locDetail": "Бертрон",
+      "spawnCount": 5
     },
     {
       "id": "krall-superior-gatekeeper",
       "name": "Старший привратник краллов",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmYyZWViMGQtY2Y4My00ZWYyLWJiNmQtY2NiNmQ3MWIxNTI5LW1vYl9rcmFsbHByc3RfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-superior-gatekeeper",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Старший привратник краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Заброшенная тюрьма драканов.",
+      "locDetail": "подземелье задания, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "blades-karnif",
       "name": "Каллиф банды клинков",
       "lvl": "22 - 24",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-karnif",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Каллиф банды клинков - общий монстр расы «Дикие» в AION 2, обитает в локациях Альтгард и Бертрон. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 2,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-karnif/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-karnif/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-karnif/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-karnif/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "drakan-egia-technician",
       "name": "Дракан-инженер Эгии",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-egia-technician",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дракан-инженер Эгии - общий монстр расы «Разумные» в AION 2, обитает в локации Восток долины Кантаса. Там же встречается Стражник драканов.",
+      "locDetail": "Бертрон · Разрушенные врата Бездны",
+      "spawnCount": 2
     },
     {
       "id": "drakan-bodyguard",
       "name": "Стражник драканов",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-bodyguard",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Стражник драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Восток долины Кантаса. Там же встречается Дракан-инженер Эгии.",
+      "locDetail": "Бертрон · Разрушенные врата Бездны",
+      "spawnCount": 8
     },
     {
       "id": "drakan-guard-beast",
       "name": "Охраняющий зверь драканов",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-guard-beast",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Охраняющий зверь драканов - общий монстр расы «Дикие» в AION 2, обитает в локации Восток долины Кантаса. Там же встречается Дракан-инженер Эгии.",
+      "locDetail": "Бертрон · Разрушенные врата Бездны",
+      "spawnCount": 4
     },
     {
       "id": "konutin",
       "name": "Конути",
       "lvl": "22 - 25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTM2OTY0YWYtNmM5ZS00Y2MxLWEyYzAtOGUxYjliNzE5YWZhLW1vYl9jb251dGlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/konutin",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Конути - общий монстр расы «Природные» в AION 2, обитает в локации Перевал паломников и Пещера конути. Там же встречаются Ученик колдуна ауллау и Пино.",
+      "locDetail": "Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "pino",
       "name": "Пино",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAzOWZmY2QtY2U4MS00YWM2LWFmMmYtODI5NGE2MjA5MjA2LW1vYl9waW5vXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/pino",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Пино - общий монстр расы «Мутанты» в AION 2, обитает в локации Перевал паломников. Там же встречаются Ученик колдуна ауллау и Конути.",
+      "locDetail": "Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "krao-magic-test-subject",
       "name": "Магический подопытный крао",
       "lvl": "22 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQ3N2RiNmEtYTE1Yy00ZTJkLWE4NDAtYTIyMmYyOTUxOWMzLW1vYl9rcmFvbWFnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/krao-magic-test-subject",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "Магический подопытный крао - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Там же встречается Усиленный подопытный крао.",
+      "locDetail": "Экспедиция",
+      "spawnCount": 33
     },
     {
       "id": "enhanced-krao-test-subject",
       "name": "Усиленный подопытный крао",
       "lvl": "22 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWY2ZmEwNzQtZGViYi00YmNmLWI0Y2YtZDdiYmZhMjM0ZTNiLW1vYl9rcmFvd2FyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krao-test-subject",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "\"Усиленный подопытный крао - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Из него выпадает «Душа: Подопытный крао (привяз.)».\"",
+      "locDetail": "Экспедиция",
+      "spawnCount": 75,
+      "drops": [
+        {
+          "name": "Душа: Подопытный крао (привяз.)",
+          "url": "https://wikily.gg/ru/aion-2/pets/krao-test-subject",
+          "chance": "100%"
+        }
+      ]
     },
     {
       "id": "sniping-croka",
       "name": "Метко стреляющий Крока",
       "lvl": "22 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjczYzQwOWUtNTcxNS00Njg4LWI2N2MtMzgzMzU5MDE5NmYzLXV0XzI1Nl9tb2JfYmVyY2pucl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sniping-croka",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "Метко стреляющий Крока - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Там же встречается Магический подопытный крао.",
+      "locDetail": "Экспедиция",
+      "spawnCount": 28
     },
     {
       "id": "enhanced-harcon",
       "name": "Усиленный Харкон",
       "lvl": "22 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzRjYjZmNGEtNDgwNi00NTM3LWFlYWItYzBiNzczYzk1M2RlLXV0XzI1Nl9tb2Jfa3Jhb2VsaXRlXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-harcon",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "\"Усиленный Харкон - героический монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Из него выпадает «Душа: Харкон (привяз.)».\"",
+      "locDetail": "Экспедиция · Красная каверна",
+      "spawnCount": 3,
+      "drops": [
+        {
+          "name": "Душа: Харкон (привяз.)",
+          "url": "https://wikily.gg/ru/aion-2/pets/harcon",
+          "chance": "100%"
+        }
+      ]
     },
     {
       "id": "krao-seal-guardian",
       "name": "Хранитель печати крао",
       "lvl": "22 - 68",
       "rank": "Элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWU1NDMyMWUtN2Y0NS00YTRiLWFkNWQtYzM5M2JhOWZlMWMxLW1vYl9rcmFvZWxpdGVfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krao-seal-guardian",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "\"Хранитель печати крао - элитный монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Из него выпадает «Душа: Хранитель печати крао (привяз.)».\"",
+      "locDetail": "Экспедиция",
+      "spawnCount": 3,
+      "drops": [
+        {
+          "name": "Душа: Хранитель печати крао (привяз.)",
+          "url": "https://wikily.gg/ru/aion-2/pets/krao-seal-guardian",
+          "chance": "100%"
+        }
+      ]
     },
     {
       "id": "krao-mutant",
       "name": "Мутант крао",
       "lvl": "22 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjRkM2Q3OWEtN2QyZS00MDQyLWJlYjEtMzQxMWQzNGI0MjcwLW1vYl9rcmFvZWxpdGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krao-mutant",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "\"Мутант крао - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Из него выпадает «Душа: Мутант крао (привяз.)».\"",
+      "locDetail": "Экспедиция",
+      "spawnCount": 24,
+      "drops": [
+        {
+          "name": "Душа: Мутант крао (привяз.)",
+          "url": "https://wikily.gg/ru/aion-2/pets/krao-mutant",
+          "chance": "100%"
+        }
+      ]
     },
     {
       "id": "neglected-gadioton",
       "name": "Брошенный Гадиотон",
       "lvl": "22 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGU4MzhjNDgtYzk1ZS00ZTM5LWI0NDctZGViOGJiY2Y5NDJkLXV0XzI1Nl9tb2Jfa3Jhb2VsaXRlXzAzX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/neglected-gadioton",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "Брошенный Гадиотон - героический монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Носит титул «Утилизированный подопытный крао».",
+      "locDetail": "Экспедиция · Потасканный полигон",
+      "spawnCount": 3
     },
     {
       "id": "ultimate-berk",
       "name": "Завершенная форма Берка",
       "lvl": "22 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTY2NDk2MTYtNmJmMC00MTY5LTk4YmQtMDIwMTllZWY5NmNhLXV0XzI1Nl9tb2JfYmVyY18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ultimate-berk",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "Завершенная форма Берка - героический монстр расы «Мутанты» в AION 2, обитает в локации Пещера крао. Носит титул «Вырвавшийся на свободу».",
+      "locDetail": "Экспедиция · Запечатанная пещера",
+      "spawnCount": 3
     },
     {
       "id": "burned-wild-rat",
       "name": "Опаленная дикая мышь",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTY0ZDcwNmUtM2RjNS00ODM0LWI1ZmUtOTM2NmYyNTA1NWFlLW1vYl9ncmF2ZXJhdF8wMV9jdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-rat",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Опаленная дикая мышь - общий монстр расы «Дикие» в AION 2, обитает в локации Лес Маэллан, Альтгард. В добыче есть Нагрудник урагана и Набедренники урагана.",
+      "locDetail": "Лес Маэллан",
+      "spawnCount": 55,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-rat/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-rat/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-rat/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-rat/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "mutated-forest-guardian",
       "name": "Мутировавший хранитель леса",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjcwZTU3OTItZDUzMi00MmRhLThiNWItOTIzNjlkYjA0YWFjLW1vYl9mb3Jlc3RhcmNfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-forest-guardian",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Мутировавший хранитель леса - общий монстр расы «Природные» в AION 2, обитает в локации Лес Маэллан, Альтгард. В добыче есть Нагрудник урагана.",
+      "locDetail": "Лес Маэллан",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-forest-guardian/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-forest-guardian/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-forest-guardian/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-forest-guardian/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "mutated-elim",
       "name": "Мутировавший древень",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDRkNzQ3MWItZjk0Ny00ZWU0LTlmMDYtYjY5ZTQ4ODk4MmEwLW1vYl9hZ3JpbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-elim",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Мутировавший древень - общий монстр расы «Природные» в AION 2, обитает в локации Лес Маэллан, Альтгард. В добыче есть Нагрудник урагана и Набедренники урагана.",
+      "locDetail": "Лес Маэллан",
+      "spawnCount": 20,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-elim/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-elim/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-elim/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mutated-elim/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "blood-blades-bomber",
       "name": "Бомбардир банды кровавых клинков",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2VlYWEwMzMtMWQyZC00NWUwLTgzODItYWQyYjA3YzEzNzZhLXV0XzI1Nl9tb2JfYWx0a25pZmVfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blood-blades-bomber",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Бомбардир банды кровавых клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Лес Маэллан, Альтгард. В добыче есть Нагрудник урагана.",
+      "locDetail": "Лес Маэллан",
+      "spawnCount": 62,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blood-blades-bomber/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blood-blades-bomber/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blood-blades-bomber/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blood-blades-bomber/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "burned-wild-baby-rat",
       "name": "Детеныш опаленной дикой мыши",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzUyNjNjMzgtYzMzYS00YjQ1LTk1NTgtNThhNjBiZGI2NjA4LW1vYl9ncmF2ZXJhdF8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-baby-rat",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Детеныш опаленной дикой мыши - общий монстр расы «Дикие» в AION 2, обитает в локации Лес Маэллан, Альтгард. В добыче есть Нагрудник урагана.",
+      "locDetail": "Лес Маэллан",
+      "spawnCount": 45,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-baby-rat/drops",
+          "chance": "0,38%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-baby-rat/drops",
+          "chance": "0,17%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-baby-rat/drops",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/burned-wild-baby-rat/drops",
+          "chance": "0,07%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,041%"
+        }
+      ]
     },
     {
       "id": "blades-tracker",
       "name": "Следопыт банды клинков",
       "lvl": "22 - 37",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTAyMGIzN2YtNzM1ZS00MzBkLWI5OTQtMTcxMTgxNGM4MzQ4LXV0XzI1Nl9tb2JfYWx0a25pZmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-tracker",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Следопыт банды клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 6,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-tracker/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-tracker/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-tracker/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-tracker/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "blades-sentry",
       "name": "Солдат-пограничник банды клинков",
       "lvl": "22 - 37",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTAyMGIzN2YtNzM1ZS00MzBkLWI5OTQtMTcxMTgxNGM4MzQ4LXV0XzI1Nl9tb2JfYWx0a25pZmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-sentry",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Солдат-пограничник банды клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Руины Васфельта и Запад кряжа Грибадэ",
+      "spawnCount": 74
     },
     {
       "id": "blades-hound",
       "name": "Гончая банды клинков",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-hound",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Гончая банды клинков - общий монстр расы «Дикие» в AION 2, обитает в локации Пещера места крушения. Там же встречается Следопыт банды клинков.",
+      "locDetail": "Альтгард",
+      "spawnCount": 4
     },
     {
       "id": "drakan-armed-soldier",
       "name": "Вооруженный солдат драканов",
       "lvl": "22 - 32",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-armed-soldier",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Вооруженный солдат драканов - общий монстр расы «Разумные» в AION 2, обитает в локациях Пещера места крушения и Хранилище Тарзела.",
+      "locDetail": "Альтгард",
+      "spawnCount": 3
     },
     {
       "id": "skyray",
       "name": "Тритон",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/skyray",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Тритон - общий монстр расы «Дикие» в AION 2, обитает в локации Пещера отшельника. Там же встречаются Опаленный агринт и Падший норнир.",
+      "locDetail": "Альтгард",
+      "spawnCount": 4
     },
     {
       "id": "burned-agrint",
       "name": "Опаленный агринт",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMGFmOGIzMDUtNWYwMC00Yzg4LTlhMWMtNjQ0MGRmMjgyMjhhLW1vYl9hZ3JpbnRfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/burned-agrint",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Опаленный агринт - общий монстр расы «Природные» в AION 2, обитает в локации Пещера отшельника. Там же встречаются Тритон и Падший норнир.",
+      "locDetail": "Альтгард",
+      "spawnCount": 2
     },
     {
       "id": "corrupted-nornir",
       "name": "Падший норнир",
       "lvl": "22",
       "rank": "Элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzY1M2M0ZWItMmZmMi00YzgyLThjODMtODFkNTNiYjJjMThlLW1vYl9ub3JuaXJ2YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Падший норнир - элитный монстр расы «Разумные» в AION 2, обитает в локации Пещера отшельника. Там же встречаются Тритон и Опаленный агринт.",
+      "locDetail": "Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "temple-laser",
       "name": "Лазер собора",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/temple-laser",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Лазер собора - общий монстр расы «Мутанты» в AION 2, обитает в локации Собор духов. Там же встречаются Охранная статуя собора и Разлом.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 20
     },
     {
       "id": "temple-guardian-statue",
       "name": "Охранная статуя собора",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjZiZDIwMGItODRlZS00ODQ4LTg5YmYtOTk1ZTI1NzEzZGNiLW1vYl9nYXJnb3lsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/temple-guardian-statue",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Охранная статуя собора - общий монстр расы «Мутанты» в AION 2, обитает в локации Собор духов. Там же встречаются Лазер собора и Разлом.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 8
     },
     {
       "id": "rift",
       "name": "Разлом",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rift",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Разлом - общий монстр расы «Мутанты» в AION 2, обитает в локации Собор духов. Там же встречаются Лазер собора и Охранная статуя собора.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 6
     },
     {
       "id": "vortex",
       "name": "Водоворот",
       "lvl": "22",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/vortex",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Водоворот - общий монстр расы «Мутанты» в AION 2, обитает в локации Собор духов. Там же встречаются Лазер собора и Охранная статуя собора.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "blue-core-octaside",
       "name": "Октасид лазурного ядра",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2M3NTcwOWItZWQzNS00MWRmLWJkZmMtYzc1YWMzOWJiZTQ2LW1vYl9vZHNwaWRlcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/blue-core-octaside",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Октасид лазурного ядра - общий монстр расы «Дикие» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 82,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blue-core-octaside/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blue-core-octaside/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blue-core-octaside/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blue-core-octaside/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "enhanced-krall-supporter",
       "name": "Усиленный резервист краллов",
       "lvl": "23 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-supporter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усиленный резервист краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Руины крепости Бертрон",
+      "spawnCount": 19,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-supporter/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-supporter/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-supporter/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-supporter/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "enhanced-krall-seeker",
       "name": "Усилен. искатель краллов",
       "lvl": "23 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTFkZmJhNTYtM2I5YS00N2I5LWE3N2MtZjRhYTM4ZDk0MDcwLW1vYl9rcmFsbHJlZ18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-seeker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Усилен. искатель краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Руины крепости Бертрон",
+      "spawnCount": 17,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-seeker/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-seeker/drops",
+          "chance": "0,69%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-seeker/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-krall-seeker/drops",
+          "chance": "0,28%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "tolbas-young-slink",
       "name": "Малая чешуйница Тольбаса",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODU5MTMwNzYtOWE4Ny00ZDQ1LWIzMjUtNzYyYmZkYWI2ZGJmLW1vYl9sZXBpc21hXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-young-slink",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Малая чешуйница Тольбаса - общий монстр расы «Дикие» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник дождливого леса.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 24,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-young-slink/drops",
+          "chance": "0,38%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-young-slink/drops",
+          "chance": "0,17%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-young-slink/drops",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-young-slink/drops",
+          "chance": "0,07%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,041%"
+        }
+      ]
     },
     {
       "id": "ferocious-wild-bee",
       "name": "Свирепая дикая оса",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjc3NzllZGEtZmU2Ny00YjI1LWFkMGMtYzIzMjNjNWQ1YmU0LW1vYl9iZWVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-wild-bee",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Свирепая дикая оса - общий монстр расы «Дикие» в AION 2, обитает в локации Среднее течение реки Эллун. Там же встречается Свирепый дикий волк.",
+      "locDetail": "Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "ferocious-wild-zaif",
       "name": "Свирепый дикий волк",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzFlOGNjNDYtMTUyYy00YjljLWE2NDAtZWQwZjVmNjUwYTI1LW1vYl96YWlmXzAxX2N2MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-wild-zaif",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Свирепый дикий волк - общий монстр расы «Дикие» в AION 2, обитает в локации Среднее течение реки Эллун. Там же встречается Свирепая дикая оса.",
+      "locDetail": "Бертрон",
+      "spawnCount": 12
     },
     {
       "id": "fafnium",
       "name": "Фафниум",
       "lvl": "23 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDE5ZjJkYzQtZjIxNy00OGU3LWFjYWMtZDE2YmQyYTc1OTQyLW1vYl9mYWZuaXVtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnium",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Фафниум - общий монстр расы «Мутанты» в AION 2, обитает в локациях Рухнувший оракул, Старинный дом и Подземная тюрьма Рагта.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "trafficker-cutter",
       "name": "Резака контрабандистов",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTY4ZDUwMjktZjJmZi00ZjQ2LWFkMGEtMDRlZWVjNWQ0Nzg0LW1vYl9vd2xzb2xkaWVyXzA3LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/trafficker-cutter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Резака контрабандистов - общий монстр расы «Разумные» в AION 2, обитает в локации Тайное место для контрабанды.",
+      "locDetail": "подземелье задания, Бертрон",
+      "spawnCount": 3
     },
     {
       "id": "trafficker-archer",
       "name": "Застрельщик контрабандистов",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjI4OTg5OWQtOWU5My00NGRhLTk5YzEtZTA3YzRjYzNlOTIwLW1vYl9vd2xhcmNfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trafficker-archer",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Застрельщик контрабандистов - общий монстр расы «Разумные» в AION 2, обитает в локации Тайное место для контрабанды.",
+      "locDetail": "подземелье задания, Бертрон",
+      "spawnCount": 3
     },
     {
       "id": "trafficker-duduri",
@@ -27122,4 +27789,3 @@
     }
   ]
 };
-})();
