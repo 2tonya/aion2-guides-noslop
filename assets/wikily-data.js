@@ -3919,150 +3919,195 @@
       "name": "Дозорный солдат краллов подвала",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjUxMjZjODQtYzYxMC00OWUwLThjZGQtZjIxYWM2NTk1YzQ1LXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/basement-krall-watcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дозорный солдат краллов подвала - общий монстр расы «Разумные» в AION 2, обитает в локации Подвал рухнувшей крепости.",
+      "spawnCount": 2,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "basement-krall-scout",
       "name": "Солдат-разведчик краллов подвала",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/basement-krall-scout",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Солдат-разведчик краллов подвала - общий монстр расы «Разумные» в AION 2, обитает в локации Подвал рухнувшей крепости.",
+      "spawnCount": 2,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "nest-klaw-worker",
       "name": "Рабочий ньютов гнезда",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTVkYmM0ZWItY2VjYS00ZDI5LWI4NmMtYzY2OWJiNDRjNTA1LW1vYl9uZXV0aF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nest-klaw-worker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Рабочий ньютов гнезда - общий монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречаются Разведчик ньютов гнезда и Королева Карат.",
+      "spawnCount": 12,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "nest-klaw-scout",
       "name": "Разведчик ньютов гнезда",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2U2YTE5ZGYtZTQ0Ny00NTkyLTgzMjgtYjRlYzM2ZTc1YmFkLW1vYl9uZXV0aF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nest-klaw-scout",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Разведчик ньютов гнезда - общий монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречаются Рабочий ньютов гнезда и Королева Карат.",
+      "spawnCount": 12,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "queen-karat",
       "name": "Королева Карат",
       "lvl": "20",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYzg3M2NlYTUtNmIzMy00ZjY4LWE4YmMtOTY5ZGNiOTMxMmUzLXV0XzUxMl9tb2JfbmV1dGhfMDNfcGljLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/queen-karat",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Королева Карат - героический монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречается Рабочий ньютов гнезда.",
+      "spawnCount": 1,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "vanguard-captain-vamana",
       "name": "Капитан передового отряда Бамана",
       "lvl": "20",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTljNjhmYjEtNzMxMS00ZWM5LWJhZjMtYWE4NzE2Yzk5MTM3LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDNfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/vanguard-captain-vamana",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Капитан передового отряда Бамана - героический монстр расы «Разумные» в AION 2, обитает в локации Скрытый алтарь руин.",
+      "spawnCount": 1,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "distorted-ru-priest",
       "name": "Искаженный жрец Ру",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmY0NGVjNjgtZjdiYi00NTgwLThjODktZWY3MWZhM2FlMjc2LW1vYl93cmFwcnN0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-ru-priest",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Искаженный жрец Ру - общий монстр расы «Разумные» в AION 2, обитает в локации Искаженная пещера. Там же встречаются Рабочий кобольдов и Боевой шаман краллов.",
+      "spawnCount": 11,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "distorted-specter",
       "name": "Искаженный спектр",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmY0NGVjNjgtZjdiYi00NTgwLThjODktZWY3MWZhM2FlMjc2LW1vYl93cmFwcnN0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-specter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Искаженный спектр - общий монстр расы «Разумные» в AION 2, обитает в локации Гробница крепости. Там же встречаются Бродячий мертвец и Оборонительная турель.",
+      "spawnCount": 24,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "wandering-dead",
       "name": "Бродячий мертвец",
       "lvl": "20 - 30",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWVhODhiZWItOWUzMS00Y2M4LWI5NDgtYWNmOTZmYTMwY2JlLW1vYl9ncmF2ZXNvdWxfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-dead",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Бродячий мертвец - общий монстр расы «Разумные» в AION 2, обитает в локациях Гробница крепости и Последнее пристанище.",
+      "spawnCount": 24,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "krall-warden",
       "name": "Стражник краллов",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-warden",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Стражник краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма крепости. Там же встречаются Рабочий кобольдов и Боевой шаман краллов.",
+      "spawnCount": 7,
+      "locDetail": "Запечатанное подземелье, Бертрон"
     },
     {
       "id": "scouts-captain-lamnah",
       "name": "Капитан разведчиков Рамунаг",
       "lvl": "20",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/scouts-captain-lamnah",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Капитан разведчиков Рамунаг - героический монстр расы «Разумные» в AION 2, обитает в локации База Рамунага. Носит титул «Армия Рагта».",
+      "spawnCount": 1,
+      "locDetail": "Запечатанное подземелье, Альтгард"
     },
     {
       "id": "drakan-detector",
       "name": "Зонд драканов",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-detector",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Зонд драканов - общий монстр расы «Мутанты» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Воин драканов и Солдат драканов архива.",
+      "spawnCount": 14,
+      "locDetail": "Запечатанное подземелье, Альтгард"
     },
     {
       "id": "drakan-warrior",
       "name": "Воин драканов",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-warrior",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Воин драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Солдат драканов архива.",
+      "spawnCount": 10,
+      "locDetail": "Запечатанное подземелье, Альтгард"
     },
     {
       "id": "scriptorium-drakan-soldier",
       "name": "Солдат драканов архива",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/scriptorium-drakan-soldier",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Солдат драканов архива - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Воин драканов.",
+      "spawnCount": 2,
+      "locDetail": "Запечатанное подземелье, Альтгард"
     },
     {
       "id": "drakan-investigator",
       "name": "Следователь драканов",
       "lvl": "20",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-investigator",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Следователь драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Воин драканов.",
+      "spawnCount": 8,
+      "locDetail": "Запечатанное подземелье, Альтгард"
     },
     {
       "id": "hideout-karas-warrior",
