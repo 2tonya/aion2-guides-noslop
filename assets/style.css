@@ -256,6 +256,9 @@ svg{display:block}
 .facts b{font-size:13.5px;font-weight:500;color:var(--text)}
 
 /* section */
+.view--guide .sec[data-guide-mode="pvp"]{display:none}
+.view--guide[data-guide-mode="pvp"] .sec[data-guide-mode="pvp"]{display:block}
+.view--guide[data-guide-mode="pvp"] .sec[data-guide-mode="pve"]{display:none}
 .sec{padding:38px 0 34px;border-bottom:1px solid var(--line)}
 .sec__eyebrow{
   display:flex;align-items:center;gap:10px;

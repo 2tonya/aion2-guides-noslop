@@ -7,7 +7,7 @@
 <meta name="color-scheme" content="dark">
 <title>Aion 2 · Гайдбук — PvE-гайды по классам</title>
 <meta name="description" content="PvE-гайды по классам Aion 2: скиллы, стигмы, макросы, ротация, экипировка и путь прокачки. Бестиарий и база знаний.">
-<link rel="stylesheet" href="assets/style.css??v=65">
+<link rel="stylesheet" href="assets/style.css?v=66">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="img/icon-192.png">
 <link rel="apple-touch-icon" href="img/icon-192.png">
@@ -507,12 +507,12 @@
   </nav>
 
   <header class="guide-hero">
-    <div class="guide-hero__eyebrow" data-i18n="class_guide">Гайд по классу · PvE</div>
+    <div class="guide-hero__eyebrow" data-mode-eyebrow data-i18n="class_guide">Гайд по классу · PvE</div>
     <div class="guide-hero__grid">
       <div>
         <h1>Ассасин <span class="en">Assassin</span></h1>
-        <p class="guide-hero__tagline">Бурст через криты и стаки <b>Insignia</b>. Всё решает спина босса.</p>
-        <p class="guide-hero__lead">PvE-гайд по Ассасину: как собирать стаки Insignia, держать спину босса и не терять урон на перебежках.</p>
+        <p class="guide-hero__tagline">Бурст через криты и стаки <b>Insignia</b>. В PvE решает спина, в PvP — окна КД.</p>
+        <p class="guide-hero__lead">Гайд по Ассасину: стаки Insignia и удары в спину в PvE, окна КД и контроль в PvP. Переключай режим кнопкой выше.</p>
         <div class="guide-hero__actions">
           <div class="seg" role="group" aria-label="Режим гайда">
             <button class="is-active" type="button" data-mode="pve" aria-pressed="true">PvE</button>
@@ -522,7 +522,7 @@
             <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.4A3.9 3.9 0 0 1 12 7a3.9 3.9 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-i18n="add_fav">В избранное</span>
           </button>
         </div>
-        <p class="guide-hero__note" data-i18n="pvp_dev">PvP-гайды пока в разработке — здесь только PvE.</p>
+        <p class="guide-hero__note" data-ru="PvP-блок собран по видео Viles: открытый мир и Бездна. Это не «истина в последней инстанции» — автор говорит об этом прямо." data-en="The PvP block follows Viles' video: open world and the Abyss. Not the final word — the author says so himself.">PvP-блок собран по видео Viles: открытый мир и Бездна. Это не «истина в последней инстанции» — автор говорит об этом прямо.</p>
       </div>
       <img class="guide-hero__emblem" src="img/class-assassin.png" alt="" width="150" height="150">
     </div>
@@ -543,7 +543,7 @@
   </div>
 
   <article class="guide-body">
-    <section class="sec sec--quick" data-sec="a-quick" data-label="Старт">
+    <section class="sec sec--quick" data-guide-mode="pve" data-sec="a-quick" data-label="Старт">
     <div class="sec__eyebrow"><span class="n">01</span><span>Старт</span></div>
     <h2 id="a-quick">Быстрый старт</h2>
     <p class="freshness">Актуальность: проверено по источнику <b>11.11.2026</b> • <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Assassin Burst PvE (Mobalytics)</a>. Баланс и мета могут меняться патчами — сверяйте с актуальным гайдом.</p>
@@ -557,9 +557,16 @@
       <li><b>Настройки/макрос:</b> индикатор спины = BACK; макрос на ПКМ: 0 Insignia Explosion • 1 Heart Gore • 2 Ambush • 3 Savage Roar (10 мс), зажим ЛКМ+ПКМ.</li>
       <li><b>Брейкпоинты:</b> Heart Gore 16 → Quick Slice 16 (игнор блока/уклонения и гарант. крит) → Storm Rampage 16; далее Insignia Explosion (3, потом 5) и Savage Roar 12.</li>
     </ul>
+    <h3 class="quick-sub">Нюансы из видео Viles</h3>
+    <ul class="quick-p1">
+      <li><b>Quick Slice</b> — первый 20-й уровень, если получается; нижние Specialty дают вампиризм 7% HP.</li>
+      <li><b>Savage Roar</b> — 20% скорости скиллов: в PvE берём, в PvP автор его не использует.</li>
+      <li><b>Storm Rampage</b> — только PvE-скилл: в PvP очки из него вынимают.</li>
+      <li><b>Ambush</b> в PvE автор не использует — в макросе Mobalytics слот можно оставить пустым.</li>
+    </ul>
   </section>
 
-  <section class="sec" data-sec="a-tldr" data-label="Главное">
+  <section class="sec" data-guide-mode="pve" data-sec="a-tldr" data-label="Главное">
     <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
     <h2 id="a-tldr">Главное за минуту</h2>
     <ul class="check">
@@ -571,7 +578,7 @@
     </ul>
   </section>
 
-  <section class="sec" data-sec="a-road" data-label="Путь">
+  <section class="sec" data-guide-mode="pve" data-sec="a-road" data-label="Путь">
     <div class="sec__eyebrow"><span class="n">03</span><span>Путь</span></div>
     <h2 id="a-road">Путь: от новичка до топа</h2>
     <p class="lead">Ассасин начинает работать только после двух вещей: индикатор спины и правильный макрос.</p>
@@ -630,7 +637,7 @@
     </div>
   </section>
 
-  <section class="sec" data-sec="a-order" data-label="Порядок">
+  <section class="sec" data-guide-mode="pve" data-sec="a-order" data-label="Порядок">
     <div class="sec__eyebrow"><span class="n">04</span><span>Порядок</span></div>
     <h2 id="a-order">Порядок прокачки</h2>
     <ol class="ranks ranks--num">
@@ -643,9 +650,10 @@
       <li><img src="img/s-infiltrate.webp" alt=""><span>Infiltrate</span></li>
       <li><img src="img/s-storm-rampage.webp" alt=""><span>Storm Rampage</span></li>
     </ol>
+    <p class="hint">По видео Viles приоритет другой: Quick Slice 20 → Shadow Blade 20 → Clone 15 → Shadow Walk 20. Это PvP-порядок — <a href="#assassin/a-pvp-order" class="g-link">вкладка PvP</a>.</p>
   </section>
 
-  <section class="sec" data-sec="a-skills" data-label="Скиллы">
+  <section class="sec" data-guide-mode="pve" data-sec="a-skills" data-label="Скиллы">
     <div class="sec__eyebrow"><span class="n">05</span><span>Скиллы</span></div>
     <h2 id="a-skills">Скиллы и Specialty</h2>
 
@@ -672,7 +680,7 @@
       <div class="skill__body">
         <h3>Quick Slice <span class="tag">Автоатака</span></h3>
         <p>Обычный удар — держит ману для ротации.</p>
-        <p class="hint">Сначала Specialty 2 + 4 (вампиризм + −КД Insignia Explosion). На 16 → <b>4 + 5</b>: игнор блока/уклонения и <b>гарантированный крит</b> — это чаще прокает все крит-триггеры.</p>
+        <p class="hint">Сначала Specialty 2 + 4 (вампиризм + −КД Insignia Explosion). На 16 → <b>4 + 5</b>: игнор блока/уклонения и <b>гарантированный крит</b> — это чаще прокает все крит-триггеры. <b>Viles:</b> первый 20-й уровень; вампиризм 7% HP держит фул-хп между пачками.</p>
       </div>
     </div>
 
@@ -681,7 +689,7 @@
       <div class="skill__body">
         <h3>Savage Roar <span class="tag">В макросе</span></h3>
         <p>Тратит ману, AoE по 4 целям впереди + <b>1 стак Insignia</b> на 10 сек.</p>
-        <p class="hint">Specialty: 2 — скорость скиллов; на 12 — 4 (−КД Shadowstrike).</p>
+        <p class="hint">Specialty: 2 — скорость скиллов; на 12 — 4 (−КД Shadowstrike). <b>Viles:</b> 20% скорости скиллов — в PvE берём.</p>
       </div>
     </div>
 
@@ -690,7 +698,7 @@
       <div class="skill__body">
         <h3>Shadowstrike <span class="tag">Мобильность</span></h3>
         <p>Рывок <b>за спину</b> цели в 20 м + урон и стан.</p>
-        <p class="hint">Specialty: 2 — Crit Damage Boost на время, 3 — 50% шанс Seal.</p>
+        <p class="hint">Specialty: 2 — Crit Damage Boost на время, 3 — 50% шанс Seal. <b>PvP-комбо:</b> Shadowstrike → Shadow Fall: стан переходит в нокдаун.</p>
       </div>
     </div>
 
@@ -717,7 +725,7 @@
       <div class="skill__body">
         <h3>Storm Rampage <span class="tag tag--good">16 ур. — DPS</span></h3>
         <p>Скилл для стаггера, но у Ассасина он даёт урон.</p>
-        <p class="hint">Specialty: 4 — Multi-Hit, на 16 — 5: <b>−1 сек ко всем КД</b> при попадании.</p>
+        <p class="hint">Specialty: 4 — Multi-Hit, на 16 — 5: <b>−1 сек ко всем КД</b> при попадании. <b>Viles:</b> только PvE-скилл, в PvP очки из него вынимают.</p>
       </div>
     </div>
 
@@ -727,7 +735,7 @@
     </figure>
   </section>
 
-  <section class="sec" data-sec="a-passive" data-label="Пассивки">
+  <section class="sec" data-guide-mode="pve" data-sec="a-passive" data-label="Пассивки">
     <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
     <h2 id="a-passive">Пассивки — порядок</h2>
     <ol class="ranks">
@@ -739,9 +747,10 @@
       <li><img src="img/s-apply-poison.webp" alt=""><span>Apply Poison</span></li>
     </ol>
     <p class="hint">Порядок приоритета: качай по списку сверху вниз, уровень — по возможности.</p>
+    <p class="hint">В видео Viles порядок другой: Rear Smite → Assault Stance → Exploit Weakness → Impact Hit. Для открытого мира это рабочий вариант — см. <a href="#assassin/a-pvp-passive" class="g-link">PvP-вкладку</a>.</p>
   </section>
 
-  <section class="sec" data-sec="a-stigma" data-label="Стигмы">
+  <section class="sec" data-guide-mode="pve" data-sec="a-stigma" data-label="Стигмы">
     <div class="sec__eyebrow"><span class="n">07</span><span>Стигмы</span></div>
     <h2 id="a-stigma">Стигмы</h2>
     <div class="grid grid--4">
@@ -753,7 +762,7 @@
     <p class="hint">4-й слот гибкий: часто берут Triniel's Dagger, но Evasion Stance и защитные стигмы тоже живы.</p>
   </section>
 
-  <section class="sec" data-sec="a-macro" data-label="Макрос">
+  <section class="sec" data-guide-mode="pve" data-sec="a-macro" data-label="Макрос">
     <div class="sec__eyebrow"><span class="n">08</span><span>Макрос</span></div>
     <h2 id="a-macro">Макрос</h2>
     <p class="lead">Макрос на ПКМ, слоты по порядку:</p>
@@ -772,7 +781,7 @@
     </div>
   </section>
 
-  <section class="sec" data-sec="a-rotation" data-label="Ротация">
+  <section class="sec" data-guide-mode="pve" data-sec="a-rotation" data-label="Ротация">
     <div class="sec__eyebrow"><span class="n">09</span><span>Ротация</span></div>
     <h2 id="a-rotation">Ротация</h2>
     <ol class="steps">
@@ -785,7 +794,7 @@
     <p class="hint">Просадка по позиции — добивай Infiltrate и Flash Slice, они оба закидывают за спину.</p>
   </section>
 
-  <section class="sec" data-sec="a-setup" data-label="Настройки">
+  <section class="sec" data-guide-mode="pve" data-sec="a-setup" data-label="Настройки">
     <div class="sec__eyebrow"><span class="n">10</span><span>Настройки</span></div>
     <h2 id="a-setup">Настройки, которые реально бустят урон</h2>
     <div class="cols">
@@ -812,7 +821,7 @@
 
   
   
-    <section class="sec" data-sec="a-gear" data-label="Экипировка">
+    <section class="sec" data-guide-mode="pve" data-sec="a-gear" data-label="Экипировка">
     <div class="sec__eyebrow"><span class="n">11</span><span>Экипировка</span></div>
     <h2 id="a-gear">Экипировка и Arcana</h2>
     <p class="lead">По гайду Mobalytics акцент на скилловой сборке и ротации; послотовая раскладка статов не приведена. Ниже — структура слотов и подтверждённые приоритеты.</p>
@@ -835,7 +844,7 @@
     </div>
   </section>
 
-  <section class="sec" data-sec="a-mistakes" data-label="Ошибки">
+  <section class="sec" data-guide-mode="pve" data-sec="a-mistakes" data-label="Ошибки">
     <div class="sec__eyebrow"><span class="n">12</span><span>Ошибки</span></div>
     <h2 id="a-mistakes">Частые ошибки</h2>
     <ul class="check">
@@ -843,7 +852,7 @@
     </ul>
   </section>
 
-  <section class="sec" data-sec="a-board" data-label="Дэванион">
+  <section class="sec" data-guide-mode="pve" data-sec="a-board" data-label="Дэванион">
     <div class="sec__eyebrow"><span class="n">13</span><span>Дэванион</span></div>
     <h2 id="a-board">Дэванион: доски</h2>
     <p class="lead">Старт — узлы под <b>Heart Gore</b> и <b>Insignia Explosion</b>. Доски не заполняются целиком.</p>
@@ -854,11 +863,143 @@
       <figure><img src="img/a-triniel.jpg" alt="Доска Triniel"><figcaption>Triniel</figcaption></figure>
     </div>
   </section>
+
+  <section class="sec sec--quick" data-guide-mode="pvp" data-sec="a-pvp-quick" data-label="Старт PvP" data-label-en="PvP start">
+    <div class="sec__eyebrow"><span class="n">01</span><span>Старт PvP</span></div>
+    <h2 id="a-pvp-quick">Быстрый старт в PvP</h2>
+    <p class="freshness">Источник: видео <b>Viles</b> — «AION 2 — Full Assassin Macro/Skill guide for PVP/PVE» (7:56). Это сборка под <b>открытый мир и Бездну</b>, а не «истина в последней инстанции» — автор говорит об этом прямо.</p>
+    <ul class="check">
+      <li>Играешь <b>вокруг окон КД</b>: Clone, Spiral Slice, инвиз. Вне окон Ассасин слабый.</li>
+      <li><b>Shadowstrike → Shadow Fall</b> — базовое комбо: стан переходит в нокдаун, цель не может двигаться.</li>
+      <li><b>Ambush и Infiltrate</b> сбивают защитные щиты (Templar, Chanter и их стигмы).</li>
+      <li><b>Storm Rampage</b> — только PvE-скилл: в PvP очки из него вынимаем.</li>
+    </ul>
+    <h3 class="quick-sub">P1 — что качать первым</h3>
+    <ul class="quick-p1">
+      <li><b>Quick Slice 20</b> — первый 20-й уровень, если получается. Нижние Specialty дают вампиризм 7% HP: между пачками держишь полное здоровье.</li>
+      <li><b>Shadow Blade 20</b> — не обсуждается: мобильность, AoE и сброс КД на убийстве.</li>
+      <li><b>Illusive Clone 15</b> минимум, затем <b>Shadow Walk 20</b> — сброс КД на убийстве для выхода и ре-энгейджа.</li>
+    </ul>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-tldr" data-label="Главное" data-label-en="Key points">
+    <div class="sec__eyebrow"><span class="n">02</span><span>Главное</span></div>
+    <h2 id="a-pvp-tldr">Главное за минуту</h2>
+    <ul class="check">
+      <li><b>Ядро стигм:</b> Spiral Slice, Illusive Clone, Shadow Blade, Shadow Walk.</li>
+      <li><b>Shadow Blade</b> — не обсуждается: на 5 ур. телепорт к цели, на 10 сброс КД на убийстве, на 20 — AoE.</li>
+      <li><b>Spiral Slice</b> из инвиза — 100% крит: ~40–50k по манекену, ~10k по игроку.</li>
+      <li><b>Clone 15+</b> и <b>Shadow Walk 20</b> — окно входа и выхода из боя.</li>
+      <li>В Бездне постоянно 1v2/1v3 — заходить без КД значит кормить.</li>
+    </ul>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-order" data-label="Порядок" data-label-en="Priority">
+    <div class="sec__eyebrow"><span class="n">03</span><span>Порядок</span></div>
+    <h2 id="a-pvp-order">Порядок прокачки (PvP)</h2>
+    <ol class="ranks ranks--num">
+      <li><img src="img/s-quick-slice.webp" alt=""><span>Quick Slice → 20</span></li>
+      <li><img src="img/s-throw-shadowblade.webp" alt=""><span>Shadow Blade → 20</span></li>
+      <li><img src="img/s-illusive-clone.webp" alt=""><span>Illusive Clone → 15</span></li>
+      <li><img src="img/s-shadow-walk.webp" alt=""><span>Shadow Walk → 20</span></li>
+      <li><img src="img/s-shadowstrike.webp" alt=""><span>Shadowstrike −1 сек КД</span></li>
+      <li><img src="img/s-shadow-fall.webp" alt=""><span>Shadow Fall → 20</span></li>
+      <li><img src="img/s-ambush.webp" alt=""><span>Ambush 16 — если нужен двойной</span></li>
+      <li><img src="img/s-defiance-assassin.webp" alt=""><span>Defiance — тенacity</span></li>
+    </ol>
+    <p class="hint">Порядок по видео. Если Shadow Walk ещё не 20, его место занимает Shadow Step: стан, уклонение, скорость и инвиз — он лучше в 1v1.</p>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-skills" data-label="Скиллы" data-label-en="Skills">
+    <div class="sec__eyebrow"><span class="n">04</span><span>Скиллы</span></div>
+    <h2 id="a-pvp-skills">Скиллы в PvP</h2>
+    <p class="lead">Новые для PvP-сборки скиллы и стигмы. Общие скиллы (Quick Slice, Heart Gore, Shadowstrike) разобраны во вкладке PvE.</p>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-throw-shadowblade.webp" alt=""><b>Shadow Blade</b><span>Мобильность №1: телепорт к цели (5), сброс КД на убийстве (10), AoE (20).</span></div>
+      <div class="mini"><img src="img/s-spiral-slice.webp" alt=""><b>Spiral Slice</b><span>Ре-энгейдж из инвиза: 100% крит, ~40–50k по манекену.</span></div>
+      <div class="mini"><img src="img/s-shadow-walk.webp" alt=""><b>Shadow Walk</b><span>Выход из боя: на 20 сбрасывается на убийстве — можно вернуться.</span></div>
+      <div class="mini"><img src="img/s-shadowstep.webp" alt=""><b>Shadow Step</b><span>Альтернатива Shadow Walk для 1v1: стан, уклонение, скорость, инвиз.</span></div>
+      <div class="mini"><img src="img/s-shadow-fall.webp" alt=""><b>Shadow Fall</b><span>Нокдаун после Shadowstrike / Spiral Slice / Insignia Explosion, разворот для ударов в спину.</span></div>
+      <div class="mini"><img src="img/s-ambush.webp" alt=""><b>Ambush</b><span>Сбивает защитный щит. На 16 можно взять два применения подряд, но это потеря DPS.</span></div>
+      <div class="mini"><img src="img/s-whirlwind-slice.webp" alt=""><b>Whirlwind Slice</b><span>Стан и разворот, дополнительный контроль.</span></div>
+      <div class="mini"><img src="img/s-defiance-assassin.webp" alt=""><b>Defiance</b><span>Тенacity: не даёт залочить тебя в контроле.</span></div>
+    </div>
+    <p class="hint">Infiltrate — второй сбиватель щитов, если Ambush промазал. Flash Slice — блайнд и мобильность. Storm Rampage в PvP не берём.</p>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-stigma" data-label="Стигмы" data-label-en="Stigmas">
+    <div class="sec__eyebrow"><span class="n">05</span><span>Стигмы</span></div>
+    <h2 id="a-pvp-stigma">Стигмы</h2>
+    <div class="grid grid--4">
+      <div class="mini"><img src="img/s-spiral-slice.webp" alt=""><b>Spiral Slice</b><span>Гарантированный крит из инвиза — главный бурст-инструмент.</span></div>
+      <div class="mini"><img src="img/s-illusive-clone.webp" alt=""><b>Illusive Clone</b><span>Окно входа; снимает КД Heart Gore. Минимум 15.</span></div>
+      <div class="mini"><img src="img/s-throw-shadowblade.webp" alt=""><b>Shadow Blade</b><span>Мобильность и фарм: сброс КД на убийстве.</span></div>
+      <div class="mini"><img src="img/s-shadow-walk.webp" alt=""><b>Shadow Walk</b><span>Выход и ре-энгейдж. На 20 — сброс на убийстве.</span></div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Shadow Step вместо Shadow Walk</h3>
+        <p>Даёт стан, уклонение, скорость и инвиз — лучше для 1v1. Но без сброса КД в толпе Бездны автор предпочитает Shadow Walk: он позволяет выйти и вернуться.</p>
+      </div>
+      <div>
+        <h3>Защитные варианты</h3>
+        <p><b>Evasion Contract</b> помогает против дальников, если Shadow Walk ещё не 20, но уклонение нерфили много раз — автор его больше не советует. <b>Evasion Stance</b> — если нужна игра от защиты.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-passive" data-label="Пассивки" data-label-en="Passives">
+    <div class="sec__eyebrow"><span class="n">06</span><span>Пассивки</span></div>
+    <h2 id="a-pvp-passive">Пассивки — порядок</h2>
+    <ol class="ranks">
+      <li><img src="img/s-rear-smite.webp" alt=""><span>Rear Smite</span></li>
+      <li><img src="img/s-assault-stance.webp" alt=""><span>Assault Stance</span></li>
+      <li><img src="img/s-exploit-weakness.webp" alt=""><span>Exploit Weakness</span></li>
+      <li><img src="img/s-impact-hit-assassin.webp" alt=""><span>Impact Hit</span></li>
+    </ol>
+    <p class="hint">Порядок из видео: Rear Smite — топ, дальше Assault Stance, Exploit Weakness, Impact Hit. Во вкладке PvE — порядок Mobalytics; сверь оба варианта под свой стиль.</p>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-gameplay" data-label="Как играть" data-label-en="Gameplay">
+    <div class="sec__eyebrow"><span class="n">07</span><span>Как играть</span></div>
+    <h2 id="a-pvp-gameplay">Как играть: окна КД</h2>
+    <p class="lead">Ассасин силён только в своём окне. Вне КД он не выигрывает бой — он его пережидает.</p>
+    <ol class="steps">
+      <li><b>Clone</b> — вход в бой.</li>
+      <li><b>Shadowstrike → Shadow Fall</b> — стан и нокдаун.</li>
+      <li><b>Урон</b>: Spiral Slice, Insignia Explosion, автоатаки.</li>
+      <li><b>Щит?</b> — Ambush или Infiltrate.</li>
+      <li><b>Shadow Walk</b> — выход; ре-энгейдж на следующем окне.</li>
+    </ol>
+    <div class="cols">
+      <div>
+        <h3>Открытый мир и Бездна</h3>
+        <p>Постоянно 1v2, 1v3 и 1v4. Думай до входа, а не после: без КД не заходи, на добивании не жадничай. Ассасин хорош в окне, а не в бесконечной драке.</p>
+      </div>
+      <div>
+        <h3>Против кого</h3>
+        <p>Дальники — приоритет, их можно забрать быстро. Танков пропускай. Против щитов Templar и Chanter держи Ambush или Infiltrate. Против дальников без Shadow Walk 20 — Evasion Contract.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" data-guide-mode="pvp" data-sec="a-pvp-mistakes" data-label="Ошибки" data-label-en="Mistakes">
+    <div class="sec__eyebrow"><span class="n">08</span><span>Ошибки</span></div>
+    <h2 id="a-pvp-mistakes">Частые ошибки</h2>
+    <ul class="check">
+      <li><b>Заходить без КД.</b> Без Clone, Spiral Slice и выхода ты не убиваешь, а умираешь.</li>
+      <li><b>Держать Storm Rampage.</b> Это PvE-скилл; в PvP очки из него вынимают.</li>
+      <li><b>Играть без Shadow Walk 20</b> в толпе: нет сброса — нет выхода из боя.</li>
+      <li><b>Жадничать на добивании.</b> Автор сам показывает такой момент в клипе — лучше выйти и вернуться.</li>
+      <li><b>Не сбивать щит.</b> Ambush и Infiltrate для этого и нужны.</li>
+    </ul>
+  </section>
   </article>
 
   <div class="credit">
     <span>Автор гайда: <b>Ulvier</b></span>
     <span>Источник: <a href="https://mobalytics.gg/gamebase/guides/aion-2-assassin-burst-pve-build" target="_blank" rel="noopener">Mobalytics</a></span>
+    <span>PvP-блок: <b>Viles</b> — <a href="https://www.youtube.com/watch?v=50Y96IPfpq8" target="_blank" rel="noopener">видео-гайд</a></span>
   </div>
 </section>
 <section class="view view--guide" id="view-guide-sorcerer" data-class-key="sorcerer" aria-label="Гайд: Чародей">
@@ -3259,9 +3400,9 @@
   <img alt="">
 </div>
 
-<script src="assets/pets-data.js??v=65"></script>
-<script src="assets/wikily-data.js??v=65"></script>
-<script src="assets/app.js??v=65"></script>
+<script src="assets/pets-data.js?v=66"></script>
+<script src="assets/wikily-data.js?v=66"></script>
+<script src="assets/app.js?v=66"></script>
 <script>
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {

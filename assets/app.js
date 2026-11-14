@@ -19,7 +19,7 @@
 
   var PREFIX = { r: 'ranger', a: 'assassin', so: 'sorcerer', sp: 'spiritmaster', te: 'templar', gl: 'gladiator', cl: 'cleric', ch: 'chanter' };
 
-  var state = { lastGuide: 'ranger', activeSec: null, returnHash: null, lang: 'ru', restoreScroll: false };
+  var state = { lastGuide: 'ranger', activeSec: null, returnHash: null, lang: 'ru', restoreScroll: false, guideMode: {} };
   var I18N = {
     ru: {
       nav_guides:'Гайды', nav_pets:'Питомцы', nav_monsters:'Монстры', nav_dungeons:'Подземелья', nav_skills:'Умения', nav_classes:'Классы', nav_items:'Предметы', nav_world:'Мир', nav_glossary:'База знаний',
@@ -37,7 +37,7 @@
       active:'Активные', passive:'Пассивные', stigmas:'Стигмы',
       total:'Всего', loaded:'загружено', out_of:'из', pets_word:'питомцев', monsters_word:'монстров', dungeons_word:'подземелий', skills_word:'умений',
       open_page:'Открыть страницу →', full_catalog:'Полный каталог →', catalog:'Каталог', guide_link:'Гайд →',
-      class_guide:'Гайд по классу · PvE', mode_pve:'PvE', mode_pvp:'PvP',
+      class_guide:'Гайд по классу · PvE', class_guide_pve:'Гайд по классу · PvE', class_guide_pvp:'Гайд по классу · PvP', mode_pve:'PvE', mode_pvp:'PvP',
       footer_unofficial:'Неофициальный фан-проект. Данные и билды: Mobalytics. Баланс меняется патчами — сверяйтесь с источником.',
       error_link:'Ошибка?', personal:'Личное', favorites_lead:'Гайды и существа, которые вы сохранили.', favorites_desc:'Список хранится в этом браузере — ничего не отправляется на сервер.',
       fav_empty_classes:'Пока пусто. Откройте гайд класса и нажмите «В избранное» в шапке гайда.', fav_catalogs:'Для питомцев, монстров, подземелий и умений используйте разделы каталога:',
@@ -59,7 +59,7 @@
       active:'Active', passive:'Passive', stigmas:'Stigmas',
       total:'Total', loaded:'loaded', out_of:'of', pets_word:'pets', monsters_word:'monsters', dungeons_word:'dungeons', skills_word:'skills',
       open_page:'Open page →', full_catalog:'Full catalog →', catalog:'Catalog', guide_link:'Guide →',
-      class_guide:'Class guide · PvE', mode_pve:'PvE', mode_pvp:'PvP',
+      class_guide:'Class guide · PvE', class_guide_pve:'Class guide · PvE', class_guide_pvp:'Class guide · PvP', mode_pve:'PvE', mode_pvp:'PvP',
       footer_unofficial:'Unofficial fan project. Data and builds: Mobalytics. Balance changes with patches — check the source.',
       error_link:'Issue?', personal:'Personal', favorites_lead:'Guides and creatures you saved.', favorites_desc:'Stored in this browser — nothing is sent to a server.',
       fav_empty_classes:'Empty for now. Open a class guide and click “Add to favorites” in the guide header.', fav_catalogs:'For pets, monsters, dungeons and skills, use the catalog sections:',
@@ -147,7 +147,12 @@
 
     if (view === 'guide') {
       state.lastGuide = key;
-      if (sec) state.activeSec = sec;
+      if (sec) {
+        state.activeSec = sec;
+        var modeSec = $('.sec[data-sec="' + sec + '"]', guideView(key));
+        if (modeSec && modeSec.getAttribute('data-guide-mode')) state.guideMode[key] = modeSec.getAttribute('data-guide-mode');
+      }
+      applyGuideMode(key);
     }
 
     var targetId = view === 'guide' ? 'view-guide-' + key : 'view-' + view;
@@ -229,11 +234,45 @@
   }
 
   /* ---------------- rails ---------------- */
+  function guideView(key) {
+    return document.getElementById('view-guide-' + key);
+  }
+  function guideHasPvp(key) {
+    var view = guideView(key);
+    return !!(view && view.querySelector('.sec[data-guide-mode="pvp"]'));
+  }
+  function guideMode(key) {
+    return guideHasPvp(key) && state.guideMode[key] === 'pvp' ? 'pvp' : 'pve';
+  }
+  function sectionInMode(sec, mode) {
+    return (sec.getAttribute('data-guide-mode') || 'pve') === mode;
+  }
+  function applyGuideMode(key) {
+    var view = guideView(key);
+    if (!view) return;
+    var mode = guideMode(key);
+    view.setAttribute('data-guide-mode', mode);
+    var eyebrow = view.querySelector('.guide-hero__eyebrow[data-mode-eyebrow]');
+    if (eyebrow) {
+      var k = mode === 'pvp' ? 'class_guide_pvp' : 'class_guide_pve';
+      eyebrow.setAttribute('data-i18n', k);
+      eyebrow.textContent = t(k);
+    }
+    $$('.guide-hero .seg [data-mode]', view).forEach(function (b) {
+      var on = b.getAttribute('data-mode') === mode;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-pressed', String(on));
+    });
+  }
+
   function getSections(key) {
     var view = document.getElementById('view-guide-' + key);
     if (!view) return [];
     var lang = state.lang === 'en' ? 'en' : 'ru';
-    return $$('.sec[data-sec]', view).map(function (sec) {
+    var mode = guideMode(key);
+    return $$('.sec[data-sec]', view).filter(function (sec) {
+      return sectionInMode(sec, mode);
+    }).map(function (sec) {
       var label = sec.dataset.label || (sec.querySelector('h2') || {}).textContent || '';
       if (lang === 'en' && sec.getAttribute('data-label-en')) label = sec.getAttribute('data-label-en');
       if (lang === 'ru' && sec.getAttribute('data-label-ru')) label = sec.getAttribute('data-label-ru') || sec.dataset.label || label;
@@ -262,7 +301,8 @@
     if (document.body.dataset.view !== 'guide') return;
     var view = $('.view.is-active');
     if (!view) return;
-    var secs = $$('.sec[data-sec]', view);
+    var mode = view.getAttribute('data-guide-mode') || 'pve';
+    var secs = $$('.sec[data-sec]', view).filter(function (s) { return sectionInMode(s, mode); });
     if (!secs.length) return;
     var line = window.scrollY + headerOffset() + 40;
     var current = secs[0].dataset.sec;
@@ -818,9 +858,24 @@
       if (fcur) { toggleClassFav(state.lastGuide); return; }
       var uf = e.target.closest('[data-unfav-class]');
       if (uf) { toggleClassFav(uf.dataset.unfavClass); return; }
-      var mode = e.target.closest('[data-mode]');
-      if (mode) {
-        if (mode.dataset.mode === 'pvp') toast(t('pvp_toast'));
+      var modeBtn = e.target.closest('[data-mode]');
+      if (modeBtn) {
+        var mkey = state.lastGuide;
+        var mview = guideView(mkey);
+        var seg = modeBtn.closest('.seg');
+        if (!mview || !seg || !mview.contains(seg)) return;
+        if (!guideHasPvp(mkey)) { toast(t('pvp_toast')); return; }
+        var want = modeBtn.getAttribute('data-mode') === 'pvp' ? 'pvp' : 'pve';
+        if (state.guideMode[mkey] === want) return;
+        state.guideMode[mkey] = want;
+        applyGuideMode(mkey);
+        var firstId = (getSections(mkey)[0] || {}).id;
+        state.activeSec = firstId || null;
+        if (firstId) { try { history.replaceState(null, '', '#' + mkey + '/' + firstId); } catch (err) {} }
+        renderRails(mkey);
+        renderSectionsSheet(mkey);
+        window.scrollTo(0, 0);
+        spy();
         return;
       }
       var goto = e.target.closest('[data-goto]');
