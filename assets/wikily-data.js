@@ -8343,500 +8343,817 @@ window.AION2_WIKILY = {
       "name": "Одурманенный браконьер",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDM2YWQ2YzEtMWExZC00Njc4LTk0YmItYTkxN2E5MmJmZTdiLW1vYl9maWdodGVybV8wMl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/addicted-poacher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Одурманенный браконьер - общий монстр расы «Разумные» в AION 2, обитает в локации База браконьеров. Там же встречается Разыскиваемый Рофман.",
+      "locDetail": "Бертрон",
+      "spawnCount": 56
     },
     {
       "id": "poacher-vanguard",
       "name": "Капитан передового отряда браконьеров",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/poacher-vanguard",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Капитан передового отряда браконьеров - общий монстр расы «Разумные» в AION 2, обитает в локации База браконьеров.",
+      "locDetail": "Бертрон",
+      "spawnCount": 36
     },
     {
       "id": "vicious-fossa",
       "name": "Свирепый фосса",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/vicious-fossa",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Свирепый фосса - общий монстр расы «Дикие» в AION 2, обитает в локации База браконьеров. Там же встречаются Разыскиваемый Рофман и Одурманенный браконьер.",
+      "locDetail": "Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "toxic-poison-flower",
       "name": "Токсичный ядовитый цветок",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzE3NmZmOTktYWZkZi00NzZhLTk3ZGItN2Y3NmQ4N2JkZWRjLW1vYl9wb2xsdXRlZGdyYXNzXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/toxic-poison-flower",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Токсичный ядовитый цветок - общий монстр расы «Природные» в AION 2, обитает в локации База браконьеров. Там же встречается Разыскиваемый Рофман.",
+      "locDetail": "Бертрон",
+      "spawnCount": 17
     },
     {
       "id": "poacher-chief",
       "name": "Главарь браконьеров",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzYxNWRmMTgtZTU3MS00NjI0LTg5ZTUtZGY3MzE2ZTJhOTkyLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDJfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/poacher-chief",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Главарь браконьеров - общий монстр расы «Разумные» в AION 2, обитает в локации База браконьеров. Там же встречается Разыскиваемый Рофман.",
+      "locDetail": "Бертрон",
+      "spawnCount": 27
     },
     {
       "id": "tyrant-ursus",
       "name": "Тиранический урсус",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTg2ZGU1NDQtMGUxNi00MTYwLTgzZjgtZDRlOWJmZTU5ZjUzLW1vYl91cnN1c3NlbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/tyrant-ursus",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Тиранический урсус - героический монстр расы «Дикие» в AION 2, обитает в локации Тайный склад Астина. Там же встречается Разведчик наемников Астина.",
+      "locDetail": "Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "daeva-renegade-assassin",
       "name": "Убийца даэвов-отступников",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Убийца даэвов-отступников - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 20,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-assassin/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "daeva-renegade-ranger",
       "name": "Стрелок даэвов-отступников",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Стрелок даэвов-отступников - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 13,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-ranger/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "renegade-daeva-gladiator",
       "name": "Гладиатор даэвов-отступников",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2UyYTdmMmQtZGU3Zi00YWI1LTgyZmMtODNjYTNkZjEzZmE0LW1vYl9kZWJndWFyZF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Гладиатор даэвов-отступников - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 15,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator/drops",
+          "chance": "2,31%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,97%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator/drops",
+          "chance": "0,93%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator/drops",
+          "chance": "0,86%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator/drops",
+          "chance": "0,35%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/renegade-daeva-gladiator/drops",
+          "chance": "0,34%"
+        }
+      ]
     },
     {
       "id": "draconute-ruins-tinkerer",
       "name": "Подсобный рабочий руин драконидов",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Подсобный рабочий руин драконидов - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 22,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-tinkerer/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "draconute-ruins-ranger",
       "name": "Лучник руин драконидов",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmIzNWE5MzEtMzk0NC00ZjAzLWE3NjEtY2UyZmM5ODAyZGY0LW1vYl9kcmFjb2FyY18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Лучник руин драконидов - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник искателя реликвий.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 10,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ruins-ranger/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "medium-fafnium",
       "name": "Средний фафниум",
       "lvl": "25 - 33",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMGE4MWQ0ZTMtODdlMS00NjljLTg1MDgtMGRkMzRmYzRjNTU1LW1vYl9mYWZuaXVtXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/medium-fafnium",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Средний фафниум - общий монстр расы «Мутанты» в AION 2, обитает в локации Альтгард. Места появления: Руины Васфельта и Уртумхейм.",
+      "locDetail": "Руины Васфельта и Уртумхейм",
+      "spawnCount": 4
     },
     {
       "id": "odylium-cave-sura-ranger",
       "name": "Сура-лучник Пещеры эфирия",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjhhZjY1MzEtMDQ5Ny00YWY0LTlmYzAtZjA2OGEwZTIxNmYzLW1vYl9zdXJhYXJjXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/odylium-cave-sura-ranger",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сура-лучник Пещеры эфирия - общий монстр расы «Разумные» в AION 2, обитает в локации Заброшенная пещера эфирия.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "odylium-cave-sura-warrior",
       "name": "Сура-воин Пещеры эфирия",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmIyOTg0YTItNjJkYy00NGFjLWJlNjQtYTE1NGU3NjVhZWIwLW1vYl9zdXJhd2FyXzA2LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/odylium-cave-sura-warrior",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сура-воин Пещеры эфирия - общий монстр расы «Разумные» в AION 2, обитает в локации Заброшенная пещера эфирия. Там же встречается Сура-лучник Пещеры эфирия.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "pino-storage-keeper",
       "name": "Смотритель склада пино",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAzOWZmY2QtY2U4MS00YWM2LWFmMmYtODI5NGE2MjA5MjA2LW1vYl9waW5vXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/pino-storage-keeper",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Смотритель склада пино - общий монстр расы «Мутанты» в AION 2, обитает в локации Пещерный склад. Там же встречаются Каторжник пино и Дозорная группа склада.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 14
     },
     {
       "id": "storage-sentry",
       "name": "Дозорная группа склада",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWMyNWRlY2QtMjllYy00Yzk1LWFkOWItZTBjZjI3N2QwMmJhLW1vYl9vd2x0cm9zXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/storage-sentry",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дозорная группа склада - общий монстр расы «Разумные» в AION 2, обитает в локации Пещерный склад. Там же встречаются Каторжник пино и Смотритель склада пино.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "sura-wraith",
       "name": "Сура-призрак",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAyOTczYjUtNWFkNy00ZmYyLWI3ZDktZDAxMDg4MmMxMTIzLW1vYl9jYXJhc3Zhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-wraith",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сура-призрак - общий монстр расы «Разумные» в AION 2, обитает в локации Одинокая скалистая гробница. Там же встречаются Сура-паломник и Паломник Сантиан.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 7
     },
     {
       "id": "sura-pilgrim",
       "name": "Сура-паломник",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzZlYTk4Y2EtNTI0Yi00ZDI4LThhMzItY2QzMDlmZDgzOTc4LW1vYl9zdXJhbWFnXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-pilgrim",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сура-паломник - общий монстр расы «Разумные» в AION 2, обитает в локации Одинокая скалистая гробница. Там же встречаются Сура-призрак и Паломник Сантиан.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 7
     },
     {
       "id": "pilgrim-santian",
       "name": "Паломник Сантиан",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGRkOTIxNTgtMDc4ZC00MDlkLTg1ZTUtYzVhYjE0NzNlNmY0LXV0XzI1Nl9tb2JfZ3JhdmV1bl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/pilgrim-santian",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Паломник Сантиан - героический монстр расы «Разумные» в AION 2, обитает в локации Одинокая скалистая гробница.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "wild-biruta-herbalist",
       "name": "Травник диких бирутов",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWMwMWVlNDMtN2Q2OC00MTBlLWJjZGItNWE5OGMwZWI3MTAyLW1vYl92aXJvdGFyYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wild-biruta-herbalist",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Травник диких бирутов - общий монстр расы «Разумные» в AION 2, обитает в локации Ареал диких бирут. Там же встречается Странник диких бирутов.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 10
     },
     {
       "id": "wild-biruta-wanderer",
       "name": "Странник диких бирутов",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYmJhZmM1NGYtYzRjNS00NmM2LTlmYTgtYzQwMGFkZTFmZDVmLW1vYl92aXJvdGF3YXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wild-biruta-wanderer",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Странник диких бирутов - общий монстр расы «Разумные» в AION 2, обитает в локации Ареал диких бирут. Там же встречается Травник диких бирутов.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 10
     },
     {
       "id": "wild-biruta-fighter",
       "name": "Задира диких бирутов",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjU4MGZmYmEtMzRhZi00MTRiLTg2NzUtYzJjYTFiOWZiNjE5LW1vYl92aXJvdGF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wild-biruta-fighter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Задира диких бирутов - общий монстр расы «Природные» в AION 2, обитает в локации Ареал диких бирут. Там же встречается Травник диких бирутов.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 10
     },
     {
       "id": "konutin-worker",
       "name": "Рабочий конути",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmJjZGNhZDUtYTc5OS00YWMyLWE1OGEtYjQ3MTU2NmJmZDJlLW1vYl9jb251dGlfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/konutin-worker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Рабочий конути - общий монстр расы «Природные» в AION 2, обитает в локации Пещера конути. Там же встречается Конути.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 12
     },
     {
       "id": "hidden-karas-wraith",
       "name": "Скрытый карас-призрак",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAyOTczYjUtNWFkNy00ZmYyLWI3ZDktZDAxMDg4MmMxMTIzLW1vYl9jYXJhc3Zhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hidden-karas-wraith",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Скрытый карас-призрак - общий монстр расы «Разумные» в AION 2, обитает в локации Скрытая лощина. Там же встречаются Скрытый карас-лучник и Скрытый гнилой карас.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 5
     },
     {
       "id": "hidden-karas-ranger",
       "name": "Скрытый карас-лучник",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTlhYTczZjItZDk4YS00MWY1LWE3N2QtODYzOTMyM2Y1NDQzLW1vYl9zdXJhYXJjXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hidden-karas-ranger",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Скрытый карас-лучник - общий монстр расы «Разумные» в AION 2, обитает в локации Скрытая лощина. Там же встречаются Скрытый карас-призрак и Скрытый гнилой карас.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 17
     },
     {
       "id": "hidden-decaying-karas",
       "name": "Скрытый гнилой карас",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmJiNmRjZDktM2RiNi00MDkyLTk1NDMtMjYzNjc0ZDY1YjFkLW1vYl9zdXJhd2FyXzAxX3YwMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hidden-decaying-karas",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Скрытый гнилой карас - общий монстр расы «Разумные» в AION 2, обитает в локации Скрытая лощина. Там же встречаются Скрытый карас-призрак и Скрытый карас-лучник.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "hidden-karas-warrior",
       "name": "Скрытый карас-воин",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2YyMzgyZDItNTk2NC00ZTY2LTljZjEtNWViNjcwZWY5Y2U2LW1vYl9zdXJhd2FyXzAxX3YwMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hidden-karas-warrior",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Скрытый карас-воин - общий монстр расы «Разумные» в AION 2, обитает в локации Скрытая лощина. Там же встречаются Скрытый карас-призрак и Скрытый карас-лучник.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 17
     },
     {
       "id": "karas-balaur-worshipper",
       "name": "Карас-культистка балауров",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzZlYTk4Y2EtNTI0Yi00ZDI4LThhMzItY2QzMDlmZDgzOTc4LW1vYl9zdXJhbWFnXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/karas-balaur-worshipper",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Карас-культистка балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Скрытая лощина. Из него выпадает «Старый ключ».",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 5,
+      "drops": [
+        {
+          "name": "Старый ключ",
+          "url": "https://wikily.gg/ru/aion-2/consumables/worn-key",
+          "chance": "100%"
+        }
+      ]
     },
     {
       "id": "enraged-kernon",
       "name": "Озверевший Кернон",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvY2MzZTM3ZDgtMWY3Mi00Y2Y5LWI2NmQtNjdmNGU3N2U4Njc5LXV0XzI1Nl9tb2Jfa2VuZWlyXzAxX3YwMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enraged-kernon",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Озверевший Кернон - героический монстр расы «Дикие» в AION 2, обитает в локации Травяная пещера. Там же встречается Травоядный тог.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "venomous-insect-sram",
       "name": "Смертельно ядовитый жук Трам",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2FjODM1MDAtZmM3MS00ZWIyLWFkYjgtNTE5N2QwYWIwMzYwLW1vYl9idWdfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/venomous-insect-sram",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Смертельно ядовитый жук Трам - героический монстр расы «Разумные» в AION 2, обитает в локации Логово смертельного яда.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "deadly-poison-grass",
       "name": "Смертельно ядовитая трава",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzE3NmZmOTktYWZkZi00NzZhLTk3ZGItN2Y3NmQ4N2JkZWRjLW1vYl9wb2xsdXRlZGdyYXNzXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/deadly-poison-grass",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Смертельно ядовитая трава - общий монстр расы «Природные» в AION 2, обитает в локации Логово смертельного яда.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 8
     },
     {
       "id": "satiated-kuru-worker",
       "name": "Сытый рабочий куру",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYmEyOGY1NjItNzAwOS00MTY1LThhMTAtYWQwMmIzNWRlYmM0LW1vYl9rdXJ1XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/satiated-kuru-worker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сытый рабочий куру - общий монстр расы «Разумные» в AION 2, обитает в локации Ареал диких куру. Там же встречается Сытый подсобный рабочий куру.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 20
     },
     {
       "id": "satiated-kuru-tinkerer",
       "name": "Сытый подсобный рабочий куру",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWY5ZmQ1ZGYtMThkZi00OTc5LTlkZjAtYjhkMTdjYzQ3NWI1LW1vYl9rdXJ1XzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/satiated-kuru-tinkerer",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сытый подсобный рабочий куру - общий монстр расы «Разумные» в AION 2, обитает в локации Ареал диких куру. Там же встречается Сытый рабочий куру.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 29
     },
     {
       "id": "satiated-kuru-errand-runner",
       "name": "Сытый посыльный куру",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzUyYjcwOTItZGIzOS00NmI4LWFhMWQtYjQyYzRjMjkxZDIzLW1vYl9rdXJ1XzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/satiated-kuru-errand-runner",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сытый посыльный куру - общий монстр расы «Разумные» в AION 2, обитает в локации Ареал диких куру. Там же встречается Сытый рабочий куру.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 27
     },
     {
       "id": "exiled-aullaeu",
       "name": "Изгнанный ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGUyMTE3MzQtMzFjNi00OTQ0LWFmMzktN2VlNGUxMjA3Mjc1LW1vYl9vd2xzb2xkaWVyXzA0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/exiled-aullaeu",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Изгнанный ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма изгнанников. Там же встречаются Изгнанный жрец ауллау и Боевой маг ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "exiled-aullaeu-priest",
       "name": "Изгнанный жрец ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGZkY2QwZjAtNjk4MS00ZGYxLWE2YmEtYmJjNGUxNWQ5OGQwLXV0XzI1Nl9tb2Jfb3dsbWFnXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/exiled-aullaeu-priest",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Изгнанный жрец ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма изгнанников. Там же встречаются Изгнанный ауллау и Боевой маг ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "aullaeu-warmage",
       "name": "Боевой маг ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmQwMGVlNmMtYzAwNS00NWY0LTg5OWYtMDUyY2I5N2I2YzIwLW1vYl9vd2xtYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-warmage",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Боевой маг ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма изгнанников. Там же встречаются Изгнанный ауллау и Изгнанный жрец ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "aullaeu-watcher",
       "name": "Дозорный солдат ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODU1NGViN2YtYTVkMy00MGJhLTkwNmUtYTE4Mzg5MzQ0ZDI2LXV0XzI1Nl9tb2Jfb3dsc29sZGllcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-watcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дозорный солдат ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма изгнанников. Там же встречается Изгнанный ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "patrolling-pino",
       "name": "Патрулирующий пино",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGQ3MGYyMWYtNDZkZi00NGMyLThlNGYtYmJhYWQxYjI1M2U0LW1vYl9waW5vXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-pino",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Патрулирующий пино - общий монстр расы «Мутанты» в AION 2, обитает в локации Тюрьма изгнанников. Там же встречаются Изгнанный ауллау и Изгнанный жрец ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 4
     },
     {
       "id": "prison-of-exiles-guard",
       "name": "Охранник Тюрьмы изгнанников",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWYzYmQ3Y2MtZGI3NC00ZGQzLWE1NDMtZWU4ZjcyOTllN2ZlLW1vYl9vd2xzb2xkaWVyXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/prison-of-exiles-guard",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Охранник Тюрьмы изгнанников - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. Там же встречаются Изгнанный ауллау и Изгнанный жрец ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 10
     },
     {
       "id": "aullaeu-heretic-patrol",
       "name": "Патрульный солдат еретиков ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWYzYmQ3Y2MtZGI3NC00ZGQzLWE1NDMtZWU4ZjcyOTllN2ZlLW1vYl9vd2xzb2xkaWVyXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-heretic-patrol",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Патрульный солдат еретиков ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь красного дракона.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 4
     },
     {
       "id": "aullaeu-heretic-shaman",
       "name": "Маг еретиков ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmQwMGVlNmMtYzAwNS00NWY0LTg5OWYtMDUyY2I5N2I2YzIwLW1vYl9vd2xtYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-heretic-shaman",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Маг еретиков ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь красного дракона. Там же встречается Патрульный солдат еретиков ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 5
     },
     {
       "id": "aullaeu-heretic-wraith",
       "name": "Призрак еретиков ауллау",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTM1NWFmNjYtNDU2My00ZDFlLWI5MGQtMDQ0ODRkNTI0YmFkLW1vYl9zcGVjdGVyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-heretic-wraith",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Призрак еретиков ауллау - общий монстр расы «Мутанты» в AION 2, обитает в локации Алтарь красного дракона. Там же встречается Патрульный солдат еретиков ауллау.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 5
     },
     {
       "id": "ancient-guardian-statue",
       "name": "Древняя охранная статуя",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjZiZDIwMGItODRlZS00ODQ4LTg5YmYtOTk1ZTI1NzEzZGNiLW1vYl9nYXJnb3lsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-guardian-statue",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Древняя охранная статуя - общий монстр расы «Мутанты» в AION 2, обитает в локации Пещера расщелины. Там же встречается Душа рыдающего рыцаря.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 6
     },
     {
       "id": "wailing-knight-s-soul",
       "name": "Душа рыдающего рыцаря",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wailing-knight-s-soul",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Душа рыдающего рыцаря - общий монстр расы «Разумные» в AION 2, обитает в локации Пещера расщелины. Там же встречается Древняя охранная статуя.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 3
     },
     {
       "id": "fanatic-ullimus",
       "name": "Фанатик Улимус",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjZmNjg5YmQtZDYyNC00OTBiLWJjNzctMjJmMTE4MzJkMTk1LXV0XzI1Nl9tb2Jfb3dsZWxpdGVfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fanatic-ullimus",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Фанатик Улимус - героический монстр расы «Разумные» в AION 2, обитает в локации Ораторий ауллау. Там же встречается Старейшина ауллау оратория.",
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "twisted-ranger-soul",
       "name": "Искривленная душа рейнджера",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWU4OTFhMTctNjk5Yi00NzllLTkxMmQtOTM1NWUxMjJkZTU2LW1vYl9zcGlyaXRhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/twisted-ranger-soul",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Искривленная душа рейнджера - общий монстр расы «Разумные» в AION 2, обитает в локации Искаженная яма. Там же встречается Искаженная душа воина.",
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 29
     },
     {
       "id": "twisted-warrior-soul",
       "name": "Искаженная душа воина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/twisted-warrior-soul",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Искаженная душа воина - общий монстр расы «Разумные» в AION 2, обитает в локации Искаженная яма. Там же встречается Искривленная душа рейнджера.",
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 29
     },
     {
       "id": "root-cave-contaminated-agrint",
       "name": "Зараженный агринт корневой пещеры",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDRkNzQ3MWItZjk0Ny00ZWU0LTlmMDYtYjY5ZTQ4ODk4MmEwLW1vYl9hZ3JpbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/root-cave-contaminated-agrint",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Зараженный агринт корневой пещеры - общий монстр расы «Природные» в AION 2, обитает в локации Темная корневая пещера.",
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 12
     },
     {
       "id": "depository-manager-arya",
       "name": "Глава хранилища Ари",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTljNjhmYjEtNzMxMS00ZWM5LWJhZjMtYWE4NzE2Yzk5MTM3LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDNfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/depository-manager-arya",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Глава хранилища Ари - героический монстр расы «Разумные» в AION 2, обитает в локации Хранилище драны. Там же встречается Солдат-разведчик хранилища.",
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "labor-camp-mumu-warrior",
