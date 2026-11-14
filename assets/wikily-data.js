@@ -21,7 +21,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-sylphen",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Малый мюта - общий монстр ур. 1, раса: Дикие. Локация: Склон Кураки, Бертрон.",
+      "locDetail": "Склон Кураки"
     },
     {
       "id": "fossa-s-corpse",
@@ -31,7 +33,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDY4MTc1NzQtYjE1NS00ZmMzLWFiOTYtY2VkMDEwMzg3MzkyLW1vYl9mb3NzYV8wMV9kaWUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/fossa-s-corpse",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Труп фоссы - общий монстр ур. 1, раса: Дикие, локация: Экспериментальная площадка Скалотус.",
+      "spawnCount": 1
     },
     {
       "id": "red-moss-crab",
@@ -41,7 +45,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-moss-crab",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Красный моховой краб - общий монстр ур. 1, раса: Дикие. Локации: Ущелье Кальбирия и Деревня беглецов, Альтгард.",
+      "locDetail": "Ущелье Кальбирия и Деревня беглецов"
     },
     {
       "id": "shadow-spider",
@@ -61,7 +67,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sylphen-larva",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Личинка мюты - общий монстр ур. 1, раса: Дикие, локация: Альтгард."
     },
     {
       "id": "cave-potcrab",
@@ -71,7 +78,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/cave-potcrab",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Пещерный крабрид - общий монстр ур. 1, раса: Дикие, локация: Прибрежная пещера.",
+      "spawnCount": 12
     },
     {
       "id": "papis",
@@ -81,7 +90,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQ1OTFiNjEtYjJkOS00MWQxLWEyOTgtYmExY2M5OTQ5ZTQ4LW1vYl9wYXBpc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/papis",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Папис - общий монстр ур. 1, раса: Дикие. Локации: Пещера озера Клионе и Пещера озера Тунапри.",
+      "spawnCount": 7
     },
     {
       "id": "mutated-bargott",
@@ -91,7 +102,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2MzODMwN2ItNDMwNy00NjFhLTg2YzYtZDI3ZTdkNDVjM2VmLXV0XzI1Nl9tb2JfYmFyZ290XzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-bargott",
-      "loc": "Исхальген"
+      "loc": "Исхальген",
+      "desc": "Мутировавший Багот - героический монстр ур. 1, раса: Разумные, локация: Фоэта."
     },
     {
       "id": "ishtar-unit-drakan",
@@ -101,7 +113,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ishtar-unit-drakan",
-      "loc": "Сюжет"
+      "loc": "Сюжет",
+      "desc": "Дракан отряда Иштар - общий монстр ур. 1, раса: Разумные, локация: Фоэта."
     },
     {
       "id": "broken-daeva",
@@ -111,7 +124,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjg0NmU3NDEtZjE0YS00NDVhLTgyZDQtMDcyYzNmNGFhOTVmLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/broken-daeva",
-      "loc": "Сюжет"
+      "loc": "Сюжет",
+      "desc": "Сломленный даэв - общий монстр ур. 1, раса: Разумные, локация: Фоэта."
     },
     {
       "id": "fafnir-drakan",
@@ -121,7 +135,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnir-drakan",
-      "loc": "Сюжет"
+      "loc": "Сюжет",
+      "desc": "Дракан Фафнира - общий монстр ур. 1, раса: Разумные, локация: Исхальген."
     },
     {
       "id": "rakut",
@@ -131,7 +146,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2MzODMwN2ItNDMwNy00NjFhLTg2YzYtZDI3ZTdkNDVjM2VmLXV0XzI1Nl9tb2JfYmFyZ290XzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/rakut",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Ракут - героический монстр ур. 1, раса: Разумные, локация: Исхальген."
     },
     {
       "id": "daminu-forest-kerubar",
@@ -141,7 +157,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/daminu-forest-kerubar",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Керубим леса Дамину - общий монстр ур. 3, раса: Разумные. Локация: Лес Дамину, Фоэта и Лес Дамину.",
+      "locDetail": "Лес Дамину"
     },
     {
       "id": "escaped-fossa",
@@ -151,7 +169,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/escaped-fossa",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Сбежавший фосса - общий монстр ур. 3, раса: Дикие. Локация: Восток долины Кантаса, Бертрон и Восток долины Кантаса.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "drakan-combatant",
@@ -171,7 +191,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWRmNGRlNzYtZDYyYy00NThhLTgzMTQtMTMzZTg2MmUwN2Y0LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-superior-warmage",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Старший боевой маг драканов - монстр, раса: Разумные и Дикие. Локация: Дранактус, Альтгард, Лес Мунихеля и Парящий остров феникса. Общий - ур. 3 - 32, элитный - ур. 6. Предметов в добыче: 52. Цель одного задания.",
+      "locDetail": "Дранактус, Альтгард"
     },
     {
       "id": "balaur-watchstone",
@@ -181,7 +203,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzIwY2U5MWQtMGE4My00ZTBhLWI0YjktOTRmNGYwOWUwMzJiLW1vYl9kcmF0b3RlbWFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-watchstone",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Камень наблюдения балауров - общий монстр ур. 3 - 4, раса: Мутанты. Локации: Озеро Клионе, Фоэта и Лес Мунихеля. Цель одного задания.",
+      "locDetail": "Озеро Клионе"
     },
     {
       "id": "daminu-forest-kerubian",
@@ -191,7 +215,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjBkOTkzNGYtM2M5Yi00Nzc3LWIxZjctN2JhZDM1MDFiMTY2LW1vYl9jaGVydWJpbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/daminu-forest-kerubian",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Керуб леса Дамину - общий монстр ур. 3, раса: Разумные, локация: Лес Дамину."
     },
     {
       "id": "forest-sylphen",
@@ -201,7 +226,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-sylphen",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Мюта леса - общий монстр ур. 3, раса: Дикие, локация: Исхальген."
     },
     {
       "id": "forest-sparkie",
@@ -211,7 +237,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2JmNTI4NTgtMjI2ZC00YjY4LWE1MzItMjZmZWYxNWUxZDk0LW1vYl9zcGFya3lvZF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-sparkie",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Спарки леса - общий монстр ур. 3, раса: Дикие. Локации: Лес Мунихеля и Окраины леса Мунихеля, Исхальген.",
+      "locDetail": "Лес Мунихеля и Окраины леса Мунихеля"
     },
     {
       "id": "munihelle-mumu",
@@ -221,7 +249,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTJiYTNmZmUtNWMxZS00YzliLWI5MjEtOGEzMGMyZWJjOWJhLW1vYl9za3Vydndhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/munihelle-mumu",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Му-му Мунихеля - общий монстр ур. 3, раса: Дикие, локация: Лес Мунихеля."
     },
     {
       "id": "munihelle-kerubar",
@@ -231,7 +260,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjBkOTkzNGYtM2M5Yi00Nzc3LWIxZjctN2JhZDM1MDFiMTY2LW1vYl9jaGVydWJpbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/munihelle-kerubar",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Керубим Мунихеля - общий монстр ур. 3, раса: Дикие, локация: Лес Мунихеля."
     },
     {
       "id": "elvida",
@@ -241,7 +271,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjhjYmY2NDEtNTA0ZS00MzY2LWI3MzUtZTRhYTg1OTNmZWMzLXV0XzI1Nl9ucGNfZl9ub3JuaXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/elvida",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Эльвида - героический монстр ур. 3, раса: Разумные, локация: Лес Мунихеля."
     },
     {
       "id": "forest-slink",
@@ -251,7 +282,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-slink",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Чешуйница леса - общий монстр ур. 4, раса: Дикие. Локации: Озеро Клионе и Лес Дамину, Фоэта.",
+      "locDetail": "Озеро Клионе и Лес Дамину"
     },
     {
       "id": "baby-forest-slink",
@@ -261,7 +294,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODU5MTMwNzYtOWE4Ny00ZDQ1LWIzMjUtNzYyYmZkYWI2ZGJmLW1vYl9sZXBpc21hXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/baby-forest-slink",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Детеныш чешуйницы леса - общий монстр ур. 4, раса: Дикие. Локации: Озеро Клионе и Лес Дамину, Фоэта.",
+      "locDetail": "Озеро Клионе и Лес Дамину"
     },
     {
       "id": "forest-draconute-warrior",
@@ -271,7 +306,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjE3ODRjN2QtYmY4ZS00ZmJjLWE0ZjYtMzNkMTM3MGViOWNkLW1vYl9kcmFjb3dhcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-draconute-warrior",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Драконид-воин леса - общий монстр ур. 4, раса: Разумные. Локация: Озеро Клионе, Фоэта.",
+      "locDetail": "Озеро Клионе"
     },
     {
       "id": "forest-dratona",
@@ -281,7 +318,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-dratona",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Дратон леса - общий монстр ур. 4, раса: Разумные. Локации: Озеро Клионе и Лес Дамину, Фоэта. Цель одного задания.",
+      "locDetail": "Озеро Клионе и Лес Дамину"
     },
     {
       "id": "weak-forest-dratona",
@@ -291,7 +330,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/weak-forest-dratona",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Слабый дратон леса - общий монстр ур. 4, раса: Разумные. Локации: Лес Мунихеля и Окраины леса Мунихеля, Исхальген.",
+      "locDetail": "Лес Мунихеля и Окраины леса Мунихеля"
     },
     {
       "id": "tunapre-slink",
@@ -301,7 +342,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tunapre-slink",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Чешуйница Тунапри - общий монстр ур. 4, раса: Дикие. Локации: Лес Мунихеля и Озеро Тунапри, Исхальген.",
+      "locDetail": "Лес Мунихеля и Озеро Тунапри"
     },
     {
       "id": "tunapre-airon",
@@ -311,7 +354,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjNhNTEwZmEtNTcwYi00YTVhLTgzNzQtMjI2ZTc1YzI2MTIwLW1vYl9haXJvbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/tunapre-airon",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Хайк Тунапри - общий монстр ур. 4, раса: Дикие. Локации: Лес Мунихеля и Озеро Тунапри, Исхальген.",
+      "locDetail": "Лес Мунихеля и Озеро Тунапри"
     },
     {
       "id": "grave-poison-sac",
@@ -321,7 +366,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM2YzE0ZjMtNWY5OS00NzMxLThmNDctZDI5M2Q3NDI0NGI5LW1vYl9wb2lzb25fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/grave-poison-sac",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Ядовитый мешочек кладбища - общий монстр ур. 10, раса: Мутанты, локация: Колумбарий знати.",
+      "spawnCount": 3
     },
     {
       "id": "cave-dratona-egg",
@@ -331,7 +378,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTE5NWIyYjYtY2NiZC00MDgyLThmMWYtYTlhMzk3MDYzNTc2LW1vYl9iZXJpdHJhY18wN192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/cave-dratona-egg",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Яйцо Пещеры дратонов - общий монстр ур. 10, раса: Разумные, локация: Пещера дратонов.",
+      "spawnCount": 21
     },
     {
       "id": "drana-mutant-sylphen",
@@ -341,7 +390,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-mutant-sylphen",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Мутировавший мьют драны - общий монстр ур. 10, раса: Дикие, локация: Гнездо Валки.",
+      "spawnCount": 6
     },
     {
       "id": "ore-vein-odyle-spirit",
@@ -351,7 +402,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDdjMmI0NDAtNWRjZC00MTg1LTgyMjQtMjA1YWEwOTQzYjg1LW1vYl9lYXJ0aGVsZW9kXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ore-vein-odyle-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Эфирный дух жилы - общий монстр ур. 10, раса: Природные, локация: Скрытая пещера жилы.",
+      "spawnCount": 6
     },
     {
       "id": "ore-vein-odyle-sparkie",
@@ -361,7 +414,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjFjNDQ5MTEtYWNmNi00YmM0LWEyYjctN2Q3ZWFhNzYxMGFmLW1vYl9zcGFya3lvZF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ore-vein-odyle-sparkie",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Эфирный спарки жилы - общий монстр ур. 10, раса: Дикие, локация: Скрытая пещера жилы.",
+      "spawnCount": 3
     },
     {
       "id": "ore-vein-giant-sparkie",
@@ -371,7 +426,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2JmNTI4NTgtMjI2ZC00YjY4LWE1MzItMjZmZWYxNWUxZDk0LW1vYl9zcGFya3lvZF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ore-vein-giant-sparkie",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Гигантский спарки жилы - общий монстр ур. 10, раса: Дикие, локация: Скрытая пещера жилы.",
+      "spawnCount": 3
     },
     {
       "id": "ore-vein-kalgolem",
@@ -381,7 +438,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGRkZGVkYTAtYTE3NC00NmY5LTgzZmYtM2U1ZDA5YWQxMDhkLW1vYl9rYWxnb2xlbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ore-vein-kalgolem",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Калькельм жилы - общий монстр ур. 10, раса: Мутанты, локация: Скрытая пещера жилы.",
+      "spawnCount": 12
     },
     {
       "id": "wandering-treasure-hunter-ranger",
@@ -391,7 +450,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWU4OTFhMTctNjk5Yi00NzllLTkxMmQtOTM1NWUxMjJkZTU2LW1vYl9zcGlyaXRhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-treasure-hunter-ranger",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Скитающийся рейнджер - охотник за сокровищами - общий монстр ур. 10, раса: Разумные, локация: Обиталище охотников за сокровищами.",
+      "spawnCount": 8
     },
     {
       "id": "spirit-treasure-hunter-knight",
@@ -401,7 +462,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/spirit-treasure-hunter-knight",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "spawnCount": 14
     },
     {
       "id": "vindictive-treasure-hunter-knight",
@@ -411,7 +473,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/vindictive-treasure-hunter-knight",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Одержимый злобой рыцарь охотников за сокровищами - общий монстр ур. 10, раса: Разумные, локация: Обиталище охотников за сокровищами.",
+      "spawnCount": 5
     },
     {
       "id": "faded-papis",
@@ -421,7 +485,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQ1OTFiNjEtYjJkOS00MWQxLWEyOTgtYmExY2M5OTQ5ZTQ4LW1vYl9wYXBpc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/faded-papis",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Поблекший папис - общий монстр ур. 11 - 40, раса: Дикие, локация: Альтгард. Предметов в добыче: 134."
     },
     {
       "id": "withered-branch-spider",
@@ -431,7 +496,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQ5ODg4OGMtMmJjYS00ZWNjLWFmN2UtYTQ0ODIwYWRhMGQwLW1vYl9vZHNwaWRlcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/withered-branch-spider",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Паук сухой ветви - общий монстр ур. 11 - 40, раса: Дикие. Локация: Альтгард и Ущелье Кальбирия. Предметов в добыче: 117. Цель одного задания."
     },
     {
       "id": "stonebeak-crestlich",
@@ -441,7 +507,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTNmMmEyNTctMGExMC00Zjc5LTkwNDktYzYxMGM2NmRiYTdkLW1vYl9jcmVzdGxpY2hfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/stonebeak-crestlich",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Камнеклювый венцекрыл - общий монстр ур. 11, раса: Дикие. Локация: Запад долины Кантаса, Бертрон. Предметов в добыче: 20. Цель одного задания.",
+      "locDetail": "Запад долины Кантаса"
     },
     {
       "id": "dratona-egg",
@@ -451,7 +519,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTE5NWIyYjYtY2NiZC00MDgyLThmMWYtYTlhMzk3MDYzNTc2LW1vYl9iZXJpdHJhY18wN192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/dratona-egg",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Яйцо дратона - общий монстр ур. 11 - 39, раса: Разумные и Мутанты. Локация: Дранактус, Альтгард, Запад долины Кантаса и Лагерь балауров Сабга. Предметов в добыче: 51.",
+      "locDetail": "Дранактус, Альтгард"
     },
     {
       "id": "dratona",
@@ -461,7 +531,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/dratona",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Дратон - общий монстр ур. 11 - 32, раса: Разумные. Локация: Дранактус, Альтгард и Запад долины Кантаса. Предметов в добыче: 53. Цель одного задания.",
+      "locDetail": "Дранактус"
     },
     {
       "id": "crash-site-kalgolem",
@@ -471,7 +543,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGJmZmE1OGItNDM0ZS00NTdmLWFhN2EtMGYxZWIxZmRlODhlLW1vYl9rYWxnb2xlbV8wMV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/crash-site-kalgolem",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Калькельм места крушения - общий монстр ур. 11, раса: Мутанты. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 19. Цель одного задания.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "drana-slime",
@@ -481,7 +555,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTVlMjU4NzItOTVmNi00NzE4LWFmNTMtMDhmNGRhNjgyNjQ5LW1vYl9zbGltZV8wMl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-slime",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Слизень драны - общий монстр ур. 11, раса: Мутанты. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 19. Цель одного задания.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "contaminated-swarm",
@@ -491,7 +567,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-swarm",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зараженный сворм - общий монстр ур. 11, раса: Мутанты. Локация: Ущелье Кальбирия, Альтгард. Предметов в добыче: 19.",
+      "locDetail": "Ущелье Кальбирия"
     },
     {
       "id": "contaminated-swarm-egg",
@@ -501,7 +579,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYmQ5Y2QyYjMtNDc5OC00ZDE4LWJkMjUtNjY1NGFiZTIyYmQwLW1vYl9hYnlzc3N3YXJtZWdnXzAxX2N2MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-swarm-egg",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Яйцо зараженного сворма - общий монстр ур. 11 - 16, раса: Дикие. Локации: Ущелье Кальбирия и Место крушения Дерадикона, Альтгард и Место крушения Дерадикона. Предметов в добыче: 18.",
+      "locDetail": "Ущелье Кальбирия и Место крушения Дерадикона"
     },
     {
       "id": "rubek-thieves-scout",
@@ -511,7 +591,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rubek-thieves-scout",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Солдат-разведчик шайки воров Рубека - общий монстр ур. 11, раса: Разумные. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 18.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "rubek-thieves-ranger",
@@ -521,7 +603,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rubek-thieves-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рейнджер воров Рубека - общий монстр ур. 11, раса: Разумные, локация: Захваченный лагерь шайки воров Рубека."
     },
     {
       "id": "rubek-thieves-warrior",
@@ -531,7 +614,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rubek-thieves-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин шайки воров Рубека - общий монстр ур. 11, раса: Разумные, локация: Захваченный лагерь шайки воров Рубека."
     },
     {
       "id": "rubek-thieves-burglar",
@@ -541,7 +625,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rubek-thieves-burglar",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Вор шайки воров Рубека - общий монстр ур. 11, раса: Разумные, локация: Захваченный лагерь шайки воров Рубека."
     },
     {
       "id": "rubek-thieves-chief",
@@ -551,7 +636,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzYxNWRmMTgtZTU3MS00NjI0LTg5ZTUtZGY3MzE2ZTJhOTkyLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDJfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/rubek-thieves-chief",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Главарь воров Рубек - общий монстр ур. 11, раса: Разумные, локация: Захваченный лагерь шайки воров Рубека."
     },
     {
       "id": "twisted-drana-mutant",
@@ -561,7 +647,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjkwZjFjMjUtYTJiMC00MmVmLTg4YzctZDcyMjQ0ZjA2NWM0LW1vYl9kcmFuYXZhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/twisted-drana-mutant",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Изломанный мутант драны - общий монстр ур. 11, раса: Мутанты, локация: Яма драканы."
     },
     {
       "id": "red-cap-fungie",
@@ -571,7 +658,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODBlYWI5OGEtZTgzYi00NTY0LWJlMmUtNmVjMDdiN2JkMjA4LW1vYl9mdW5neV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-cap-fungie",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Фунги с красной шляпкой - общий монстр ур. 12, раса: Природные. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 19.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "splendent-armadon",
@@ -581,7 +670,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWM4YmM2ZTAtNjcxNS00NWFjLWEyNzktZjk3NzQ4NTA2OTAwLW1vYl9tb2xlXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/splendent-armadon",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Блестящий армадон - общий монстр ур. 12, раса: Дикие. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 20.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "splendent-kalgolem",
@@ -591,7 +682,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGRkZGVkYTAtYTE3NC00NmY5LTgzZmYtM2U1ZDA5YWQxMDhkLW1vYl9rYWxnb2xlbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/splendent-kalgolem",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Блестящий калькельм - общий монстр ур. 12, раса: Мутанты. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 19.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "red-cap-fungen",
@@ -601,7 +694,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzNiNmZmMjItZmYyNC00OWY3LWE3M2MtYjg1YTU1M2M5ZjI4LW1vYl9mdW5ndXNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-cap-fungen",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Фунгус с красной шляпкой - общий монстр ур. 12, раса: Природные. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 19.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "captain-ugaros",
@@ -611,7 +706,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMWU5YjkwYmItNjVmYy00NGE4LWJlZjYtMWY1OWFmYzY5Mzk4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/captain-ugaros",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан Угарос - героический монстр ур. 12, раса: Разумные, локация: Лагерь шайки воров Угароса."
     },
     {
       "id": "ugaros-marauder",
@@ -621,7 +717,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ugaros-marauder",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мародер Угароса - общий монстр ур. 12, раса: Разумные, локация: Лагерь шайки воров Угароса."
     },
     {
       "id": "ugaros-reaver",
@@ -631,7 +728,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ugaros-reaver",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Нападающий Угароса - общий монстр ур. 12 - 16, раса: Разумные. Локации: Лагерь шайки воров Угароса и Восток долины Кантаса."
     },
     {
       "id": "ugaros-assassin",
@@ -641,7 +739,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ugaros-assassin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ассасин Угароса - общий монстр ур. 12 - 16, раса: Разумные. Локации: Лагерь шайки воров Угароса и Восток долины Кантаса."
     },
     {
       "id": "cantas-marauder-chief",
@@ -651,7 +750,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzYxNWRmMTgtZTU3MS00NjI0LTg5ZTUtZGY3MzE2ZTJhOTkyLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDJfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/cantas-marauder-chief",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Главрь мародеров Кантас - общий монстр ур. 12, раса: Разумные, локация: Лагерь шайки воров Угароса."
     },
     {
       "id": "congealed-drana",
@@ -661,7 +761,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmZiYzM4NDQtZTc4My00NzJjLWIxYmYtNjM4ZTEzY2JkMjY4LW1vYl9kcmFuYXZhcl8wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/congealed-drana",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Свернувшаяся драна - общий монстр ур. 12, раса: Мутанты. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 18. Цель заданий: 2.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "drana-predator",
@@ -671,7 +773,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTc5NDkzZmEtMTFlMC00NmQyLWI1MzYtMmYxZDZlMTNjZjhlLW1vYl9kcmFuYXZhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-predator",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Хищник драны - общий монстр ур. 12, раса: Мутанты. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 19. Цель одного задания.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "drana-cadaver-insectoid",
@@ -681,7 +785,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmFlNDFkYTEtYzk1YS00ZWQyLWIzOWMtMDZhMzEzNzU5ZmU0LW1vYl9hbHRidWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-cadaver-insectoid",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Трупный инсектоид драны - общий монстр ур. 12, раса: Дикие. Локация: Место крушения Дерадикона, Альтгард. Предметов в добыче: 19.",
+      "locDetail": "Место крушения Дерадикона"
     },
     {
       "id": "abandoned-daeva",
@@ -691,7 +797,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTcxM2I0ZWEtOWE4Yi00OTM0LWJjMTItNjhiZGE1ZTQ3ZGYxLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abandoned-daeva",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Брошенный даэв - общий монстр ур. 12, раса: Разумные. Локация: Ущелье Кальбирия, Альтгард. Предметов в добыче: 18.",
+      "locDetail": "Ущелье Кальбирия"
     },
     {
       "id": "captain-rubek",
@@ -701,7 +809,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMWU5YjkwYmItNjVmYy00NGE4LWJlZjYtMWY1OWFmYzY5Mzk4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/captain-rubek",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан Рубек - героический монстр ур. 12, раса: Разумные, локация: Захваченный лагерь шайки воров Рубека."
     },
     {
       "id": "insane-daeva",
@@ -711,7 +820,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjE2YjhkMDktY2UzOC00ZjFiLTk2ODMtNzU1ZWJjN2QzMzA2LXV0XzI1Nl9ucGNfbV92aWxsYWdlcmFfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/insane-daeva",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Обезумевший даэв - общий монстр ур. 12, раса: Разумные, локация: Лагерь Квайринга."
     },
     {
       "id": "sura-knight",
@@ -721,7 +831,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWNjMjZkYmMtOTZlNC00ZThhLWJlZmUtNWMyMTEzN2EzZGZjLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-knight",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Сура-рыцарь - общий монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 7
     },
     {
       "id": "sura-mage",
@@ -731,7 +843,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzVhNjRkNjctM2FjOS00ZmJjLWFjMmMtZWUyYWVlNmJhNmEyLW1vYl9zdXJhbWFnXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-mage",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Сура-маг - общий монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 4
     },
     {
       "id": "sealed-sura",
@@ -741,7 +855,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZWUzMGExZmEtYzI4My00OWUwLWE5ZDEtOTI0OGZhNzIzNTM4LXV0XzI1Nl9tb2JfcGVyaW9uXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sealed-sura",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Запечатанный сура - героический монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 1
     },
     {
       "id": "high-priestess-s-illusion",
@@ -751,7 +867,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZmU1ODI4NDQtMmEyNC00YTliLThhNTctMjA3Zjk3ZDI3MWI1LXV0XzI1Nl9tb2JfZGFya2xlZGFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/high-priestess-s-illusion",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Иллюзия верховного клирика - героический монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 1
     },
     {
       "id": "addicted-sura-knight",
@@ -761,7 +879,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmIyOTg0YTItNjJkYy00NGFjLWJlNjQtYTE1NGU3NjVhZWIwLW1vYl9zdXJhd2FyXzA2LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/addicted-sura-knight",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ядовитый сура-рыцарь - общий монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 2
     },
     {
       "id": "addicted-sura-mage",
@@ -771,7 +891,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzVhNjRkNjctM2FjOS00ZmJjLWFjMmMtZWUyYWVlNmJhNmEyLW1vYl9zdXJhbWFnXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/addicted-sura-mage",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Одурманенный сура-маг - общий монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 1
     },
     {
       "id": "addicted-sura-brawler",
@@ -781,7 +903,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmODUzY2ItODY3Yy00ZmFiLTliN2QtNWViMDRlODRlZDNiLW1vYl9zdXJhd2FyXzA3LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/addicted-sura-brawler",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зараженный сура-храбрец - общий монстр ур. 12, раса: Разумные, локация: Прибрежная пещера.",
+      "spawnCount": 2
     },
     {
       "id": "black-armor-bee",
@@ -791,7 +915,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-armor-bee",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Черная бронированная оса - общий монстр ур. 13 - 33, раса: Дикие, локация: Альтгард. Предметов в добыче: 86."
     },
     {
       "id": "highland-sylphen",
@@ -801,7 +926,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/highland-sylphen",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Мюта высокогорья - общий монстр ур. 13 - 32, раса: Дикие, локация: Бертрон. Предметов в добыче: 70."
     },
     {
       "id": "cairn-tog",
@@ -811,7 +937,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTU3Njk4NWUtZjNhMi00MGU2LThiMDQtYjMzODAzYjkyOGNiLW1vYl90b2dfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/cairn-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Тог каменной груды - общий монстр ур. 13, раса: Дикие. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 20.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "splendent-hill-sparkie",
@@ -821,7 +949,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2JmNTI4NTgtMjI2ZC00YjY4LWE1MzItMjZmZWYxNWUxZDk0LW1vYl9zcGFya3lvZF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/splendent-hill-sparkie",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Блестящий спарки холма - общий монстр ур. 13, раса: Дикие. Локация: Восток долины Кантаса, Бертрон. Предметов в добыче: 20.",
+      "locDetail": "Восток долины Кантаса"
     },
     {
       "id": "marsh-vine-spirit",
@@ -831,7 +961,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQzZDdiNGUtMTE5Zi00ZGI2LWE1M2QtM2IxZjlmNjM2ZWI3LW1vYl9mb3Jlc3RlbGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/marsh-vine-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотный дух лозы - общий монстр ур. 13, раса: Природные. Локация: Болото реки Эллун, Бертрон. Предметов в добыче: 19. Цель одного задания.",
+      "locDetail": "Болото реки Эллун"
     },
     {
       "id": "marsh-slime",
@@ -841,7 +973,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0ZWIxNDEtNTA5Ni00MDQ3LTg2Y2EtMTVmNjYyZjNmYzFjLW1vYl9zbGltZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/marsh-slime",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотный слизень - общий монстр ур. 13, раса: Мутанты. Локация: Болото реки Эллун, Бертрон. Предметов в добыче: 19.",
+      "locDetail": "Болото реки Эллун"
     },
     {
       "id": "contaminated-vine-spirit",
@@ -851,7 +985,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQzZDdiNGUtMTE5Zi00ZGI2LWE1M2QtM2IxZjlmNjM2ZWI3LW1vYl9mb3Jlc3RlbGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-vine-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зараженный дух лозы - общий монстр ур. 13 - 18, раса: Природные. Локация: Среднее течение реки Эллун, Бертрон и Болото реки Эллун. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "tamed-karnif",
@@ -861,7 +997,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tamed-karnif",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Прирученный каллиф - общий монстр ур. 13 - 45, раса: Дикие. Локации: Склон Кураки, Бертрон, Логово расхитителей кладбища и еще мест: 2. Предметов в добыче: 70.",
+      "locDetail": "Склон Кураки, Бертрон"
     },
     {
       "id": "hungry-dead",
@@ -871,7 +1009,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWE1ODc0YjgtOTliMC00YzJkLTg5M2QtZGJkOTk4MjdlYmIzLW1vYl9ncmF2ZXVuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hungry-dead",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ненасытный мертвец - общий монстр ур. 13, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 18. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "corrupted-karas-handmaiden",
@@ -881,7 +1021,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjMyOTBjOTEtMmJkYi00OGI1LTk2MjctNGY4MmFkYzBmYTk1LW1vYl9zdXJhcHJpZXN0XzAxX3YwMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-karas-handmaiden",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Падшая карас-прислужница - общий монстр ур. 13, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 18. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "red-eye-agrint",
@@ -891,7 +1033,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDlkOGQ2MmItODU1Yi00ZDA3LWE2MTktYTU5NWY5MzU4ZTYwLW1vYl9hZ3JpbnRfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-eye-agrint",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Красноглазый агринт - общий монстр ур. 13, раса: Природные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 19.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "graverobber-gottfred",
@@ -901,7 +1045,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzAxMWJlZmQtMGU3Ny00MTQzLThhNjQtMWQ3YTRlNGY1NTg0LXV0XzI1Nl9tb2JfZGFldmF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/graverobber-gottfred",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Расхититель Готфрид - героический монстр ур. 13, раса: Разумные, локация: Логово расхитителей кладбища."
     },
     {
       "id": "graverobber-assassin",
@@ -911,7 +1056,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/graverobber-assassin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ассасин расхитителей кладбища - общий монстр ур. 13, раса: Разумные, локация: Логово расхитителей кладбища."
     },
     {
       "id": "forest-brax",
@@ -921,7 +1067,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzdlZTM4ZGQtODRiYi00M2NlLWIxOTItMjkzN2U3ZDcwODg2LW1vYl9icmF4XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-brax",
-      "loc": "Исхальген"
+      "loc": "Исхальген",
+      "desc": "Бракс леса - общий монстр ур. 4, раса: Дикие, локация: Исхальген."
     },
     {
       "id": "servant-of-the-jewel",
@@ -931,7 +1078,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDlmNzQ5ZTQtMTM4Zi00ZDBiLThlMGQtMzdmMDc0YzVkOGY5LW1vYl9kYWV2YWFzc18wMV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/servant-of-the-jewel",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Служитель кристалла - общий монстр ур. 4, раса: Разумные. Локация: Озеро Тунапри, Исхальген и Озеро Тунапри.",
+      "locDetail": "Озеро Тунапри"
     },
     {
       "id": "veil-jewel",
@@ -941,7 +1090,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzQ0ZDY4OGYtN2E2Zi00YzcxLWFkM2ItZTQwNTBjNmMwMTQ4LXV0XzI1Nl9tb2JfdmVpbGpld2VsXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/veil-jewel",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Кристалл ауры - элитный монстр ур. 4, раса: Мутанты, локация: Озеро Тунапри."
     },
     {
       "id": "fossa-shaped-specter",
@@ -951,7 +1101,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGFiMzk0MWQtNWEzYi00ODBiLThiOGEtMjQyNjE2NWJmZGIyLW1vYl9mb3NzYV8wMV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fossa-shaped-specter",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Сущность в форме фоссы - общий монстр ур. 5, раса: Дикие, локация: Экспериментальная площадка Скалотус.",
+      "spawnCount": 22
     },
     {
       "id": "lake-guardian",
@@ -961,7 +1113,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2QxODljMDYtNDgyMy00M2M2LTg3YjMtYTc5NWQ0NWUzMTA3LXV0XzI1Nl9tb2JfbGFrZWd1YXJkXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/lake-guardian",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Хранительница озера - героический монстр ур. 5, раса: Природные, локации: Пещера озера Клионе и Пещера озера Тунапри.",
+      "spawnCount": 1
     },
     {
       "id": "sky-island-fenix",
@@ -971,7 +1125,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDE1ZWIzODktYTY1Zi00NjA2LWJiMzYtYTUzMzIwY2EzZTJjLW1vYl9sdWZpbGluaV8wMl9jdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sky-island-fenix",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Феникс Парящего острова - общий монстр ур. 6, раса: Дикие. Локация: Парящий остров феникса, Фоэта и Парящий остров феникса.",
+      "locDetail": "Парящий остров феникса"
     },
     {
       "id": "drakan-scout",
@@ -981,7 +1137,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-scout",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Солдат-разведчик драканов - общий монстр ур. 6 - 45, раса: Разумные. Локации: Скала Антурн, Пещера места крушения и Лаборатория драканов.",
+      "locDetail": "Скала Антурн"
     },
     {
       "id": "drakan-chaser",
@@ -991,7 +1149,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODY1MjlkODctMTU2Zi00NGQ4LTlmMDAtNzAxYjkwZjdjZDExLW1vYl9iZXJpdHJhY18wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-chaser",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Отряд преследования драканов - общий монстр ур. 6, раса: Разумные, локация: Парящий остров феникса."
     },
     {
       "id": "cliff-lupyllini",
@@ -1001,7 +1160,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTZmMjhjM2ItOTcwYy00NGNkLTljYjMtOWY0ODIzMWI2ZDgxLW1vYl9sdWZpbGluaV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/cliff-lupyllini",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Руфиллин утеса - общий монстр ур. 6, раса: Дикие. Локация: Скала Антурн, Исхальген.",
+      "locDetail": "Скала Антурн"
     },
     {
       "id": "drakan-cleric-apparition",
@@ -1011,7 +1172,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjg1M2E1YmQtMmYyYy00NjQ4LWIxZjQtMjMyNmY1ZmJmMDc5LW1vYl9kcmFrYW5lbGl0ZV8wMV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-cleric-apparition",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Фантом клерика драканов - общий монстр ур. 6 - 30, раса: Разумные. Локации: Скала Антурн и Хранилище реликвий.",
+      "spawnCount": 5
     },
     {
       "id": "kobold-porter",
@@ -1021,7 +1184,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGM3NzU2YTUtODhkNS00OTI3LWJlMjAtNWJmMGI0YmEzMGE3LW1vYl9rb2Jvd29ya21fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-porter",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Носильщик кобольдов - общий монстр ур. 7 - 39, раса: Разумные. Локации: Пункт снабжения армии Мигзату, Фоэта, База у пункта снабжения и База патруля Манташа.",
+      "locDetail": "Пункт снабжения армии Мигзату, Фоэта"
     },
     {
       "id": "kobold-tinkerer",
@@ -1031,7 +1196,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWZmMmZlMGMtZjVkOC00N2JlLTg4NGMtMzRlNmY1MjA3MGI0LW1vYl9rb2Jvd29ya2ZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-tinkerer",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Подсобный рабочий кобольдов - общий монстр ур. 7 - 8, раса: Разумные. Локации: Пункт снабжения армии Мигзату, Фоэта и База у пункта снабжения.",
+      "locDetail": "Пункт снабжения армии Мигзату"
     },
     {
       "id": "canyon-agrint",
@@ -1041,7 +1208,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDlkOGQ2MmItODU1Yi00ZDA3LWE2MTktYTU5NWY5MzU4ZTYwLW1vYl9hZ3JpbnRfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/canyon-agrint",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Агринт ущелья - общий монстр ур. 7 - 9, раса: Природные. Локации: База армии Мигзату, Фоэта и Фоэта.",
+      "locDetail": "База армии Мигзату"
     },
     {
       "id": "azrakar-karnif",
@@ -1051,7 +1220,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/azrakar-karnif",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Каллиф Азракуна - общий монстр ур. 7, раса: Дикие. Локация: Сторожевая казарма армии Азракуна, Исхальген.",
+      "locDetail": "Сторожевая казарма армии Азракуна"
     },
     {
       "id": "azrakar-brigade-warrior",
@@ -1061,7 +1232,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjE3ODRjN2QtYmY4ZS00ZmJjLWE0ZjYtMzNkMTM3MGViOWNkLW1vYl9kcmFjb3dhcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/azrakar-brigade-warrior",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Воин армии Азракуна - общий монстр ур. 7, раса: Разумные. Локации: Сторожевая казарма армии Азракуна и У тюремного лагеря армии Азракуна, Исхальген.",
+      "locDetail": "Сторожевая казарма армии Азракуна и У тюремного лагеря армии Азракуна"
     },
     {
       "id": "azrakar-brigade-ranger",
@@ -1071,7 +1244,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmIzNWE5MzEtMzk0NC00ZjAzLWE3NjEtY2UyZmM5ODAyZGY0LW1vYl9kcmFjb2FyY18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/azrakar-brigade-ranger",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Арбалетчик армии Азракуна - общий монстр ур. 7, раса: Разумные. Локация: Сторожевая казарма армии Азракуна, Исхальген.",
+      "locDetail": "Сторожевая казарма армии Азракуна"
     },
     {
       "id": "azrakar-watcher",
@@ -1081,7 +1256,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWU5MjVjYTctMzU3Mi00MDQwLTliNGUtOThmODU0MmY2OWI0LW1vYl9vY3VsYXplbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/azrakar-watcher",
-      "loc": "Фоэта"
+      "loc": "Фоэта",
+      "desc": "Дозорщик Азракуна - общий монстр ур. 7, раса: Мутанты. Локация: Сторожевая казарма армии Азракуна, Исхальген. Цель одного задания.",
+      "locDetail": "Сторожевая казарма армии Азракуна"
     },
     {
       "id": "mind-controlled-pelleir",
@@ -1091,7 +1268,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDBhNWYxMDYtZWIwOS00OTE0LTlkYjItZDk3N2QzYjEyZTU0LW1vYl9wZWxsZWlyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-pelleir",
-      "loc": "Исхальген"
+      "loc": "Исхальген",
+      "desc": "Околдованная Пеллеир - героический монстр ур. 9, раса: Мутанты, локация: Ночная деревня Альдер."
     },
     {
       "id": "bierts-wraith",
@@ -1101,7 +1279,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvM2M3NjhjYTEtM2JmZi00NDhhLWI2YWQtMmVkMDNmZjVlNjEzLXV0XzI1Nl9tb2JfZ3JhdmVnaF8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/bierts-wraith",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Призрак Байотса - героический монстр ур. 10, раса: Разумные, локация: Развалины базы легиона."
     },
     {
       "id": "toblini",
@@ -1111,7 +1290,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTFjN2Q1N2MtOTNjNS00ZGNmLWI4ODItZDBiMjEwY2Q0MGQ0LXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/toblini",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Тоблини - героический монстр ур. 10, раса: Разумные, локация: Прохладное убежище.",
+      "spawnCount": 1
     },
     {
       "id": "poacher-captain",
@@ -1121,7 +1302,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2Y0MWExZDItNTE2YS00NTMwLWIyZWUtMWNjOTU0NWNjMjdiLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/poacher-captain",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Капитан браконьеров - героический монстр ур. 10, раса: Разумные, локация: Логово браконьеров.",
+      "spawnCount": 1
     },
     {
       "id": "trickster-boss-korhe",
@@ -1131,7 +1314,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDE1MWI5ZjktZDg4Zi00NmEyLWIyZGMtNGI0ZDY4Yzg3OWFiLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/trickster-boss-korhe",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Главарь трикстеров Корхе - героический монстр ур. 10, раса: Разумные, локация: Логово трикстеров.",
+      "spawnCount": 1
     },
     {
       "id": "cruel-sumakhi",
@@ -1141,7 +1326,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDBkYTQzZTItNDU0ZS00MTIyLWJjZTMtOGMzYTIyNTdlYWIxLXV0XzI1Nl9tb2JfYWRkc2h1bGFja18wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/cruel-sumakhi",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Безжалостный Сумакин - героический монстр ур. 10, раса: Разумные, локация: Пещера контрабандистов.",
+      "spawnCount": 1
     },
     {
       "id": "scion-behit",
@@ -1151,7 +1338,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTFjN2Q1N2MtOTNjNS00ZGNmLWI4ODItZDBiMjEwY2Q0MGQ0LXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/scion-behit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Молодой дворянин Бехит - героический монстр ур. 10, раса: Разумные, локация: Гробница отверженного.",
+      "spawnCount": 1
     },
     {
       "id": "mutated-insectoid-valka",
@@ -1161,7 +1350,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmZhYmFlZDQtNTU2Yi00MzlhLWFiYWYtNzAzNTQxYWQ5YmM5LW1vYl9idWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-insectoid-valka",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Мутировавший жук Валка - героический монстр ур. 10, раса: Дикие, локация: Гнездо Валки.",
+      "spawnCount": 1
     },
     {
       "id": "legion-outlaws-leader",
@@ -1171,7 +1362,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDE1MWI5ZjktZDg4Zi00NmEyLWIyZGMtNGI0ZDY4Yzg3OWFiLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/legion-outlaws-leader",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Лидер легиона изгоев - героический монстр ур. 10, раса: Разумные, локация: Сумеречная яма.",
+      "spawnCount": 1
     },
     {
       "id": "trickster-archer",
@@ -1181,7 +1374,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trickster-archer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Застрельщица трикстеров - общий монстр ур. 10, раса: Разумные, локация: Логово трикстеров.",
+      "spawnCount": 1
     },
     {
       "id": "trickster-warrior",
@@ -1191,7 +1386,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trickster-warrior",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Воин трикстеров - общий монстр ур. 10, раса: Разумные, локация: Логово трикстеров.",
+      "spawnCount": 11
     },
     {
       "id": "trickster-ruffian",
@@ -1201,7 +1398,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trickster-ruffian",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Воительница трикстеров - общий монстр ур. 10, раса: Разумные, локация: Логово трикстеров.",
+      "spawnCount": 9
     },
     {
       "id": "defense-turret",
@@ -1211,7 +1410,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjA3MTZkMTEtZWUxYy00ZDQwLWI2YjUtNTA2MzM4OWZlN2QwLW1vYl90dXJyZXRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/defense-turret",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Оборонительная турель - общий монстр ур. 10 - 20, раса: Мутанты. Локации: Логово трикстеров и Гробница крепости.",
+      "spawnCount": 22
     },
     {
       "id": "graverobber-patrol",
@@ -1221,7 +1422,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/graverobber-patrol",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Патрульный расхитителей кладбища - общий монстр ур. 13, раса: Разумные, локация: Логово расхитителей кладбища."
     },
     {
       "id": "graverobber-chief",
@@ -1231,7 +1433,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGMxZjRkNDUtZDFlYi00ZjFmLWFhYjItZjIyNDk2NzhmMTYyLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/graverobber-chief",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Главарь расхитителей - общий монстр ур. 13, раса: Разумные, локация: Логово расхитителей кладбища."
     },
     {
       "id": "watching-totem",
@@ -1241,7 +1444,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjU3ZGZjMzItNzQxMy00Y2NmLTk0OTctM2RiNjNlOGY5ZGZkLW1vYl9kYWV2YXR1cnJldF9sXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/watching-totem",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Тотем наблюдения - общий монстр ур. 13, раса: Мутанты, локация: Логово расхитителей кладбища."
     },
     {
       "id": "baby-cave-spider",
@@ -1251,7 +1455,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/baby-cave-spider",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Детеныш пещерного паука - общий монстр ур. 13 - 25, раса: Дикие. Локации: Тенистая пещера и Руины верховного клирика.",
+      "spawnCount": 28
     },
     {
       "id": "animated-karas-corpse",
@@ -1261,7 +1467,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTcxM2I0ZWEtOWE4Yi00OTM0LWJjMTItNjhiZGE1ZTQ3ZGYxLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/animated-karas-corpse",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Движущийся труп караса - общий монстр ур. 13, раса: Разумные, локация: Тенистая пещера.",
+      "spawnCount": 28
     },
     {
       "id": "rafflesia",
@@ -1271,7 +1479,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzM3NWIyOGEtMDBiYi00MjE2LTlkZjQtZWEzYmExM2U5OGU2LW1vYl9yYWZmbGVzaWFfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/rafflesia",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "desc": "Рафлессия - общий монстр ур. 14 - 49, раса: Природные. Локация: Альтгард. Предметов в добыче: 166. Цель одного задания."
     },
     {
       "id": "marsh-targon",
@@ -1281,7 +1490,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTE1NDIzOTItNjhhOS00MGM0LWFmM2ItNzc2Nzc0N2UyY2Q3LW1vYl9iaWdtYW5fMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marsh-targon",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотный таргон - общий монстр ур. 14, раса: Мутанты. Локация: Зараженные болота и Болото реки Эллун, Бертрон. Предметов в добыче: 35. Цель одного задания.",
+      "locDetail": "Зараженные болота и Болото реки Эллун"
     },
     {
       "id": "ellun-river-sylphen",
@@ -1291,7 +1502,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQwYTQwOWEtNDNiZC00MTg2LWIxNGUtZDQ3ZjI1OGE5NmFkLW1vYl9tdXRhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-sylphen",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мюта реки Эллун - общий монстр ур. 14 - 18, раса: Дикие, локация: Бертрон. Предметов в добыче: 36."
     },
     {
       "id": "foul-skama",
@@ -1301,7 +1513,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTBmZjYyMzEtMDlkNS00ODRkLTk2YTUtYjhlYjk3MjFlMjRkLW1vYl9maXNoXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/foul-skama",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зловонный скама - общий монстр ур. 14, раса: Дикие. Локация: Зараженные болота, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Зараженные болота"
     },
     {
       "id": "marsh-moss-potcrab",
@@ -1311,7 +1525,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marsh-moss-potcrab",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотный моховой крабрид - общий монстр ур. 14, раса: Дикие, локация: Бертрон. Предметов в добыче: 35."
     },
     {
       "id": "coastal-starturtle",
@@ -1321,7 +1536,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTJmODdlMmQtMTI1ZS00NjQ0LThkNGMtZDE2MDI4NmVmMmU2LW1vYl9zdGFydHVydGxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/coastal-starturtle",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Панцирник побережья - общий монстр ур. 14, раса: Дикие. Локации: Рухнувшая Башня барьера Бертрона и Болото реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Рухнувшая Башня барьера Бертрона и Болото реки Эллун"
     },
     {
       "id": "water-spirit",
@@ -1331,7 +1548,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzQwNGQxNjMtZjQ3ZS00N2FmLTk4ZDUtNzdjNGI2ZGMzMzRhLW1vYl93YXRlcmVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/water-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Дух воды - общий монстр ур. 14 - 16, раса: Природные. Локация: Укрытие духов, Бертрон и Болото реки Эллун. Предметов в добыче: 35. Цель заданий: 2.",
+      "locDetail": "Укрытие духов"
     },
     {
       "id": "coastal-zelophi",
@@ -1341,7 +1560,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDhkODVkMTMtYzY0MS00NDUxLWI4M2YtN2Y5N2ZkYzZkYTVmLW1vYl9qZWxsb2ZpXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/coastal-zelophi",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Береговая зелофи - общий монстр ур. 14, раса: Природные. Локация: Болото реки Эллун, Бертрон. Предметов в добыче: 35. Цель одного задания.",
+      "locDetail": "Болото реки Эллун"
     },
     {
       "id": "drakan-air-raider",
@@ -1351,7 +1572,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODY1MjlkODctMTU2Zi00NGQ4LTlmMDAtNzAxYjkwZjdjZDExLW1vYl9iZXJpdHJhY18wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-air-raider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воздушный налетчик драканов - общий монстр ур. 14, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "ferocious-racon",
@@ -1361,7 +1583,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-racon",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Свирепый лакон - общий монстр ур. 14, раса: Дикие, локация: Воздушный налет Бритры."
     },
     {
       "id": "air-raid-rover",
@@ -1371,7 +1594,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/air-raid-rover",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ровер воздушного налета - общий монстр ур. 14, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "vampire-vivel",
@@ -1381,7 +1605,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTFiMDllMzYtNDdjMC00MWMyLWJlYmEtNjExY2MzNDY0MjExLW1vYl9ncmF2ZWJhdF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/vampire-vivel",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Кровососущий вивэль - общий монстр ур. 14, раса: Дикие. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 36. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "lost-specter",
@@ -1391,7 +1617,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWVhODhiZWItOWUzMS00Y2M4LWI5NDgtYWNmOTZmYTMwY2JlLW1vYl9ncmF2ZXNvdWxfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lost-specter",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Заблудший спектр - общий монстр ур. 14, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "condensed-specter",
@@ -1401,7 +1629,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTJmZDY2NjYtNGY1Ny00NDI4LTllNjQtMjlhNDUyMTY2YTAxLW1vYl9mb3Jlc3RlbGVfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/condensed-specter",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Концентрированный спектр - общий монстр ур. 14, раса: Природные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 35.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "ancient-revenant-knight",
@@ -1411,7 +1641,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDI4OTk2MDctMzQzZC00NTkyLTg2M2ItZjI2ODdlNTU3ZGUyLW1vYl93cmFrbnRfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-revenant-knight",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рыцарь древнего мстительного духа - общий монстр ур. 14, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "grudge-bearing-warrior",
@@ -1421,7 +1653,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjEwZjMxZDctNDFiMS00MTliLThmODUtOTg3NTI1ZWJjZjNhLW1vYl9ncmF2ZXVuXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/grudge-bearing-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Полный злобы воин - общий монстр ур. 14 - 15, раса: Разумные. Локация: Безымянное кладбище, Альтгард и Безымянное кладбище. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "evil-black-soul",
@@ -1431,7 +1665,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTcyYzFkYTItMjMyNy00MzRkLTk0Y2YtZjM3Y2Q2MGZiNGRiLW1vYl9naG9zdF8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/evil-black-soul",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Злая черная душа - общий монстр ур. 14 - 15, раса: Разумные. Локация: Безымянное кладбище, Альтгард и Безымянное кладбище. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "rotten-ancient-wraith",
@@ -1441,7 +1677,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTcxM2I0ZWEtOWE4Yi00OTM0LWJjMTItNjhiZGE1ZTQ3ZGYxLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rotten-ancient-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Гнилой древний призрак - общий монстр ур. 14, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "furious-revenant-warrior",
@@ -1451,7 +1689,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjEwZjMxZDctNDFiMS00MTliLThmODUtOTg3NTI1ZWJjZjNhLW1vYl9ncmF2ZXVuXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-revenant-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин разъяренного мстительного духа - общий монстр ур. 14, раса: Разумные, локация: Безымянное кладбище."
     },
     {
       "id": "decomposed-karas",
@@ -1461,7 +1700,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTcxM2I0ZWEtOWE4Yi00OTM0LWJjMTItNjhiZGE1ZTQ3ZGYxLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/decomposed-karas",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Гнилой карас - общий монстр ур. 14, раса: Разумные, локация: Подземный склеп.",
+      "spawnCount": 17
     },
     {
       "id": "underground-karas",
@@ -1471,7 +1712,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmU0MThkZWMtNzI1MC00ZDY1LWE1ZTctZjM3MDVmNTNlNGRkLW1vYl9zdXJhd2FyXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/underground-karas",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Карас подземелья - общий монстр ур. 14, раса: Разумные, локация: Подземный склеп.",
+      "spawnCount": 8
     },
     {
       "id": "karas-wraith",
@@ -1481,7 +1724,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAyOTczYjUtNWFkNy00ZmYyLWI3ZDktZDAxMDg4MmMxMTIzLW1vYl9jYXJhc3Zhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/karas-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Карас-призрак - общий монстр ур. 14, раса: Разумные, локация: Подземный склеп.",
+      "spawnCount": 2
     },
     {
       "id": "grave-zirka",
@@ -1491,7 +1736,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWJlZTY0YmUtNjA2ZC00OGQxLTk3MjctZWY5NGEwOGM2MWY4LW1vYl9ncmF2ZXJhdF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/grave-zirka",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зирка гробницы - общий монстр ур. 14, раса: Дикие, локация: Подземный склеп.",
+      "spawnCount": 5
     },
     {
       "id": "wraith-giselle",
@@ -1501,7 +1748,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTNiZjQ4NDYtODUyMS00MmE0LWEyYTctYTdkZDU1MjgyN2ExLXV0XzI1Nl9tb2JfZ2lzZWxsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wraith-giselle",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Призрак Жизели - героический монстр ур. 14, раса: Разумные, локация: Подземный склеп.",
+      "spawnCount": 1
     },
     {
       "id": "heladrir",
@@ -1511,7 +1760,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODU2ZmNmZGMtYzA5Yi00ZTAzLTg0NjYtNjdlYmE4M2MzNzgyLXV0XzI1Nl9tb2JfaGlsYWRyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/heladrir",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Хеладрир - героический монстр ур. 14, раса: Разумные, локация: Подземный склеп.",
+      "spawnCount": 1
     },
     {
       "id": "rampaging-dark-spirit",
@@ -1521,7 +1772,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/rampaging-dark-spirit",
-      "loc": "Подземелья"
+      "loc": "Подземелья",
+      "spawnCount": 6
     },
     {
       "id": "oathbreaker-gartua",
@@ -1531,7 +1783,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTIzNDE0NWMtMmY0Ny00YTE5LThlZjctYmUzZTg3NWY5ZjZmLXV0XzI1Nl9tb2JfZ2FydHVhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/oathbreaker-gartua",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Клятвопреступник Гартуа - героический монстр ур. 14 - 20, раса: Природные, локация: Разлом Этерии.",
+      "spawnCount": 1
     },
     {
       "id": "lost-spirit",
@@ -1541,7 +1795,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzQwNGQxNjMtZjQ3ZS00N2FmLTk4ZDUtNzdjNGI2ZGMzMzRhLW1vYl93YXRlcmVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/lost-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Заблудший дух - общий монстр ур. 14, раса: Природные, локация: Разлом Этерии.",
+      "spawnCount": 8
     },
     {
       "id": "marsh-odyle-spider",
@@ -1551,7 +1807,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2QxMmQ5ODMtNWMyYy00YjE0LWE3OTYtZDE3YjU4MTA3ZTFjLW1vYl9vZHNwaWRlcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/marsh-odyle-spider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотный эфирный паук - общий монстр ур. 15, раса: Дикие. Локация: Зараженные болота, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Зараженные болота"
     },
     {
       "id": "contaminated-spirit",
@@ -1561,7 +1819,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зараженный дух - общий монстр ур. 15, раса: Природные. Локация: Зараженные болота, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Зараженные болота"
     },
     {
       "id": "furious-spirit",
@@ -1571,7 +1831,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQzZDdiNGUtMTE5Zi00ZGI2LWE1M2QtM2IxZjlmNjM2ZWI3LW1vYl9mb3Jlc3RlbGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бешеный дух - общий монстр ур. 15, раса: Природные и Мутанты, локация: Болото реки Эллун."
     },
     {
       "id": "confused-spirit",
@@ -1581,7 +1842,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQzZDdiNGUtMTE5Zi00ZGI2LWE1M2QtM2IxZjlmNjM2ZWI3LW1vYl9mb3Jlc3RlbGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/confused-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Смятенный дух - общий монстр ур. 15, раса: Природные, локация: Болото реки Эллун."
     },
     {
       "id": "ferocious-spirit",
@@ -1591,7 +1853,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTQzZDdiNGUtMTE5Zi00ZGI2LWE1M2QtM2IxZjlmNjM2ZWI3LW1vYl9mb3Jlc3RlbGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Свирепый дух - общий монстр ур. 15, раса: Природные, локация: Болото реки Эллун."
     },
     {
       "id": "rampaging-spirit",
@@ -1601,7 +1864,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/rampaging-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бушующий дух - общий монстр ур. 15, раса: Природные, локация: Болото реки Эллун."
     },
     {
       "id": "drakan-air-raid-infantry",
@@ -1611,7 +1875,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-air-raid-infantry",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Пехотинец воздушного налета драканов - общий монстр ур. 15, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "drakan-armed-air-raider",
@@ -1621,7 +1886,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-armed-air-raider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Вооруженный солдат воздушного налета драканов - общий монстр ур. 15, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "drakan-air-raid-warmage",
@@ -1631,7 +1897,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-air-raid-warmage",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Маг воздушного налета драканов - элитный монстр ур. 15, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "drakan-destruction-engineer",
@@ -1641,7 +1908,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-destruction-engineer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Разрушительный инженер драканов - элитный монстр ур. 15, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "cemetery-guardian",
@@ -1651,7 +1919,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmU0MThkZWMtNzI1MC00ZDY1LWE1ZTctZjM3MDVmNTNlNGRkLW1vYl9zdXJhd2FyXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/cemetery-guardian",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Хранитель кладбища - общий монстр ур. 15, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "poison-sac",
@@ -1661,7 +1931,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM2YzE0ZjMtNWY5OS00NzMxLThmNDctZDI5M2Q3NDI0NGI5LW1vYl9wb2lzb25fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/poison-sac",
-      "loc": "Разные зоны"
+      "loc": "Разные зоны",
+      "spawnCount": 16
     },
     {
       "id": "library-guard-kerubar",
@@ -1671,7 +1942,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-guard-kerubar",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охранный керубим библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека болота.",
+      "spawnCount": 12
     },
     {
       "id": "library-guard-kerubian",
@@ -1681,7 +1954,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjBkOTkzNGYtM2M5Yi00Nzc3LWIxZjctN2JhZDM1MDFiMTY2LW1vYl9jaGVydWJpbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-guard-kerubian",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охранный керуб библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека болота.",
+      "spawnCount": 10
     },
     {
       "id": "corrupted-deios",
@@ -1691,7 +1966,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODhlNzEwODUtZTY0OS00ODRjLWJmNTctMDE3ODI2ZTYwNTNlLXV0XzI1Nl9tb2JfZGFldmF3YXJfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-deios",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Падший Дейос - героический монстр ур. 15, раса: Разумные, локация: Обиталище падшего Заклинателя.",
+      "spawnCount": 1
     },
     {
       "id": "akilo-thieves-ranger",
@@ -1701,7 +1978,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/akilo-thieves-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рейнджер воров Акило - общий монстр ур. 15, раса: Разумные, локация: Логово шайки воров Акило.",
+      "spawnCount": 16
     },
     {
       "id": "akilo-thieves-fossa",
@@ -1711,7 +1990,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/akilo-thieves-fossa",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Фосса шайки воров Акило - общий монстр ур. 15, раса: Дикие, локация: Логово шайки воров Акило.",
+      "spawnCount": 10
     },
     {
       "id": "akilo-thieves-warrior",
@@ -1721,7 +2002,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/akilo-thieves-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин шайки воров Акило - общий монстр ур. 15, раса: Разумные, локация: Логово шайки воров Акило.",
+      "spawnCount": 19
     },
     {
       "id": "deep-underground-cave-mutant",
@@ -1731,7 +2014,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGQ1N2U4ZGQtNWExNS00NmYzLWFhYmYtNGFlNGEyZTNjNWRmLW1vYl9kcmFuYXZhcl8wMl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/deep-underground-cave-mutant",
-      "loc": "Подземелья"
+      "loc": "Подземелья",
+      "desc": "Мутант Глубокой подземной пещеры - общий монстр ур. 15, раса: Мутанты, локация: Глубокая подземная пещера.",
+      "spawnCount": 20
     },
     {
       "id": "deep-underground-cave-mass",
@@ -1741,7 +2026,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzljZTZhOTUtYjNlMi00MWZmLWFkMmUtYTcxZjg3ZmFlYWI4LW1vYl9kcmFuYXZhcl8wNl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/deep-underground-cave-mass",
-      "loc": "Подземелья"
+      "loc": "Подземелья",
+      "desc": "Сгусток Глубокой подземной пещеры - общий монстр ур. 15, раса: Мутанты, локация: Глубокая подземная пещера.",
+      "spawnCount": 24
     },
     {
       "id": "deep-underground-cave-drana-mutant",
@@ -1751,7 +2038,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjkwZjFjMjUtYTJiMC00MmVmLTg4YzctZDcyMjQ0ZjA2NWM0LW1vYl9kcmFuYXZhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/deep-underground-cave-drana-mutant",
-      "loc": "Подземелья"
+      "loc": "Подземелья",
+      "desc": "Драна-мутант Глубокой подземной пещеры - общий монстр ур. 15, раса: Мутанты, локация: Глубокая подземная пещера.",
+      "spawnCount": 20
     },
     {
       "id": "sentinel-nuraka",
@@ -1761,7 +2050,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTdiMzYzZGItYjA0Ny00ZDdlLTg4MWUtOWVlNzBiODgwNzMwLXV0XzI1Nl9tb2JfYmVyaXRyYWRfMDRfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sentinel-nuraka",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Страж Нурака - героический монстр ур. 15, раса: Разумные, локация: Капкан лазурного дракона.",
+      "spawnCount": 1
     },
     {
       "id": "fafnium-guardian",
@@ -1771,7 +2062,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnium-guardian",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Защитник фафниума - общий монстр ур. 15, раса: Разумные, локация: Капкан лазурного дракона.",
+      "spawnCount": 7
     },
     {
       "id": "fafnium-guardian-beast",
@@ -1781,7 +2074,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnium-guardian-beast",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охранный зверь фафниума - общий монстр ур. 15, раса: Дикие, локация: Капкан лазурного дракона.",
+      "spawnCount": 3
     },
     {
       "id": "fafnium-protector",
@@ -1791,7 +2086,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnium-protector",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охранное устройство фафниума - общий монстр ур. 15, раса: Мутанты, локация: Капкан лазурного дракона.",
+      "spawnCount": 1
     },
     {
       "id": "filth-pit-sura-mage",
@@ -1801,7 +2098,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzVhNjRkNjctM2FjOS00ZmJjLWFjMmMtZWUyYWVlNmJhNmEyLW1vYl9zdXJhbWFnXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/filth-pit-sura-mage",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Сура-маг Грязевой ямы - общий монстр ур. 15, раса: Разумные, локация: Грязевая яма.",
+      "spawnCount": 14
     },
     {
       "id": "filth-pit-sura",
@@ -1811,7 +2110,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWNjMjZkYmMtOTZlNC00ZThhLWJlZmUtNWMyMTEzN2EzZGZjLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/filth-pit-sura",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Сура Грязевой ямы - общий монстр ур. 15, раса: Разумные, локация: Грязевая яма.",
+      "spawnCount": 20
     },
     {
       "id": "illegal-herbalist",
@@ -1821,7 +2122,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/illegal-herbalist",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Подпольный травник - общий монстр ур. 15, раса: Разумные, локация: Пещера цветка духов.",
+      "spawnCount": 17
     },
     {
       "id": "captain-nagto",
@@ -1831,7 +2134,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjM3ZjJhMDAtYzFjZC00OTE2LWI0NzgtOGI5NjU5NDcwMGMxLXV0XzI1Nl9tb2JfZHJhdG9uYV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/captain-nagto",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан Нагто - героический монстр ур. 15, раса: Разумные, локация: Отобранный тайник.",
+      "spawnCount": 1
     },
     {
       "id": "tainted-wraith",
@@ -1841,7 +2146,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTM1NWFmNjYtNDU2My00ZDFlLWI5MGQtMDQ0ODRkNTI0YmFkLW1vYl9zcGVjdGVyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tainted-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Очерненный призрак - общий монстр ур. 15, раса: Мутанты, локация: Гробница прорицателей.",
+      "spawnCount": 9
     },
     {
       "id": "nornir-wraith",
@@ -1851,7 +2158,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjgwYjVhNTEtNDgyMS00ZDY3LTlmOGItMDRhMDlmZWJmMjg2LW1vYl9ub3JuaXJ2YXJfMDJfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/nornir-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Призрак норниров - общий монстр ур. 15, раса: Разумные, локация: Гробница прорицателей.",
+      "spawnCount": 9
     },
     {
       "id": "lieutenant-sineora",
@@ -1861,7 +2170,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjdjNDAyM2MtZTA5Ni00ZjQ4LWE2MTQtODY5OTI0NTFjMmM5LXV0XzI1Nl9tb2JfdW5kZWFkXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/lieutenant-sineora",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Лейтенант Синеор - героический монстр ур. 15, раса: Разумные, локация: Убежище скорби.",
+      "spawnCount": 1
     },
     {
       "id": "herbalist-fossa",
@@ -1871,7 +2182,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/herbalist-fossa",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Фосса травника - общий монстр ур. 15, раса: Дикие, локация: Пещера цветка духов.",
+      "spawnCount": 2
     },
     {
       "id": "mad-sura",
@@ -1881,7 +2194,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTcxM2I0ZWEtOWE4Yi00OTM0LWJjMTItNjhiZGE1ZTQ3ZGYxLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mad-sura",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Обезумевший сура - общий монстр ур. 15, раса: Разумные, локация: Проклятое убежище.",
+      "spawnCount": 23
     },
     {
       "id": "library-kerubar",
@@ -1891,7 +2206,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-kerubar",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Керубим библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека леса.",
+      "spawnCount": 15
     },
     {
       "id": "library-kerubian",
@@ -1901,7 +2218,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjBkOTkzNGYtM2M5Yi00Nzc3LWIxZjctN2JhZDM1MDFiMTY2LW1vYl9jaGVydWJpbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-kerubian",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Керуб библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека леса.",
+      "spawnCount": 12
     },
     {
       "id": "herbalist-karnif",
@@ -1911,7 +2230,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/herbalist-karnif",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Каллиф травника - общий монстр ур. 15, раса: Дикие, локация: Пещера цветка духов.",
+      "spawnCount": 7
     },
     {
       "id": "tome-grave-spider",
@@ -1921,7 +2242,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTIxZTQ0YTAtOTFiNC00ZjVkLWIxYWUtYzI4NTZjZmFkMTdmLW1vYl9vZHNwaWRlcl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tome-grave-spider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Паук книжной гробницы - общий монстр ур. 15, раса: Дикие, локация: Кладбище книгочея.",
+      "spawnCount": 16
     },
     {
       "id": "balhash",
@@ -1931,7 +2254,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzAxMWJlZmQtMGU3Ny00MTQzLThhNjQtMWQ3YTRlNGY1NTg0LXV0XzI1Nl9tb2JfZGFldmF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/balhash",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бальхаш - героический монстр ур. 15, раса: Разумные, локация: Пропитанная кровью исповедальня.",
+      "spawnCount": 1
     },
     {
       "id": "reanimated-soldier",
@@ -1941,7 +2266,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWE1ODc0YjgtOTliMC00YzJkLTg5M2QtZGJkOTk4MjdlYmIzLW1vYl9ncmF2ZXVuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/reanimated-soldier",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воскрешенный солдат - общий монстр ур. 15, раса: Разумные, локация: Тюрьма забвения.",
+      "spawnCount": 10
     },
     {
       "id": "reanimated-knight",
@@ -1951,7 +2278,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/reanimated-knight",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воскрешенный рыцарь - общий монстр ур. 15, раса: Разумные, локация: Тюрьма забвения.",
+      "spawnCount": 13
     },
     {
       "id": "rotten-grave-rat",
@@ -1961,7 +2290,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWJlZTY0YmUtNjA2ZC00OGQxLTk3MjctZWY5NGEwOGM2MWY4LW1vYl9ncmF2ZXJhdF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/rotten-grave-rat",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Гнилая крыса гробницы - общий монстр ур. 15, раса: Дикие, локация: Тюрьма забвения.",
+      "spawnCount": 10
     },
     {
       "id": "howling-den-tayga",
@@ -1971,7 +2302,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzQxYWVhZmEtNjkzNi00MDhjLWI3YTItMDA3ODhhODIzZjQ5LW1vYl90YXlnYV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/howling-den-tayga",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рюкрог Воющего логова - общий монстр ур. 15, раса: Дикие, локация: Воющее логово.",
+      "spawnCount": 3
     },
     {
       "id": "howling-den-varg-warrior",
@@ -1981,7 +2314,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjFiYzYyNGYtYTUzNS00MTFiLTliN2QtYTRiYzkyMzNiZTMxLXV0XzI1Nl9tb2JfdmFyZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/howling-den-varg-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин варгов Воющего логова - общий монстр ур. 15, раса: Разумные, локация: Воющее логово.",
+      "spawnCount": 7
     },
     {
       "id": "bounty-hunter",
@@ -1991,7 +2326,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/bounty-hunter",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охотник за головами - общий монстр ур. 15, раса: Разумные, локация: Воющее логово.",
+      "spawnCount": 3
     },
     {
       "id": "moslan-thieves-zaif",
@@ -2001,7 +2338,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzFlOGNjNDYtMTUyYy00YjljLWE2NDAtZWQwZjVmNjUwYTI1LW1vYl96YWlmXzAxX2N2MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moslan-thieves-zaif",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Волк шайки воров Маэллана - общий монстр ур. 15, раса: Дикие, локация: Заброшенная тюрьма аканов.",
+      "spawnCount": 8
     },
     {
       "id": "moslan-thieves-warrior",
@@ -2011,7 +2350,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moslan-thieves-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин шайки воров Маэллана - общий монстр ур. 15, раса: Разумные, локация: Заброшенная тюрьма аканов.",
+      "spawnCount": 3
     },
     {
       "id": "moslan-thieves-ranger",
@@ -2021,7 +2362,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moslan-thieves-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рейнджер шайки воров Мослан - общий монстр ур. 15, раса: Разумные, локация: Заброшенная тюрьма аканов.",
+      "spawnCount": 1
     },
     {
       "id": "sacrificed-daeva",
@@ -2031,7 +2374,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWE1ODc0YjgtOTliMC00YzJkLTg5M2QtZGJkOTk4MjdlYmIzLW1vYl9ncmF2ZXVuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sacrificed-daeva",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Принесенный в жертву даэв - общий монстр ур. 15, раса: Разумные, локация: Пещера жертвы.",
+      "spawnCount": 12
     },
     {
       "id": "desperate-robere-s-apparition",
@@ -2041,7 +2386,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjdjNDAyM2MtZTA5Ni00ZjQ4LWE2MTQtODY5OTI0NTFjMmM5LXV0XzI1Nl9tb2JfdW5kZWFkXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/desperate-robere-s-apparition",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Отчаявшийся фантом Робера - героический монстр ур. 15, раса: Разумные, локация: Пещера жертвы.",
+      "spawnCount": 1
     },
     {
       "id": "fanatics-den-zealot",
@@ -2051,7 +2398,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzg3ZjFhOGItZmQzYi00MTVlLTk3NGItYmNhNDAyNTVhYzc0LXV0XzI1Nl9ucGNfbV9sZWdpb25iXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fanatics-den-zealot",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Изувер логова фанатиков - общий монстр ур. 15, раса: Разумные, локация: Логово фанатиков.",
+      "spawnCount": 16
     },
     {
       "id": "fanatics-den-guard",
@@ -2061,7 +2410,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGMxZjRkNDUtZDFlYi00ZjFmLWFhYjItZjIyNDk2NzhmMTYyLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fanatics-den-guard",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Охранник Логова фанатиков - общий монстр ур. 15, раса: Разумные, локация: Логово фанатиков.",
+      "spawnCount": 4
     },
     {
       "id": "library-kerubar-searcher",
@@ -2071,7 +2422,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-kerubar-searcher",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Искатель керубимов библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека проницательности.",
+      "spawnCount": 3
     },
     {
       "id": "library-kerubar-observer",
@@ -2081,7 +2434,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWZlZWJkZDctMjU1Zi00NjIyLWJjYzctNzhiMzc4ZjZjMzc3LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfaW50ZWxsZWN0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-kerubar-observer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Надзиратель керубимов библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека проницательности.",
+      "spawnCount": 1
     },
     {
       "id": "library-kerubian-watcher",
@@ -2091,7 +2446,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjBkOTkzNGYtM2M5Yi00Nzc3LWIxZjctN2JhZDM1MDFiMTY2LW1vYl9jaGVydWJpbV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-kerubian-watcher",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Дозорщик керубов библиотеки - общий монстр ур. 15, раса: Разумные, локация: Библиотека проницательности.",
+      "spawnCount": 2
     },
     {
       "id": "library-laser",
@@ -2101,7 +2458,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/library-laser",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Лазер библиотеки - общий монстр ур. 15, раса: Мутанты, локация: Библиотека болота.",
+      "spawnCount": 10
     },
     {
       "id": "storage-room-drakan-scout",
@@ -2111,7 +2470,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/storage-room-drakan-scout",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Солдат-разведчик драканов кладовой - общий монстр ур. 15, раса: Разумные, локация: Кладовая фафнита.",
+      "spawnCount": 5
     },
     {
       "id": "storage-room-drakan-skirmisher",
@@ -2121,7 +2482,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODY1MjlkODctMTU2Zi00NGQ4LTlmMDAtNzAxYjkwZjdjZDExLW1vYl9iZXJpdHJhY18wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/storage-room-drakan-skirmisher",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Застрельщик драканов кладовой - общий монстр ур. 15, раса: Разумные, локация: Кладовая фафнита.",
+      "spawnCount": 9
     },
     {
       "id": "storage-room-drakan-sentry-warmage",
@@ -2131,7 +2494,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/storage-room-drakan-sentry-warmage",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Боевой маг пограничников драканов кладовой - общий монстр ур. 15, раса: Разумные, локация: Кладовая фафнита.",
+      "spawnCount": 7
     },
     {
       "id": "balaur-security-device",
@@ -2141,7 +2506,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-security-device",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Охранное устройство балауров - общий монстр ур. 15, раса: Мутанты, локация: Кладовая фафнита.",
+      "spawnCount": 16
     },
     {
       "id": "storage-room-fafnium",
@@ -2151,7 +2518,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDE5ZjJkYzQtZjIxNy00OGU3LWFjYWMtZDE2YmQyYTc1OTQyLW1vYl9mYWZuaXVtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/storage-room-fafnium",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Фафниум кладовой - общий монстр ур. 15, раса: Мутанты, локация: Кладовая фафнита.",
+      "spawnCount": 2
     },
     {
       "id": "prison-compound-warden-homish",
@@ -2161,7 +2530,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWRmNGRlNzYtZDYyYy00NThhLTgzMTQtMTMzZTg2MmUwN2Y0LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/prison-compound-warden-homish",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Руководитель тюремного лагеря Хомиш - героический монстр ур. 15, раса: Разумные, локация: Тюремный лагерь Хомиша.",
+      "spawnCount": 1
     },
     {
       "id": "rooted-black-spirit",
@@ -2171,7 +2542,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/rooted-black-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Связанный темный дух - общий монстр ур. 15, раса: Природные, локация: Обиталище падшего Заклинателя.",
+      "spawnCount": 6
     },
     {
       "id": "balhash-s-follower",
@@ -2181,7 +2554,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/balhash-s-follower",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Последователь Бальхаша - общий монстр ур. 15, раса: Разумные, локация: Пропитанная кровью исповедальня.",
+      "spawnCount": 6
     },
     {
       "id": "prison-compound-warden",
@@ -2191,7 +2566,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/prison-compound-warden",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Управленец тюремного лагеря - общий монстр ур. 15, раса: Разумные, локация: Тюремный лагерь Хомиша.",
+      "spawnCount": 2
     },
     {
       "id": "marauder-dratona",
@@ -2201,7 +2578,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-dratona",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Дратон погромщиков - общий монстр ур. 15, раса: Разумные, локация: Отобранный тайник.",
+      "spawnCount": 5
     },
     {
       "id": "marauder-dratona-brute",
@@ -2211,7 +2590,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTA0ZjQ1ZDktOGZlMi00OWY5LWEwYmMtYWRhNzU2ZmYzZWMwLW1vYl9kcmF0b25hXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-dratona-brute",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Громила дратонов погромщиков - общий монстр ур. 15, раса: Разумные, локация: Отобранный тайник.",
+      "spawnCount": 5
     },
     {
       "id": "marauder-dratona-handyman",
@@ -2221,7 +2602,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDAwMWMzMGQtZTg4YS00ZmQ4LTkwY2ItOTMxMGYzMDllMDM1LW1vYl9kcmF0b25hXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-dratona-handyman",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Подсобный рабочий дратонов погромщиков - общий монстр ур. 15, раса: Разумные, локация: Отобранный тайник.",
+      "spawnCount": 5
     },
     {
       "id": "anguish-ranger-soul",
@@ -2231,7 +2614,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWU4OTFhMTctNjk5Yi00NzllLTkxMmQtOTM1NWUxMjJkZTU2LW1vYl9zcGlyaXRhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/anguish-ranger-soul",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Душа рейнджера терзаний - общий монстр ур. 15, раса: Разумные, локация: Убежище скорби.",
+      "spawnCount": 6
     },
     {
       "id": "anguish-knight-soul",
@@ -2241,7 +2626,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/anguish-knight-soul",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Душа рыцаря скорби - общий монстр ур. 15, раса: Разумные, локация: Убежище скорби.",
+      "spawnCount": 6
     },
     {
       "id": "moslan-thieves-tamer",
@@ -2251,7 +2638,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moslan-thieves-tamer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Дрессировщик шайки воров Маэллана - общий монстр ур. 15, раса: Разумные, локация: Заброшенная тюрьма аканов.",
+      "spawnCount": 4
     },
     {
       "id": "tome-grave-gnat",
@@ -2261,7 +2650,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMGE0MWRlNjgtMWQwZi00ZWNiLWIzMTAtYjZjNTFiNjE3NGE1LW1vYl9jb3JwZXNwaWRlcl8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tome-grave-gnat",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Кровосос книжной гробницы - общий монстр ур. 15, раса: Мутанты, локация: Кладбище книгочея.",
+      "spawnCount": 16
     },
     {
       "id": "coastal-odyle-spider",
@@ -2271,7 +2662,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTNhZThiNjItMTA3NC00ZWNiLWI0NmQtZDg0NTdhYzE2MjA3LW1vYl9vZHNwaWRlcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/coastal-odyle-spider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Эфирный паук взморья - общий монстр ур. 16, раса: Дикие. Локации: Болото реки Эллун и Укрытие духов, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Болото реки Эллун и Укрытие духов"
     },
     {
       "id": "small-forest-skyray",
@@ -2281,7 +2674,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/small-forest-skyray",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Малый тритон леса - общий монстр ур. 16, раса: Дикие. Локация: Укрытие духов, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Укрытие духов"
     },
     {
       "id": "cave-spider",
@@ -2291,7 +2686,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmFlNDFkYTEtYzk1YS00ZWQyLWIzOWMtMDZhMzEzNzU5ZmU0LW1vYl9hbHRidWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/cave-spider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Пещерный паук - общий монстр ур. 16 - 22, раса: Дикие. Локации: Пещера эфирных пауков и Пещера отшельника."
     },
     {
       "id": "cave-odyle-spider",
@@ -2301,7 +2697,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzYzYmI5NDUtZmRiNy00NzMwLWFkNWItMzI2NDExOTAzZDg4LW1vYl9zcGlkZXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/cave-odyle-spider",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Пещерный эфирный паук - общий монстр ур. 16, раса: Дикие, локация: Пещера эфирных пауков."
     },
     {
       "id": "bandit-warrior",
@@ -2311,7 +2708,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzYxNWRmMTgtZTU3MS00NjI0LTg5ZTUtZGY3MzE2ZTJhOTkyLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDJfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/bandit-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин разбойников - общий монстр ур. 16, раса: Разумные, локация: Логово разбойников.",
+      "spawnCount": 6
     },
     {
       "id": "bandit-ranger",
@@ -2321,7 +2720,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/bandit-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бандит-рейнджер - общий монстр ур. 16, раса: Разумные, локация: Логово разбойников.",
+      "spawnCount": 6
     },
     {
       "id": "bandit-captain",
@@ -2331,7 +2732,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc1M2NjMzMtNzRjOC00MmU0LTkyYWMtMzFjNjU0Njk0ZGUzLW1vYl9maWdodGVybV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/bandit-captain",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан разбойников - героический монстр ур. 16, раса: Разумные, локация: Логово разбойников.",
+      "spawnCount": 1
     },
     {
       "id": "renegade-slayer",
@@ -2341,7 +2744,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/renegade-slayer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ликвидатор отступников - общий монстр ур. 16, раса: Разумные. Локации: Подозрительная пещера и Место крушения Дерадикона.",
+      "spawnCount": 8
     },
     {
       "id": "renegade-sharpshooter",
@@ -2351,7 +2756,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/renegade-sharpshooter",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Меткий стрелок отступников - общий монстр ур. 16, раса: Разумные. Локации: Подозрительная пещера и Место крушения Дерадикона.",
+      "spawnCount": 7
     },
     {
       "id": "burglar-boss",
@@ -2361,7 +2768,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDg0MmFkZDEtY2Q4Yi00ZTMxLTk1ZDEtYTdlNzdhMGI1NGYwLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/burglar-boss",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Главарь грабителей - общий монстр ур. 16, раса: Разумные, локация: Старое убежище.",
+      "spawnCount": 1
     },
     {
       "id": "burglar",
@@ -2371,7 +2780,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/burglar",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Грабитель - общий монстр ур. 16, раса: Разумные, локация: Старое убежище.",
+      "spawnCount": 5
     },
     {
       "id": "tog",
@@ -2381,7 +2792,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGJmZmZmNTktOGNhNy00ZTY4LWE4M2EtYWJkZWM3NDE2NzAwLW1vYl90b2dfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "spawnCount": 6
     },
     {
       "id": "young-tog",
@@ -2391,7 +2803,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDJiMWNmNTQtYzRmYS00YmQ0LTg0ZTktMjU1MDNjOTg1YzE3LW1vYl90b2dfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "spawnCount": 4
     },
     {
       "id": "hiding-burglar",
@@ -2401,7 +2814,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGI1M2U0YzMtMmNlYi00ZjI0LThmYWQtM2Q5YjkyZjk2MDI5LXV0XzI1Nl9ucGNfZl9ncmF2ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hiding-burglar",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Скрывшаяся грабительница - общий монстр ур. 16, раса: Разумные, локация: Старое убежище.",
+      "spawnCount": 1
     },
     {
       "id": "thieves-marauder",
@@ -2421,7 +2836,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZWE1ZWJlOTUtMDc0Yy00MzA5LWFiMTgtZDRhODI5MjQ0NTZmLXV0XzI1Nl9tb2JfYmVyaXRyYWRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/air-raiders-captain-tetrata",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан отряда воздушного налета Титрата - героический монстр ур. 16, раса: Разумные, локация: Воздушный налет Бритры."
     },
     {
       "id": "thieves-sniper",
@@ -2431,7 +2847,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-sniper",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Снайпер шайки воров - общий монстр ур. 16 - 37, раса: Разумные. Локации: Ущелье Кальбирия и Лагерь шайки воров Детлефа."
     },
     {
       "id": "thieves-watcher",
@@ -2441,7 +2858,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDg0MmFkZDEtY2Q4Yi00ZTMxLTk1ZDEtYTdlNzdhMGI1NGYwLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-watcher",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Дозорщик шайки воров - общий монстр ур. 16, раса: Разумные, локация: Ущелье Кальбирия."
     },
     {
       "id": "thieves-captain",
@@ -2451,7 +2869,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc1M2NjMzMtNzRjOC00MmU0LTkyYWMtMzFjNjU0Njk0ZGUzLW1vYl9maWdodGVybV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-captain",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан шайки воров - элитный монстр ур. 16, раса: Разумные, локация: Ущелье Кальбирия."
     },
     {
       "id": "thieves-warrior",
@@ -2461,7 +2880,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Воин шайки воров - общий монстр ур. 16, раса: Разумные, локация: Ущелье Кальбирия."
     },
     {
       "id": "distorted-mutant",
@@ -2481,7 +2901,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTVkYmM0ZWItY2VjYS00ZDI5LWI4NmMtYzY2OWJiNDRjNTA1LW1vYl9uZXV0aF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-klaw",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мутировавший ньют - общий монстр ур. 16, раса: Разумные, локация: Место крушения Дерадикона."
     },
     {
       "id": "mutated-queen-klaw",
@@ -2491,7 +2912,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYzg3M2NlYTUtNmIzMy00ZjY4LWE4YmMtOTY5ZGNiOTMxMmUzLXV0XzUxMl9tb2JfbmV1dGhfMDNfcGljLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-queen-klaw",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мутировавшая королева ньютов - героический монстр ур. 16, раса: Мутанты, локация: Место крушения Дерадикона."
     },
     {
       "id": "drana-mutated-spirit",
@@ -2501,7 +2923,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-mutated-spirit",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мутировавший дух драны - общий монстр ур. 16, раса: Природные, локация: Место крушения Дерадикона."
     },
     {
       "id": "daeva-marauder-assassin",
@@ -2511,7 +2934,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTZlYTQ3NTMtMzUzYi00MWJjLTlkNTgtZWU3ODE3OWNhZGEwLXV0XzI1Nl9tb2JfZGFldmFhc3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-marauder-assassin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ассасин погромщиков даэвов - общий монстр ур. 16, раса: Разумные, локация: Место крушения Дерадикона."
     },
     {
       "id": "daeva-marauder-captain",
@@ -2521,7 +2945,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzAxMWJlZmQtMGU3Ny00MTQzLThhNjQtMWQ3YTRlNGY1NTg0LXV0XzI1Nl9tb2JfZGFldmF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-marauder-captain",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан погромщиков даэвов - элитный монстр ур. 16, раса: Разумные, локация: Место крушения Дерадикона."
     },
     {
       "id": "daeva-renegade-elite-slayer",
@@ -2531,7 +2956,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzAxMWJlZmQtMGU3Ny00MTQzLThhNjQtMWQ3YTRlNGY1NTg0LXV0XzI1Nl9tb2JfZGFldmF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-elite-slayer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Элитный ликвидатор даэвов-отступников - элитный монстр ур. 16, раса: Разумные, локация: Место крушения Дерадикона."
     },
     {
       "id": "deeply-resentful-wraith",
@@ -2541,7 +2967,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAyOTczYjUtNWFkNy00ZmYyLWI3ZDktZDAxMDg4MmMxMTIzLW1vYl9jYXJhc3Zhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/deeply-resentful-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Одержимый злобой призрак - общий монстр ур. 16, раса: Разумные, локация: Старинный склеп.",
+      "spawnCount": 5
     },
     {
       "id": "lost-wraith",
@@ -2551,7 +2979,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTcyYzFkYTItMjMyNy00MzRkLTk0Y2YtZjM3Y2Q2MGZiNGRiLW1vYl9naG9zdF8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lost-wraith",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Заблудший призрак - общий монстр ур. 16, раса: Разумные, локация: Старинный склеп.",
+      "spawnCount": 7
     },
     {
       "id": "cursed-dead",
@@ -2561,7 +2991,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDI4OTk2MDctMzQzZC00NTkyLTg2M2ItZjI2ODdlNTU3ZGUyLW1vYl93cmFrbnRfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/cursed-dead",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Проклятый мертвец - общий монстр ур. 16, раса: Разумные, локация: Старинный склеп.",
+      "spawnCount": 4
     },
     {
       "id": "training-scarecrow",
@@ -2571,7 +3003,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQwZTQ1ZTItNTRmZC00MTY0LTk2MmItNTdiOTlmM2I5Y2QyLW1vYl90cmFkdW1teV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/training-scarecrow",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Тренировочное чучело - общий монстр ур. 16, раса: Мутанты, локация: Временный склад торговой гильдии Квайринга.",
+      "spawnCount": 2
     },
     {
       "id": "biruta-wanderer",
@@ -2611,7 +3045,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWMwMWVlNDMtN2Q2OC00MTBlLWJjZGItNWE5OGMwZWI3MTAyLW1vYl92aXJvdGFyYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/biruta-herbalist",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Травник бирутов - общий монстр ур. 17, раса: Разумные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 35.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "biruta-fighter",
@@ -2621,7 +3057,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjU4MGZmYmEtMzRhZi00MTRiLTg2NzUtYzJjYTFiOWZiNjE5LW1vYl92aXJvdGF3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/biruta-fighter",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Задира бирутов - общий монстр ур. 17, раса: Природные. Локация: Безымянное кладбище, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Безымянное кладбище"
     },
     {
       "id": "ellun-river-falls-skyray",
@@ -2631,7 +3069,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-falls-skyray",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Тритон водопада реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "foul-slime",
@@ -2641,7 +3081,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzU2ODQ1MWYtOTg5Mi00ZTAwLWEwZTItZTE2OWFkZTkyMGI0LW1vYl9zbGltZV8wMl9jdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/foul-slime",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Зловонный слизень - общий монстр ур. 18, раса: Мутанты. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "decaying-agrint",
@@ -2651,7 +3093,9 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDRkNzQ3MWItZjk0Ny00ZWU0LTlmMDYtYjY5ZTQ4ODk4MmEwLW1vYl9hZ3JpbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/decaying-agrint",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Гнилой агринт - общий монстр ур. 18, раса: Природные. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "smallbeak-airon",
@@ -2661,7 +3105,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjNhNTEwZmEtNTcwYi00YTVhLTgzNzQtMjI2ZTc1YzI2MTIwLW1vYl9haXJvbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/smallbeak-airon",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Малоклювый хайк - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "hungry-tog",
@@ -2671,7 +3117,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTU3Njk4NWUtZjNhMi00MGU2LThiMDQtYjMzODAzYjkyOGNiLW1vYl90b2dfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hungry-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Голодный тог - общий монстр ур. 18, раса: Дикие. Локации: Среднее течение реки Эллун и Ферма Памоса, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун и Ферма Памоса"
     },
     {
       "id": "gentle-meadow-zaif",
@@ -2681,7 +3129,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTI1MGZlNWUtNGZiOS00OTcyLWIwYzYtYmJiMDVjOWJmNTUxLW1vYl96YWlmXzAxX2N2MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/gentle-meadow-zaif",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Кроткий волк пастбища - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун и Застава Мироса, Бертрон. Предметов в добыче: 35. Цель одного задания.",
+      "locDetail": "Среднее течение реки Эллун и Застава Мироса"
     },
     {
       "id": "moaning-gladiator-s-soul",
@@ -2691,7 +3141,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moaning-gladiator-s-soul",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Душа рыдающего гладиатора - общий монстр ур. 18, раса: Разумные. Локация: Холм скорби, Бертрон. Предметов в добыче: 34.",
+      "locDetail": "Холм скорби"
     },
     {
       "id": "moaning-ranger-s-soul",
@@ -2701,7 +3153,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWU4OTFhMTctNjk5Yi00NzllLTkxMmQtOTM1NWUxMjJkZTU2LW1vYl9zcGlyaXRhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/moaning-ranger-s-soul",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Душа рыдающего лучника - общий монстр ур. 18, раса: Разумные. Локация: Холм скорби, Бертрон. Предметов в добыче: 34.",
+      "locDetail": "Холм скорби"
     },
     {
       "id": "ellun-river-crestlich-female",
@@ -2711,7 +3165,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTNmMmEyNTctMGExMC00Zjc5LTkwNDktYzYxMGM2NmRiYTdkLW1vYl9jcmVzdGxpY2hfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-crestlich-female",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Самка венцекрыла реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "ellun-river-crestlich-male",
@@ -2721,7 +3177,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGZlOGQzNjktZDFkNC00Y2I1LWI0MWQtNzA5YzU5MmRmMmJmLW1vYl9jcmVzdGxpY2hfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-crestlich-male",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Самец венцекрыла реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "wetland-slink",
@@ -2731,7 +3189,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/wetland-slink",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Болотная чешуйница - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "young-wetland-slink",
@@ -2741,7 +3201,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODU5MTMwNzYtOWE4Ny00ZDQ1LWIzMjUtNzYyYmZkYWI2ZGJmLW1vYl9sZXBpc21hXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-wetland-slink",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Малая болотная чешуйница - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "hungry-baby-tog",
@@ -2751,7 +3213,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDJiMWNmNTQtYzRmYS00YmQ0LTg0ZTktMjU1MDNjOTg1YzE3LW1vYl90b2dfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hungry-baby-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Голодный детеныш тога - общий монстр ур. 18, раса: Дикие. Локации: Среднее течение реки Эллун и Ферма Памоса, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун и Ферма Памоса"
     },
     {
       "id": "aquascale-crasaur",
@@ -2761,7 +3225,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTc5ZmZhNWYtZmVmMS00ODE1LTlhOTktODIxYjE0MWM5N2Q5LW1vYl9waGFpbmlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/aquascale-crasaur",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Файни водной глади - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35. Цель одного задания.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "pointbeak-airon",
@@ -2771,7 +3237,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjNhNTEwZmEtNTcwYi00YTVhLTgzNzQtMjI2ZTc1YzI2MTIwLW1vYl9haXJvbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/pointbeak-airon",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Остроклювый хайк - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "field-brax",
@@ -2781,7 +3249,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzdlZTM4ZGQtODRiYi00M2NlLWIxOTItMjkzN2U3ZDcwODg2LW1vYl9icmF4XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/field-brax",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Полевой бракс - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "ellun-river-papis",
@@ -2791,7 +3261,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQ1OTFiNjEtYjJkOS00MWQxLWEyOTgtYmExY2M5OTQ5ZTQ4LW1vYl9wYXBpc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-papis",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Папис реки Эллун - общий монстр ур. 18, раса: Дикие, локация: Бертрон. Предметов в добыче: 36."
     },
     {
       "id": "wild-sparkie",
@@ -2801,7 +3272,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjFjNDQ5MTEtYWNmNi00YmM0LWEyYjctN2Q3ZWFhNzYxMGFmLW1vYl9zcGFya3lvZF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wild-sparkie",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Дикий спарки - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "white-shell-octaside",
@@ -2811,7 +3284,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDQ2YjU2ODQtYjc4ZS00MGQwLWIzMzYtM2E2MzliMjU2ZmUwLW1vYl9vZHNwaWRlcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/white-shell-octaside",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Белопанцирный октасид - общий монстр ур. 18, раса: Дикие. Локация: Холм скорби, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Холм скорби"
     },
     {
       "id": "ellun-river-hill-gravi",
@@ -2821,7 +3296,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzUwMWY5MWUtNzg2OS00YTRkLTkzNTItODFhOTA5NTAzYzc0LW1vYl9ncmF2aV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-hill-gravi",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Холмовой грави реки Эллун - общий монстр ур. 18, раса: Природные. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "black-pattern-bee",
@@ -2831,7 +3308,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-pattern-bee",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Черный полосатый шершень - общий монстр ур. 18, раса: Дикие. Локации: Среднее течение реки Эллун и Ферма Памоса, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун и Ферма Памоса"
     },
     {
       "id": "field-tog",
@@ -2841,7 +3320,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTU3Njk4NWUtZjNhMi00MGU2LThiMDQtYjMzODAzYjkyOGNiLW1vYl90b2dfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/field-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Полевой тог - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "young-field-tog",
@@ -2851,7 +3332,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDJiMWNmNTQtYzRmYS00YmQ0LTg0ZTktMjU1MDNjOTg1YzE3LW1vYl90b2dfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-field-tog",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Малый полевой тог - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "hungry-brax",
@@ -2861,7 +3344,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzdlZTM4ZGQtODRiYi00M2NlLWIxOTItMjkzN2U3ZDcwODg2LW1vYl9icmF4XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hungry-brax",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ненасытный бракс - общий монстр ур. 18, раса: Дикие. Локация: Пастбища реки Эллун и Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36. Цель одного задания.",
+      "locDetail": "Пастбища реки Эллун и Среднее течение реки Эллун"
     },
     {
       "id": "meadow-sparkie",
@@ -2871,7 +3356,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjFjNDQ5MTEtYWNmNi00YmM0LWEyYjctN2Q3ZWFhNzYxMGFmLW1vYl9zcGFya3lvZF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/meadow-sparkie",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Спарки пастбища - общий монстр ур. 18, раса: Дикие. Локации: Пастбища реки Эллун и Среднее течение реки Эллун, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Пастбища реки Эллун и Среднее течение реки Эллун"
     },
     {
       "id": "lake-skama",
@@ -2881,7 +3368,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTBmZjYyMzEtMDlkNS00ODRkLTk2YTUtYjhlYjk3MjFlMjRkLW1vYl9maXNoXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/lake-skama",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Озерный скама - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "ellun-river-kailin",
@@ -2891,7 +3380,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzk2Y2U4YzItNDQwNi00ZDA0LTk1ZDQtZDUxNTcwYmU0NWIyLW1vYl9rYWlsaW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-kailin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Каилин реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "ellun-river-young-kailin",
@@ -2901,7 +3392,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzlkZmFlOWMtMzBjZC00NTMwLTgxZWMtMmRkYzc4OGI2NGVmLW1vYl9rYWlsaW5fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-young-kailin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Малый каилин реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "ellun-river-lake-skyray",
@@ -2911,7 +3404,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ellun-river-lake-skyray",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Озерный тритон реки Эллун - общий монстр ур. 18, раса: Дикие. Локация: Среднее течение реки Эллун, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Среднее течение реки Эллун"
     },
     {
       "id": "leader-miros",
@@ -2921,7 +3416,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDE1MWI5ZjktZDg4Zi00NmEyLWIyZGMtNGI0ZDY4Yzg3OWFiLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/leader-miros",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Лидер Мирос - героический монстр ур. 18, раса: Разумные, локация: Застава Мироса."
     },
     {
       "id": "miros-captain",
@@ -2931,7 +3427,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzYxNWRmMTgtZTU3MS00NjI0LTg5ZTUtZGY3MzE2ZTJhOTkyLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDJfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/miros-captain",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан Мирос - общий монстр ур. 18, раса: Разумные, локация: Застава Мироса."
     },
     {
       "id": "miros-marauder",
@@ -2941,7 +3438,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/miros-marauder",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Мародер банды Мироса - общий монстр ур. 18, раса: Разумные, локация: Застава Мироса."
     },
     {
       "id": "miros-reaver",
@@ -2951,7 +3449,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/miros-reaver",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Нападающий банды Мироса - общий монстр ур. 18, раса: Разумные, локация: Застава Мироса."
     },
     {
       "id": "miros-wanted-criminal",
@@ -2961,7 +3460,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/miros-wanted-criminal",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Разыскиваемый банды Мироса - общий монстр ур. 18, раса: Разумные, локация: Застава Мироса."
     },
     {
       "id": "sensitive-fossa",
@@ -2971,7 +3471,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sensitive-fossa",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Чувствительный фосса - общий монстр ур. 18, раса: Дикие, локация: Застава Мироса."
     },
     {
       "id": "expedition-leader-cohta",
@@ -2981,7 +3482,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZThhNjk5OWMtYzY4ZC00MWUzLWI5MmItMTIxYTBlYjRlMWJmLXV0XzI1Nl9tb2JfZHJha2FuYm9zc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/expedition-leader-cohta",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан отряда экспедиции Кохта - героический монстр ур. 18, раса: Разумные, локация: Наблюдательный пост Кохта."
     },
     {
       "id": "draconute-battle-chief",
@@ -2991,7 +3493,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-battle-chief",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Боевой командир драконидов - общий монстр ур. 18 - 41, раса: Разумные. Локации: Наблюдательный пост Кохта, Наблюдательный пост Сехна и Наблюдательный пост Маркташа.",
+      "locDetail": "Наблюдательный пост Кохта"
     },
     {
       "id": "draconute-ranger",
@@ -3001,7 +3505,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjM0YmMxZDQtYzVlZS00OGFiLTg3NWEtYjBkM2JmMTIxODMzLW1vYl9kcmFjb2FyY18wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Драконид-рейнджер - монстр, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард, Наблюдательный пост Кохта и еще мест: 3. Общий на ур. 18 - 45, элитный на ур. 45 - 68. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища, Альтгард",
+      "spawnCount": 13
     },
     {
       "id": "draconute-warrior",
@@ -3011,7 +3518,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjE3ODRjN2QtYmY4ZS00ZmJjLWE0ZjYtMzNkMTM3MGViOWNkLW1vYl9kcmFjb3dhcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Драконид-воин - общий монстр ур. 18 - 41, раса: Разумные. Локации: Наблюдательный пост Кохта, Наблюдательный пост Сехна и Наблюдательный пост Маркташа.",
+      "locDetail": "Наблюдательный пост Кохта"
     },
     {
       "id": "draconute-tinkerer",
@@ -3021,7 +3530,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-tinkerer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Подсобный рабочий драконидов - общий монстр ур. 18 - 41, раса: Разумные. Локации: Наблюдательный пост святилища, Альтгард, Наблюдательный пост Кохта и еще мест: 2. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища, Альтгард"
     },
     {
       "id": "marauder-slayer",
@@ -3031,7 +3542,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDg0MmFkZDEtY2Q4Yi00ZTMxLTk1ZDEtYTdlNzdhMGI1NGYwLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-slayer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Убийца погромщиков - общий монстр ур. 18, раса: Разумные. Локация: Тихий холм, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Тихий холм"
     },
     {
       "id": "marauder-sniper",
@@ -3041,7 +3554,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-sniper",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Снайпер погромщиков - общий монстр ур. 18, раса: Разумные. Локация: Тихий холм, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Тихий холм"
     },
     {
       "id": "marauder-reaver",
@@ -3051,7 +3566,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-reaver",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Нападающий погромщиков - общий монстр ур. 18, раса: Разумные. Локация: Тихий холм, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Тихий холм"
     },
     {
       "id": "marauder-dualwielding-warrior",
@@ -3061,7 +3578,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-dualwielding-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Двуручный воин погромщиков - общий монстр ур. 18, раса: Разумные. Локация: Тихий холм, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Тихий холм"
     },
     {
       "id": "draconute-superior-ranger",
@@ -3071,7 +3590,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-superior-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Старший лучник драконидов - общий монстр ур. 18, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "dratona-watcher",
@@ -3081,7 +3602,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTA0ZjQ1ZDktOGZlMi00OWY5LWEwYmMtYWRhNzU2ZmYzZWMwLW1vYl9kcmF0b25hXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/dratona-watcher",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Дозорный солдат дратонов - общий монстр ур. 18, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "balaur-combat-flag",
@@ -3091,7 +3614,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGU3OTE5YjAtYTZhMS00MTFmLWI4NjUtZjY5ZDEyNTUyMjM3LW1vYl9iZXJpdHJhY18xMC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-combat-flag",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Боевой флаг балауров - общий монстр ур. 18, раса: Мутанты. Локация: Наблюдательный пост святилища, Альтгард.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "sanctum-watchtower",
@@ -3101,7 +3626,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDZlMjRmNWItZmQwYS00ZTNiLThkODktYjQ5ODU3ZmZiOGQwLW1vYl9kcmFjb3R1cnJldF9sXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-watchtower",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Башня наблюдения святилища - общий монстр ур. 18, раса: Мутанты. Локация: Наблюдательный пост святилища, Альтгард. Цель одного задания.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "balaur-elite-combat-flag",
@@ -3111,7 +3638,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGU3OTE5YjAtYTZhMS00MTFmLWI4NjUtZjY5ZDEyNTUyMjM3LW1vYl9iZXJpdHJhY18xMC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-elite-combat-flag",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Элитный боевой флаг балауров - общий монстр ур. 18, раса: Мутанты. Локация: Наблюдательный пост святилища, Альтгард.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "blades-bomber",
@@ -3121,7 +3650,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2VlYWEwMzMtMWQyZC00NWUwLTgzODItYWQyYjA3YzEzNzZhLXV0XzI1Nl9tb2JfYWx0a25pZmVfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-bomber",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бомбардир банды клинков - общий монстр ур. 18 - 37, раса: Разумные. Локации: Уртумхейм, Альтгард, Святилище Джикела и еще мест: 7. Предметов в добыче: 35.",
+      "locDetail": "Уртумхейм, Альтгард",
+      "spawnCount": 3
     },
     {
       "id": "tamed-blades-beast",
@@ -3131,7 +3663,10 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tamed-blades-beast",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Прирученный зверь банды клинков - общий монстр ур. 18 - 37, раса: Дикие. Локация: Запад кряжа Грибадэ, Альтгард, Святилище Джикела и Временная застава банды клинков. Предметов в добыче: 54.",
+      "locDetail": "Запад кряжа Грибадэ, Альтгард",
+      "spawnCount": 5
     },
     {
       "id": "patrol-captain-dinasha",
@@ -3141,7 +3676,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZThhNjk5OWMtYzY4ZC00MWUzLWI5MmItMTIxYTBlYjRlMWJmLXV0XzI1Nl9tb2JfZHJha2FuYm9zc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/patrol-captain-dinasha",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан патруля Динаша - героический монстр ур. 18, раса: Разумные, локация: Дозор окраин святилища."
     },
     {
       "id": "sanctum-watch-combatant",
@@ -3151,7 +3687,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-watch-combatant",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Борец дозора святилища - общий монстр ур. 18, раса: Разумные, локация: Дозор окраин святилища."
     },
     {
       "id": "sanctum-watch-scout",
@@ -3161,7 +3698,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjE3ODRjN2QtYmY4ZS00ZmJjLWE0ZjYtMzNkMTM3MGViOWNkLW1vYl9kcmFjb3dhcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-watch-scout",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Солдат-разведчик дозора святилища - общий монстр ур. 18, раса: Разумные, локация: Дозор окраин святилища."
     },
     {
       "id": "sanctum-watch-ranger",
@@ -3171,7 +3709,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-watch-ranger",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Рейнджер дозора святилища - общий монстр ур. 18, раса: Разумные, локация: Дозор окраин святилища."
     },
     {
       "id": "sanctum-watch-armed-beast",
@@ -3181,7 +3720,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-watch-armed-beast",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Вооруженный зверь дозора святилища - общий монстр ур. 18, раса: Дикие, локация: Дозор окраин святилища."
     },
     {
       "id": "fierce-lupyllini",
@@ -3191,7 +3731,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc0YTAxZjgtM2Q2OS00Njc5LWJkMTYtZWIyZGFhNjE4ZmI0LW1vYl9sdWZpbGluaV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/fierce-lupyllini",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Грозный руфиллин - общий монстр ур. 18, раса: Разумные, локация: Дозор окраин святилища."
     },
     {
       "id": "blades-assault-captain",
@@ -3201,7 +3742,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmViYWU1OTItZjRjMy00MjFlLThkMzEtNDEwNGE1N2IwNGFlLXV0XzI1Nl9tb2JfYWx0a25pZmVfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-assault-captain",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Капитан штурма банды клинков - монстр, раса: Разумные, локации: Святилище Джикела, Наблюдательный пост святилища и Пещера места крушения. Элитный на ур. 18 - 22, героический на ур. 22.",
+      "locDetail": "Святилище Джикела",
+      "spawnCount": 1
     },
     {
       "id": "blades-warrior",
@@ -3211,7 +3755,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTAyMGIzN2YtNzM1ZS00MzBkLWI5OTQtMTcxMTgxNGM4MzQ4LXV0XzI1Nl9tb2JfYWx0a25pZmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-warrior",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "spawnCount": 6
     },
     {
       "id": "blades-mage",
@@ -3221,7 +3766,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTIzNDdjMDItZjI2NC00NzI0LThlMjktYWEzNmYyNTUxMDYzLW1vYl9hbHRrbmlmZV8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-mage",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Маг банды клинков - общий монстр ур. 18 - 23, раса: Разумные. Локации: Святилище Джикела, Лес Маэллан и Рухнувший оракул.",
+      "locDetail": "Святилище Джикела",
+      "spawnCount": 5
     },
     {
       "id": "tyrant-tassin",
@@ -3231,7 +3779,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMmNlY2E2NjEtYmVlYi00ZmViLWI3YmItM2EzYjQ1NTRlOWNkLXV0XzI1Nl9tb2JfdGFzaW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tyrant-tassin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Тиран Тасин - героический монстр ур. 18, раса: Разумные, локация: Святилище Джикела.",
+      "spawnCount": 1
     },
     {
       "id": "rampaging-tyrant-tassin",
@@ -3241,7 +3791,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDlmMzE3NTQtODlkNy00MjVjLWIzYmEtNzA3NWI1MGU1MGYzLXV0XzI1Nl9tb2JfdGFzaW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/rampaging-tyrant-tassin",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бушующий тиран Тасин - героический монстр ур. 18, раса: Разумные, локация: Святилище Джикела.",
+      "spawnCount": 1
     },
     {
       "id": "executioner-nua",
@@ -3251,7 +3803,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTk1NDUxNTYtMDEyYy00ZGU2LWI2NGItMDQzZDlhNTdmODFmLXV0XzI1Nl9tb2JfbnVhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/executioner-nua",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Эмиссар Нуа - героический монстр ур. 18, раса: Разумные, локация: Святилище Джикела.",
+      "spawnCount": 3
     },
     {
       "id": "kobold-sentry",
@@ -3261,7 +3815,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBmNjQzZGYtMWQ5MS00NjM3LTljYTEtNWE4NzVhNTY5MGE4LW1vYl9rb2Jvd29ya2ZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-sentry",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Пограничник кобольдов - общий монстр ур. 19, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "wandering-klaw",
@@ -3271,7 +3827,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTVkYmM0ZWItY2VjYS00ZDI5LWI4NmMtYzY2OWJiNDRjNTA1LW1vYl9uZXV0aF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-klaw",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бродячий ньют - общий монстр ур. 19, раса: Разумные. Локация: Разрушенные врата Бездны, Бертрон. Предметов в добыче: 35. Цель заданий: 2.",
+      "locDetail": "Разрушенные врата Бездны"
     },
     {
       "id": "kobold-supervisor",
@@ -3281,7 +3839,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjRlMjNmNTMtOTdiYS00MTI2LTllZDYtZGEyNTg2MDgzMWUzLW1vYl9rb2Jvd29ya21fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-supervisor",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Бригадир управления кобольдов - общий монстр ур. 19, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "unruly-karnif",
@@ -3291,7 +3851,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/unruly-karnif",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Неистовый каллиф - общий монстр ур. 19, раса: Дикие. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "kobold-repairer",
@@ -3301,7 +3863,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGM3NzU2YTUtODhkNS00OTI3LWJlMjAtNWJmMGI0YmEzMGE3LW1vYl9rb2Jvd29ya21fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-repairer",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Ремонтник кобольдов - общий монстр ур. 19, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 33.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "draconute-superior-combatant",
@@ -3311,7 +3875,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-superior-combatant",
-      "loc": "Бертрон"
+      "loc": "Бертрон",
+      "desc": "Старший драконид-борец - общий монстр ур. 19, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "dratona-tinkerer",
@@ -3321,7 +3887,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/dratona-tinkerer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Подсобный рабочий дратонов - общий монстр ур. 19, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "outpost-probe",
@@ -3331,7 +3899,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/outpost-probe",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Детектор наблюдательного поста - общий монстр ур. 19, раса: Мутанты. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 34. Цель одного задания.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "balaur-large-totem",
@@ -3351,7 +3921,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjFiYzYyNGYtYTUzNS00MTFiLTliN2QtYTRiYzkyMzNiZTMxLXV0XzI1Nl9tb2JfdmFyZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/varg-chaser-warrior",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Воин отряда преследования варгов - общий монстр ур. 19, раса: Разумные, локация: Свалка святилища."
     },
     {
       "id": "chaser-detecting-beast",
@@ -3361,7 +3932,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/chaser-detecting-beast",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Зверь обнаружения отряда преследования - общий монстр ур. 19, раса: Дикие, локация: Свалка святилища."
     },
     {
       "id": "drakan-chaser-captain",
@@ -3371,7 +3943,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMDY3NmM1ZWMtMWY3Zi00YmYzLTgyNTQtYjRmYjBjMzc1NDFjLXV0XzI1Nl9tb2JfYmVyaXRyYWFfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-chaser-captain",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Капитан отряда преследования драканов - героический монстр ур. 19, раса: Разумные, локация: Свалка святилища."
     },
     {
       "id": "consumed-daeva-knight",
@@ -3381,7 +3954,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDlmNzQ5ZTQtMTM4Zi00ZDBiLThlMGQtMzdmMDc0YzVkOGY5LW1vYl9kYWV2YWFzc18wMV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/consumed-daeva-knight",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Поглощенный рыцарь даэвов - общий монстр ур. 19, раса: Разумные, локация: Святилище иллюзий.",
+      "spawnCount": 50
     },
     {
       "id": "consumed-daeva-ranger",
@@ -3391,7 +3966,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYmMzMWFmOTktYmJhYi00ZTI5LTlkZjYtMzM0YjI1ZTk0MGY1LW1vYl9kYWV2YWFyY18wMV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/consumed-daeva-ranger",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Поглощенный рейнджер даэвов - общий монстр ур. 19, раса: Разумные, локация: Святилище иллюзий.",
+      "spawnCount": 5
     },
     {
       "id": "sanctum-guardian-gauss",
@@ -3401,7 +3978,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjI5NzZmMmMtNWNiOS00ZTRkLTk1NTUtYmRjNzZiNTMyMDQ0LXV0XzI1Nl9tb2JfZ2F1c3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-guardian-gauss",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Хранитель святилища Гаус - героический монстр ур. 19, раса: Мутанты, локация: Святилище иллюзий.",
+      "spawnCount": 1
     },
     {
       "id": "aberrant-coradon",
@@ -3411,7 +3990,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjdlNTZiYWItZjI4YS00NGVmLTgxODMtYzVmNDE5NTRmYjZiLW1vYl9jb3JhZG9uXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/aberrant-coradon",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Подвид корадона - общий монстр ур. 20 - 33, раса: Дикие, локация: Альтгард. Предметов в добыче: 86."
     },
     {
       "id": "young-coradon",
@@ -3421,7 +4001,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDdlNDZkNDItNTFhMy00NzlhLWJiZDEtMTU1YmY0NGE3MTU5LW1vYl9jb3JhZG9uXzAxX3YwMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-coradon",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Малый корадон - общий монстр ур. 20 - 40, раса: Дикие, локация: Альтгард. Предметов в добыче: 133."
     },
     {
       "id": "brax",
@@ -3431,7 +4012,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzdlZTM4ZGQtODRiYi00M2NlLWIxOTItMjkzN2U3ZDcwODg2LW1vYl9icmF4XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/brax",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Бракс - общий монстр ур. 20 - 33, раса: Дикие, локация: Альтгард. Предметов в добыче: 86."
     },
     {
       "id": "kobold-worker",
@@ -3441,7 +4023,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTI5NTBjNzUtN2M1Yy00NWNjLTg4NWEtNmU3ZjMzYmMwMDRkLW1vYl9rb2Jvd29ya21fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-worker",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Рабочий кобольдов - общий монстр ур. 20, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 35. Цель одного задания.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "krall-warshaman",
@@ -3451,7 +4035,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmYyZWViMGQtY2Y4My00ZWYyLWJiNmQtY2NiNmQ3MWIxNTI5LW1vYl9rcmFsbHByc3RfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-warshaman",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Боевой шаман краллов - общий монстр ур. 20 - 21, раса: Разумные. Локации: Командный пункт краллов и Руины крепости Бертрон, Бертрон и Руины крепости Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Командный пункт краллов и Руины крепости Бертрон"
     },
     {
       "id": "kobold-laborer",
@@ -3461,7 +4047,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWZmMmZlMGMtZjVkOC00N2JlLTg4NGMtMzRlNmY1MjA3MGI0LW1vYl9rb2Jvd29ya2ZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kobold-laborer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Каторжник кобольдов - общий монстр ур. 20 - 39, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон и База патруля Манташа. Предметов в добыче: 33. Цель одного задания.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "trained-karnif",
@@ -3471,7 +4059,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trained-karnif",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Дрессированный каллиф - общий монстр ур. 20, раса: Дикие. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 36.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "krall-supporter",
@@ -3481,7 +4071,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-supporter",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Резервист краллов - общий монстр ур. 20 - 21, раса: Разумные. Локации: Командный пункт краллов и Руины крепости Бертрон, Бертрон и Руины крепости Бертрон. Предметов в добыче: 35.",
+      "locDetail": "Командный пункт краллов и Руины крепости Бертрон"
     },
     {
       "id": "krall-trainer",
@@ -3491,7 +4083,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-trainer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Боевой дрессировщик краллов - общий монстр ур. 20, раса: Разумные. Локация: Руины крепости Бертрон, Бертрон. Предметов в добыче: 34.",
+      "locDetail": "Руины крепости Бертрон"
     },
     {
       "id": "wandering-water-spirit",
@@ -3501,7 +4095,10 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmYxYzUzYjMtZGRkNC00N2UwLWJmYWMtYjA2ZDg3YWNhMmU1LW1vYl93YXRlcmVsZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-water-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Блуждающий дух воды - общий монстр ур. 20 - 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон и Нестабильная пещера. Предметов в добыче: 133. Цель одного задания.",
+      "locDetail": "Сад Бога иллюзий",
+      "spawnCount": 6
     },
     {
       "id": "drakan-probe",
@@ -3511,7 +4108,9 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-probe",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Детектор драканов - общий монстр ур. 20 - 39, раса: Мутанты. Локации: Кряж Транейн и Пруд Транейн, Альтгард и Лагерь балауров Сабга. Предметов в добыче: 34.",
+      "locDetail": "Кряж Транейн и Пруд Транейн"
     },
     {
       "id": "watchful-karnif",
@@ -3521,7 +4120,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/watchful-karnif",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Наблюдающий каллиф - общий монстр ур. 20, раса: Дикие, локация: Руины крепости Бертрон."
     },
     {
       "id": "krall-field-chief",
@@ -3531,7 +4131,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDI1MTI4YjctZjNlMy00YTRhLTk3MWUtMTUyZWIzZDRiMGU4LW1vYl9rcmFsbHJlZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-field-chief",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Полевой командир краллов - общий монстр ур. 20, раса: Разумные, локация: Руины крепости Бертрон."
     },
     {
       "id": "weak-fire-spirit",
@@ -3541,7 +4142,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjZmNDAyNzctMjQyOC00MjY2LWJjYWUtNGU4ZWEwMmRjOWJiLW1vYl9maXJlZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/weak-fire-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Слабый дух огня - общий монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "weak-earth-spirit",
@@ -3551,7 +4153,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTIwMjQyZTAtNDIxNC00MzFmLWFiZWMtOTY1ZTRhYTAxNDdjLW1vYl9lYXJ0aGVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/weak-earth-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Слабый дух земли - общий монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "ancient-fire-spirit",
@@ -3561,7 +4164,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzE4MTc5MGUtNzA5MC00NTUwLWI4ZDctYTk3M2MxYzJlNzYwLXV0XzUxMl9tb2JfZmlyZWVsZV8wNF9zdHMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-fire-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Древний дух огня - элитный монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "ancient-water-spirit",
@@ -3571,7 +4175,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzYxNmJhNTYtODRlZS00NWU0LWFlZDktYmI1MzJlNmMxZjVjLW1vYl93YXRlcmVsZV8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-water-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Древний дух воды - элитный монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "ancient-wind-spirit",
@@ -3581,7 +4186,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjljNjFlZDAtZGE5MC00OGQzLWIyYTQtNjY0NTVhYWM3NGZhLXV0XzUxMl9tb2Jfd2luZGVsZV8wNF9zdHMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-wind-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Древний дух воздуха - элитный монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "ancient-earth-spirit",
@@ -3591,7 +4197,8 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjY1MzljZDMtNTZhYS00YWZhLThhN2QtODRjZDhkNjhhYmEyLXV0XzUxMl9tb2JfZWFydGhlbGVfMDRfc3RzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-earth-spirit",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Древний дух земли - элитный монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "grandios",
@@ -3601,7 +4208,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTIzNDE0NWMtMmY0Ny00YTE5LThlZjctYmUzZTg3NWY5ZjZmLXV0XzI1Nl9tb2JfZ2FydHVhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/grandios",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Грандиос - героический монстр ур. 20, раса: Природные, локация: Нападение духов."
     },
     {
       "id": "trained-fossa",
@@ -3611,7 +4219,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trained-fossa",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Тренированный фосса - общий монстр ур. 20, раса: Дикие. Локации: Охрана полевого ивента Альтгарда и Охрана торговцев шиго."
     },
     {
       "id": "thieves-skirmisher",
@@ -3621,7 +4230,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-skirmisher",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Застрельщик шайки воров - общий монстр ур. 20, раса: Разумные. Локации: Охрана полевого ивента Альтгарда и Охрана торговцев шиго."
     },
     {
       "id": "trained-exploding-insectoid",
@@ -3631,7 +4241,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmFlNDFkYTEtYzk1YS00ZWQyLWIzOWMtMDZhMzEzNzU5ZmU0LW1vYl9hbHRidWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/trained-exploding-insectoid",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Тренированный взрывающийся инсектоид - общий монстр ур. 20, раса: Дикие. Локации: Охрана полевого ивента Альтгарда и Охрана торговцев шиго."
     },
     {
       "id": "trained-flying-beast",
@@ -3641,7 +4252,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjc2ZDMzZmMtYzJiYS00NzdlLWE2NjYtZDA2OTBkZTM4ZGUzLW1vYl9sdWZpbGluaV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/trained-flying-beast",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Тренированный парящий зверь - общий монстр ур. 20, раса: Разумные. Локации: Охрана полевого ивента Альтгарда и Охрана торговцев шиго."
     },
     {
       "id": "trained-elite-beast",
@@ -3661,7 +4273,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-scout",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Солдат-разведчик шайки воров - общий монстр ур. 20, раса: Разумные. Локации: Охрана полевого ивента Альтгарда и Охрана торговцев шиго."
     },
     {
       "id": "thieves-elite-fighter",
@@ -3681,7 +4294,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWJkNjFiNTItOWQ3YS00NzRhLThmMzEtZGQzYTNmNWVhNDJiLW1vYl9hbHRrbmlmZXR1cnJldF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/thieves-cannon",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Пушка шайки воров - элитный монстр ур. 20, раса: Мутанты, локация: Охрана торговцев шиго."
     },
     {
       "id": "daeva-wraith",
@@ -3691,7 +4305,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWE1ODc0YjgtOTliMC00YzJkLTg5M2QtZGJkOTk4MjdlYmIzLW1vYl9ncmF2ZXVuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-wraith",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Призрак даэва - общий монстр ур. 20, раса: Разумные, локация: Проклятый меч."
     },
     {
       "id": "daeva-superior-wraith",
@@ -3701,7 +4316,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGRkOTIxNTgtMDc4ZC00MDlkLTg1ZTUtYzVhYjE0NzNlNmY0LXV0XzI1Nl9tb2JfZ3JhdmV1bl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-superior-wraith",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Старший призрак даэва - элитный монстр ур. 20, раса: Разумные, локация: Проклятый меч."
     },
     {
       "id": "daeva-elite-wraith",
@@ -3711,7 +4327,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYmI0NmQ1ZjctNzlhMy00ZDRkLTgxZjItMDMwODI3OTQ5ZmJiLW1vYl9ldnNwaXJpdF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-elite-wraith",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Элитный призрак даэва - элитный монстр ур. 20, раса: Разумные, локация: Проклятый меч."
     },
     {
       "id": "executor-of-the-magical-sword",
@@ -3721,7 +4338,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjI4NzBmZmQtMzIyZC00MzI4LWFmM2YtY2NlYTBlNTk4NzY5LXV0XzI1Nl9tb2JfZXZzcGlyaXRfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/executor-of-the-magical-sword",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Каратель магического меча - героический монстр ур. 20, раса: Разумные, локация: Проклятый меч."
     },
     {
       "id": "resentful-sword",
@@ -3731,7 +4349,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYzcwY2VkYmYtN2U0Ni00NjRjLWFkN2MtZGQ2YjIyYjY3Mzc3LXV0XzI1Nl9tb2JfZXZzcGlyaXRfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/resentful-sword",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Одержимый мстительным духом меч - элитный монстр ур. 20, раса: Мутанты, локация: Проклятый меч."
     },
     {
       "id": "jump-laser",
@@ -3741,7 +4360,8 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/jump-laser",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Прыжковый лазер - общий монстр ур. 20, раса: Мутанты, локация: Прыг-скок."
     },
     {
       "id": "varg-warrior",
@@ -3751,7 +4371,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjFiYzYyNGYtYTUzNS00MTFiLTliN2QtYTRiYzkyMzNiZTMxLXV0XzI1Nl9tb2JfdmFyZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/varg-warrior",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Воин варгов - общий монстр ур. 20, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "draconute-superior-warrior",
@@ -3761,7 +4383,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjlkZDFhZGEtZjYyMy00ZmYyLTk2M2EtZTRmNmI2ZGZiMDM5LW1vYl9kcmFjb3dhcl8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-superior-warrior",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Старший воин драконидов - общий монстр ур. 20, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "drakan-warden",
@@ -3771,7 +4395,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-warden",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Управленец драканов - общий монстр ур. 20, раса: Разумные. Локация: Наблюдательный пост святилища, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Наблюдательный пост святилища"
     },
     {
       "id": "draconute-supply-soldier",
@@ -3781,7 +4407,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-supply-soldier",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Снабженец драконидов - общий монстр ур. 20, раса: Разумные. Локации: Кряж Транейн и Пруд Транейн, Альтгард. Предметов в добыче: 33.",
+      "locDetail": "Кряж Транейн и Пруд Транейн"
     },
     {
       "id": "dratona-supporter",
@@ -3791,7 +4419,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMzIyMTNjNWYtZWJkNC00MWIwLWJhODYtYWZiNmY2NmYyYzVkLW1vYl9kcmF0b25hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/dratona-supporter",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Резервист дратонов - общий монстр ур. 20, раса: Разумные. Локации: Кряж Транейн и Пруд Транейн, Альтгард. Предметов в добыче: 34.",
+      "locDetail": "Кряж Транейн и Пруд Транейн"
     },
     {
       "id": "tranein-skyray",
@@ -3801,7 +4431,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tranein-skyray",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Тритон Транейна - общий монстр ур. 20, раса: Дикие. Локация: Пруд Транейн, Альтгард. Предметов в добыче: 35.",
+      "locDetail": "Пруд Транейн"
     },
     {
       "id": "drakan-flying-scout",
@@ -3811,7 +4443,8 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTRjMTgzN2MtOWQzNi00YjQzLTgyYWEtNTYwOGQ4NmI4MDc0LW1vYl9iZXJpdHJhZF8wNy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-flying-scout",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Парящий солдат-разведчик Дракана - общий монстр ур. 20 - 32, раса: Разумные, локация: Альтгард. Предметов в добыче: 84."
     },
     {
       "id": "kailin",
@@ -3821,7 +4454,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzk2Y2U4YzItNDQwNi00ZDA0LTk1ZDQtZDUxNTcwYmU0NWIyLW1vYl9rYWlsaW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kailin",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Каилин - общий монстр ур. 20 - 32, раса: Дикие, локация: Альтгард. Предметов в добыче: 85."
     },
     {
       "id": "young-kailin",
@@ -3831,7 +4465,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzlkZmFlOWMtMzBjZC00NTMwLTgxZWMtMmRkYzc4OGI2NGVmLW1vYl9rYWlsaW5fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-kailin",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Малый каилин - общий монстр ур. 20 - 32, раса: Дикие, локация: Альтгард. Предметов в добыче: 85."
     },
     {
       "id": "slink",
@@ -3841,7 +4476,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/slink",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Чешуйница - общий монстр ур. 20 - 40, раса: Дикие, локация: Альтгард. Предметов в добыче: 101."
     },
     {
       "id": "young-slink",
@@ -3851,7 +4487,8 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODU5MTMwNzYtOWE4Ny00ZDQ1LWIzMjUtNzYyYmZkYWI2ZGJmLW1vYl9sZXBpc21hXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-slink",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Малая чешуйница - общий монстр ур. 20 - 40, раса: Дикие, локация: Альтгард. Предметов в добыче: 101."
     },
     {
       "id": "varg-poacher",
@@ -3861,7 +4498,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjFiYzYyNGYtYTUzNS00MTFiLTliN2QtYTRiYzkyMzNiZTMxLXV0XzI1Nl9tb2JfdmFyZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/varg-poacher",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Браконьер варгов - общий монстр ур. 20, раса: Разумные, локация: Обиталище хищника.",
+      "spawnCount": 23
     },
     {
       "id": "varg-tayga",
@@ -3871,7 +4510,9 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzQxYWVhZmEtNjkzNi00MDhjLWI3YTItMDA3ODhhODIzZjQ5LW1vYl90YXlnYV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/varg-tayga",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Рюкрог варгов - общий монстр ур. 20, раса: Дикие, локация: Обиталище хищника.",
+      "spawnCount": 9
     },
     {
       "id": "priestess-soirel",
@@ -3881,7 +4522,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDRmNzVjODEtNzUyZS00ZWY5LWFkNGItNGJhMmUyMzQ0YWU4LXV0XzI1Nl9tb2Jfbm9ybmlydmFyXzAyX3YwMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/priestess-soirel",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Жрица Соирель - героический монстр ур. 20, раса: Разумные, локация: Заброшенная мемориальная комната.",
+      "spawnCount": 1
     },
     {
       "id": "soulless-follower",
@@ -3891,7 +4534,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTMwODFhMWUtNWI5YS00ZWJkLTgyOGUtN2NlMjIxODQ0OGVkLW1vYl9ub3JuaXJ2YXJfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-follower",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Бездушный последователь - общий монстр ур. 20, раса: Разумные, локация: Заброшенная мемориальная комната.",
+      "spawnCount": 10
     },
     {
       "id": "soulless-novice-priest",
@@ -3901,7 +4546,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWVjYzdlNTctYWM3OC00OGMxLTlmZDItYjA0N2Y4ZTA5YjM5LW1vYl9ub3JuaXJ2YXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-novice-priest",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Бездушный младший жрец - общий монстр ур. 20, раса: Разумные, локация: Заброшенная мемориальная комната.",
+      "spawnCount": 1
     },
     {
       "id": "basement-krall-healer",
@@ -3911,7 +4558,9 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmYyZWViMGQtY2Y4My00ZWYyLWJiNmQtY2NiNmQ3MWIxNTI5LW1vYl9rcmFsbHByc3RfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/basement-krall-healer",
-      "loc": "Альтгард"
+      "loc": "Альтгард",
+      "desc": "Целитель краллов из подвала - общий монстр ур. 20, раса: Разумные, локация: Подвал рухнувшей крепости.",
+      "spawnCount": 2
     },
     {
       "id": "basement-krall-watcher",
@@ -3923,8 +4572,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/basement-krall-watcher",
       "loc": "Бертрон",
       "desc": "Дозорный солдат краллов подвала - общий монстр расы «Разумные» в AION 2, обитает в локации Подвал рухнувшей крепости.",
-      "spawnCount": 2,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "basement-krall-scout",
@@ -3936,8 +4585,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/basement-krall-scout",
       "loc": "Бертрон",
       "desc": "Солдат-разведчик краллов подвала - общий монстр расы «Разумные» в AION 2, обитает в локации Подвал рухнувшей крепости.",
-      "spawnCount": 2,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 2
     },
     {
       "id": "nest-klaw-worker",
@@ -3949,8 +4598,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/nest-klaw-worker",
       "loc": "Бертрон",
       "desc": "Рабочий ньютов гнезда - общий монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречаются Разведчик ньютов гнезда и Королева Карат.",
-      "spawnCount": 12,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 12
     },
     {
       "id": "nest-klaw-scout",
@@ -3962,8 +4611,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/nest-klaw-scout",
       "loc": "Бертрон",
       "desc": "Разведчик ньютов гнезда - общий монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречаются Рабочий ньютов гнезда и Королева Карат.",
-      "spawnCount": 12,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 12
     },
     {
       "id": "queen-karat",
@@ -3975,8 +4624,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/queen-karat",
       "loc": "Бертрон",
       "desc": "Королева Карат - героический монстр расы «Разумные» в AION 2, обитает в локации Гнездо Карат. Там же встречается Рабочий ньютов гнезда.",
-      "spawnCount": 1,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "vanguard-captain-vamana",
@@ -3988,8 +4637,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/vanguard-captain-vamana",
       "loc": "Бертрон",
       "desc": "Капитан передового отряда Бамана - героический монстр расы «Разумные» в AION 2, обитает в локации Скрытый алтарь руин.",
-      "spawnCount": 1,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "distorted-ru-priest",
@@ -4001,8 +4650,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-ru-priest",
       "loc": "Бертрон",
       "desc": "Искаженный жрец Ру - общий монстр расы «Разумные» в AION 2, обитает в локации Искаженная пещера. Там же встречаются Рабочий кобольдов и Боевой шаман краллов.",
-      "spawnCount": 11,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 11
     },
     {
       "id": "distorted-specter",
@@ -4014,8 +4663,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-specter",
       "loc": "Бертрон",
       "desc": "Искаженный спектр - общий монстр расы «Разумные» в AION 2, обитает в локации Гробница крепости. Там же встречаются Бродячий мертвец и Оборонительная турель.",
-      "spawnCount": 24,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 24
     },
     {
       "id": "wandering-dead",
@@ -4027,8 +4676,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-dead",
       "loc": "Бертрон",
       "desc": "Бродячий мертвец - общий монстр расы «Разумные» в AION 2, обитает в локациях Гробница крепости и Последнее пристанище.",
-      "spawnCount": 24,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 24
     },
     {
       "id": "krall-warden",
@@ -4040,8 +4689,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-warden",
       "loc": "Бертрон",
       "desc": "Стражник краллов - общий монстр расы «Разумные» в AION 2, обитает в локации Тюрьма крепости. Там же встречаются Рабочий кобольдов и Боевой шаман краллов.",
-      "spawnCount": 7,
-      "locDetail": "Запечатанное подземелье, Бертрон"
+      "locDetail": "Запечатанное подземелье, Бертрон",
+      "spawnCount": 7
     },
     {
       "id": "scouts-captain-lamnah",
@@ -4053,8 +4702,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/scouts-captain-lamnah",
       "loc": "Альтгард",
       "desc": "Капитан разведчиков Рамунаг - героический монстр расы «Разумные» в AION 2, обитает в локации База Рамунага. Носит титул «Армия Рагта».",
-      "spawnCount": 1,
-      "locDetail": "Запечатанное подземелье, Альтгард"
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "drakan-detector",
@@ -4066,8 +4715,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-detector",
       "loc": "Альтгард",
       "desc": "Зонд драканов - общий монстр расы «Мутанты» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Воин драканов и Солдат драканов архива.",
-      "spawnCount": 14,
-      "locDetail": "Запечатанное подземелье, Альтгард"
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 14
     },
     {
       "id": "drakan-warrior",
@@ -4079,8 +4728,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-warrior",
       "loc": "Альтгард",
       "desc": "Воин драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Солдат драканов архива.",
-      "spawnCount": 10,
-      "locDetail": "Запечатанное подземелье, Альтгард"
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 10
     },
     {
       "id": "scriptorium-drakan-soldier",
@@ -4092,8 +4741,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/scriptorium-drakan-soldier",
       "loc": "Альтгард",
       "desc": "Солдат драканов архива - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Воин драканов.",
-      "spawnCount": 2,
-      "locDetail": "Запечатанное подземелье, Альтгард"
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 2
     },
     {
       "id": "drakan-investigator",
@@ -4105,8 +4754,8 @@ window.AION2_WIKILY = {
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-investigator",
       "loc": "Альтгард",
       "desc": "Следователь драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Разрушенный архив. Там же встречаются Зонд драканов и Воин драканов.",
-      "spawnCount": 8,
-      "locDetail": "Запечатанное подземелье, Альтгард"
+      "locDetail": "Запечатанное подземелье, Альтгард",
+      "spawnCount": 8
     },
     {
       "id": "hideout-karas-warrior",
@@ -12976,7 +13625,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODU1NGViN2YtYTVkMy00MGJhLTkwNmUtYTE4Mzg5MzQ0ZDI2LXV0XzI1Nl9tb2Jfb3dsc29sZGllcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-soldier",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Солдат ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Маг ауругу и Патрульный солдат ауругу.",
       "locDetail": "Собор ауругу, Поселение ауругу и Лощина ветра",
       "spawnCount": 74
@@ -12989,7 +13638,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmQwMGVlNmMtYzAwNS00NWY0LTg5OWYtMDUyY2I5N2I2YzIwLW1vYl9vd2xtYWdfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-mage",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Маг ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Из него выпадает «Душа: Колдун ауллау (привяз.)».",
       "locDetail": "Собор ауругу, Поселение ауругу и Лощина ветра",
       "spawnCount": 90,
@@ -13009,7 +13658,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzMzOWM5OTctNmUwNy00ZTIzLTlhMGYtNzVkYzc5M2VlZjg5LXV0XzI1Nl9tb2Jfb3dsc29sZGllcl8wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-patrol",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Патрульный солдат ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Поселение ауругу",
       "spawnCount": 72
@@ -13022,7 +13671,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjI4OTg5OWQtOWU5My00NGRhLTk5YzEtZTA3YzRjYzNlOTIwLW1vYl9vd2xhcmNfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-skirmisher",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Застрельщик ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Собор ауругу и Поселение ауругу",
       "spawnCount": 18
@@ -13035,7 +13684,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTY4ZDUwMjktZjJmZi00ZjQ2LWFkMGEtMDRlZWVjNWQ0Nzg0LW1vYl9vd2xzb2xkaWVyXzA3LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-slayer",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Ликвидатор ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Собор ауругу и Поселение ауругу",
       "spawnCount": 27
@@ -13048,7 +13697,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzg4NmUzOWYtM2ZhNC00YzYxLTk3OTYtMmFmMDMzMzcwYjUxLXV0XzI1Nl9tb2Jfb3dsY29tXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/guardian-captain-raur",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Капитан охраны Лаур - героический монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Поселение ауругу",
       "spawnCount": 3
@@ -13061,7 +13710,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4NmUxZGMtMmZjMS00MTc3LWJjMzctNWM4YTk2MjViYmFlLXV0XzI1Nl9tb2Jfb3dsYWNfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/judge-urahum",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Судья Урахум - героический монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Поселение ауругу",
       "spawnCount": 3
@@ -13074,7 +13723,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjQ0ZmM4ODAtYWNjYy00Nzg2LTk4Y2MtMWU0ZTM5MmMwZTgwLXV0XzI1Nl9tb2JfZHVkdXJpXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-wind-mage",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Заклинатель воздуха ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу.",
       "locDetail": "Лощина ветра",
       "spawnCount": 6
@@ -13087,7 +13736,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTM2OTY0YWYtNmM5ZS00Y2MxLWEyYzAtOGUxYjliNzE5YWZhLW1vYl9jb251dGlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/faithful-konutin",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Верный конути - общий монстр расы «Природные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Лощина ветра",
       "spawnCount": 82
@@ -13100,7 +13749,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmJjZGNhZDUtYTc5OS00YWMyLWE1OGEtYjQ3MTU2NmJmZDJlLW1vYl9jb251dGlfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/brainwashed-konutin",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Зомбированный конути - общий монстр расы «Природные» в AION 2, обитает в локации Ущелье ауругу. Из него выпадает «Душа: Рабочий конути (привяз.)».",
       "locDetail": "Лощина ветра",
       "spawnCount": 44,
@@ -13120,7 +13769,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjcwZWRmZWMtYjg5My00MzNlLTk3NjYtNjUyZDQ0ZjExYzgxLW1vYl9vd2xzb2xkaWVyXzA4LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-gladiator",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Дуэлянт ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Святилище Аулдора и Собор ауругу",
       "spawnCount": 11
@@ -13133,7 +13782,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTU4NTVkNDItODgzYS00NTI2LTg0MGMtNDRjMmRjODcxZTg0LXV0XzI1Nl9tb2Jfb3dsYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-bloodfighter",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Кровавый храбрец ауругу - элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Собор ауругу",
       "spawnCount": 3
@@ -13146,7 +13795,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAzOWZmY2QtY2U4MS00YWM2LWFmMmYtODI5NGE2MjA5MjA2LW1vYl9waW5vXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/deceived-pino",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Зачарованный пино - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Из него выпадает «Душа: Пино (привяз.)».",
       "locDetail": "Собор ауругу",
       "spawnCount": 16,
@@ -13166,7 +13815,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjgwMzBmNzEtZTEwYy00NDlhLWI0NmYtYWMwZjM2YWJiZmI4LXV0XzI1Nl9tb2Jfb3dsdHJvc18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/divine-auldor",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Священный Аулдор - героический монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Святилище Аулдора",
       "spawnCount": 3
@@ -13179,7 +13828,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZWRiNTZjOTUtYjAzZC00OTc1LWJhODUtOTEwYzkzYjExMDc5LXV0XzI1Nl9tb2Jfb3dsbWFnXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-shaman",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Колдун ауругу - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Собор ауругу, Поселение ауругу и Лощина ветра",
       "spawnCount": 83
@@ -13205,7 +13854,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjcwZWRmZWMtYjg5My00MzNlLTk3NjYtNjUyZDQ0ZjExYzgxLW1vYl9vd2xzb2xkaWVyXzA4LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/auldor-sanctum-gatekeeper",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Привратник святилища Аулдора - общий монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Святилище Аулдора",
       "spawnCount": 1
@@ -13218,7 +13867,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjdiYTAzYWMtM2M2NC00NTZhLWE1NTYtMjcyYWQzMjk0NjBmLW1vYl9vd2x0b3RlbXNtYWxsXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/healing-totem",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Целительный тотем - общий монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Поселение ауругу и Лощина ветра",
       "spawnCount": 16
@@ -13231,7 +13880,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjlmOWFjMTUtZTZmNi00ODQ2LWFkNzAtOGVlZTUzZTMwNjczLW1vYl9vd2x0b3RlbXNtYWxsXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/blazing-totem",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Пылающий тотем - общий монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Солдат ауругу и Маг ауругу.",
       "locDetail": "Собор ауругу, Поселение ауругу и Лощина ветра",
       "spawnCount": 8
@@ -14269,9 +14918,10 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTc5NDkzZmEtMTFlMC00NmQyLWI1MzYtMmYxZDZlMTNjZjhlLW1vYl9kcmFuYXZhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Биологическое оружие драны - общий монстр расы «Мутанты» в AION 2, обитает в локации Секретная лаборатория. Там же встречаются Лазер и Вращающаяся турель.",
-      "locDetail": "Неведомый разлом"
+      "locDetail": "Неведомый разлом",
+      "spawnCount": 49
     },
     {
       "id": "mutated-bioweapon",
@@ -14281,7 +14931,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzljZTZhOTUtYjNlMi00MWZmLWFkMmUtYTcxZjg3ZmFlYWI4LW1vYl9kcmFuYXZhcl8wNl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Мутировавшее биологическое оружие - общий монстр расы «Мутанты» в AION 2, обитает в локации Секретная лаборатория.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 600
@@ -14294,9 +14944,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjg0NmU3NDEtZjE0YS00NDVhLTgyZDQtMDcyYzNmNGFhOTVmLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Сура-подопытный - общий монстр расы «Разумные» в AION 2, обитает в локации Секретная лаборатория. Там же встречаются Лазер и Вращающаяся турель.",
-      "locDetail": "Неведомый разлом"
+      "locDetail": "Неведомый разлом",
+      "spawnCount": 49
     },
     {
       "id": "krao-bioweapon",
@@ -14306,9 +14957,10 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWY2ZmEwNzQtZGViYi00YmNmLWI0Y2YtZDdiYmZhMjM0ZTNiLW1vYl9rcmFvd2FyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/krao-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Биологическое оружие крао - общий монстр расы «Разумные» в AION 2, обитает в локации Секретная лаборатория. Там же встречаются Лазер и Вращающаяся турель.",
-      "locDetail": "Неведомый разлом"
+      "locDetail": "Неведомый разлом",
+      "spawnCount": 49
     },
     {
       "id": "giant-krao-bioweapon",
@@ -14318,7 +14970,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRmMGIxYzctMTBjNC00Y2UyLTkyNjAtOTc2NTMzMWE5YTljLW1vYl9rcmFvZWxpdGVfMDNfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/giant-krao-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Гигантское биологическое оружие крао - элитный монстр расы «Мутанты» в AION 2, обитает в локации Секретная лаборатория.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 20
@@ -14331,7 +14983,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTI1OWFjN2MtYWM5Yy00MDBkLWJiMTgtMzUzNmViYTk0NDU0LW1vYl9kcmFuYXZhcl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/giant-drana-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Гигантское биологическое оружие драны - элитный монстр расы «Мутанты» в AION 2, обитает в локации Секретная лаборатория.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 20
@@ -14344,7 +14996,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjVmMmNlMjYtODM5NS00OTEwLWExZGEtODE2M2ZiZGQ2ZGQ4LXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-sura-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Лабораторный сура-матант - элитный монстр расы «Разумные» в AION 2, обитает в локации Секретная лаборатория. Там же встречаются Лазер и Вращающаяся турель.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 20
@@ -14357,7 +15009,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTdmODJhNWEtNTBmMC00OGZiLThhODYtODk1OTA2Nzc0ODM0LW1vYl9rcmFvZWxpdGVfMDJfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/modified-krao-guardian",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Модифицированный хранитель крао - элитный монстр расы «Разумные» в AION 2, обитает в локации Секретная лаборатория.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 20
@@ -14370,7 +15022,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZWI3MTlhM2QtMzlkNC00OTA2LWFkNzMtOTFmODU3NTE3NzQwLXV0XzI1Nl9tb2Jfc3VyYXByaWVzdF8wMV92MDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-magic-bioweapon",
-      "loc": "",
+      "loc": "Секретная лаборатория",
       "desc": "Сура-подопытный маг - элитный монстр расы «Разумные» в AION 2, обитает в локации Секретная лаборатория. Там же встречаются Лазер и Вращающаяся турель.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 20
@@ -14539,7 +15191,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/unstable-odylium-gemstone",
-      "loc": "",
+      "loc": "Тайник эфирия",
       "desc": "Нестабильный самородок эфирия - элитный монстр расы «Мутанты» в AION 2, обитает в локации Тайник эфирия. Добычи нет.",
       "locDetail": "Неведомый разлом",
       "spawnCount": 1
@@ -18277,7 +18929,7 @@ window.AION2_WIKILY = {
       "name": "Бездушный воин аканов",
       "lvl": "34 - 45",
       "rank": "Общий и героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYzE4ZWIzNDktY2I0Yy00MzA5LTgxYzEtNzEyMGFmMTZjM2FkLXV0XzI1Nl9tb2JfZHN0cmFyY2hvbmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-archon-warrior",
       "loc": "Альтгард",
@@ -20507,7 +21159,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/fire-temple-lava-glob",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Лавовый комок Храма огня - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Храм огня. Там же встречаются Лавовый паук и Дух языка пламени.",
       "locDetail": "Пылающий храм и Путь искупления",
       "spawnCount": 71
@@ -20520,7 +21172,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDQ2YjU2ODQtYjc4ZS00MGQwLWIzMzYtM2E2MzliMjU2ZmUwLW1vYl9vZHNwaWRlcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/lava-spider",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Лавовый паук - общий монстр расы «Дикие» в AION 2, обитает в локации Храм огня. Из него выпадает «Душа: Пепельный паук (привяз.)».",
       "locDetail": "Пылающий храм и Путь искупления",
       "spawnCount": 38,
@@ -20540,7 +21192,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjZmNDAyNzctMjQyOC00MjY2LWJjYWUtNGU4ZWEwMmRjOWJiLW1vYl9maXJlZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/spark-spirit",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Дух языка пламени - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Храм огня. Из него выпадает «Душа: Младший дух огня (привяз.)».",
       "locDetail": "Пылающий храм и Путь искупления",
       "spawnCount": 69,
@@ -20560,7 +21212,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGVkNTI2YzgtNWUyMC00MjdlLWFlOTItMWIwMzEyOGM3MTFmLW1vYl9maXJlZWxlXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/merciless-spark-spirit",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Безжалостный дух языка пламени - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Храм огня.",
       "locDetail": "Пылающий храм и Галерея огня",
       "spawnCount": 39,
@@ -20580,7 +21232,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzE4MTc5MGUtNzA5MC00NTUwLWI4ZDctYTk3M2MxYzJlNzYwLXV0XzUxMl9tb2JfZmlyZWVsZV8wNF9zdHMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/merciless-flame-spirit",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Безжалостный дух пламени - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Храм огня. Там же встречается Лавовый комок Храма огня.",
       "locDetail": "Галерея огня и Путь искупления",
       "spawnCount": 9,
@@ -20600,7 +21252,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDA2YmIxMTEtNzJhYi00NjM5LThmNmQtOTNiYzgzZDgwNTc5LW1vYl9iYWxnZXN0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/flame-barghest",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Пламенный балгест - общий и элитный монстр расы «Дикие» в AION 2, обитает в локации Храм огня. Из него выпадает «Душа: Пламенный балгест (привяз.)».",
       "locDetail": "Путь искупления",
       "spawnCount": 14,
@@ -20620,7 +21272,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWI0ZjQ0OGUtN2I3OS00YTMzLTlkZmYtZDRmMGIyMWFiNzQxLW1vYl9yb3Rhbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/silver-blade-rotan",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Серебряный рокан - героический монстр расы «Мутанты» в AION 2, обитает в локации Храм огня. Из него выпадает «Душа: Серебряного рокана (привяз.)».",
       "locDetail": "Пылающий храм",
       "spawnCount": 2,
@@ -20640,7 +21292,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmZiZjU4MWYtNjQ3My00MGE0LThjMTYtMDIwMTM0MTk1MjdlLXV0XzI1Nl9tb2JfZmlyZWd1YXJkXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-spark-ignus",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Игнус красного языка пламени - героический монстр расы «Природные» в AION 2, обитает в локации Храм огня. Там же встречается Лавовый комок Храма огня.",
       "locDetail": "Пылающий храм",
       "spawnCount": 2,
@@ -20660,7 +21312,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOTU5NjE1ZTQtZDJlNC00YjhiLThjNDQtODA2ZGUyMDMwMWRmLXV0XzI1Nl9tb2JfYXNoZ3VhcmRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-smoke-murute",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Мурт черного дыма - героический монстр расы «Природные» в AION 2, обитает в локации Храм огня. Из него выпадает «Душа: Мурт черного дыма (привяз.)».",
       "locDetail": "Пылающий храм",
       "spawnCount": 2,
@@ -20680,7 +21332,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjZiZDIwMGItODRlZS00ODQ4LTg5YmYtOTk1ZTI1NzEzZGNiLW1vYl9nYXJnb3lsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/flame-stone-guardian-statue",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Охранная статуя пламенного камня - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Храм огня.",
       "locDetail": "Галерея огня",
       "spawnCount": 30,
@@ -20700,7 +21352,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzhiOGU0YjUtYjZjYS00Nzg5LWI2NjMtMzViZjI2Zjg0NWMzLXV0XzI1Nl9tb2JfY3JvbWVkZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/kromede-s-desire",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Желание Кромед - героический монстр расы «Разумные» в AION 2, обитает в локации Храм огня. Там же встречаются Лавовый комок Храма огня и Лавовый паук.",
       "locDetail": "Алтарь зеркала",
       "spawnCount": 2
@@ -22137,7 +22789,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODhlNzEwODUtZTY0OS00ODRjLWJmNTctMDE3ODI2ZTYwNTNlLXV0XzI1Nl9tb2JfZGFldmF3YXJfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/power-possessed-kianah",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Одержимый силой Киан - героический монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 2
@@ -22150,7 +22802,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjdjNDAyM2MtZTA5Ni00ZjQ4LWE2MTQtODY5OTI0NTFjMmM5LXV0XzI1Nl9tb2JfdW5kZWFkXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/obsessive-lithla",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Одержимый Лиср - героический монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречаются Одержимый силой Киан и Идрис.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 2
@@ -22163,7 +22815,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM4OTRiNDQtZjI0Ny00OTk5LTgwYmMtZDJiODRiNWNlM2ZlLXV0XzI1Nl9tb2JfaWRyaXNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/idris",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Идрис - героический монстр расы «Дикие» в AION 2, обитает в локации Руины древнего города Ру. Там же встречаются Одержимый силой Киан и Одержимый Лиср.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 2
@@ -22176,7 +22828,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-warrior-s-soul",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Душа бродячего воина - общий монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 44
@@ -22189,7 +22841,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTcyYzFkYTItMjMyNy00MzRkLTk0Y2YtZjM3Y2Q2MGZiNGRiLW1vYl9naG9zdF8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/cursed-knight-s-soul",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Душа проклятых рыцарей - общий монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 42
@@ -22202,7 +22854,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODE1NGVlOWMtOGU4ZS00YzQyLWFkZWUtMjk2YmM2MzMxMzVhLW1vYl9ncmF2ZWdoXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mad-knight-s-soul",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Душа обезумевшего рыцаря - общий монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 42
@@ -22215,7 +22867,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQxYzdkYzctMjQxMy00NWViLWI0OTYtZTM0MzdjNjQzMjViLW1vYl9kYWV2YXdhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mad-apostle-of-ru",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Обезумевший апостол Ру - элитный монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 2
@@ -22228,7 +22880,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmY0NGVjNjgtZjdiYi00NTgwLThjODktZWY3MWZhM2FlMjc2LW1vYl93cmFwcnN0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/decaying-ancient-priest",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Гниющий древний жрец - общий монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 42
@@ -22241,7 +22893,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjZiZDIwMGItODRlZS00ODQ4LTg5YmYtOTk1ZTI1NzEzZGNiLW1vYl9nYXJnb3lsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sorcery-guardian",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Хранитель чар - общий монстр расы «Мутанты» в AION 2, обитает в локации Руины древнего города Ру. Там же встречаются Одержимый силой Киан и Одержимый Лиср.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 6
@@ -22254,7 +22906,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmY4NjNmNmItYjI3MS00ZTNjLWIzMzItN2Y0M2EzN2Y5ZmQxLW1vYl9jYXZlYmF0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-bat",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Летучая мышь руин - общий монстр расы «Дикие» в AION 2, обитает в локации Руины древнего города Ру. Там же встречаются Одержимый силой Киан и Одержимый Лиср.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 112
@@ -22267,7 +22919,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDI4OTk2MDctMzQzZC00NTkyLTg2M2ItZjI2ODdlNTU3ZGUyLW1vYl93cmFrbnRfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/decaying-ancient-knight",
-      "loc": "",
+      "loc": "Руины древнего города Ру",
       "desc": "Гниющий древний рыцарь - общий монстр расы «Разумные» в AION 2, обитает в локации Руины древнего города Ру. Там же встречается Одержимый силой Киан.",
       "locDetail": "Запечатанное подземелье",
       "spawnCount": 42
@@ -22280,7 +22932,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjgyYmU2YzUtMzBhMy00MjMxLWI2ZDktNDVjMTNlOTUxMzA2LW1vYl9kZWJndWFyZF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/divided-aponos",
-      "loc": "",
+      "loc": "Разные зоны",
       "desc": "Фрагмент Апноса - героический монстр расы «Разумные» в AION 2, обитает в локациях Алтарь Кошмара (легко), Алтарь Кошмара (нормально) и других местах.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 1
@@ -22293,7 +22945,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NlZTc4ZjEtMzExMy00NDgwLTliOGItMTk2ZWZmZGI1MmZhLW1vYl9kZWJndWFyZF8wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-guardian",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Хранитель алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречаются Фрагмент Апноса и Дозорный солдат алтаря.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 17
@@ -22306,7 +22958,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI4OTJkZmQtYWRhZi00ZTlmLThjMjQtOTczOTE3ODhiNTc1LW1vYl9kZWJndWFyZF8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-watcher",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Дозорный солдат алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречаются Фрагмент Апноса и Хранитель алтаря.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -22319,7 +22971,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-elite-shieldbearer",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Элитный щитоносец алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречается Фрагмент Апноса.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 18
@@ -22332,7 +22984,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-elite-assault-trooper",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Элитный штурмовик алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречается Фрагмент Апноса.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 17
@@ -22345,7 +22997,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-daeva-patrol",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Патрульный даэвов алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречается Фрагмент Апноса.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 18
@@ -22358,7 +23010,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/altar-dark-mage",
-      "loc": "",
+      "loc": "Алтарь Кошмара (легко)",
       "desc": "Темный маг алтаря - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (легко). Там же встречаются Фрагмент Апноса и Хранитель алтаря.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 20
@@ -22371,7 +23023,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2I3NDYyZjEtNGI2Ni00ZDg3LWI3MGUtODVjMzA5ODMyYTE2LW1vYl9hd2FrZW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/void-helicoid",
-      "loc": "",
+      "loc": "Разные зоны",
       "desc": "Спираль пустоты - общий монстр расы «Мутанты» в AION 2, обитает в локациях Алтарь Кошмара (легко), Алтарь Кошмара (нормально) и других местах.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 45
@@ -22384,7 +23036,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjQ0ZmM4ODAtYWNjYy00Nzg2LTk4Y2MtMWU0ZTM5MmMwZTgwLXV0XzI1Nl9tb2JfZHVkdXJpXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/featherstorm-duduri",
-      "loc": "",
+      "loc": "Разные зоны",
       "desc": "Пернатый Дудури - героический монстр расы «Разумные» в AION 2, обитает в локациях Святилище ненависти (легко) и других местах.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 2
@@ -22397,7 +23049,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTlhZTBkY2MtNTA1My00ZjA3LThiMzQtYjY5MmZjODFiNzYyLW1vYl9kdWR1cmlfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/watchful-raptor-dodori",
-      "loc": "",
+      "loc": "Разные зоны",
       "desc": "Пробудившийся хищнокрыл Додори - героический монстр расы «Разумные» в AION 2, обитает в локациях Святилище ненависти (легко) и других местах.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 2
@@ -22410,7 +23062,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-guard-troopers-captain",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Капитан охранников святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -22423,7 +23075,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-superior-drakan",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Старший дракан святилища - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -22436,7 +23088,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-chief",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Командир драканов святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -22449,7 +23101,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-balaur-warrior",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Воин балауров святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -22462,7 +23114,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-balaur-ranger",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Рейнджер балауров святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -22475,7 +23127,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-abyss-swarm",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Сворм пропасти святилища - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -22488,7 +23140,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-armed-soldier",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Вооруженный солдат драканов святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -22501,7 +23153,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDAyZjBiZTUtMWIwNC00ZjVhLWIyMTMtZDkxMTBiMThlMDNkLW1vYl9iZXJpdHJhY18wNV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-drakan-thaumaturge",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Чаротворец драканов святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -22514,7 +23166,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-elite-brawler",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Элитный храбрец святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -22527,7 +23179,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/sanctum-elite-watcher",
-      "loc": "",
+      "loc": "Святилище ненависти (легко)",
       "desc": "Элитный дозорный святилища - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (легко).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -23432,7 +24084,7 @@ window.AION2_WIKILY = {
       "name": "Капитан искателей краллов Бездны",
       "lvl": "46",
       "rank": "Элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTkyODU5NGEtMWE0Yi00ZWE3LTlkMDctNjBmYTg0NWFjYzY2LXV0XzI1Nl9tb2Jfa3JhbGxlbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-krall-search-party-captain",
       "loc": "Нижний уровень Арэшурата хаоса",
@@ -28473,7 +29125,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODRjZjM2ZTAtYWI2OC00MGUzLWExNzktZTIwZDNlYWY4MGQ4LW1vYl9kZWJndWFyZF8wNV9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-guardian",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный хранитель - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально). Там же встречается Искривленный дозорный солдат.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 19
@@ -28486,7 +29138,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmQ0NGJlM2ItNDJhZS00YjU1LWFmMTEtNGM5NGI4Nzk5YzBhLW1vYl9kZWJndWFyZF8wNF9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-watcher",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный дозорный солдат - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 15
@@ -28499,7 +29151,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-daeva-patrol",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный патрульный даэвов - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 20
@@ -28512,7 +29164,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-elite-shieldbearer",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный элитный щитоносец - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 23
@@ -28525,7 +29177,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-elite-assault-trooper",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный элитный штурмовик - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 19
@@ -28538,7 +29190,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/distorted-dark-mage",
-      "loc": "",
+      "loc": "Алтарь Кошмара (нормально)",
       "desc": "Искривленный темный маг - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 26
@@ -28551,7 +29203,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-guard-troopers-captain",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный капитан охранников - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -28564,7 +29216,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-superior-drakan",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный старший дракан - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -28577,7 +29229,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-drakan-chief",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный командир драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -28590,7 +29242,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-balaur-warrior",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный воин балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -28603,7 +29255,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-balaur-ranger",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный рейнджер балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -28616,7 +29268,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-abyss-swarm",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный сворм пропасти - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -28629,7 +29281,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-drakan-armed-soldier",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный вооруженный солдат драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -28642,7 +29294,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDAyZjBiZTUtMWIwNC00ZjVhLWIyMTMtZDkxMTBiMThlMDNkLW1vYl9iZXJpdHJhY18wNV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-drakan-thaumaturge",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный чаротворец драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -28655,7 +29307,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-elite-brawler",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный элитный храбрец - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -28668,7 +29320,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/enhanced-elite-watcher",
-      "loc": "",
+      "loc": "Святилище ненависти (нормально)",
       "desc": "Усиленный элитный дозорный - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (нормально).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -29401,7 +30053,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NhZmY5MGUtZGY2ZS00YWQ0LTlkNDMtNGIwMmNjZTJkNjRjLW1vYl9vd2xzb2xkaWVyXzA5LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/urugugu-brawler",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Храбрец ауругу - элитный монстр расы «Разумные» в AION 2, обитает в локации Ущелье ауругу. Из него выпадает «Душа: Храбрец ауругу (привяз.)».",
       "locDetail": "Собор ауругу",
       "spawnCount": 2,
@@ -29421,7 +30073,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGQ3MGYyMWYtNDZkZi00NGMyLThlNGYtYmJhYWQxYjI1M2U0LW1vYl9waW5vXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-pino",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Разъяренный пино - элитный монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Из него выпадает «Душа: Рабочий пино (привяз.)».",
       "locDetail": "Собор ауругу",
       "spawnCount": 14,
@@ -29441,7 +30093,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjdiYTAzYWMtM2M2NC00NTZhLWE1NTYtMjcyYWQzMjk0NjBmLW1vYl9vd2x0b3RlbXNtYWxsXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/surveillance-healing-totem",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Сторожевой целительный тотем - общий монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Храбрец ауругу и Разъяренный пино.",
       "locDetail": "Собор ауругу, Поселение ауругу и Лощина ветра",
       "spawnCount": 84
@@ -29454,7 +30106,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjlmOWFjMTUtZTZmNi00ODQ2LWFkNzAtOGVlZTUzZTMwNjczLW1vYl9vd2x0b3RlbXNtYWxsXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/surveillance-blazing-totem",
-      "loc": "",
+      "loc": "Ущелье ауругу",
       "desc": "Сторожевой пылающий тотем - общий монстр расы «Мутанты» в AION 2, обитает в локации Ущелье ауругу. Там же встречаются Храбрец ауругу и Разъяренный пино.",
       "locDetail": "Собор ауругу и Поселение ауругу",
       "spawnCount": 44
@@ -29467,7 +30119,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTIwMjQyZTAtNDIxNC00MzFmLWFiZWMtOTY1ZTRhYTAxNDdjLW1vYl9lYXJ0aGVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/rock-spirit",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Дух скалы - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона. Из него выпадает «Душа: Младший дух земли (привяз.)».",
       "locDetail": "Воздушная равнина",
       "spawnCount": 64,
@@ -29487,7 +30139,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWYyZjgwM2ItYzIxOS00YjgzLWIzYmEtZmRjYjYxOWZjNDU1LW1vYl9lYXJ0aGVsZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/earth-spirit",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Дух почвы - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона. Из него выпадает «Душа: Средний дух земли (привяз.)».",
       "locDetail": "Архипелаг скал и Воздушная равнина",
       "spawnCount": 216,
@@ -29507,7 +30159,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmZmZTMyYTQtMTk1Yy00YTlkLWE4ODYtYjFlNWJkNTU4YmUzLW1vYl9lYXJ0aGVsZV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enraged-rock-spirit",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Разъяренный дух скалы - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Архипелаг скал и Остров Тамона",
       "spawnCount": 189,
@@ -29527,7 +30179,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjJmYTVhOGEtMGNiNi00NjY5LWJkY2MtOTkxZDRjMmI1OTExLW1vYl9kcmFuYWZhaXJ5XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-fairy",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Падшая фея - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона. Там же встречаются Дух скалы и Дух почвы.",
       "locDetail": "Архипелаг скал, Воздушная равнина и Остров Тамона",
       "spawnCount": 98
@@ -29540,7 +30192,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2ZjMjA5OTYtN2M2Mi00ZTI3LWJjMjYtNjRmZDVjOGQyNDY4LW1vYl9mb3Jlc3RhcmNfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/island-guardian-ranger",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Рейнджер - хранитель острова - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Архипелаг скал и Остров Тамона",
       "spawnCount": 105
@@ -29553,7 +30205,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZmZTYwMTAtMmEyMC00NTBmLWIwN2QtMTQ5ZTMzZDFmNzM5LW1vYl9lYXJ0aGVsZW9kXzAxX2N2MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/odyle-stone-spirit",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Дух эфирной скалы - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Архипелаг скал",
       "spawnCount": 3,
@@ -29573,7 +30225,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTQxODRiMjQtNDAzYi00YzZiLThhNDItOTY1NDI3ODM0OTUyLW1vYl9jb3JhZG9uXzAxX3YwNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-coradon",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Корадон леса - общий и элитный монстр расы «Дикие» в AION 2, обитает в локации Парящий остров Вакрона. Из него выпадает «Душа: Корадон вечности (привяз.)».",
       "locDetail": "Архипелаг скал, Воздушная равнина и Остров Тамона",
       "spawnCount": 34,
@@ -29593,7 +30245,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDAxODE4ODctYmFhMC00ZWZhLWE4YTMtN2E0OGMyMGM0YTNmLW1vYl9rYWxnb2xlbV8wMV92MDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/eroded-kalgolem",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Зараженный калькельм - общий и элитный монстр расы «Мутанты» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Архипелаг скал",
       "spawnCount": 22
@@ -29606,7 +30258,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWE3ODllZGItM2QyYS00NDYxLTg0MjctNTg5ODMzMDI3ZWE1LXV0XzI1Nl9tb2JfdGllXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tiere",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Тие - героический монстр расы «Разумные» в AION 2, обитает в локации Парящий остров Вакрона. Носит титул «Хищник духов».",
       "locDetail": "Гнездо Тие",
       "spawnCount": 3
@@ -29619,7 +30271,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMzJmMDUxNTctNTAyMS00NDNiLTkxMDctNzU3MjIzZDIyMDEwLXV0XzI1Nl9tb2JfdGFtb25fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thamon",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Тамон - героический монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона. Носит титул «Управляющий архипелага».",
       "locDetail": "Зона Тамона",
       "spawnCount": 3
@@ -29632,7 +30284,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjA3YmM2NTktZmNkOS00NTBiLTkwNWItYTY2ZjdjYTYwNGFjLXV0XzI1Nl9tb2JfZWxla2luZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/vakron",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Вакрон - героический монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона. Носит титул «Скалистый хозяин».",
       "locDetail": "Экспедиция",
       "spawnCount": 3
@@ -29645,7 +30297,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzE3NmZmOTktYWZkZi00NzZhLTk3ZGItN2Y3NmQ4N2JkZWRjLW1vYl9wb2xsdXRlZGdyYXNzXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sweet-poison-flower",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Сладкий ядовитый цветок - общий и элитный монстр расы «Природные» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Архипелаг скал, Воздушная равнина и Остров Тамона",
       "spawnCount": 90
@@ -29658,7 +30310,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWRkZTQ3MDItMmIwYi00ZDQxLTgwNmItZWNmZDQ1OTdlYjRlLW1vYl9mb2d0b3RlbV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/fog-spiritstone",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Туманный камень духа - элитный монстр расы «Мутанты» в AION 2, обитает в локации Парящий остров Вакрона. Там же встречаются Дух скалы и Дух почвы.",
       "locDetail": "Архипелаг скал, Воздушная равнина и Остров Тамона",
       "spawnCount": 50
@@ -29671,7 +30323,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjc3NzllZGEtZmU2Ny00YjI1LWFkMGMtYzIzMjNjNWQ1YmU0LW1vYl9iZWVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-queen-bee",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Свирепая осиная королева - общий и элитный монстр расы «Дикие» в AION 2, обитает в локации Парящий остров Вакрона. Из него выпадает «Душа: Шершень (привяз.)».",
       "locDetail": "Воздушная равнина",
       "spawnCount": 23,
@@ -29691,7 +30343,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/giant-honeybee",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Гигантская пчела - общий и элитный монстр расы «Дикие» в AION 2, обитает в локации Парящий остров Вакрона. Из него выпадает «Душа: Подвид осы (привяз.)».",
       "locDetail": "Архипелаг скал и Воздушная равнина",
       "spawnCount": 98,
@@ -29711,7 +30363,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDc0YTNjMzMtYjlhMS00MTkwLWEzZDEtYjYwMzNiYzVhNjgzLW1vYl9haXJ0cmFwXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/floating-tourmaline",
-      "loc": "",
+      "loc": "Парящий остров Вакрона",
       "desc": "Парящий электрический камень - элитный монстр расы «Мутанты» в AION 2, обитает в локации Парящий остров Вакрона.",
       "locDetail": "Алтарь духов",
       "spawnCount": 36
@@ -29750,7 +30402,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NlZTc4ZjEtMzExMy00NDgwLTliOGItMTk2ZWZmZGI1MmZhLW1vYl9kZWJndWFyZF8wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-guardian",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Хранитель Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Дозорный солдат Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 17
@@ -29763,7 +30415,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI4OTJkZmQtYWRhZi00ZTlmLThjMjQtOTczOTE3ODhiNTc1LW1vYl9kZWJndWFyZF8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-watcher",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Дозорный солдат Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Хранитель Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 12
@@ -29776,7 +30428,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-daeva-patrol",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Патрульный даэвов Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Хранитель Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 19
@@ -29789,7 +30441,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-elite-shieldbearer",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Элитный щитоносец Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Хранитель Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -29802,7 +30454,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-elite-assault-trooper",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Элитный штурмовик Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Хранитель Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 18
@@ -29815,7 +30467,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/nightmare-dark-mage",
-      "loc": "",
+      "loc": "Алтарь Кошмара (сложно)",
       "desc": "Темный маг Кошмара - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь Кошмара (сложно). Там же встречается Хранитель Кошмара.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 22
@@ -29828,7 +30480,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-guard-troopers-captain",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный капитан охранников - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -29841,7 +30493,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-superior-drakan",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный старший дракан - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -29854,7 +30506,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-drakan-chief",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный командир драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -29867,7 +30519,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-balaur-warrior",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный воин балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -29880,7 +30532,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-balaur-ranger",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный рейнджер балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -29893,7 +30545,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-abyss-swarm",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный сворм пропасти - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -29906,7 +30558,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-drakan-armed-soldier",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный вооруженный солдат драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -29919,7 +30571,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDAyZjBiZTUtMWIwNC00ZjVhLWIyMTMtZDkxMTBiMThlMDNkLW1vYl9iZXJpdHJhY18wNV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-drakan-thaumaturge",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный чаротворец драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -29932,7 +30584,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-sanctum-elite-brawler",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный элитный храбрец - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -29945,7 +30597,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/loathing-elite-watcher",
-      "loc": "",
+      "loc": "Святилище ненависти (сложно)",
       "desc": "Ненавистный элитный дозорный - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (сложно).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -29958,7 +30610,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDdhMzM0MDYtZTIwZC00MjU4LTk2YzktZjBkNDZhZjEwNWFlLXV0XzI1Nl9tb2JfYXRpZWxfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/atiel",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Атиэль - героический монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус. Носит титул «Священный подопытный».",
       "locDetail": "Центральная зона изоляции исследовательской базы",
       "spawnCount": 4
@@ -29971,7 +30623,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTAyMGIzN2YtNzM1ZS00MzBkLWI5OTQtMTcxMTgxNGM4MzQ4LXV0XzI1Nl9tb2JfYWx0a25pZmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-guard",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Охранник исследовательской базы Деус - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Хранилище материалов исследований",
       "spawnCount": 48
@@ -29984,7 +30636,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODJmOTIxOTUtODdkZC00OGZjLTg0NzEtMzZlNDdmZWI0NTRkLW1vYl9hbHRrbmlmZV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-warrior",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Воин исследовательской базы Деус - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Хранилище материалов исследований",
       "spawnCount": 72
@@ -29997,7 +30649,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDE1ZDI3ZTgtMjhhNS00YWQ4LThiODUtMDE5MzE5NjRiMWY4LW1vYl9hbHRrbmlmZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-mage",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Маг исследовательской базы Деус - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Экспедиция",
       "spawnCount": 32
@@ -30010,7 +30662,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2VlYWEwMzMtMWQyZC00NWUwLTgzODItYWQyYjA3YzEzNzZhLXV0XzI1Nl9tb2JfYWx0a25pZmVfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-bomber",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Бомбардир исследовательской базы Деус - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Хранилище материалов исследований",
       "spawnCount": 64
@@ -30023,7 +30675,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-laser",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Лазер исследовательской базы Деус - элитный монстр расы «Мутанты» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Хранилище материалов исследований",
       "spawnCount": 212
@@ -30036,7 +30688,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzU2ODQ1MWYtOTg5Mi00ZTAwLWEwZTItZTE2OWFkZTkyMGI0LW1vYl9zbGltZV8wMl9jdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/research-center-mudthorn",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Вайолант лаборатории - элитный монстр расы «Мутанты» в AION 2, обитает в локации Исследовательская база Деус. Там же встречается Атиэль.",
       "locDetail": "Рухнувший парящий остров и Хранилище материалов исследований",
       "spawnCount": 44
@@ -30049,7 +30701,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTZlNDQyNDUtNjFlZS00ZDAwLTk0ZTEtNmUyZjY2MDJiYjlmLW1vYl9kYXJrZWxlXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-dark-spirit",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Темный дух исследовательской базы Деус - элитный монстр расы «Природные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Рухнувший парящий остров и Поглощенный штормом Парящий остров",
       "spawnCount": 84
@@ -30062,7 +30714,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-storm",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Ураган исследовательской базы Деус - элитный монстр расы «Мутанты» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Поглощенный штормом Парящий остров",
       "spawnCount": 20
@@ -30075,7 +30727,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTkyODU5NGEtMWE0Yi00ZWE3LTlkMDctNjBmYTg0NWFjYzY2LXV0XzI1Nl9tb2Jfa3JhbGxlbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/modified-krall-warden",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Модифицированный управляющий краллов - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Мастерская квазиэфира",
       "spawnCount": 4
@@ -30088,7 +30740,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGNhYWU2MWItYzE3Yy00NjNjLTk5NDktZDg5NzhiNzA0NjNjLW1vYl9rcmFsbHdhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/modified-krall-combatant",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Модифицированный борец краллов - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Развалины лаборатории полета, Рухнувший парящий остров, Мастерская квазиэфира и Поглощенный штормом Парящий остров",
       "spawnCount": 96,
@@ -30108,7 +30760,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTNhYWZlMDEtMTJmMy00YTNhLWJmNTEtZmI0YTY4OGQwNWRjLXV0XzI1Nl9tb2Jfa3JhbGx3YXJfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/modified-krall-scout",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Модифицированный солдат-разведчик краллов - элитный монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Развалины лаборатории полета",
       "spawnCount": 20
@@ -30121,7 +30773,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMTg1MjgzZjMtZWVjZS00N2NjLWIyZDUtNTVjODdiZGMzYTc1LXV0XzI1Nl9tb2JfbGVwaGFyaXN0X21fMDNfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/nazmun",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Назмун - героический монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус. Носит титул «Глава исследовательской базы Деус».",
       "locDetail": "Рухнувший парящий остров",
       "spawnCount": 4
@@ -30134,7 +30786,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmM5OTc3MzQtOWVmYS00MzNmLWJkY2YtODQ0ZGI5YTRjZDFhLXV0XzI1Nl9tb2JfZ2VsY29zXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/gelcos",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Гелькос - героический монстр расы «Разумные» в AION 2, обитает в локации Исследовательская база Деус. Там же встречается Атиэль.",
       "locDetail": "Экспедиция",
       "spawnCount": 4
@@ -30147,7 +30799,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deus-research-base-rift",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Разлом исследовательской базы Деус - элитный монстр расы «Мутанты» в AION 2, обитает в локации Исследовательская база Деус.",
       "locDetail": "Рухнувший парящий остров, Мастерская квазиэфира и Поглощенный штормом Парящий остров",
       "spawnCount": 212
@@ -30160,7 +30812,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzQwNGQxNjMtZjQ3ZS00N2FmLTk4ZDUtNzdjNGI2ZGMzMzRhLW1vYl93YXRlcmVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/shattered-water-spirit",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Расколотый дух воды - элитный монстр расы «Природные» в AION 2, обитает в локации Расколотый Арканис. Из него выпадает «Душа: Младший дух воды (привяз.)».",
       "locDetail": "Разбитый воздушный храм",
       "spawnCount": 91,
@@ -30180,7 +30832,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmYxYzUzYjMtZGRkNC00N2UwLWJmYWMtYjA2ZDg3YWNhMmU1LW1vYl93YXRlcmVsZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/whispering-water-spirit",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Шепчущий дух воды - элитный монстр расы «Природные» в AION 2, обитает в локации Расколотый Арканис. Из него выпадает «Душа: Средний дух воды (привяз.)».",
       "locDetail": "Рухнувшая галерея и Накренившаяся площадь",
       "spawnCount": 64,
@@ -30200,7 +30852,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM1YjVlODMtMWFlNC00NjVlLTkwOGEtOTAzYWM4ODdiZmFkLW1vYl93YXRlcmVsZV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/enraged-water-spirit",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Разъяренный дух воды - элитный монстр расы «Природные» в AION 2, обитает в локации Расколотый Арканис. Из него выпадает «Душа: Старший дух воды (привяз.)».",
       "locDetail": "Разбитый воздушный храм",
       "spawnCount": 83,
@@ -30220,7 +30872,7 @@ window.AION2_WIKILY = {
       "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzYxNmJhNTYtODRlZS00NWU0LWFlZDktYmI1MzJlNmMxZjVjLW1vYl93YXRlcmVsZV8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/void-water-spirit",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Дух воды пустоты - элитный монстр расы «Природные» в AION 2, обитает в локации Расколотый Арканис. Из него выпадает «Душа: Превосходный дух воды (привяз.)».",
       "locDetail": "Рухнувшая галерея",
       "spawnCount": 36,
@@ -30240,7 +30892,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGEzNjNlMDctOTEyYi00Y2JiLWE0NmItZjY3YjQ1YTM2YjEyLW1vYl9uYWdhZWxpdGVfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/arkanis-elite-priest",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Элитный жрец Арканиса - элитный монстр расы «Разумные» в AION 2, обитает в локации Расколотый Арканис. Из него выпадает «Душа: Элитный жрец нагов (привяз.)».",
       "locDetail": "Рухнувшая галерея, Разбитый воздушный храм и Накренившаяся площадь",
       "spawnCount": 32,
@@ -30260,7 +30912,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2UyYjMyZTUtNzEwZC00MWEyLTljODYtYTg3NjMyM2U4ZTZhLW1vYl9uYWdhZWxpdGVfMDRfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/arkanis-elite-guardian",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Элитный страж Арканиса - элитный монстр расы «Разумные» в AION 2, обитает в локации Расколотый Арканис. Там же встречается Расколотый дух воды.",
       "locDetail": "Рухнувшая галерея, Разбитый воздушный храм и Накренившаяся площадь",
       "spawnCount": 56
@@ -30273,7 +30925,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjE1ZDJiNDMtN2JhZi00NjE4LWExYjctN2YyYzlhNWQzOTYyLXV0XzI1Nl9tb2JfbmFnYWVsaXRlXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/siliator-of-deceit",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Силиатор лжи - героический монстр расы «Разумные» в AION 2, обитает в локации Расколотый Арканис. Там же встречаются Расколотый дух воды и Шепчущий дух воды.",
       "locDetail": "Разбитый воздушный храм",
       "spawnCount": 4
@@ -30286,7 +30938,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzg5NjExNDQtNmJhYS00Zjc2LWE1ZDYtNmY5NTJkMTdlZGE5LXV0XzI1Nl9tb2JfbmFnYWVsaXRlXzAyX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruthilis-of-pain",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Руталис боли - героический монстр расы «Разумные» в AION 2, обитает в локации Расколотый Арканис. Там же встречаются Расколотый дух воды и Шепчущий дух воды.",
       "locDetail": "Рухнувшая галерея",
       "spawnCount": 4
@@ -30299,7 +30951,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmMyODY2NTAtYWE1OS00ZjJlLTlkN2EtY2FkNTE0NzU3OGFmLXV0XzI1Nl9tb2JfdGhhbHl0aHJhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/talisra-of-the-void",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Талира пустоты - героический монстр расы «Разумные» в AION 2, обитает в локации Расколотый Арканис. Там же встречаются Расколотый дух воды и Шепчущий дух воды.",
       "locDetail": "Алтарь пустоты",
       "spawnCount": 4
@@ -30312,7 +30964,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjM1MWQxMzgtYTQ4NC00NTkzLWJhMmEtNmY1ZDA0NjVkNDliLW1vYl90dXJyZXRfMDYucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/spinning-magnetic-field",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Вращающееся электромагнитное поле - элитный монстр расы «Мутанты» в AION 2, обитает в локации Расколотый Арканис.",
       "locDetail": "Рухнувшая галерея",
       "spawnCount": 28
@@ -30325,7 +30977,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-guard-troopers-captain",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный капитан охранников - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -30338,7 +30990,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-superior-drakan",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный старший дракан - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -30351,7 +31003,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-drakan-chief",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный командир драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -30364,7 +31016,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-balaur-warrior",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный воин балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -30377,7 +31029,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-balaur-ranger",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный рейнджер балауров - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -30390,7 +31042,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-abyss-swarm",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный сворм пропасти - общий монстр расы «Мутанты» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 11
@@ -30403,7 +31055,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-drakan-armed-soldier",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный вооруженный солдат драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -30416,7 +31068,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDAyZjBiZTUtMWIwNC00ZjVhLWIyMTMtZDkxMTBiMThlMDNkLW1vYl9iZXJpdHJhY18wNV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-drakan-thaumaturge",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный чаротворец драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 30
@@ -30429,7 +31081,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-dramata",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный драмата - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -30442,7 +31094,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-mutated-dramata",
-      "loc": "",
+      "loc": "Святилище ненависти (Экстремальный)",
       "desc": "Бешеный мутировавший драмата - общий монстр расы «Разумные» в AION 2, обитает в локации Святилище ненависти (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 16
@@ -30455,7 +31107,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2NlZTc4ZjEtMzExMy00NDgwLTliOGItMTk2ZWZmZGI1MmZhLW1vYl9kZWJndWFyZF8wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-guardian",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный хранитель - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный). Там же встречается Бешеный дозорный солдат.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 14
@@ -30468,7 +31120,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI4OTJkZmQtYWRhZi00ZTlmLThjMjQtOTczOTE3ODhiNTc1LW1vYl9kZWJndWFyZF8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-watcher",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный дозорный солдат - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 5
@@ -30481,7 +31133,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjZjODFjY2UtZDIxNy00N2I3LTg3NDItNDRhOTllNzljYzVmLXV0XzI1Nl9tb2JfZGFldmFhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-daeva-patrol",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный патрульный даэвов - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 21
@@ -30494,7 +31146,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjBjMDY4Y2UtNTFmMS00MGQyLWIxMDItYWJlMGYwMTMzNzNjLW1vYl9zdXJhd2FyXzA1LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-elite-shieldbearer",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный элитный щитоносец - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 17
@@ -30507,7 +31159,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYWU4ODM3ZjEtNTk2Mi00OTUzLTlhYTUtZGE5Mzc2ZGRmMTYyLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-elite-assault-trooper",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный элитный штурмовик - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный).",
       "locDetail": "Битва пробуждения",
       "spawnCount": 13
@@ -30520,7 +31172,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzc1YTc4NTMtYjYzMS00NDRlLTgzNTktNDYxM2ViYmFhNTU0LW1vYl9zdXJhbWFnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-dark-mage",
-      "loc": "",
+      "loc": "Алтарь кошмара (Экстремальный)",
       "desc": "Бешеный темный маг - общий монстр расы «Разумные» в AION 2, обитает в локации Алтарь кошмара (Экстремальный). Там же встречается Бешеный хранитель.",
       "locDetail": "Битва пробуждения",
       "spawnCount": 18
@@ -30533,7 +31185,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/giant-lava-glob",
-      "loc": "",
+      "loc": "Храм огня",
       "desc": "Гигантский лавовый комок - элитный монстр расы «Мутанты» в AION 2, обитает в локации Храм огня. Там же встречаются Лавовый комок Храма огня и Лавовый паук.",
       "locDetail": "Пылающий храм и Путь искупления",
       "spawnCount": 40
@@ -30546,7 +31198,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTQ5MjJmMjMtZjNmZS00NWNjLTlhNWQtNzU5ZTA3YzA0YzFmLXV0XzUxMl9tb2JfZHVkdWthXzAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/summoned-duduka-worker",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Призванный рабочий дудуков - общий монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Рабочий дудуков (привяз.)».",
       "locDetail": "Место вечного покоя оборотней и Алтарь реквиема",
       "spawnCount": 44,
@@ -30566,7 +31218,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDVhNjNiMWQtN2YwNS00MWIzLTg5OWEtMGYxNzYzOTM2OTBiLW1vYl9kdWR1a2FfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/summoned-duduka-slinger",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Призванный пращник дудуков - общий монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Пращник дудуков (привяз.)».",
       "locDetail": "Место вечного покоя оборотней и Алтарь реквиема",
       "spawnCount": 26,
@@ -30586,7 +31238,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTVlOWZjYTMtNTc0Mi00Njc0LWJlZGEtZGRlNWE2NTIyNTU5LW1vYl9seWNhbl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-sentry",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Солдат-пограничник оборотней свирепого рога - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 60
@@ -30599,7 +31251,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzZjZmNkNzMtN2M5ZC00NTYxLWFhYmEtZmE2NzY3MmM4ZDc2LW1vYl9seWNhbl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-healer",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Целитель оборотней свирепого рога - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 28
@@ -30612,7 +31264,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-brawler",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Боец оборотней свирепого рога - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 55
@@ -30625,7 +31277,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2RlZmExYmItYjk4NS00MGVhLWJhNjEtZGExNWIyNjM1NjM5LXV0XzI1Nl9tb2JfbHljYW5fMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-combat-chief",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Боевой командир оборотней свирепого рога - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Место наблюдения дикого и Мерцающая пропасть",
       "spawnCount": 19
@@ -30638,7 +31290,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjc5NjBjNTYtNGJhMy00M2M2LWE1ZDQtNWIxOTA1NWIyZjY5LXV0XzI1Nl9tb2JfbHljYW5fMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-mau-totem-shaman",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Чародей тотема оборотней свирепого рога - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Место вечного покоя оборотней и Алтарь реквиема",
       "spawnCount": 30
@@ -30651,7 +31303,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTBmMzU5MjktYjkzZi00OTNjLTg5MTEtMmQyZjRiNzc3ZTA0LW1vYl9tYXV0b3RlbV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/shining-mau-totem",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Блестящий тотем оборотней - героический монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Алтарь реквиема",
       "spawnCount": 2
@@ -30664,7 +31316,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvM2Q2NWJiZjYtNGIyNy00ZTEwLTkwNDctNGQ5NmFhN2QxYmY1LXV0XzI1Nl9tb2Jfa2FsbmlmZWxpdGVfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/watchdog-kwapo",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Сторожевой пес Кухапу - героический монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога. Там же встречается Призванный рабочий дудуков.",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 2
@@ -30677,7 +31329,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTBkOTIwOTMtMzcxNS00ZjNlLWJmNWUtYjNkODg5ODZkZTAyLXV0XzI1Nl9tb2JfbHljYW5fMDRfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/necromancer-duanka",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Некромант Дванка - героический монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога. Там же встречается Призванный рабочий дудуков.",
       "locDetail": "Место вечного покоя оборотней",
       "spawnCount": 2
@@ -30690,7 +31342,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjgxYzQ1ZjQtNzU3NC00ZTRkLTg2MmQtNGJhNTQyNDQ4YzQwLXV0XzI1Nl9tb2JfZmVya18wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-horn-nuakum",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Нуакум свирепого рога - героический монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога. Там же встречается Призванный рабочий дудуков.",
       "locDetail": "Воющий трон",
       "spawnCount": 2
@@ -30703,7 +31355,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTA3NDVmOTctMDMyMS00ZWY0LTk1M2EtYzU0ZWZiMDk1N2EyLW1vYl9hZGRzaHVsYWNrXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-laborer",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Мутировавший каторжник шураков - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Мерцающая пропасть",
       "spawnCount": 18
@@ -30716,7 +31368,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2UwMmUxZmYtOTMyNy00YjYzLWE4NDEtODA3YzcyOWRmOTNhLW1vYl9hZGRzaHVsYWNrXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-miner",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Мутировавший шахтер шураков - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Мерцающая пропасть",
       "spawnCount": 16
@@ -30729,7 +31381,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZjNhZTgyYzctNDMxNS00MTdjLWFhNjEtMzY0ZmIyYzI0ZDdjLW1vYl9hZGRzaHVsYWNrXzA0LnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-sentinel",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Мутировавший постовой шураков - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Мерцающая пропасть",
       "spawnCount": 15
@@ -30742,7 +31394,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDBkYTQzZTItNDU0ZS00MTIyLWJjZTMtOGMzYTIyNTdlYWIxLXV0XzI1Nl9tb2JfYWRkc2h1bGFja18wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-overseer",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Мутировавший надзиратель шураков - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Мерцающая пропасть",
       "spawnCount": 8
@@ -30755,7 +31407,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDc0NjNiZmMtN2FhNS00ZGFiLWE5N2MtZDZmMWY5NzVlMzdmLW1vYl9hZGRzaHVsYWNrXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-shulak-cart-worker",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Мутировавший возчик шураков - общий и элитный монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога.",
       "locDetail": "Мерцающая пропасть",
       "spawnCount": 11,
@@ -30775,7 +31427,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmE5ZmYxNjgtMTEwYy00ODBkLThkZWYtZDc2YjU4ZjY2N2EzLW1vYl9seWNhbnRvdGVtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/fafnite-enhance-totem",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Усиленный тотем фафнита - элитный монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога. Там же встречается Призванный рабочий дудуков.",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 3
@@ -30788,7 +31440,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTQ5MjJmMjMtZjNmZS00NWNjLTlhNWQtNzU5ZTA3YzA0YzFmLXV0XzUxMl9tb2JfZHVkdWthXzAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-duduka-worker",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Свирепый рабочий дудуков - общий монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Рабочий дудуков (привяз.)».",
       "locDetail": "Место наблюдения дикого и Мерцающая пропасть",
       "spawnCount": 89,
@@ -30808,7 +31460,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDVhNjNiMWQtN2YwNS00MWIzLTg5OWEtMGYxNzYzOTM2OTBiLW1vYl9kdWR1a2FfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-duduka-slinger",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Свирепый дудук-метатель - общий монстр расы «Мутанты» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Пращник дудуков (привяз.)».",
       "locDetail": "Место наблюдения дикого и Мерцающая пропасть",
       "spawnCount": 50,
@@ -30828,7 +31480,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWM3YWYwNWMtZmJhYS00YTFkLWFiZjAtYmY0MjNmMTZiNjgxLW1vYl9jcmFiXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-moss-crab",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Моховой краб Бездны - общий монстр расы «Дикие» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Крабрид (привяз.)».",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 20,
@@ -30848,7 +31500,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc0YTAxZjgtM2Q2OS00Njc5LWJkMTYtZWIyZGFhNjE4ZmI0LW1vYl9sdWZpbGluaV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-lupyllini",
-      "loc": "",
+      "loc": "Логово Свирепого Рога",
       "desc": "Руфиллин Бездны - общий монстр расы «Разумные» в AION 2, обитает в локации Логово Свирепого Рога. Из него выпадает «Душа: Гнилостный руфиллин (привяз.)».",
       "locDetail": "Место наблюдения дикого",
       "spawnCount": 26,
@@ -30868,7 +31520,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWIzYWE0MDItYmIwNy00NTE2LWJlMTctZTg2YzU1ODRjNDJjLW1vYl90dXJyZXRfMDJfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/soul-binder",
-      "loc": "",
+      "loc": "Исследовательская база Деус",
       "desc": "Связыватель душ - элитный монстр расы «Мутанты» в AION 2, обитает в локации Исследовательская база Деус. Там же встречается Атиэль.",
       "locDetail": "Рухнувший парящий остров и Поглощенный штормом Парящий остров",
       "spawnCount": 36
@@ -30881,7 +31533,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrosion-wave",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Волна поглощения - элитный монстр расы «Мутанты» в AION 2, обитает в локации Расколотый Арканис. Там же встречаются Волна пустоты и Расколотый дух воды.",
       "locDetail": "Рухнувшая галерея, Разбитый воздушный храм и Накренившаяся площадь",
       "spawnCount": 15
@@ -30907,7 +31559,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/void-wave",
-      "loc": "",
+      "loc": "Расколотый Арканис",
       "desc": "Волна пустоты - элитный монстр расы «Мутанты» в AION 2, обитает в локации Расколотый Арканис. Там же встречаются Волна поглощения и Расколотый дух воды.",
       "locDetail": "Рухнувшая галерея, Разбитый воздушный храм и Накренившаяся площадь",
       "spawnCount": 15
@@ -30920,7 +31572,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2IwMTc5NmEtMjY4ZS00YjJkLTg4MWQtYWRmN2I0ZmJhMTQ1LW1vYl9iZXJpdHJhY18wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-drakan",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Дракан последователей Рудры - общий монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Врата Бездны",
       "spawnCount": 120
@@ -30933,7 +31585,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzA4OTA0MmUtN2RhZi00ZTZkLThjZWUtMTQyNTU3NDI2ODM4LW1vYl9iZXJpdHJhY18wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-beast",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Зверь последователей Рудры - общий монстр расы «Дикие» в AION 2, обитает в локации Плавильня Бездны: Рудра. Там же встречается Дракан последователей Рудры.",
       "locDetail": "Врата Бездны",
       "spawnCount": 40
@@ -30946,7 +31598,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRlYzQ1NGYtYmZmZS00ZjE2LThmNDUtZWFiMGNlMGVkODZmLW1vYl9iZXJpdHJhY18wNV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-warmage",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Боевой маг последователей Рудры - общий монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Врата Бездны",
       "spawnCount": 40
@@ -30959,7 +31611,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWJlODM4ODctNTEyNC00NGRmLTg3ZTAtZTNjYTEzYzEyNDJhLW1vYl9iZXJpdHJhY18wOV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ludra-follower-officer",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Офицер последователей Рудры - элитный монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Врата Бездны",
       "spawnCount": 40
@@ -30972,7 +31624,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGM2NmNmYTctNTU0MS00YTU1LTkyYTMtYWI0YjkyNGU1YmI1LXV0XzI1Nl9tb2JfbGFndGFfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/isolation-specialist-rahu",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Раху разрыва - героический монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра. Там же встречается Дракан последователей Рудры.",
       "locDetail": "Площадь алчности",
       "spawnCount": 2
@@ -30985,7 +31637,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjkwODE0NmEtZGYyYy00Y2Q2LThlYTQtMTcyZmU2MzgyODlkLXV0XzI1Nl9tb2Jfa2FzaGFwYV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-wings-ketu",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Крылья Бездны Кету - героический монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра. Там же встречается Дракан последователей Рудры.",
       "locDetail": "Тренировочная площадка крыльев пропасти",
       "spawnCount": 2
@@ -30998,7 +31650,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzhhZGM3NDYtY2YwNC00Y2FkLWIzMzEtYWZiMmUxNmMyMWVlLW1vYl9vcmN1c2dlbV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/central-abyss-fusion-reactor",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Центральное ядро синтеза пропасти - героический монстр расы «Мутанты» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Врата Бездны",
       "spawnCount": 2
@@ -31011,7 +31663,7 @@ window.AION2_WIKILY = {
       "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNjA4ODIyNDUtZjhjNS00NjAwLWE0OWYtZjhmYmIzOTcwYTMzLW1vYl9leHRyYWN0b3JhXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/auxiliary-abyss-fusion-reactor",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Вспомогательное ядро синтеза пропасти - элитный монстр расы «Мутанты» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Врата Бездны",
       "spawnCount": 6
@@ -31024,7 +31676,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvODNmM2NkYmEtODY5Yy00MTc4LWI5OTMtNDliZjAxYWFmMTNlLXV0XzI1Nl9tb2JfZHVyYmF0aV8wMV92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/eternal-ludra",
-      "loc": "",
+      "loc": "Плавильня Бездны: Рудра",
       "desc": "Рудра веков - героический монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра. Там же встречается Дракан последователей Рудры.",
       "locDetail": "Трон веков",
       "spawnCount": 2
@@ -31037,7 +31689,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2IwMTc5NmEtMjY4ZS00YjJkLTg4MWQtYWRmN2I0ZmJhMTQ1LW1vYl9iZXJpdHJhY18wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-drakan-armed-soldier",
-      "loc": "",
+      "loc": "Закалка пропасти: Рудра",
       "desc": "Вооруженный солдат драканов Бездны - общий монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Восточный путь Закалки пропасти и Западный путь Закалки пропасти",
       "spawnCount": 294
@@ -31050,7 +31702,7 @@ window.AION2_WIKILY = {
       "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzA4OTA0MmUtN2RhZi00ZTZkLThjZWUtMTQyNTU3NDI2ODM4LW1vYl9iZXJpdHJhY18wM192MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-beast",
-      "loc": "",
+      "loc": "Закалка пропасти: Рудра",
       "desc": "Зверь Бездны - общий монстр расы «Дикие» в AION 2, обитает в локации Плавильня Бездны: Рудра. Там же встречается Дракан последователей Рудры.",
       "locDetail": "Восточный путь Закалки пропасти и Западный путь Закалки пропасти",
       "spawnCount": 294
@@ -31063,7 +31715,7 @@ window.AION2_WIKILY = {
       "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWRlYzQ1NGYtYmZmZS00ZjE2LThmNDUtZWFiMGNlMGVkODZmLW1vYl9iZXJpdHJhY18wNV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyssal-drakan-mage-officer",
-      "loc": "",
+      "loc": "Закалка пропасти: Рудра",
       "desc": "Главный маг драканов Бездны - общий монстр расы «Разумные» в AION 2, обитает в локации Плавильня Бездны: Рудра.",
       "locDetail": "Восточный путь Закалки пропасти и Западный путь Закалки пропасти",
       "spawnCount": 294
@@ -34734,7 +35386,7 @@ window.AION2_WIKILY = {
       "name": "Модифицированный целитель краллов",
       "lvl": "41 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmYyZWViMGQtY2Y4My00ZWYyLWJiNmQtY2NiNmQ3MWIxNTI5LW1vYl9rcmFsbHByc3RfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/modified-krall-healer",
       "loc": "Бертрон",
@@ -36364,1440 +37016,1694 @@ window.AION2_WIKILY = {
       "name": "Наблюдающий солдат-разведчик драны",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-watch-scout",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Наблюдающий солдат-разведчик драны - общий монстр ур. 42, раса: Разумные. Локация: Зона переработки драны, Бертрон. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Зона переработки драны"
     },
     {
       "id": "plantation-kobold-sorter",
       "name": "Сортировщик кобольдов плантации",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBmNjQzZGYtMWQ5MS00NjM3LTljYTEtNWE4NzVhNTY5MGE4LW1vYl9rb2Jvd29ya2ZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/plantation-kobold-sorter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сортировщик кобольдов плантации - общий монстр ур. 42, раса: Разумные. Локация: Плантация драны, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Плантация драны"
     },
     {
       "id": "plantation-kobold-prospecter",
       "name": "Старатель кобольдов плантации",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWZmMmZlMGMtZjVkOC00N2JlLTg4NGMtMzRlNmY1MjA3MGI0LW1vYl9rb2Jvd29ya2ZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/plantation-kobold-prospecter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Старатель кобольдов плантации - общий монстр ур. 42, раса: Разумные. Локация: Плантация драны, Бертрон. Предметов в добыче: 67.",
+      "locDetail": "Плантация драны"
     },
     {
       "id": "processing-facility-drakan-scout",
       "name": "Обработанный солдат-разведчик драканов",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/processing-facility-drakan-scout",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Обработанный солдат-разведчик драканов - общий монстр ур. 42, раса: Разумные. Локация: Зона переработки драны, Бертрон. Предметов в добыче: 69. Цель одного задания.",
+      "locDetail": "Зона переработки драны"
     },
     {
       "id": "plantation-kobold-mover",
       "name": "Перевозчик кобольдов плантации",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGM3NzU2YTUtODhkNS00OTI3LWJlMjAtNWJmMGI0YmEzMGE3LW1vYl9rb2Jvd29ya21fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/plantation-kobold-mover",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Перевозчик кобольдов плантации - общий монстр ур. 42, раса: Разумные. Локация: Плантация драны, Бертрон. Предметов в добыче: 67.",
+      "locDetail": "Плантация драны"
     },
     {
       "id": "plantation-large-totem",
       "name": "Большой тотем плантации",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzIwY2U5MWQtMGE4My00ZTBhLWI0YjktOTRmNGYwOWUwMzJiLW1vYl9kcmF0b3RlbWFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/plantation-large-totem",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Большой тотем плантации - общий монстр ур. 42, раса: Мутанты. Локация: Зона переработки драны, Бертрон. Цель заданий: 2.",
+      "locDetail": "Зона переработки драны"
     },
     {
       "id": "chief-s-bodyguard",
       "name": "Стражник личной гвардии вождя",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMGFjYmIxNzMtMjE2Yy00ZjFlLWI0ZGMtNWJmOGJlMzU4ZjBiLW1vYl92YXJnXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/chief-s-bodyguard",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Стражник личной гвардии вождя - общий монстр ур. 42, раса: Разумные. Локация: Поселение черного когтя, Альтгард. Предметов в добыче: 69. Цель одного задания.",
+      "locDetail": "Поселение черного когтя"
     },
     {
       "id": "chief-s-sentinel",
       "name": "Постовой личной гвардии вождя",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMjFiYzYyNGYtYTUzNS00MTFiLTliN2QtYTRiYzkyMzNiZTMxLXV0XzI1Nl9tb2JfdmFyZ18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/chief-s-sentinel",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Постовой личной гвардии вождя - общий монстр ур. 42, раса: Разумные. Локация: Поселение черного когтя и Подвал Кумрика, Альтгард. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Поселение черного когтя и Подвал Кумрика"
     },
     {
       "id": "duduka-slinger",
       "name": "Пращник дудуков",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDVhNjNiMWQtN2YwNS00MWIzLTg5OWEtMGYxNzYzOTM2OTBiLW1vYl9kdWR1a2FfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/duduka-slinger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Пращник дудуков - общий монстр ур. 42, раса: Мутанты. Локация: Поселение черного когтя, Альтгард. Предметов в добыче: 70.",
+      "locDetail": "Поселение черного когтя"
     },
     {
       "id": "black-claw-manduri-combatant",
       "name": "Борец мандури черного когтя",
       "lvl": "42 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjhhZTAzNDAtYWY1ZS00NGRkLWE3OGItODlmMjY2Y2ZkODBiLW1vYl9tYW5kdXJpd2FyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-claw-manduri-combatant",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Борец мандури черного когтя - общий монстр ур. 42 - 45, раса: Разумные. Локация: Поселение черного когтя, Альтгард и Подземный склад черного когтя. Предметов в добыче: 69.",
+      "locDetail": "Поселение черного когтя, Подземный склад черного когтя"
     },
     {
       "id": "muqaka-s-personal-elite-soldier",
       "name": "Элитный солдат подчинения Мукаки",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/muqaka-s-personal-elite-soldier",
-      "loc": ""
+      "loc": "Казармы Мукаки",
+      "desc": "Элитный солдат подчинения Мукаки - общий монстр ур. 42, раса: Разумные, локация: Казармы Мукаки."
     },
     {
       "id": "muqaka-s-personal-bodyguard",
       "name": "Личный стражник Мукаки",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/muqaka-s-personal-bodyguard",
-      "loc": ""
+      "loc": "Казармы Мукаки",
+      "desc": "Личный стражник Мукаки - общий монстр ур. 42, раса: Разумные, локация: Казармы Мукаки."
     },
     {
       "id": "muqaka-s-personal-striker",
       "name": "Личный ударник Мукаки",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTVlOWZjYTMtNTc0Mi00Njc0LWJlZGEtZGRlNWE2NTIyNTU5LW1vYl9seWNhbl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/muqaka-s-personal-striker",
-      "loc": ""
+      "loc": "Казармы Мукаки",
+      "desc": "Личный ударник Мукаки - общий монстр ур. 42, раса: Разумные, локация: Казармы Мукаки."
     },
     {
       "id": "black-claw-chief-muqaka",
       "name": "Вождь Мукака черного когтя",
       "lvl": "42",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvN2RlZmExYmItYjk4NS00MGVhLWJhNjEtZGExNWIyNjM1NjM5LXV0XzI1Nl9tb2JfbHljYW5fMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-claw-chief-muqaka",
-      "loc": ""
+      "loc": "Казармы Мукаки",
+      "desc": "Вождь Мукака черного когтя - героический монстр ур. 42, раса: Разумные, локация: Казармы Мукаки."
     },
     {
       "id": "muqaka-s-totem",
       "name": "Тотем Мукаки",
       "lvl": "42",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmViZDcxNzYtNjkwMC00YmZkLWI2ZWEtZWRiOTkxMTIzNDE1LW1vYl90dXJyZXRfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/muqaka-s-totem",
-      "loc": ""
+      "loc": "Казармы Мукаки",
+      "desc": "Тотем Мукаки - общий монстр ур. 42, раса: Мутанты, локация: Казармы Мукаки."
     },
     {
       "id": "nahid-drakan-defender",
       "name": "Обороняющийся драканов Нахида",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nahid-drakan-defender",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Обороняющийся драканов Нахида - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 68.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "nahid-drakan-assault-trooper",
       "name": "Штурмовик драканов Нахида",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nahid-drakan-assault-trooper",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Штурмовик драканов Нахида - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 68.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "sura-test-subject",
       "name": "Подопытный сура",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTgxY2ZlMzAtNDMzYi00ZjY0LWI2NzEtMDg0YWI2ZjNlMjg5LW1vYl9zdXJhd2FyXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-test-subject",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Подопытный сура - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 68.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "krall-test-subject",
       "name": "Подопытный краллов",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGNhYWU2MWItYzE3Yy00NjNjLTk5NDktZDg5NzhiNzA0NjNjLW1vYl9rcmFsbHdhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/krall-test-subject",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Подопытный краллов - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "nahid-biological-researcher",
       "name": "Исследователь биологии Нахида",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nahid-biological-researcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Исследователь биологии Нахида - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 68.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "nahid-test-subject-watcher",
       "name": "Подопытный дозорный солдат Нахида",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTgzYzRmMjItMjcwNi00NTFmLTk1ZTAtYjI3MGJiYTQ4ODlkLW1vYl9iZXJpdHJhYV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nahid-test-subject-watcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Подопытный дозорный солдат Нахида - общий монстр ур. 43, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 68.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "lagta-brigade-bodyguard",
       "name": "Стражник армии Рагта",
       "lvl": "43 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-bodyguard",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Стражник армии Рагта - общий монстр ур. 43 - 45, раса: Разумные. Локация: Крепость Рагта, Альтгард, Убежище Амунта и Подземная тюрьма Рагта. Предметов в добыче: 68.",
+      "locDetail": "Крепость Рагта, Убежище Амунта, Подземная тюрьма Рагта",
+      "spawnCount": 1
     },
     {
       "id": "lagta-brigade-guard-dog",
       "name": "Сторожевой пес армии Рагта",
       "lvl": "43 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-guard-dog",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Сторожевой пес армии Рагта - общий монстр ур. 43 - 45, раса: Дикие. Локация: Крепость Рагта, Альтгард, Убежище Амунта и Подземная тюрьма Рагта. Предметов в добыче: 69.",
+      "locDetail": "Крепость Рагта, Убежище Амунта, Подземная тюрьма Рагта",
+      "spawnCount": 4
     },
     {
       "id": "lagta-brigade-guard",
       "name": "Охранник армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-guard",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Охранник армии Рагта - общий монстр ур. 43, раса: Разумные. Локация: Крепость Рагта, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Крепость Рагта"
     },
     {
       "id": "lagta-brigade-researcher",
       "name": "Исследователь армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-researcher",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Исследователь армии Рагта - общий монстр ур. 43, раса: Разумные. Локация: Крепость Рагта, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Крепость Рагта"
     },
     {
       "id": "lagta-brigade-seeker",
       "name": "Искатель армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-seeker",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Искатель армии Рагта - общий монстр ур. 43, раса: Мутанты. Локация: Крепость Рагта, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Крепость Рагта"
     },
     {
       "id": "lagta-brigade-sentry",
       "name": "Солдат-пограничник армии Рагта",
       "lvl": "43 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-sentry",
-      "loc": ""
+      "loc": "Разные зоны",
+      "desc": "Солдат-пограничник армии Рагта - общий монстр ур. 43 - 45, раса: Разумные. Локации: Склад фафнита Рагта, Убежище Амунта и Подземная тюрьма Рагта.",
+      "locDetail": "Склад фафнита Рагта, Убежище Амунта и Подземная тюрьма Рагта",
+      "spawnCount": 5
     },
     {
       "id": "lagta-brigade-sentinel",
       "name": "Постовой армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-sentinel",
-      "loc": ""
+      "loc": "Склад фафнита Рагта",
+      "desc": "Постовой армии Рагта - общий монстр ур. 43, раса: Разумные, локация: Склад фафнита Рагта."
     },
     {
       "id": "lagta-brigade-patrol",
       "name": "Патрульный солдат армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-patrol",
-      "loc": ""
+      "loc": "Склад фафнита Рагта",
+      "desc": "Патрульный солдат армии Рагта - общий монстр ур. 43, раса: Разумные, локация: Склад фафнита Рагта."
     },
     {
       "id": "lagta-brigade-storage-overseer",
       "name": "Смотритель склада армии Рагта",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-storage-overseer",
-      "loc": ""
+      "loc": "Склад фафнита Рагта",
+      "desc": "Смотритель склада армии Рагта - общий монстр ур. 43, раса: Разумные, локация: Склад фафнита Рагта."
     },
     {
       "id": "abyss-swarm",
       "name": "Сворм Бездны",
       "lvl": "43 - 45",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-swarm",
-      "loc": ""
+      "loc": "Внешний уровень Арэшурата хаоса",
+      "desc": "Сворм Бездны - общий монстр (Мутанты), уровень 43-45. Где обитает: Внешний уровень Арэшурата хаоса и Разрушенные обломки (Нижний уровень Арэшурата хаоса). Предметов в добыче: 94.",
+      "locDetail": "Разрушенные обломки (Нижний уровень Арэшурата хаоса)"
     },
     {
       "id": "abyss-drana-slime",
       "name": "Слизень драны Бездны",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-slime",
-      "loc": ""
+      "loc": "Внешний уровень Арэшурата хаоса",
+      "desc": "Слизень драны Бездны - общий монстр ур. 43, раса: Мутанты. Локация: Остров красного тернового венца, Внешний уровень Арэшурата хаоса. Предметов в добыче: 56.",
+      "locDetail": "Остров красного тернового венца"
     },
     {
       "id": "kaisinel-s-illusion",
       "name": "Иллюзия Кайсинеля",
       "lvl": "43",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGI1ZDlhOTItN2FjZC00N2RkLTg2NzAtNmM4NGNlYjE5MzdlLXV0XzI1Nl9tb2Jfa2Fpc2luZWxfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/kaisinel-s-illusion",
-      "loc": ""
+      "loc": "Храм Элдес",
+      "desc": "Иллюзия Кайсинеля - героический монстр ур. 43, раса: Разумные, локация: Храм Элдес.",
+      "spawnCount": 1
     },
     {
       "id": "zikel-s-apparition",
       "name": "Фантом Джикела",
       "lvl": "43",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDlhZmQ4ZjgtMzIzNS00NGIyLWE4NmEtM2E3N2Q2OWExZTU3LXV0XzI1Nl9tb2JfemlrZWxfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/zikel-s-apparition",
-      "loc": ""
+      "loc": "Имфетиус",
+      "desc": "Фантом Джикела - героический монстр ур. 43, раса: Разумные, локация: Имфетиус.",
+      "spawnCount": 1
     },
     {
       "id": "destruction-archon-gladiator-apparition",
       "name": "Фантом гладиатора акана разрушения",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzMwODg4MmItYTJiOC00NWMwLTlkNzYtZjFlMjMzOGYwZGQ1LW1vYl9kc3RyYXJjaG9uXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/destruction-archon-gladiator-apparition",
-      "loc": ""
+      "loc": "Имфетиус",
+      "desc": "Фантом гладиатора акана разрушения - общий монстр ур. 43, раса: Разумные, локация: Имфетиус.",
+      "spawnCount": 28
     },
     {
       "id": "destruction-archon-templar-apparition",
       "name": "Фантом стража акана разрушения",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDI2MzI5NWMtNjUyMS00Zjg0LThhNzAtMzAxNmJkMmNlZGQyLW1vYl9kc3RyYXJjaG9uXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/destruction-archon-templar-apparition",
-      "loc": ""
+      "loc": "Имфетиус",
+      "desc": "Фантом стража акана разрушения - общий монстр ур. 43, раса: Разумные, локация: Имфетиус.",
+      "spawnCount": 25
     },
     {
       "id": "hystan-s-apparition",
       "name": "Фантом Хистана",
       "lvl": "43",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDZjYzIzNDgtYWEyNS00OTkyLWE1ZmMtYTkzMWQ0MzNjZmM1LXV0XzI1Nl9ucGNfaGlzdGFuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hystan-s-apparition",
-      "loc": ""
+      "loc": "Имфетиус",
+      "desc": "Фантом Хистана - героический монстр ур. 43, раса: Разумные, локация: Имфетиус.",
+      "spawnCount": 1
     },
     {
       "id": "caelid",
       "name": "Калид",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmFiYmM1N2YtNDE3OC00MjVlLTk0MGYtN2ZkOTlkNDQwMWMzLXV0XzI1Nl9ucGNfa2FsaWRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/caelid",
-      "loc": ""
+      "loc": "Храм Элдес",
+      "desc": "Калид - общий монстр ур. 43, раса: Разумные, локация: Храм Элдес.",
+      "spawnCount": 1
     },
     {
       "id": "luteros",
       "name": "Лутерс",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZWZiNThmMmUtZTNkMy00Zjc5LWFlYTUtZDJjN2JiMTUzNWFkLXV0XzI1Nl9ucGNfbHV0ZXJzXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/luteros",
-      "loc": ""
+      "loc": "Храм Элдес",
+      "desc": "Лутерс - общий монстр ур. 43, раса: Разумные, локация: Храм Элдес.",
+      "spawnCount": 1
     },
     {
       "id": "phernos",
       "name": "Фернос",
       "lvl": "43",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmFhNmU0ZmItYmI3NC00NTdhLWExYmQtMGUwMjlkZWFiMmE1LXV0XzI1Nl9ucGNfcGVybm9zXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/phernos",
-      "loc": ""
+      "loc": "Храм Элдес",
+      "desc": "Фернос - общий монстр ур. 43, раса: Разумные, локация: Храм Элдес.",
+      "spawnCount": 1
     },
     {
       "id": "red-stalk-gravi",
       "name": "Красностебельный грави",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2QxYmJiYzctNGIxMi00NWM4LWJlZjMtZDMwMzlhNzM2MDY3LW1vYl9ncmF2aV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/red-stalk-gravi",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Красностебельный грави - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 70.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "thin-agrint",
       "name": "Истощенный агринт",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvM2Y4MWIyOTYtZDY3YS00YTNiLTg0YmQtZmU5MDAyODM1ODk4LW1vYl9hZ3JpbnRfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/thin-agrint",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Истощенный агринт - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "wandering-earth-spirit",
       "name": "Блуждающий дух земли",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWYyZjgwM2ItYzIxOS00YjgzLWIzYmEtZmRjYjYxOWZjNDU1LW1vYl9lYXJ0aGVsZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-earth-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Блуждающий дух земли - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 69. Цель одного задания.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "garden-papis",
       "name": "Папис сада",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQ1OTFiNjEtYjJkOS00MWQxLWEyOTgtYmExY2M5OTQ5ZTQ4LW1vYl9wYXBpc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/garden-papis",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Папис сада - общий монстр ур. 44, раса: Дикие. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 70.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "wandering-wind-spirit",
       "name": "Блуждающий дух воздуха",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM4M2YwNjAtMTE3ZS00Mzg5LWI2MDQtZTYzNjI0OWRjZGRkLW1vYl93aW5kZWxlXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-wind-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Блуждающий дух воздуха - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 69. Цель заданий: 2.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "illusion-magic-gravi",
       "name": "Магический грави иллюзии",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWJjOGIzYzEtMWI3Ni00MDA3LWFkNzctZDJiNTljYzFlMTRjLW1vYl9ncmF2aV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/illusion-magic-gravi",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Магический грави иллюзии - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 70.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "tainted-vine-specter",
       "name": "Мутный спектр лозы",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjEyMTk2MmYtYTYyZi00NDUyLTgyN2UtM2U0NzhkYTQ5MDFiLW1vYl9mb3Jlc3R3aXNwXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tainted-vine-specter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Мутный спектр лозы - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 70. Цель одного задания.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "garden-spider",
       "name": "Паук сада",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2QxMmQ5ODMtNWMyYy00YjE0LWE3OTYtZDE3YjU4MTA3ZTFjLW1vYl9vZHNwaWRlcl8wNF92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/garden-spider",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Паук сада - общий монстр ур. 44, раса: Дикие. Локации: Сад Бога иллюзий и Укрытие паломников, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Сад Бога иллюзий и Укрытие паломников"
     },
     {
       "id": "young-garden-coradon",
       "name": "Малый корадон сада",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDdlNDZkNDItNTFhMy00NzlhLWJiZDEtMTU1YmY0NGE3MTU5LW1vYl9jb3JhZG9uXzAxX3YwMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/young-garden-coradon",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Малый корадон сада - общий монстр ур. 44, раса: Дикие. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "old-agrint",
       "name": "Старый агринт",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDRkNzQ3MWItZjk0Ny00ZWU0LTlmMDYtYjY5ZTQ4ODk4MmEwLW1vYl9hZ3JpbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/old-agrint",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Старый агринт - общий монстр ур. 44, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 69.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "garden-coradon",
       "name": "Корадон сада",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjdlNTZiYWItZjI4YS00NGVmLTgxODMtYzVmNDE5NTRmYjZiLW1vYl9jb3JhZG9uXzAxX3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/garden-coradon",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Корадон сада - общий монстр ур. 44, раса: Дикие. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 70.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "contaminated-bubble-spirit",
       "name": "Зараженный дух водяного пузыря",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzQwNGQxNjMtZjQ3ZS00N2FmLTk4ZDUtNzdjNGI2ZGMzMzRhLW1vYl93YXRlcmVsZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-bubble-spirit",
-      "loc": ""
+      "loc": "Сад Бога иллюзий",
+      "desc": "Зараженный дух водяного пузыря - общий монстр ур. 44, раса: Природные, локация: Сад Бога иллюзий."
     },
     {
       "id": "contaminated-droplet-spirit",
       "name": "Зараженный дух капли воды",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmYxYzUzYjMtZGRkNC00N2UwLWJmYWMtYjA2ZDg3YWNhMmU1LW1vYl93YXRlcmVsZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-droplet-spirit",
-      "loc": ""
+      "loc": "Сад Бога иллюзий",
+      "desc": "Зараженный дух капли воды - общий монстр ур. 44, раса: Природные, локация: Сад Бога иллюзий."
     },
     {
       "id": "contaminated-wave-spirit",
       "name": "Зараженный дух волны",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzYxNmJhNTYtODRlZS00NWU0LWFlZDktYmI1MzJlNmMxZjVjLW1vYl93YXRlcmVsZV8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/contaminated-wave-spirit",
-      "loc": ""
+      "loc": "Сад Бога иллюзий",
+      "desc": "Зараженный дух волны - общий монстр ур. 44, раса: Природные, локация: Сад Бога иллюзий."
     },
     {
       "id": "lagta-brigade-watcher",
       "name": "Дозорный солдат армии Рагта",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/lagta-brigade-watcher",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Дозорный солдат армии Рагта - общий монстр ур. 44, раса: Разумные. Локация: Крепость Рагта, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Крепость Рагта"
     },
     {
       "id": "balaur-dispatch-sentinel",
       "name": "Постовой отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-sentinel",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Постовой отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-supervisor",
       "name": "Надзиратель отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmNlODVmZGItODZhNC00Mjc4LTg5ZjQtMGQzN2NjNzdlMTgwLW1vYl9kcmFrYW5lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-supervisor",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Надзиратель отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-combatant",
       "name": "Борец отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-combatant",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Борец отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-scout",
       "name": "Солдат-разведчик отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzM0NTE1NmItZDQzMC00ZjE5LTlhYzYtYjdjY2I3NTk4MzdhLW1vYl9kcmFjb2FyY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-scout",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Солдат-разведчик отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-officer",
       "name": "Офицер отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOWRmNGRlNzYtZDYyYy00NThhLTgzMTQtMTMzZTg2MmUwN2Y0LXV0XzI1Nl9tb2JfZHJha2FuZWxpdGVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-officer",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Офицер отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-investigator",
       "name": "Исследователь экспедиционного отряда балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-investigator",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Исследователь экспедиционного отряда балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "remnant-of-subspace",
       "name": "Реликт подпространства",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjJiY2RiZjktMjc5ZS00YTFiLTliYjQtNTM4MDlmODE1YWY2LW1vYl9mYWZibG9vZF8wMl9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/remnant-of-subspace",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Реликт подпространства - общий монстр ур. 44, раса: Мутанты. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "black-spirit",
       "name": "Темный дух",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGY0MzRmMGYtNDEyYS00NjUxLWI3ODctYjJhOTBjODU0YWU0LW1vYl9kYXJrZWxlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-spirit",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Темный дух - общий монстр ур. 44, раса: Природные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 69.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "oculazen",
       "name": "Окулюс",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWMyZTc0MTAtZGM4NS00YWE0LTg1MmEtODIwN2EwYjlmNDQxLW1vYl9vY3VsYXplbl8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/oculazen",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Окулюс - общий монстр ур. 44, раса: Мутанты. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 69.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-messenger",
       "name": "Вестник отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODRhZThhYWItMTYyMy00NDk1LWE5YzYtZjg5ZTFlNTIxOGNmLW1vYl9kcmFjb2FyY18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-messenger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Вестник отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "soulless-destruction-archon",
       "name": "Бездуховный аканов разрушения",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzMwODg4MmItYTJiOC00NWMwLTlkNzYtZjFlMjMzOGYwZGQ1LW1vYl9kc3RyYXJjaG9uXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-destruction-archon",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Бездуховный аканов разрушения - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-watchtower",
       "name": "Наблюдательный шпиль балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMDZlMjRmNWItZmQwYS00ZTNiLThkODktYjQ5ODU3ZmZiOGQwLW1vYl9kcmFjb3R1cnJldF9sXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-watchtower",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Наблюдательный шпиль балауров - общий монстр ур. 44, раса: Мутанты. Локация: Площадь Имфетиуса, Альтгард.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "balaur-dispatch-watcher",
       "name": "Караульный отряда экспедиции балауров",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTA0ZjQ1ZDktOGZlMi00OWY5LWEwYmMtYWRhNzU2ZmYzZWMwLW1vYl9kcmF0b25hXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/balaur-dispatch-watcher",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Караульный отряда экспедиции балауров - общий монстр ур. 44, раса: Разумные. Локация: Площадь Имфетиуса, Альтгард. Предметов в добыче: 68. Цель одного задания.",
+      "locDetail": "Площадь Имфетиуса"
     },
     {
       "id": "forward-base-supporter",
       "name": "Резервист аванпоста",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTJiYTNmZmUtNWMxZS00YzliLWI5MjEtOGEzMGMyZWJjOWJhLW1vYl9za3Vydndhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forward-base-supporter",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Резервист аванпоста - общий монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "forward-base-guard",
       "name": "Охранник аванпоста",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/forward-base-guard",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Охранник аванпоста - общий монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "forward-base-patrol",
       "name": "Патрульный солдат аванпоста",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODY1MjlkODctMTU2Zi00NGQ4LTlmMDAtNzAxYjkwZjdjZDExLW1vYl9iZXJpdHJhY18wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forward-base-patrol",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Патрульный солдат аванпоста - общий монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "forward-base-watcher",
       "name": "Дозорный солдат аванпоста",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYWYxNGYwYWUtYWFmMC00ZDY2LWE5N2EtZWVjMWU3YzFlZjUyLW1vYl9kcmFrYW5fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/forward-base-watcher",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Дозорный солдат аванпоста - общий монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "forward-base-flight-scout",
       "name": "Парящий солдат-разведчик аванпоста",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTRjMTgzN2MtOWQzNi00YjQzLTgyYWEtNTYwOGQ4NmI4MDc0LW1vYl9iZXJpdHJhZF8wNy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/forward-base-flight-scout",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Парящий солдат-разведчик аванпоста - общий монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "guard-troopers-captain-andsha",
       "name": "Капитан охранников Андша",
       "lvl": "44",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZThhNjk5OWMtYzY4ZC00MWUzLWI5MmItMTIxYTBlYjRlMWJmLXV0XzI1Nl9tb2JfZHJha2FuYm9zc18wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/guard-troopers-captain-andsha",
-      "loc": ""
+      "loc": "Аванпост Андши",
+      "desc": "Капитан охранников Андша - героический монстр ур. 44, раса: Разумные, локация: Аванпост Андши."
     },
     {
       "id": "abyss-swarm-colony",
       "name": "Колония свормов Бездны",
       "lvl": "44 - 47",
       "rank": "Элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDk5M2NmMzEtMTc2Yy00NGZjLTkxYTUtMTRlZjRjMzY0NGE3LW1vYl9hYnlzc3N3YXJtXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-swarm-colony",
-      "loc": ""
+      "loc": "Нижний уровень Арэшурата хаоса",
+      "desc": "Колония свормов Бездны - элитный монстр ур. 44 - 47, раса: Мутанты. Локации: Остров красного тернового венца, Внешний уровень Арэшурата хаоса и Остров серного дерева, Нижний уровень Арэшурата хаоса. Предметов в добыче: 94. Является целью одного задания.",
+      "locDetail": "Остров красного тернового венца, Внешний уровень Арэшурата хаоса и Остров серного дерева"
     },
     {
       "id": "abyss-drana-skama",
       "name": "Скама драны Бездны",
       "lvl": "44",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEzNzIzODEtZjBhYS00MDJmLThkMDQtNDdiNmYzM2NjZTYyLXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfZmVyYWwucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-drana-skama",
-      "loc": ""
+      "loc": "Внешний уровень Арэшурата хаоса",
+      "desc": "Скама драны Бездны - общий монстр ур. 44, раса: Дикие. Локация: Остров красного тернового венца, Внешний уровень Арэшурата хаоса. Предметов в добыче: 56.",
+      "locDetail": "Остров красного тернового венца"
     },
     {
       "id": "confused-ursus",
       "name": "Смятенный урсус",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQyOTg4YTUtOWYzZC00ZmVlLWEwMzYtNzk4YmYzYWMzN2UzLW1vYl91cnN1c3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/confused-ursus",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Смятенный урсус - общий монстр ур. 45, раса: Дикие. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 134.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "wandering-dark-spirit",
       "name": "Блуждающий дух мрака",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTM1NWFmNjYtNDU2My00ZDFlLWI5MGQtMDQ0ODRkNTI0YmFkLW1vYl9zcGVjdGVyXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-dark-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Блуждающий дух мрака - общий монстр ур. 45, раса: Мутанты. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 133. Цель одного задания.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "garden-guardian",
       "name": "Хранитель сада",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmMwZTI2ZTYtOTRmNi00MDE2LWEzM2MtZjFkYmNlMmY2OGU0LW1vYl9mb3Jlc3RhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/garden-guardian",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Хранитель сада - общий монстр ур. 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 134. Цель одного задания.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "hellfire-spirit",
       "name": "Дух пламени воздаяния",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGVkNTI2YzgtNWUyMC00MjdlLWFlOTItMWIwMzEyOGM3MTFmLW1vYl9maXJlZWxlXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hellfire-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дух пламени воздаяния - общий монстр ур. 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 133.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "torrent-spirit",
       "name": "Дух текущей воды",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjM1YjVlODMtMWFlNC00NjVlLTkwOGEtOTAzYWM4ODdiZmFkLW1vYl93YXRlcmVsZV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/torrent-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дух текущей воды - общий монстр ур. 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 133.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "brisk-spirit",
       "name": "Дух ледяного ветра",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmE4YTVlOTctYmE1NC00YzZjLThmMTYtY2M2YWZkYzE4MjhjLW1vYl93aW5kZWxlXzAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/brisk-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дух ледяного ветра - общий монстр ур. 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 133.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "peculiar-rock-spirit",
       "name": "Дух причудливой скалы",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmZmZTMyYTQtMTk1Yy00YTlkLWE4ODYtYjFlNWJkNTU4YmUzLW1vYl9lYXJ0aGVsZV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/peculiar-rock-spirit",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дух причудливой скалы - общий монстр ур. 45, раса: Природные. Локация: Сад Бога иллюзий, Бертрон. Предметов в добыче: 133.",
+      "locDetail": "Сад Бога иллюзий"
     },
     {
       "id": "brutal-nahid-guard",
       "name": "Жестокий охранник Нахида",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTgzYzRmMjItMjcwNi00NTFmLTk1ZTAtYjI3MGJiYTQ4ODlkLW1vYl9iZXJpdHJhYV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/brutal-nahid-guard",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Жестокий охранник Нахида - общий монстр ур. 45, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "nahid-drakan-guard-dog",
       "name": "Сторожевой пес драканов Нахида",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTRhMzU5OTktMTdkZS00MTJiLTg5OTAtNzVlZTlkNDVmNzkwLW1vYl9iZXJpdHJhY18wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/nahid-drakan-guard-dog",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Сторожевой пес драканов Нахида - общий монстр ур. 45, раса: Дикие. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 133.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "drana-energy-guard",
       "name": "Охранник энергии драны",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-energy-guard",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Охранник энергии драны - общий монстр ур. 45, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "brutal-nahid-armed-soldier",
       "name": "Жестокий вооруженный солдат Нахида",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/brutal-nahid-armed-soldier",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Жестокий вооруженный солдат Нахида - общий монстр ур. 45, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "drakan-researcher",
       "name": "Исследователь драканов",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvOGU2MWMyZTAtNTliZS00NThlLWI4ZWQtZTBlMzBiMWUzYTE1LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-researcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Исследователь драканов - общий монстр ур. 45, раса: Разумные. Локация: Крепость армии Нахида, Бертрон и Лаборатория драканов. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида, Лаборатория драканов"
     },
     {
       "id": "drana-energy-researcher",
       "name": "Исследователь энергии драны",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drana-energy-researcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Исследователь энергии драны - общий монстр ур. 45, раса: Разумные. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "intruder-seeker",
       "name": "Искатель-нарушитель",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNGEwNjZhMWQtMjY3MC00OGJlLWI1M2ItN2JmZmJmYjJiZWE2LW1vYl9iZXJpdHJhY18wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/intruder-seeker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Искатель-нарушитель - общий монстр ур. 45, раса: Мутанты. Локация: Крепость армии Нахида, Бертрон. Предметов в добыче: 132.",
+      "locDetail": "Крепость армии Нахида"
     },
     {
       "id": "worshiper-dekish",
       "name": "Культист Дкиш",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/worshiper-dekish",
-      "loc": ""
+      "loc": "Разведпост культиста Дкиша",
+      "desc": "Культист Дкиш - героический монстр ур. 45, раса: Разумные, локация: Разведпост культиста Дкиша."
     },
     {
       "id": "watcher-sandha",
       "name": "Дозорщик Сандх",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/watcher-sandha",
-      "loc": ""
+      "loc": "Разведпост Наблюдателя Сандхи",
+      "desc": "Дозорщик Сандх - героический монстр ур. 45, раса: Разумные, локация: Разведпост Наблюдателя Сандхи."
     },
     {
       "id": "hunter-danahan",
       "name": "Охотник Данахан",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/hunter-danahan",
-      "loc": ""
+      "loc": "Разведпост Охотника Данахана",
+      "desc": "Охотник Данахан - героический монстр ур. 45, раса: Разумные, локация: Разведпост Охотника Данахана."
     },
     {
       "id": "officer-barha",
       "name": "Адъютант Барха",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/officer-barha",
-      "loc": ""
+      "loc": "Разведпост Адъютанта Барха",
+      "desc": "Адъютант Барха - героический монстр ур. 45, раса: Разумные, локация: Разведпост Адъютанта Барха."
     },
     {
       "id": "cunning-dmark",
       "name": "Коварный Демарк",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/cunning-dmark",
-      "loc": ""
+      "loc": "Разведпост Коварного Демарка",
+      "desc": "Коварный Демарк - героический монстр ур. 45, раса: Разумные, локация: Разведпост Коварного Демарка."
     },
     {
       "id": "furious-high-priestess-s-apparition",
       "name": "Разъяренный фантом Верховного клирика",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZmU1ODI4NDQtMmEyNC00YTliLThhNTctMjA3Zjk3ZDI3MWI1LXV0XzI1Nl9tb2JfZGFya2xlZGFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/furious-high-priestess-s-apparition",
-      "loc": ""
+      "loc": "Алтарь покаяния",
+      "desc": "Разъяренный фантом Верховного клирика - героический монстр ур. 45, раса: Разумные, локация: Алтарь покаяния.",
+      "spawnCount": 1
     },
     {
       "id": "wandering-warrior-apparition",
       "name": "Воин блуждающего фантома",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZmI2YmM4ZDktMGU4NC00MmYwLWFmMTQtNzIwYjU4MWIwNjNkLXV0XzI1Nl9ucGNfZl9kYWV2YV8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-warrior-apparition",
-      "loc": ""
+      "loc": "Алтарь покаяния",
+      "desc": "Воин блуждающего фантома - общий монстр ур. 45, раса: Разумные, локация: Алтарь покаяния.",
+      "spawnCount": 6
     },
     {
       "id": "wandering-ranger-apparition",
       "name": "Скитающийся фантом рейнджера",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTRmYjY4M2MtYjYyOS00YzE2LTg4N2YtZTQwMjM5M2EzNDM2LXV0XzI1Nl9ucGNfbV9kYWV2YV8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/wandering-ranger-apparition",
-      "loc": ""
+      "loc": "Алтарь покаяния",
+      "desc": "Скитающийся фантом рейнджера - общий монстр ур. 45, раса: Разумные, локация: Алтарь покаяния.",
+      "spawnCount": 5
     },
     {
       "id": "mysterious-specter",
       "name": "Неизвестная сущность",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTAwNzE3Y2QtNTBkOC00MWJhLWIxMDItZTg1ZTZjZWVlMTg1LW1vYl9jYXJhc3Zhcl8wNF9jdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/mysterious-specter",
-      "loc": ""
+      "loc": "Надгробие Седрика",
+      "desc": "Неизвестная сущность - общий монстр ур. 45, раса: Разумные, локация: Надгробие Седрика."
     },
     {
       "id": "sura-squad-commander",
       "name": "Ставший сурой командир группы",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjg0NmU3NDEtZjE0YS00NDVhLTgyZDQtMDcyYzNmNGFhOTVmLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/sura-squad-commander",
-      "loc": ""
+      "loc": "Лаборатория драканов",
+      "desc": "Ставший сурой командир группы - общий монстр ур. 45, раса: Разумные, локация: Лаборатория драканов."
     },
     {
       "id": "drakan-supporter",
       "name": "Резервист драканов",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTYzN2Q2NzktMTFiYy00Y2Q5LWE1NGYtNmZhNTc1ZWZjZGZhLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/drakan-supporter",
-      "loc": ""
+      "loc": "Станция переработки сурана",
+      "desc": "Резервист драканов - общий монстр ур. 45, раса: Разумные, локация: Станция переработки сурана.",
+      "spawnCount": 7
     },
     {
       "id": "surana-refinery-overseer",
       "name": "Надзиратель переработки сурана",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGRhM2IxNjYtNTVjYi00NzM0LWIwMDMtZTRmZjNhNWUzYjZiLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/surana-refinery-overseer",
-      "loc": ""
+      "loc": "Станция переработки сурана",
+      "desc": "Надзиратель переработки сурана - общий монстр ур. 45, раса: Разумные, локация: Станция переработки сурана.",
+      "spawnCount": 1
     },
     {
       "id": "mutated-sura",
       "name": "Мутировавший сура",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZjg0NmU3NDEtZjE0YS00NDVhLTgyZDQtMDcyYzNmNGFhOTVmLXV0XzI1Nl9tb2Jfc3VyYXdhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mutated-sura",
-      "loc": ""
+      "loc": "Станция переработки сурана",
+      "desc": "Мутировавший сура - общий монстр ур. 45, раса: Разумные, локация: Станция переработки сурана.",
+      "spawnCount": 4
     },
     {
       "id": "deovar",
       "name": "Деовар",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDgwYWFiZTktNjYyYi00ZjliLTkwMDUtYTk0YWJmOGMyOWFhLXV0XzI1Nl9ucGNfbV92aWxsYWdlcmFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/deovar",
-      "loc": ""
+      "loc": "Дом Деовара",
+      "desc": "Деовар - общий монстр ур. 45, раса: Разумные, локация: Дом Деовара."
     },
     {
       "id": "zaif",
       "name": "Волк",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTk4NjdkZmItYTdiZC00ZTQyLTk5ZGMtYzU3ZDU0NmM3MDQ3LW1vYl96YWlmXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/zaif",
-      "loc": ""
+      "loc": "Скрытая часовня",
+      "desc": "Волк - общий монстр ур. 45, раса: Дикие, локация: Скрытая часовня.",
+      "spawnCount": 3
     },
     {
       "id": "baby-zaif",
       "name": "Детеныш волка",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTI1MGZlNWUtNGZiOS00OTcyLWIwYzYtYmJiMDVjOWJmNTUxLW1vYl96YWlmXzAxX2N2MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/baby-zaif",
-      "loc": ""
+      "loc": "Скрытая часовня",
+      "desc": "Детеныш волка - общий монстр ур. 45, раса: Дикие, локация: Скрытая часовня.",
+      "spawnCount": 2
     },
     {
       "id": "giant-venomous-insect",
       "name": "Гигантский смертельно ядовитый жук",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2FjODM1MDAtZmM3MS00ZWIyLWFkYjgtNTE5N2QwYWIwMzYwLW1vYl9idWdfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/giant-venomous-insect",
-      "loc": ""
+      "loc": "Алтарь очищения",
+      "desc": "Гигантский смертельно ядовитый жук - героический монстр ур. 45, раса: Разумные, локация: Алтарь очищения."
     },
     {
       "id": "krao-magnetic-field",
       "name": "Электромагнитное поле крао",
       "lvl": "45 - 68",
       "rank": "Элитный",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYmEwYjdiZjctZTY1YS00ZmRiLTk2Y2MtZGZjOThhMDQ2NmY0LXV0X3ZlaGljbGVfY3JlYXR1cmVzeW1ib2xfdHJhbnMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/krao-magnetic-field",
-      "loc": ""
+      "loc": "Пещера крао",
+      "desc": "Электромагнитное поле крао - элитный монстр ур. 45 - 68, раса: Мутанты, локация: Пещера крао.",
+      "spawnCount": 10
     },
     {
       "id": "phantasmal-lakshmi",
       "name": "Лакшми видения",
       "lvl": "45 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjI5NWI2YzgtM2VhYi00ZmE2LThjMjEtZGY4OGExNDk2YzE3LXV0XzI1Nl9tb2JfbmFnYWVsaXRlXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/phantasmal-lakshmi",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Лакшми видения - героический монстр (Разумные), уровень 45-68. Где обитает: Драупнир. Предметов в добыче: 1.",
+      "spawnCount": 1
     },
     {
       "id": "predator-saraswati",
       "name": "Хищница Сарасвати",
       "lvl": "45 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMWMzMmZiMWItOTczNi00OGM5LWIzODItMTdhNWQ4ZjRmYTM5LXV0XzI1Nl9tb2JfbmFnYWVsaXRlXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/predator-saraswati",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Хищница Сарасвати - героический монстр (Разумные), уровень 45-68. Где обитает: Драупнир. Предметов в добыче: 1.",
+      "spawnCount": 1
     },
     {
       "id": "naga-priest",
       "name": "Жрец нагов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOGEzNjNlMDctOTEyYi00Y2JiLWE0NmItZjY3YjQ1YTM2YjEyLW1vYl9uYWdhZWxpdGVfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/naga-priest",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Жрец нагов - монстр, раса: Разумные. Локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68. Предметов в добыче: 1.",
+      "spawnCount": 3
     },
     {
       "id": "nagarant-guardian-warrior",
       "name": "Охраняющий воин нагарратов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjVhNTBmYmItN2JjYy00NmJhLThjZmYtZjUyYmVkMWZlOTFmLW1vYl9uYWdhZWxpdGVfMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/nagarant-guardian-warrior",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Охраняющий воин нагарратов - монстр, раса: Разумные. Локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68. Предметов в добыче: 1.",
+      "spawnCount": 8
     },
     {
       "id": "manager-abatur",
       "name": "Управляющий Абатур",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTRmZDU5NTEtZmRjYS00YWU5LWEzMDEtOTBiODhiOTA4OTdhLXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/manager-abatur",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Управляющий Абатур - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 1
     },
     {
       "id": "petty-officer-akvar",
       "name": "Сержант Аквар",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTRmZDU5NTEtZmRjYS00YWU5LWEzMDEtOTBiODhiOTA4OTdhLXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/petty-officer-akvar",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Сержант Аквар - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 1
     },
     {
       "id": "draconute-task-soldier",
       "name": "Дежурный драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI0NDdjMDAtZWYzMy00MmRmLWFlNzYtMzA0MWI1NzRkMTFjLW1vYl9kcmFjb3dhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-task-soldier",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Дежурный драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 1
     },
     {
       "id": "draconute-task-captain",
       "name": "Капитан дежурных драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-task-captain",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Капитан дежурных драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 1
     },
     {
       "id": "draconute-infantry",
       "name": "Пехотинец драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWMzNzRjOGEtYWMxMi00Y2VjLTliOGUtYzNlZTM0MDlmYzEyLW1vYl9kcmFjb3dhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-infantry",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Пехотинец драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 10
     },
     {
       "id": "draconute-sniper",
       "name": "Снайпер драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWRhOWJmNjMtY2VjYi00MDg2LWE5M2YtMDI1MmUwMmZmYjRjLW1vYl9kcmFjb2FyY18wMV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-sniper",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Снайпер драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 9
     },
     {
       "id": "draconute-combatant",
       "name": "Драконид-борец",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI0NDdjMDAtZWYzMy00MmRmLWFlNzYtMzA0MWI1NzRkMTFjLW1vYl9kcmFjb3dhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-combatant",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Драконид-борец - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 7
     },
     {
       "id": "draconute-slinger",
       "name": "Метатель драконидов",
       "lvl": "45 - 68",
       "rank": "Элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvY2NiYzU5NTEtZGMyZC00MDAxLTgxZTMtYWM1OGZkNWM5YmU3LW1vYl9kcmFjb3dhcl8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-slinger",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Метатель драконидов - элитный монстр ур. 45 - 68, раса: Разумные, локация: Драупнир.",
+      "spawnCount": 10
     },
     {
       "id": "draconute-sentry",
       "name": "Часовой драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZGI0NDdjMDAtZWYzMy00MmRmLWFlNzYtMzA0MWI1NzRkMTFjLW1vYl9kcmFjb3dhcl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-sentry",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Часовой драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 8
     },
     {
       "id": "draconute-sentry-captain",
       "name": "Капитан пограничников драконидов",
       "lvl": "45 - 68",
       "rank": "Общий и элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTAyY2E0NGMtMjk3ZC00ZWRjLWIwY2UtYjlmZjI0MWQzNDQ4LXV0XzI1Nl9tb2JfZHJhY29lbGl0ZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-sentry-captain",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Капитан пограничников драконидов - монстр, раса: Разумные, локация: Драупнир. Общий на ур. 45, элитный на ур. 45 - 68.",
+      "spawnCount": 6
     },
     {
       "id": "draconute-handler",
       "name": "Заводчик драконидов",
       "lvl": "45 - 68",
       "rank": "Элитный",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQ1M2YwMmEtMGM4ZS00NTE0LWE3NjgtYzQyODE0NmY1ZTc0LW1vYl9kcmFjb2FyY18wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/draconute-handler",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Заводчик драконидов - элитный монстр ур. 45 - 68, раса: Разумные, локация: Драупнир.",
+      "spawnCount": 5
     },
     {
       "id": "odyle-eating-abyss-insectoid",
       "name": "Эфироядный инсектоид пропасти",
       "lvl": "45 - 68",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmRiZGYzNTItZTYxNS00YTRlLTljMTgtNzZhM2QzNjg5Mjc0LW1vYl9hYnlzc3N3YXJtXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/odyle-eating-abyss-insectoid",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Эфироядный инсектоид пропасти - общий монстр ур. 45 - 68, раса: Мутанты. Локация: Драупнир. Предметов в добыче: 1.",
+      "spawnCount": 25
     },
     {
       "id": "hungry-void-insectoid",
       "name": "Ненасытный инсектоид пустоты",
       "lvl": "45 - 68",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmY4NTAyNzUtYjVhZi00MzFkLWJlZDktMzAyYTM4YWYyNGFhLW1vYl9hYnlzc3N3YXJtXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/hungry-void-insectoid",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Ненасытный инсектоид пустоты - общий монстр ур. 45 - 68, раса: Мутанты. Локация: Драупнир. Предметов в добыче: 1.",
+      "spawnCount": 29
     },
     {
       "id": "abyss-insectoid-egg",
       "name": "Яйцо инсектоида пропасти",
       "lvl": "45 - 68",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2MyNmFiNWEtMjRiNS00NTY4LTlkNDctYWYyODRjZjk5NTZmLW1vYl9hYnlzc3N3YXJtZWdnXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/abyss-insectoid-egg",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Яйцо инсектоида пропасти - общий монстр (Мутанты), уровень 45-68. Где обитает: Драупнир.",
+      "spawnCount": 84
     },
     {
       "id": "klaw-janitor",
       "name": "Падальщик ньютов",
       "lvl": "45 - 68",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTVkYmM0ZWItY2VjYS00ZDI5LWI4NmMtYzY2OWJiNDRjNTA1LW1vYl9uZXV0aF8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/klaw-janitor",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Падальщик ньютов - общий монстр ур. 45 - 68, раса: Разумные. Локация: Драупнир. Предметов в добыче: 1.",
+      "spawnCount": 19
     },
     {
       "id": "afflicted-bakarma",
       "name": "Мучающийся Бакрам",
       "lvl": "45 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTkxNWRhODItMDVjMy00N2E5LWE3MTktMzFhYTRjMDRhMDYzLW1vYl9iYWthcm1hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/afflicted-bakarma",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Мучающийся Бакрам - героический монстр ур. 45 - 68, раса: Разумные, локация: Драупнир.",
+      "spawnCount": 1
     },
     {
       "id": "transcendent-bakarma",
       "name": "Возвышенный Бакрам",
       "lvl": "45 - 68",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTM1NTcyZjYtNjg2Ny00MWY4LWFlYTctMzE1ZjJiYzJhNjRhLXV0XzI1Nl9tb2JfYmFrYXJtYV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/transcendent-bakarma",
-      "loc": ""
+      "loc": "Драупнир",
+      "desc": "Возвышенный Бакрам - героический монстр ур. 45 - 68, раса: Разумные, локация: Драупнир.",
+      "spawnCount": 1
     },
     {
       "id": "searcher-sudka",
       "name": "Ищущий Судка",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/searcher-sudka",
-      "loc": ""
+      "loc": "Разведпост Ищущего Судки",
+      "desc": "Ищущий Судка - героический монстр ур. 45, раса: Разумные, локация: Разведпост Ищущего Судки."
     },
     {
       "id": "brutal-zrash",
       "name": "Жестокий Зраш",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/brutal-zrash",
-      "loc": ""
+      "loc": "Разведпост Жестокого Зраша",
+      "desc": "Жестокий Зраш - героический монстр ур. 45, раса: Разумные, локация: Разведпост Жестокого Зраша."
     },
     {
       "id": "cruel-rodar",
       "name": "Безжалостный Родар",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYTMxZjUzN2YtMjVmYi00YzhlLTkzOWMtZmUxMzdkYzAwNTMzLXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDgucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/cruel-rodar",
-      "loc": ""
+      "loc": "Разведпост Безжалостного Родара",
+      "desc": "Безжалостный Родар - героический монстр ур. 45, раса: Разумные, локация: Разведпост Безжалостного Родара."
     },
     {
       "id": "disciplinant-corag",
       "name": "Послушник Кораг",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDQwZWRkZTgtOTVjNi00ZWNiLTliMjUtMzljYzdhNWQ4MjdhLXV0XzUxMl9tb2JfYmVyaXRyYWRfMDNfdjAxX3BpYy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/disciplinant-corag",
-      "loc": ""
+      "loc": "Разведпост Послушника Корага",
+      "desc": "Послушник Кораг - героический монстр ур. 45, раса: Разумные, локация: Разведпост Послушника Корага."
     },
     {
       "id": "officer-darc",
       "name": "Адъютант Дарк",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzIyNTk1YzItMjEzYi00M2NmLWE2YWUtMzJiYzU1NDFmNzA0LXV0XzI1Nl9tb2JfYmVyaXRyYWNfMDkucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/officer-darc",
-      "loc": ""
+      "loc": "Разведпост Адъютанта Дарка",
+      "desc": "Адъютант Дарк - героический монстр ур. 45, раса: Разумные, локация: Разведпост Адъютанта Дарка."
     },
     {
       "id": "tamed-scout-karnif",
       "name": "Прирученный разведывательный каллиф",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjA2NGNlOTItZTk3Mi00MDhjLWFhMmUtYWZhMGQ1MmI5YmQ2LW1vYl9rYWxuaWZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tamed-scout-karnif",
-      "loc": ""
+      "loc": "Пещера кряжа",
+      "desc": "Прирученный разведывательный каллиф - общий монстр ур. 45, раса: Дикие, локация: Пещера кряжа."
     },
     {
       "id": "marauder-captain",
       "name": "Капитан погромщиков",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZDE1MWI5ZjktZDg4Zi00NmEyLWIyZGMtNGI0ZDY4Yzg3OWFiLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/marauder-captain",
-      "loc": ""
+      "loc": "Пещера кряжа",
+      "desc": "Капитан погромщиков - героический монстр ур. 45, раса: Разумные, локация: Пещера кряжа."
     },
     {
       "id": "captain-s-pet-karnif",
       "name": "Ручной каллиф капитана",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWI0OGE4NWMtYzAyZC00ODI5LTgyNjItZmI0YjU2NGNmNGRjLW1vYl9rYWxuaWZlbGl0ZV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/captain-s-pet-karnif",
-      "loc": ""
+      "loc": "Пещера кряжа",
+      "desc": "Ручной каллиф капитана - героический монстр ур. 45, раса: Дикие, локация: Пещера кряжа."
     },
     {
       "id": "black-claw-guard",
       "name": "Охранник черного когтя",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-claw-guard",
-      "loc": ""
+      "loc": "Подземный склад черного когтя",
+      "desc": "Охранник черного когтя - общий монстр ур. 45, раса: Разумные, локация: Подземный склад черного когтя."
     },
     {
       "id": "black-claw-watcher",
       "name": "Дозорный солдат черного когтя",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNmU0YmI4NzgtZTNkOC00MDY0LWI3NTItNzVhNjhjMzU2Yjk5LXV0XzI1Nl9tb2JfbHljYW5fMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-claw-watcher",
-      "loc": ""
+      "loc": "Подземный склад черного когтя",
+      "desc": "Дозорный солдат черного когтя - общий монстр ур. 45, раса: Разумные, локация: Подземный склад черного когтя."
     },
     {
       "id": "black-claw-high-shaman",
       "name": "Верховная колдунья черного когтя",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvYjc5NjBjNTYtNGJhMy00M2M2LWE1ZDQtNWIxOTA1NWIyZjY5LXV0XzI1Nl9tb2JfbHljYW5fMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/black-claw-high-shaman",
-      "loc": ""
+      "loc": "Подземный склад черного когтя",
+      "desc": "Верховная колдунья черного когтя - героический монстр ур. 45, раса: Разумные, локация: Подземный склад черного когтя."
     },
     {
       "id": "mysterious-marauder",
       "name": "Загадочный погромщик",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mysterious-marauder",
-      "loc": ""
+      "loc": "Загадочные руины",
+      "desc": "Загадочный погромщик - общий монстр ур. 45, раса: Разумные, локация: Загадочные руины.",
+      "spawnCount": 8
     },
     {
       "id": "ruins-security-device",
       "name": "Охранное устройство руин",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmU3YzJlMTYtYWExZi00ZWU2LThiZGQtOTJlZWRkMDg4NWNkLW1vYl90dXJyZXRfMDUucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-security-device",
-      "loc": ""
+      "loc": "Загадочные руины",
+      "desc": "Охранное устройство руин - общий монстр ур. 45, раса: Мутанты, локация: Загадочные руины.",
+      "spawnCount": 1
     },
     {
       "id": "mysterious-marauder-chief",
       "name": "Загадочный главарь погромщиков",
       "lvl": "45",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzc1M2NjMzMtNzRjOC00MmU0LTkyYWMtMzFjNjU0Njk0ZGUzLW1vYl9maWdodGVybV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/mysterious-marauder-chief",
-      "loc": ""
+      "loc": "Загадочные руины",
+      "desc": "Загадочный главарь погромщиков - героический монстр ур. 45, раса: Разумные, локация: Загадочные руины.",
+      "spawnCount": 1
     },
     {
       "id": "soulless-archon-gladiator",
       "name": "Бездушный гладиатор аканов",
       "lvl": "45",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzMwODg4MmItYTJiOC00NWMwLTlkNzYtZjFlMjMzOGYwZGQ1LW1vYl9kc3RyYXJjaG9uXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-archon-gladiator",
-      "loc": ""
+      "loc": "Библиотека аканов разрушения",
+      "desc": "Бездушный гладиатор аканов - общий монстр ур. 45, раса: Разумные, локация: Библиотека аканов разрушения.",
+      "spawnCount": 5
     },
     {
       "id": "drakan-lord-ruat",
