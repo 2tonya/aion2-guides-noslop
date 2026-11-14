@@ -6605,500 +6605,1738 @@ window.AION2_WIKILY = {
       "name": "Дудури контрабандистов",
       "lvl": "23",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNjQ0ZmM4ODAtYWNjYy00Nzg2LTk4Y2MtMWU0ZTM5MmMwZTgwLXV0XzI1Nl9tb2JfZHVkdXJpXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/trafficker-duduri",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дудури контрабандистов - героический монстр расы «Разумные» в AION 2, обитает в локации Тайное место для контрабанды.",
+      "locDetail": "подземелье задания, Бертрон",
+      "spawnCount": 3
     },
     {
       "id": "soulreaper-rathman",
       "name": "Пожинатель душ Ратман",
       "lvl": "23",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvY2JkYTg5MmQtMDI1Yy00MWNmLThhYWYtMjcxODA5Mjg1MTZjLXV0XzI1Nl9tb2JfcmF0aG1hbl8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulreaper-rathman",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Пожинатель душ Ратман - героический монстр расы «Разумные» в AION 2, обитает в локации Рухнувший оракул. Там же встречаются Фафниум и Бездушный норнир.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 1
     },
     {
       "id": "soul-void-nornir",
       "name": "Бездушный норнир",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOWVjYzdlNTctYWM3OC00OGMxLTlmZDItYjA0N2Y4ZTA5YjM5LW1vYl9ub3JuaXJ2YXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/soul-void-nornir",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Бездушный норнир - общий монстр расы «Разумные» в AION 2, обитает в локации Рухнувший оракул. Там же встречаются Фафниум и Пожинатель душ Ратман.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 4
     },
     {
       "id": "hollow-nornir",
       "name": "Опустошенный норнир",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNTMwODFhMWUtNWI5YS00ZWJkLTgyOGUtN2NlMjIxODQ0OGVkLW1vYl9ub3JuaXJ2YXJfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/hollow-nornir",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Опустошенный норнир - общий монстр расы «Разумные» в AION 2, обитает в локации Рухнувший оракул. Там же встречаются Фафниум и Пожинатель душ Ратман.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 4
     },
     {
       "id": "oracle-drakan",
       "name": "Оракул драканов",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTRhZTE0YTctMjUyNy00NDJlLWFkOGEtOTFhZGE4NmNkZTBmLXV0XzI1Nl9tb2JfZHJha2FuXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/oracle-drakan",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Оракул драканов - общий монстр расы «Разумные» в AION 2, обитает в локации Рухнувший оракул. Там же встречаются Фафниум и Пожинатель душ Ратман.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 28
     },
     {
       "id": "oracle-vivel",
       "name": "Оракул вивэлей",
       "lvl": "23",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmY4NjNmNmItYjI3MS00ZTNjLWIzMzItN2Y0M2EzN2Y5ZmQxLW1vYl9jYXZlYmF0XzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/oracle-vivel",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Оракул вивэлей - общий монстр расы «Дикие» в AION 2, обитает в локации Рухнувший оракул. Там же встречаются Фафниум и Пожинатель душ Ратман.",
+      "locDetail": "подземелье задания, Альтгард",
+      "spawnCount": 2
     },
     {
       "id": "aullaeu-defense-totem",
       "name": "Защитный тотем ауллау",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMjlmOWFjMTUtZTZmNi00ODQ2LWFkNzAtOGVlZTUzZTMwNjczLW1vYl9vd2x0b3RlbXNtYWxsXzAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-defense-totem",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Защитный тотем ауллау - общий монстр расы «Мутанты» в AION 2, обитает в локации Север леса Тольбас, Бертрон. Места появления: Север леса Тольбас.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 24
     },
     {
       "id": "tolbas-konutin-seeker",
       "name": "Искатель конути Толбас",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvOTM2OTY0YWYtNmM5ZS00Y2MxLWEyYzAtOGUxYjliNzE5YWZhLW1vYl9jb251dGlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-seeker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Искатель конути Толбас - общий монстр расы «Природные» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 27,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-seeker/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-seeker/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-seeker/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-seeker/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "tolbas-konutin-worker",
       "name": "Рабочий конути Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMmJjZGNhZDUtYTc5OS00YWMyLWE1OGEtYjQ3MTU2NmJmZDJlLW1vYl9jb251dGlfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-worker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Рабочий конути Тольбаса - общий монстр расы «Природные» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 30,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-worker/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-worker/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-worker/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-konutin-worker/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "aullaeu-floating-totem",
       "name": "Парящий тотем ауллау",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTliZWM0MGEtNmJkMC00OGE0LWIwNDQtODkxNDc4ZjRhMzJmLW1vYl9vd2x0b3RlbV8wMy5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-floating-totem",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Парящий тотем ауллау - общий монстр расы «Мутанты» в AION 2, обитает в локации Север леса Тольбас, Бертрон. Места появления: Север леса Тольбас.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 12
     },
     {
       "id": "tolbas-nepenthes",
       "name": "Нефендес Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZmU0YjNmODUtMjcyZi00OWE3LThkYzYtOGYwMjNiZWY4ODc5LW1vYl9yYWZmbGVzaWFfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-nepenthes",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Нефендес Тольбаса - общий монстр расы «Природные» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-nepenthes/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-nepenthes/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-nepenthes/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-nepenthes/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-watcher",
       "name": "Дозорный наемников Астина",
       "lvl": "24 - 25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Дозорный наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Бертрон. В добыче есть Нагрудник старейшины и Набедренники старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 5,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-watcher/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "tolbas-karnif",
       "name": "Каллиф Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-karnif",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Каллиф Тольбаса - общий монстр расы «Дикие» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 8,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-karnif/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-karnif/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-karnif/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-karnif/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "ferocious-tolbas-karnif",
       "name": "Свирепый каллиф Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-tolbas-karnif",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Свирепый каллиф Тольбаса - общий монстр расы «Дикие» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 9,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-tolbas-karnif/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-tolbas-karnif/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-tolbas-karnif/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-tolbas-karnif/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "tolbas-forest-targon",
       "name": "Таргон леса Тольбас",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWZlNzMyNDktYmY4NS00NDk0LWJiMjktMDViYmZiY2EwYTdhLW1vYl9iaWdtYW5fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-targon",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Таргон леса Тольбас - общий монстр расы «Мутанты» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 19,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-targon/drops",
+          "chance": "2,31%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,97%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-targon/drops",
+          "chance": "0,93%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-targon/drops",
+          "chance": "0,86%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-targon/drops",
+          "chance": "0,35%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,24%"
+        }
+      ]
     },
     {
       "id": "tolbas-gravi",
       "name": "Грави Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvN2QxYmJiYzctNGIxMi00NWM4LWJlZjMtZDMwMzlhNzM2MDY3LW1vYl9ncmF2aV8wMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-gravi",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Грави Тольбаса - общий монстр расы «Природные» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 16,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-gravi/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-gravi/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-gravi/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-gravi/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "tolbas-magic-gravi",
       "name": "Магический грави Тольбаса",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWJjOGIzYzEtMWI3Ni00MDA3LWFkNzctZDJiNTljYzFlMTRjLW1vYl9ncmF2aV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-magic-gravi",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Магический грави Тольбаса - общий монстр расы «Природные» в AION 2, обитает в локации Север леса Тольбас, Бертрон. В добыче есть Нагрудник поднебесья.",
+      "locDetail": "Север леса Тольбас",
+      "spawnCount": 16,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-magic-gravi/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-magic-gravi/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-magic-gravi/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-magic-gravi/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "aullaeu-chaser",
       "name": "Преследователь ауллау",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZGUxZDlmMzEtNWQxYi00NWU1LWFkN2YtNGY2NDdhNGM2NDUwLXV0XzI1Nl9tb2Jfb3dsc29sZGllcl8wNi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-chaser",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Преследователь ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Среднее течение реки Эллун. Там же встречается Патрульный солдат ауллау.",
+      "locDetail": "Бертрон",
+      "spawnCount": 3
     },
     {
       "id": "aullaeu-patrol",
       "name": "Патрульный солдат ауллау",
       "lvl": "24 - 25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNzMzOWM5OTctNmUwNy00ZTIzLTlhMGYtNzVkYzc5M2VlZjg5LXV0XzI1Nl9tb2Jfb3dsc29sZGllcl8wNS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-patrol",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Патрульный солдат ауллау - общий монстр расы «Разумные» в AION 2, обитает в локациях Среднее течение реки Эллун и Тюрьма изгнанников.",
+      "locDetail": "Бертрон",
+      "spawnCount": 4
     },
     {
       "id": "aullaeu-patrol-ranger",
       "name": "Патрулирующий рейнджер ауллау",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDI1MWIyMDMtYzMxMC00NzZmLTkwZmUtMGEyOWU4MWUxZjA1LW1vYl9vd2xhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/aullaeu-patrol-ranger",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Патрулирующий рейнджер ауллау - общий монстр расы «Разумные» в AION 2, обитает в локации Среднее течение реки Эллун.",
+      "locDetail": "Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "astin-mercenaries-collector",
       "name": "Собирательница наемников Астина",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDVmZTg4MTQtYjAxMC00ZjI4LWE4ODItOTRmOTNhZGM2Y2IxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-collector",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Собирательница наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас. Там же встречается Дозорный наемников Астина.",
+      "locDetail": "Бертрон",
+      "spawnCount": 9
     },
     {
       "id": "astin-mercenaries-sentry",
       "name": "Пограничник наемников Астина",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-sentry",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Пограничник наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас. Там же встречается Дозорный наемников Астина.",
+      "locDetail": "Бертрон",
+      "spawnCount": 9
     },
     {
       "id": "soulless-nornir",
       "name": "Бездушный норнир",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNzI2OTEyMTQtY2RhNy00ZGJmLTg3MjAtYjgxYmUyZDkxMTVlLW1vYl9ub3JuaXJ2YXJfMDFfY3YwMS5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/soulless-nornir",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Бездушный норнир - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 24,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/soulless-nornir/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/soulless-nornir/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/soulless-nornir/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/soulless-nornir/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "corrupted-nornir-soul",
       "name": "Падшая душа норнира",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAyOTczYjUtNWFkNy00ZmYyLWI3ZDktZDAxMDg4MmMxMTIzLW1vYl9jYXJhc3Zhcl8wNC5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir-soul",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Падшая душа норнира - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 15,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir-soul/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir-soul/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir-soul/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/corrupted-nornir-soul/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "daeva-renegade-fossa",
       "name": "Фосса даэвов-отступников",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-fossa",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Фосса даэвов-отступников - общий монстр расы «Дикие» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 9,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-fossa/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-fossa/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-fossa/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/daeva-renegade-fossa/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "ancient-uruthumheim-revenant",
       "name": "Древний мстительный дух Уртумхейма",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZjNDg0NGQtZWRhMi00ZTBlLTgwMGQtMTEwZGFjODA3MmRkLW1vYl93cmFrbnRfMDFfdjAzLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-uruthumheim-revenant",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Древний мстительный дух Уртумхейма - общий монстр расы «Разумные» в AION 2, обитает в локации Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 14,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ancient-uruthumheim-revenant/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ancient-uruthumheim-revenant/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ancient-uruthumheim-revenant/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ancient-uruthumheim-revenant/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "ruins-marauder-spider",
       "name": "Паук грабителей руин",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYTIxZTQ0YTAtOTFiNC00ZjVkLWIxYWUtYzI4NTZjZmFkMTdmLW1vYl9vZHNwaWRlcl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-marauder-spider",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Паук грабителей руин - общий монстр расы «Дикие» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 15,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-marauder-spider/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-marauder-spider/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-marauder-spider/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-marauder-spider/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "blades-watcher",
       "name": "Дозорщик банды клинков",
       "lvl": "24 - 37",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDE1ZDI3ZTgtMjhhNS00YWQ4LThiODUtMDE5MzE5NjRiMWY4LW1vYl9hbHRrbmlmZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-watcher",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Дозорщик банды клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 3,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-watcher/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-watcher/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-watcher/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-watcher/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "ancient-ruins-apparatus",
       "name": "Устройство Древних руин",
       "lvl": "24 - 25",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmViZDcxNzYtNjkwMC00YmZkLWI2ZWEtZWRiOTkxMTIzNDE1LW1vYl90dXJyZXRfMDMucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ancient-ruins-apparatus",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Устройство Древних руин - общий монстр расы «Мутанты» в AION 2, обитает в локации Альтгард. Места появления: Уртумхейм.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 22
     },
     {
       "id": "mind-controlled-ancient-soldier",
       "name": "Подчиненный древний солдат",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYzBiNzZiNzctNmJkZC00OTY0LWEyNzAtMDg4NTQ0YTY0Zjk3LW1vYl9zcGlyaXRrbnRfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-soldier",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Подчиненный древний солдат - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 13,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-soldier/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-soldier/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-soldier/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-soldier/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "mind-controlled-ancient-ranger",
       "name": "Одержимый древний рейнджер",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNWU4OTFhMTctNjk5Yi00NzllLTkxMmQtOTM1NWUxMjJkZTU2LW1vYl9zcGlyaXRhcmNfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-ranger",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Одержимый древний рейнджер - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 11,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-ranger/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-ranger/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-ranger/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/mind-controlled-ancient-ranger/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "ruins-corpse-cleaner",
       "name": "Падальщик руин",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjZiMDc5NTMtMWZlMS00Y2M1LTg1OGQtZWZjOTIwYjA0Nzg1LW1vYl9pbXBfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ruins-corpse-cleaner",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Падальщик руин - общий монстр расы «Мутанты» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 17,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-corpse-cleaner/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-corpse-cleaner/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-corpse-cleaner/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ruins-corpse-cleaner/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "blades-ruins-explorer",
       "name": "Разведчик руин банды клинков",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNTAyMGIzN2YtNzM1ZS00MzBkLWI5OTQtMTcxMTgxNGM4MzQ4LXV0XzI1Nl9tb2JfYWx0a25pZmVfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-explorer",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Разведчик руин банды клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса и Набедренники хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 25,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-explorer/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-explorer/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-explorer/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-explorer/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "blades-ruins-scout",
       "name": "Солдат-разведчик руин банды клинков",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNDE1ZDI3ZTgtMjhhNS00YWQ4LThiODUtMDE5MzE5NjRiMWY4LW1vYl9hbHRrbmlmZV8wMi5wbmc",
       "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-scout",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Солдат-разведчик руин банды клинков - общий монстр расы «Разумные» в AION 2, обитает в локации Уртумхейм, Альтгард. В добыче есть Нагрудник хаоса.",
+      "locDetail": "Уртумхейм",
+      "spawnCount": 16,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-scout/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-scout/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-scout/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/blades-ruins-scout/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Плавильный камень виртуоза",
+          "url": "https://wikily.gg/ru/aion-2/materials/expert-s-refining-stone",
+          "chance": "0,16%"
+        }
+      ]
     },
     {
       "id": "pillar",
       "name": "Каменный столб",
       "lvl": "24",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjY0MTFhNTItNzlmZi00MmQzLWE4NmUtM2ZiMzZjZTA3ODljLW1vYl9waWxsYXJfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/pillar",
-      "loc": ""
+      "loc": "Альтгард",
+      "desc": "Каменный столб - общий монстр расы «Мутанты» в AION 2, обитает в локации Северный алтарь. Там же встречаются Дозорщик банды клинков и Каллиф банды клинков.",
+      "locDetail": "Альтгард",
+      "spawnCount": 4
     },
     {
       "id": "astin-mercenaries-scout",
       "name": "Разведчик наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNDg0MmFkZDEtY2Q4Yi00ZTMxLTk1ZDEtYTdlNzdhMGI1NGYwLXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Разведчик наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-scout/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "patrolling-fossa",
       "name": "Патрулирующий фосса",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvNGE2YjQ5NDQtMDJmMi00N2ZkLWJlNGMtMzEyZDI0YTlhNTU0LXV0XzI1Nl9tb2JfZm9zc2FfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Патрулирующий фосса - общий монстр расы «Дикие» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa/drops",
+          "chance": "0,77%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,32%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa/drops",
+          "chance": "0,31%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa/drops",
+          "chance": "0,29%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa/drops",
+          "chance": "0,12%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/patrolling-fossa/drops",
+          "chance": "0,12%"
+        }
+      ]
     },
     {
       "id": "tolbas-slink",
       "name": "Чешуйница Тольбаса",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZTUwMGZkYjQtMjdhNy00ZDViLTgwNzItMWI2MzQyZjk3N2ZjLW1vYl9sZXBpc21hXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Чешуйница Тольбаса - общий монстр расы «Дикие» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 44,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-slink/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-poacher",
       "name": "Браконьер наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Браконьер наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 24,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-poacher/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-seeker",
       "name": "Искатель наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMGM0YjVjODgtNWNiOC00Y2MxLWFjMzAtY2VkYzJhM2VlMTYxLXV0XzI1Nl9tb2JfZmlnaHRlcmZfMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Искатель наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 16,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-seeker/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-fighter",
       "name": "Задира наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZWFjYTJkNDUtNDZiMi00YTZiLThmNmEtZmQzYzk2MmJjMWMxLW1vYl9maWdodGVybV8wMV92MDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Задира наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 12,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter/drops",
+          "chance": "2,31%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,97%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter/drops",
+          "chance": "0,93%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter/drops",
+          "chance": "0,86%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter/drops",
+          "chance": "0,35%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-fighter/drops",
+          "chance": "0,34%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-marauder",
       "name": "Погромщик наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvZTZhZjc3NjYtZGM0MC00ZGU5LThjOTgtMzk5ODY1OTUwZmQ4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDIucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Погромщик наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 12,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-marauder/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "astin-mercenaries-ambusher",
       "name": "Диверсант наемников Астина",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvZDNmMmZjNTgtNWExYy00ZjVkLWE3NDItNDA1ZjgxNzIwNTc1LW1vYl9maWdodGVyZl8wMl92MDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Диверсант наемников Астина - общий монстр расы «Разумные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/astin-mercenaries-ambusher/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "hardhorn-ursus",
       "name": "Твердорогий урсус",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTQyOTg4YTUtOWYzZC00ZmVlLWEwMzYtNzk4YmYzYWMzN2UzLW1vYl91cnN1c3NfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Твердорогий урсус - общий монстр расы «Дикие» в AION 2, обитает в локации Пещера ночной росы и Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Пещера ночной росы и Юг леса Тольбас",
+      "spawnCount": 52,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/hardhorn-ursus/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "baby-horn-ursus",
       "name": "Детеныш рогатого урсуса",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvODc5OWVlMTEtZWJjMS00NTI5LWE3MDAtZTEzMGVhNmI4MDNkLW1vYl91cnN1c3NfMDFfdjAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Детеныш рогатого урсуса - общий монстр расы «Дикие» в AION 2, обитает в локации Пещера ночной росы и Юг леса Тольбас, Бертрон.",
+      "locDetail": "Пещера ночной росы и Юг леса Тольбас",
+      "spawnCount": 22,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus/drops",
+          "chance": "0,38%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus/drops",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus/drops",
+          "chance": "0,14%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus/drops",
+          "chance": "0,058%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/baby-horn-ursus/drops",
+          "chance": "0,057%"
+        }
+      ]
     },
     {
       "id": "ferocious-karnif",
       "name": "Свирепый каллиф",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMTcwZTQ1ZDgtMzE3YS00ZWE2LWI4YjItMTBjMThlNzE1MWQ1LW1vYl9rYWxuaWZfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Свирепый каллиф - общий монстр расы «Дикие» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины и Набедренники старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 6,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/ferocious-karnif/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "forest-agrint",
       "name": "Агринт леса",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Природные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvMWQ1YzQ1MzMtOTg1OC00OTIxLTg0MWUtOWY2ODIxY2ZhMzk5LW1vYl9hZ3JpbnRfMDFfdjAyLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Агринт леса - общий монстр расы «Природные» в AION 2, обитает в локации Юг леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины и Набедренники старейшины.",
+      "locDetail": "Юг леса Тольбас",
+      "spawnCount": 32,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint/drops",
+          "chance": "1,54%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,65%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint/drops",
+          "chance": "0,62%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint/drops",
+          "chance": "0,57%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint/drops",
+          "chance": "0,23%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/forest-agrint/drops",
+          "chance": "0,23%"
+        }
+      ]
     },
     {
       "id": "tolbas-forest-lake-skyray",
       "name": "Озерный тритон леса Тольбас",
       "lvl": "25",
       "rank": "Общий",
-      "type": "",
+      "type": "Дикие",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvNmNmN2Q3NjEtYjhiMi00NjNjLWEzMDYtOTEyMjA2MTgzYTU4LW1vYl9za3lyYXlfMDEucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Озерный тритон леса Тольбас - общий монстр расы «Дикие» в AION 2, обитает в локации Восток леса Тольбас, Бертрон. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Восток леса Тольбас",
+      "spawnCount": 18,
+      "drops": [
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray/drops",
+          "chance": "0,38%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray/drops",
+          "chance": "0,16%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray/drops",
+          "chance": "0,14%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray/drops",
+          "chance": "0,058%"
+        },
+        {
+          "name": "Легендарная броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/tolbas-forest-lake-skyray/drops",
+          "chance": "0,057%"
+        }
+      ]
     },
     {
       "id": "pino-laborer",
       "name": "Каторжник пино",
       "lvl": "25 - 27",
       "rank": "Общий",
-      "type": "",
+      "type": "Мутанты",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMTAtMDUvYjAzOWZmY2QtY2U4MS00YWM2LWFmMmYtODI5NGE2MjA5MjA2LW1vYl9waW5vXzAxLnBuZw",
       "url": "https://wikily.gg/ru/aion-2/monsters/pino-laborer",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Каторжник пино - общий монстр расы «Мутанты» в AION 2, обитает в локации Поселение ауллау, Бертрон и Пещерный склад. В добыче есть Нагрудник старейшины.",
+      "locDetail": "Поселение ауллау",
+      "spawnCount": 20,
+      "drops": [
+        {
+          "name": "Старый ключ",
+          "url": "https://wikily.gg/ru/aion-2/consumables/worn-key",
+          "chance": "100%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/pino-laborer/drops",
+          "chance": "0,77%"
+        },
+        {
+          "name": "Плавильный камень",
+          "url": "https://wikily.gg/ru/aion-2/materials/refining-stone",
+          "chance": "0,32%"
+        },
+        {
+          "name": "Простой камень маны",
+          "url": "https://wikily.gg/ru/aion-2/monsters/pino-laborer/drops",
+          "chance": "0,31%"
+        },
+        {
+          "name": "Редкая броня: одна из 7",
+          "url": "https://wikily.gg/ru/aion-2/monsters/pino-laborer/drops",
+          "chance": "0,29%"
+        },
+        {
+          "name": "Редкое оружие: одно из 9",
+          "url": "https://wikily.gg/ru/aion-2/monsters/pino-laborer/drops",
+          "chance": "0,12%"
+        }
+      ]
     },
     {
       "id": "wanted-criminal-lofman",
       "name": "Разыскиваемый Рофман",
       "lvl": "25",
       "rank": "Героический",
-      "type": "",
+      "type": "Разумные",
       "img": "https://img.wikily.gg/unsafe/w:256/aHR0cHM6Ly9tZWRpYS53aWtpbHkuZ2cvZDllZjllMmItY2RiZi00M2NiLWE0MjMtMjk0N2U2OWQ1MzhkLzIwMjYtMDktMzAvMWU5YjkwYmItNjVmYy00NGE4LWJlZjYtMWY1OWFmYzY5Mzk4LXV0XzI1Nl9tb2JfZmlnaHRlcm1fMDQucG5n",
       "url": "https://wikily.gg/ru/aion-2/monsters/wanted-criminal-lofman",
-      "loc": ""
+      "loc": "Бертрон",
+      "desc": "Разыскиваемый Рофман - героический монстр расы «Разумные» в AION 2, обитает в локации База браконьеров. Носит титул «Властелин гарнизона».",
+      "locDetail": "Бертрон",
+      "spawnCount": 1
     },
     {
       "id": "addicted-poacher",
